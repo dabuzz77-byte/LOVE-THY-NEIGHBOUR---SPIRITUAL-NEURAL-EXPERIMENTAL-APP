@@ -13,8 +13,16 @@
       "sha256": "78f512dd06d345568c371c58ae09acaa1ecd7aa58f871cf9a26e18cd69b9300c"
     },
     {
-      "name": "GitHub-Batch-04-of-36.zip",
-      "sha256": "31b04b109073ac149b177bca6faa63a4d556ab97769c6db89875d1fad6530893"
+      "name": "GitHub-Batch-04-part-1.zip",
+      "sha256": "3a98b7735e7aa8ca9af94a53b4c7ba3270a8a9afdffce0ffbd88e7c6bbf9f9de"
+    },
+    {
+      "name": "GitHub-Batch-04-part-2.zip",
+      "sha256": "ee7a6b3b818b8f84a8ab796cf2a9e905cb5b384e225dc51d8bb98fa7d570456a"
+    },
+    {
+      "name": "GitHub-Batch-04-part-3.zip",
+      "sha256": "39237be7e2394132eb9cf8275a95ac3cdbfb0fc7872668e63e926ec392b351db"
     },
     {
       "name": "GitHub-Batch-05-of-36.zip",
