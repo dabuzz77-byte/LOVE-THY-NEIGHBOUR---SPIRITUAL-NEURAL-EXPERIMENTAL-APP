@@ -43,6 +43,10 @@ jobs:
               if hashlib.sha256(data).hexdigest() != item['sha256']:
                   raise RuntimeError('Source checksum mismatch: ' + item['path'])
           for name, data in contents.items():
+              # Workflow files are published separately through the owner-authorized connector.
+              # GITHUB_TOKEN is not used to create or modify other workflows.
+              if name.startswith('.github/workflows/'):
+                  continue
               target = (root / name).resolve()
               if not target.is_relative_to(root):
                   raise RuntimeError('Path escaped repository')
