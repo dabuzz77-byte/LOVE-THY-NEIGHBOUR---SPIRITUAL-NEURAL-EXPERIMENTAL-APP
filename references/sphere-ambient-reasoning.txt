@@ -1,0 +1,11 @@
+Sphere Ambient reasoning integration
+- The 34 registered sphere roles now share generated-source cases from the protected ASCII source queue and native learning evidence.
+- Each case retains source/event/hash/conditions, compares baseline/symbolic/temporal predictors, and carries in-memory reversible-transform and corruption-detection checks.
+- Choice, action and consequence expose distinct findings while retaining one case identity.
+- Cases remain active until all 34 roles receive them. Repeated unchanged case/role pairs do not count as fresh reasoning.
+- Fair scheduling requests 12-role batches with a 25 ms cooperative budget at balanced activity, paced at 0.2 seconds plus actual CPU duty feedback. A slow callback remains cooperative rather than preemptible.
+- Each displayed sphere receives six source-linked trace nodes. Their brightness fades with actual completion age.
+- Shared sphere working memory receives the Ambient reasoning summary; existing bounded sphere receipts continue on the app bus.
+- Live verification: all 34 roles received generated work, four sampled sphere projections exposed their trace nodes, working memory reported 141 completed role steps across five cases, and no function-worker errors were present.
+- Verification: 310 regression tests pass; no LLM calls used by this work.
+- Scope: bounded native prediction, evidence comparison and isolated data experiments. Representation checks and general real-world reasoning remain distinct capabilities.

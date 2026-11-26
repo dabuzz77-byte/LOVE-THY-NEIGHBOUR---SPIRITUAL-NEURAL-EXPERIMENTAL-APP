@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Neural App · Private Opera Google Connector",
+  "version": "2.0.0",
+  "description": "Private account-paired capture of Google Activity, AI Mode Details and visible Gemini/Flow pages to local Neural App.",
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://myactivity.google.com/*",
+    "http://127.0.0.1/*",
+    "https://gemini.google.com/*",
+    "https://labs.google/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://myactivity.google.com/*",
+        "https://gemini.google.com/*",
+        "https://labs.google/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "options.html",
+  "action": {
+    "default_title": "Configure Neural App account connection"
+  }
+}

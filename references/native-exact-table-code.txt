@@ -1,0 +1,21 @@
+EXACT TABLE REASONING AND COMPLETE PYTHON EXPORT
+
+study table: [{"Team":"A","Value":0.1},{"Team":"A","Value":0.2},{"Team":"B","Value":99},{"Team":"A","Value":null}]
+What is the average of Value where Team equals "A", excluding missing values?
+write exact Python for table query
+
+The answer is exactly 3/20 from source rows 1 and 2. Row 4 is explicitly
+excluded as missing; row 3 does not meet the filter.
+
+The portable query_table(rows, query) function takes the FULL table and query
+object. It repeats the type-strict filter, missing policy and exact Fraction
+aggregation, and returns exact_result, source_rows and excluded_rows.
+Supported operations: count, sum, mean, minimum and maximum.
+
+The generated source uses only the Python standard library. Application export
+checks agreement with the recorded native result and checks syntax. Development
+tests additionally run exported scripts in fresh Python processes and compare
+the complete results. A supplied-table check does not certify all future data.
+
+The earlier write Python for table query command remains available with its
+existing selected-row input contract. The exact export includes filtering.

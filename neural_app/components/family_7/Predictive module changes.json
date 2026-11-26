@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-14",
+  "baseline": "Pre-backbone v4 snapshot",
+  "changes": [
+    {
+      "path": "2/ingest_live_web_definitions.py",
+      "before_sha256": "c09d18d1fe6354072c87981cf560c8adeed5fa7aaf9e206724c5ef54ed71f58b",
+      "after_sha256": "be6c967e4706941ec888e62c10187dacd650cb7e9db0de45302dc7a30f3a9419"
+    },
+    {
+      "path": "BinaryVirtueEngine.py",
+      "before_sha256": "df690757983c43b910ae966ebc2f92f45c11fff5c3bab41b1c43b6e07be49213",
+      "after_sha256": "bc37d5743e4b3de1a022c56da087492aa449503968b3068abc1653d8fa18f492"
+    },
+    {
+      "path": "DrillingVirtueEngine.py",
+      "before_sha256": "5343e5d5932e5b2e8d08c1207b21f47ac27f42b3f7f5208a1335d7eb0bc9a8c2",
+      "after_sha256": "1c910aea21de8b9d75f2da07da97c1c6a57d8975674cfec6328b92394370221a"
+    },
+    {
+      "path": "expanded/WholeTextAlignment.py",
+      "before_sha256": "7de8e5743ac520b2a131a9528341c4f671903467680d2500034a4d5843201724",
+      "after_sha256": "5db67d41f7417d02cdde5f8a9712b1c4c404e262837566916e8a0682c6b32dd7"
+    },
+    {
+      "path": "HierarchicalVirtueEngine.py",
+      "before_sha256": "c847b02fee834c8244279a1a690b351bf361f671106fd7c58ada8a988ea4112b",
+      "after_sha256": "c0e4f95b89f8a966be6d5d72d91dad6e8be6a527362c2e0a914578ef15b65b01"
+    },
+    {
+      "path": "MiddleGroundTernaryEngine.py",
+      "before_sha256": "e84fac500497b4f202e5797e52bf874ad2ae9af9773be092c1da092057a8e6dc",
+      "after_sha256": "0c1fe8e1a173c32f6cad4ddffff2b58b2e4c85a1e66c1816da3886239e1241ed"
+    },
+    {
+      "path": "resolve_bit_array_cast.py",
+      "before_sha256": "7f1a3df8c4ace889a4d2ee5c249a76be403527d4db6c3437ef7b93d472b24ab5",
+      "after_sha256": "5c1035a7aff5f14a2dd84a9733a50b86a67e7eb16bf09a0e02fa77d6246aa35f"
+    },
+    {
+      "path": "resolve_historical_virtue_pass.py",
+      "before_sha256": "cc2024f3a6ef04f6c6a6cb38fd435165165747556f3f88f38279ca4efde4fb75",
+      "after_sha256": "ad5d997bc967ad17d91ad56fbcc740c4efb34fe811d4886cd4adad9c483e25f3"
+    },
+    {
+      "path": "SystemCognitionAlignment.py",
+      "before_sha256": "812fc160ad22077b2c0068f443954c5051806c0a8a873c7f9dd468d5fe4f62d4",
+      "after_sha256": "1b7691139851c627a94cd30b075c4714282f571b3002a2a30d2e7d38741aef0e"
+    },
+    {
+      "path": "UltimateEnforcementEngine.py",
+      "before_sha256": "4611fa77f566ad61e6d91922a7e7df945bb4d1c9439861f03a4c44d30374a1cf",
+      "after_sha256": "dd6c279c25d09263819031e62e11273553716ab42e566b0d677227c3a747b9c5"
+    }
+  ],
+  "scope": "Explicit corrections to predictive bit logic and hierarchy; unchanged formulas remain source-attributed."
+}

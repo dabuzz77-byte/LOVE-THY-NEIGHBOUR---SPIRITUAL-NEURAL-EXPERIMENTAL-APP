@@ -1,0 +1,26 @@
+test_attachment_exchanges_messages_and_reconnects_after_restart (test_hub.HubTests.test_attachment_exchanges_messages_and_reconnects_after_restart) ... ok
+test_inference_over_authenticated_bus (test_hub.HubTests.test_inference_over_authenticated_bus) ... ok
+test_java_peer_receives_neural_inference (test_hub.HubTests.test_java_peer_receives_neural_inference) ... ok
+PULSE: {"target_hz": 7.38, "measured_hz": 7.378669209879725, "pulses_received": 32, "skipped": 0, "p95_lateness_ms": 14.749334950465709}
+test_local_heartbeat_measured_at_7_38 (test_hub.HubTests.test_local_heartbeat_measured_at_7_38) ... ok
+test_observer_discovers_real_child_without_claiming_adapter (test_hub.HubTests.test_observer_discovers_real_child_without_claiming_adapter) ... ok
+test_invalid_scenarios_are_rejected (test_hub.NeuralTests.test_invalid_scenarios_are_rejected) ... ok
+test_neural_model_on_new_synthetic_cases (test_hub.NeuralTests.test_neural_model_on_new_synthetic_cases) ... ok
+test_reference_rules_match_source_increments (test_hub.NeuralTests.test_reference_rules_match_source_increments) ... ok
+test_source_labels_do_not_retain_command_secrets (test_hub.NeuralTests.test_source_labels_do_not_retain_command_secrets) ... ok
+test_authentication_and_duplicate_identity (test_protocol.BackboneTests.test_authentication_and_duplicate_identity) ... ok
+test_framing_fragmentation_unicode_and_routing (test_protocol.BackboneTests.test_framing_fragmentation_unicode_and_routing) ... ok
+test_java_python_interoperability (test_protocol.BackboneTests.test_java_python_interoperability) ... ok
+test_large_corpus_pages_without_losing_texts (test_protocol.BackboneTests.test_large_corpus_pages_without_losing_texts) ... ok
+test_oversized_frame_and_reserved_pulse (test_protocol.BackboneTests.test_oversized_frame_and_reserved_pulse) ... ok
+TIMING: 7.408507 Hz; p95 lateness 20.255 ms
+test_pulses_have_measured_frequency_and_no_clock_drift (test_protocol.BackboneTests.test_pulses_have_measured_frequency_and_no_clock_drift) ... ok
+test_python_client_roundtrip (test_protocol.BackboneTests.test_python_client_roundtrip) ... ok
+test_source_provenance_graph_and_persistence (test_protocol.BackboneTests.test_source_provenance_graph_and_persistence) ... ok
+test_stall_records_skipped_ticks_without_catchup_burst (test_protocol.BackboneTests.test_stall_records_skipped_ticks_without_catchup_burst) ... Executing <Task pending name='Task-178' coro=<BackboneTests.test_stall_records_skipped_ticks_without_catchup_burst() running at C:\Users\USER\Documents\Codex\2026-10-11\sc\outputs\PostscarcityHub\tests\test_protocol.py:102> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\USER\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\asyncio\base_events.py:448> cb=[_run_until_complete_cb() at C:\Users\USER\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\asyncio\base_events.py:181] created at C:\Users\USER\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\asyncio\runners.py:100> took 0.547 seconds
+ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 22.396s
+
+OK

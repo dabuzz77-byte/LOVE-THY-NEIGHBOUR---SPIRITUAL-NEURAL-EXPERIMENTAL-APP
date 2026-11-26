@@ -1,0 +1,41 @@
+{
+  "engine_median_ms": 0.41649999911896884,
+  "feedback_probability_high_low": [
+    0.9495886484254606,
+    0.04875629972746415
+  ],
+  "views": [
+    [
+      "portal",
+      19.113899994408712,
+      300
+    ],
+    [
+      "field",
+      13.03519998327829,
+      488
+    ],
+    [
+      "matrix",
+      14.490699977613986,
+      1064
+    ],
+    [
+      "apps",
+      16.48130000103265,
+      141
+    ]
+  ],
+  "script_samples": 36,
+  "local_rx": 18,
+  "local_tx": 18,
+  "apps": 33,
+  "catalog_rows": 33,
+  "bus_status": {
+    "observatory": "Live",
+    "flux": "Offline"
+  },
+  "external_rx": 13,
+  "engine_ticks": 110,
+  "errors": []
+}

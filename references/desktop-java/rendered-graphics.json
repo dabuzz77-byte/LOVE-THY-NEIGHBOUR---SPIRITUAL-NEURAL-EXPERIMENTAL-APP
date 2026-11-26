@@ -1,0 +1,278 @@
+[
+  {
+    "panel": "desktop-java-1-0",
+    "source": "b727d5f2ec5eed33f51fa1d6db64298027b24f7952d2c54545187bc814aff0ff",
+    "control": "c16",
+    "asset": "atlas-desktop-java-1-0-c16.png",
+    "sha256": "ccfedbb37253b1d1e98c90c73cd65bcf477ac8e57ebace62e95368fe513f1505",
+    "bytes": 2409
+  },
+  {
+    "panel": "desktop-java-1-1",
+    "source": "eef7d887b3de36d89cc239a8c45ce37813af0bbcb5b2393a8af431190eb6fa9a",
+    "control": "c0",
+    "asset": "atlas-desktop-java-1-1-c0.png",
+    "sha256": "ccfedbb37253b1d1e98c90c73cd65bcf477ac8e57ebace62e95368fe513f1505",
+    "bytes": 2409
+  },
+  {
+    "panel": "desktop-java-4-0",
+    "status": "No custom-painted panel; original controls available"
+  },
+  {
+    "panel": "desktop-java-6-0",
+    "source": "39c62bdaa87046d8298f1a027bb9cd49794af0b00d23866cb7f863436135d8ef",
+    "control": "c1",
+    "asset": "atlas-desktop-java-6-0-c1.png",
+    "sha256": "08b78218dc1f1e05467c1ec854caf8b603d284fd79f6eb6b00654e7bd2845ef7",
+    "bytes": 29523
+  },
+  {
+    "panel": "desktop-java-8-0",
+    "source": "275876bf5a0ff66261b1c4328ee782dc9f6c3eb10c8fdfbef3dda6d1c2579b87",
+    "control": "c6",
+    "asset": "atlas-desktop-java-8-0-c6.png",
+    "sha256": "e6822cc30dd4f473e46599bc6df7e9f65c25d4bf182855785519f9a4be2c3182",
+    "bytes": 23345
+  },
+  {
+    "panel": "desktop-java-10-0",
+    "status": "No custom-painted panel; original controls available"
+  },
+  {
+    "panel": "desktop-java-12-0",
+    "source": "599de71f6d294f3cb43cf7adabd958da5b517485feb6f43f95452369769702e7",
+    "control": "c1",
+    "asset": "atlas-desktop-java-12-0-c1.png",
+    "sha256": "14292f9c3db857ee26c393f6d3882618fd09f34a8428678a51867c62db0fc0d2",
+    "bytes": 16164
+  },
+  {
+    "panel": "desktop-java-13-0",
+    "status": "No custom-painted panel; original controls available"
+  },
+  {
+    "panel": "desktop-java-15-0",
+    "source": "a9a5276f3770f590a0bdea56a43f336003164df03825cfb1934c0190d1e1b42c",
+    "control": "c7",
+    "asset": "atlas-desktop-java-15-0-c7.png",
+    "sha256": "293e4bf3c024a37e05ed74622118dec58643f949719e2d1a3777b39a6b743234",
+    "bytes": 8292
+  },
+  {
+    "panel": "desktop-java-16-0",
+    "source": "1b0f1c1ae10607cb83349f0cfb6cd23ab98cfc72fd56ca3a8703623ffe2f8efa",
+    "control": "c6",
+    "asset": "atlas-desktop-java-16-0-c6.png",
+    "sha256": "e1b702e9254051ca8eb940bfb9ec19fc180e61521f727e28794b217de3fd3c07",
+    "bytes": 23308
+  },
+  {
+    "panel": "desktop-java-18-0",
+    "source": "f64b6775dfb642b9044259df647ff1af92ebde10006b33076f6d473d312994b6",
+    "control": "c1",
+    "asset": "atlas-desktop-java-18-0-c1.png",
+    "sha256": "b8a5ae2cb226c42f93f5cd9089bb2c07421830bd821f369e1532da2d1684561d",
+    "bytes": 13305
+  },
+  {
+    "panel": "desktop-java-20-0",
+    "source": "a379423d64b4eefd92cee1d99d3582e9a7fceae876d2961fc483ad4caae937d7",
+    "control": "c1",
+    "asset": "atlas-desktop-java-20-0-c1.png",
+    "sha256": "8b0fd410608043a6727b7ffc021ca67594a49e45c56fcea2e1832cc86bf4d4d8",
+    "bytes": 12140
+  },
+  {
+    "panel": "desktop-java-21-0",
+    "source": "69fa22670e097dadfeb608739792a69298b3d719e5c23edf911b7117d93382dd",
+    "control": "c1",
+    "asset": "atlas-desktop-java-21-0-c1.png",
+    "sha256": "aed63d2ba0bd9b962a80b3c0079cc3da9ffdc67a19db8ace23df19270592a49a",
+    "bytes": 9691
+  },
+  {
+    "panel": "desktop-java-28-0",
+    "source": "7844296e148f92c559a80f455aa325cda653df2bc5fcf0ae21f51d0d21b0f8a4",
+    "control": "c6",
+    "asset": "atlas-desktop-java-28-0-c6.png",
+    "sha256": "e881e6c87a0da4689ef2e70abb35769d758b588e469a81283feeb06a1a85d1ef",
+    "bytes": 23589
+  },
+  {
+    "panel": "desktop-java-29-0",
+    "source": "56c40dd46e73ad3668db5c8294d2da07c54d10695932fd1d6e41ac6564d87e16",
+    "control": "c5",
+    "asset": "atlas-desktop-java-29-0-c5.png",
+    "sha256": "389c9a0a11061ef7ef5faedef39f618622e98a7434c85b83213661cef38cb2bb",
+    "bytes": 13670
+  },
+  {
+    "panel": "desktop-java-30-0",
+    "source": "f035c03de49388a5f066cec3c32a2e5e6e9131631c4101484d7cf5f872db757a",
+    "control": "c2",
+    "asset": "atlas-desktop-java-30-0-c2.png",
+    "sha256": "7667d86c29eb97001bbab3d1a67c1ea908eab829642a8363933f458d1cc15261",
+    "bytes": 13275
+  },
+  {
+    "panel": "desktop-java-32-0",
+    "source": "7779ecca892056f907bbd0db8e13c73a6b1b592b0ce699e3748bf7ca599515f6",
+    "control": "c6",
+    "asset": "atlas-desktop-java-32-0-c6.png",
+    "sha256": "888e4b8f69deafdc09b3d3572992977e302003a2e9553f8533e9d8629066fcaa",
+    "bytes": 21447
+  },
+  {
+    "panel": "desktop-java-34-0",
+    "source": "582098db3a3ae56d069ea202ef79ebc2685cae24f00251538601b6da0e3622a8",
+    "control": "c1",
+    "asset": "atlas-desktop-java-34-0-c1.png",
+    "sha256": "6883afbcecc7519103ab3472c66154c51a4225ee5d2f7ff14479a961c0792d72",
+    "bytes": 13234
+  },
+  {
+    "panel": "desktop-java-35-0",
+    "source": "aa16fc0e04518d27bc2faa841f556d46f2e20a7635a57e5202eead74158cc608",
+    "control": "c1",
+    "asset": "atlas-desktop-java-35-0-c1.png",
+    "sha256": "073c88cd613d7f6d5c7478026232975937083503afa9ed97ffe2f59d81ffeac7",
+    "bytes": 20332
+  },
+  {
+    "panel": "desktop-java-37-0",
+    "source": "86eb7e8f51ae178a9cb40cb841028813ef2dc27161052426587d2319dcc35652",
+    "control": "c5",
+    "asset": "atlas-desktop-java-37-0-c5.png",
+    "sha256": "377a718d1f0129c66528779b2da6fe1fc21c460c974468adc8c6555d54c5874d",
+    "bytes": 14511
+  },
+  {
+    "panel": "desktop-java-41-0",
+    "source": "d3e5a4881b529b91bf8d50228955975531f1585a1ae5c9fe62d52d495d05b55f",
+    "control": "c21",
+    "asset": "atlas-desktop-java-41-0-c21.png",
+    "sha256": "e49f80e1ffcb4758c8a7d3a7aaa4977582da738ec84148df8570486063730e42",
+    "bytes": 21143
+  },
+  {
+    "panel": "desktop-java-43-0",
+    "status": "No custom-painted panel; original controls available"
+  },
+  {
+    "panel": "desktop-java-44-0",
+    "source": "8af6ff3fcd18f027a98790cd5b705ba0bcab0bb1bf8bcb607f3a70b592455e46",
+    "control": "c1",
+    "asset": "atlas-desktop-java-44-0-c1.png",
+    "sha256": "4e45ad3bb438fe59713d8832d624cf488008551b505dc6503f82613ded73d87a",
+    "bytes": 25047
+  },
+  {
+    "panel": "desktop-java-48-0",
+    "source": "2859b3379a70dcd78cf4343a7a2f10c6e46e7ce0fb65e00d1c8925b876529978",
+    "control": "c1",
+    "asset": "atlas-desktop-java-48-0-c1.png",
+    "sha256": "65640f7bdd2d9174181b58df2938de5fba106b869167746cb7cfccaf77ccd071",
+    "bytes": 16770
+  },
+  {
+    "panel": "desktop-java-49-0",
+    "source": "f5925ccd3154d4e5027c3ca23c5933c953f778858086fb0d9f1666de1bf28335",
+    "control": "c6",
+    "asset": "atlas-desktop-java-49-0-c6.png",
+    "sha256": "0876602d9b87a916765b524791181672bd2f2e190ef5a3d6a84874f44c4791bc",
+    "bytes": 22060
+  },
+  {
+    "panel": "desktop-java-50-0",
+    "source": "b0a48e79ebbf2a04757439658562c51e7cdd6268d61afe8e64572d95d43f6219",
+    "control": "c1",
+    "asset": "atlas-desktop-java-50-0-c1.png",
+    "sha256": "8ae905ee298d2760abaf58ef59deb27b447e7461d4116cbf8b96a1fc135bc5eb",
+    "bytes": 17149
+  },
+  {
+    "panel": "desktop-java-51-0",
+    "status": "No custom-painted panel; original controls available"
+  },
+  {
+    "panel": "desktop-java-55-0",
+    "source": "53ba5932bb35c10e9bed738cae25009d34d78d3674d4f95f637702d0e384bbe8",
+    "control": "c4",
+    "asset": "atlas-desktop-java-55-0-c4.png",
+    "sha256": "ae14ca04432c2c76f94f331bd8f2a40120c899a92d5d07cf84385f34d8654025",
+    "bytes": 36923
+  },
+  {
+    "panel": "desktop-java-56-0",
+    "source": "04da47ee5935625fafb1ead79e2774c30991397abff031eae57cfdccd0cea0ed",
+    "control": "c1",
+    "asset": "atlas-desktop-java-56-0-c1.png",
+    "sha256": "619902bb6a9d681eaf5cb0045d5765e7355819d2e463191816ab03f46c5f56d1",
+    "bytes": 41117
+  },
+  {
+    "panel": "desktop-java-57-0",
+    "source": "c7435990508aeae9d7c81836ec9e24bdde641430675f95a81715321b4ee94154",
+    "control": "c1",
+    "asset": "atlas-desktop-java-57-0-c1.png",
+    "sha256": "dc013f5c9d4ece952d17900b559f2c7fbb0067a047c39017ab9ac801139f3080",
+    "bytes": 7935
+  },
+  {
+    "panel": "desktop-java-58-0",
+    "source": "b2257c944f8f7fb66e94a004bb6d5a0ee3be5c9db0965f6ab11d05e607ce8dab",
+    "control": "c1",
+    "asset": "atlas-desktop-java-58-0-c1.png",
+    "sha256": "156ebdb86481996ac1ec7467e55df083ea89cde8fab6a525fca7118d4e4646d2",
+    "bytes": 25303
+  },
+  {
+    "panel": "desktop-java-61-0",
+    "status": "No custom-painted panel; original controls available"
+  },
+  {
+    "panel": "desktop-java-62-0",
+    "source": "f5d97a9061b64c6ffe1e26cad7a4dbd9dc3af2205d35e27ae0cec7eca9015407",
+    "control": "c1",
+    "asset": "atlas-desktop-java-62-0-c1.png",
+    "sha256": "ec794ff09200f31cbc1b71bcb0bf8e07e20d256ff493480d4246805b31fa92f6",
+    "bytes": 12126
+  },
+  {
+    "panel": "desktop-java-69-0",
+    "source": "de13e7151c9cdb79203d73c4067ca302288e4ff057e46c33155c8d20a73e2fba",
+    "control": "c11",
+    "asset": "atlas-desktop-java-69-0-c11.png",
+    "sha256": "e9fe0b03c3a0530b00d02367904a56731de3777a45095047e4c48d0eb92041f1",
+    "bytes": 2026
+  },
+  {
+    "panel": "desktop-java-73-0",
+    "status": "No custom-painted panel; original controls available"
+  },
+  {
+    "panel": "desktop-java-78-0",
+    "source": "9035cc78e20aae23facec24beeaade1f5816b70ae6ff7e9d966ea8e7253d3d1c",
+    "control": "c5",
+    "asset": "atlas-desktop-java-78-0-c5.png",
+    "sha256": "75b9cdf68bc84d7fb7aa8f56d92c8a2beb8d346affa9834b30955338e3b9adec",
+    "bytes": 11769
+  },
+  {
+    "panel": "desktop-java-83-0",
+    "source": "00134c3c91123a8235c7bbc9b56b247990bfc03718df22c9b95c322217914f72",
+    "control": "c1",
+    "asset": "atlas-desktop-java-83-0-c1.png",
+    "sha256": "8866bc80c770bc6760568d7fddbda3b22998161b68cd27c336be7caa0bb9062c",
+    "bytes": 38801
+  },
+  {
+    "panel": "desktop-java-90-0",
+    "source": "eda1b26f736b3d61ae0b25aa6c78def386bc74e578818a8fa67b74f12ff21ef8",
+    "control": "c0",
+    "asset": "atlas-desktop-java-90-0-c0.png",
+    "sha256": "fabf923c241404260c9c7e9720b2d92a06700d60ad51e8a8c42eb25404e218c7",
+    "bytes": 6107
+  }
+]

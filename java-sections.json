@@ -1,0 +1,156 @@
+{
+  "allprev": {
+    "id": "allprev",
+    "name": "Expanded Unified Engine",
+    "family": "family_0",
+    "class": "AllPrevUnifiedEngine",
+    "built": true
+  },
+  "godmind-java": {
+    "id": "godmind-java",
+    "name": "GodMind Visualizer",
+    "family": "family_1",
+    "class": "GodMindInteractiveVisualizer",
+    "built": true
+  },
+  "lan": {
+    "id": "lan",
+    "name": "LAN Observatory",
+    "family": "family_2",
+    "class": "LANCoordinatorEngine",
+    "built": true
+  },
+  "localbus": {
+    "id": "localbus",
+    "name": "Local Inference Bus",
+    "family": "family_3",
+    "class": "LocalInferenceBusEngine",
+    "built": true
+  },
+  "manifold": {
+    "id": "manifold",
+    "name": "Manifold",
+    "family": "family_4",
+    "class": "net.manifold.ui.ManifoldGridVisualizer",
+    "built": true
+  },
+  "planetary": {
+    "id": "planetary",
+    "name": "Planetary Resonance",
+    "family": "family_5",
+    "class": "ResonanceDashboard",
+    "built": true
+  },
+  "quantum-browser": {
+    "id": "quantum-browser",
+    "name": "Quantum Browser Bus",
+    "family": "family_6",
+    "class": "QuantumBrowserBus",
+    "built": true
+  },
+  "quantum-mind": {
+    "id": "quantum-mind",
+    "name": "Quantum Mind Console",
+    "family": "family_7",
+    "class": "QuantumMindConsole",
+    "built": true
+  },
+  "beacon-run": {
+    "id": "beacon-run",
+    "name": "Main Dashboard Frame",
+    "family": "family_8",
+    "class": "net.activeinference.beacon.core.MainDashboardFrame",
+    "built": true
+  },
+  "beacon-run6gridkernel": {
+    "id": "beacon-run6gridkernel",
+    "name": "Six Grid Kernel Flux Workbench",
+    "family": "family_8",
+    "class": "net.activeinference.beacon.translation.SixGridKernelFluxWorkbench",
+    "built": true
+  },
+  "beacon-run7.8resonance": {
+    "id": "beacon-run7.8resonance",
+    "name": "Resonance Flux Dashboard",
+    "family": "family_8",
+    "class": "net.activeinference.beacon.resonance.ResonanceFluxDashboard",
+    "built": true
+  },
+  "beacon-runbackbone": {
+    "id": "beacon-runbackbone",
+    "name": "Substrate Network Bus",
+    "family": "family_8",
+    "class": "net.activeinference.beacon.backbone.SubstrateNetworkBus",
+    "built": true
+  },
+  "beacon-runemcorbit": {
+    "id": "beacon-runemcorbit",
+    "name": "Cyclic Flux Dashboard",
+    "family": "family_8",
+    "class": "CyclicFluxDashboard",
+    "built": true
+  },
+  "beacon-rungen": {
+    "id": "beacon-rungen",
+    "name": "Virtue Generation Dashboard",
+    "family": "family_8",
+    "class": "net.activeinference.beacon.generator.VirtueGenerationDashboard",
+    "built": true
+  },
+  "beacon-runjavaflux": {
+    "id": "beacon-runjavaflux",
+    "name": "System Java Flux Dashboard",
+    "family": "family_8",
+    "class": "net.activeinference.beacon.system.SystemJavaFluxDashboard",
+    "built": true
+  },
+  "beacon-runkernelgrid": {
+    "id": "beacon-runkernelgrid",
+    "name": "Kernel Cpu Flux Workbench",
+    "family": "family_8",
+    "class": "net.activeinference.beacon.translation.KernelCpuFluxWorkbench",
+    "built": true
+  },
+  "beacon-runlivegrid": {
+    "id": "beacon-runlivegrid",
+    "name": "Live Translation Workbench",
+    "family": "family_8",
+    "class": "net.activeinference.beacon.translation.LiveTranslationWorkbench",
+    "built": true
+  },
+  "beacon-runoperaflux": {
+    "id": "beacon-runoperaflux",
+    "name": "Opera Flux Workbench",
+    "family": "family_8",
+    "class": "net.activeinference.beacon.translation.OperaFluxWorkbench",
+    "built": true
+  },
+  "beacon-runscriptfluxbus": {
+    "id": "beacon-runscriptfluxbus",
+    "name": "Script Flux Bus Workbench",
+    "family": "family_8",
+    "class": "net.activeinference.beacon.translation.ScriptFluxBusWorkbench",
+    "built": true
+  },
+  "beacon-runtranslator": {
+    "id": "beacon-runtranslator",
+    "name": "Translation Workbench",
+    "family": "family_8",
+    "class": "net.activeinference.beacon.translation.TranslationWorkbench",
+    "built": true
+  },
+  "beacon-rununmod": {
+    "id": "beacon-rununmod",
+    "name": "Carrier Wave Inference Dashboard",
+    "family": "family_8",
+    "class": "net.activeinference.beacon.carrier.CarrierWaveInferenceDashboard",
+    "built": true
+  },
+  "system-grid": {
+    "id": "system-grid",
+    "name": "System Grid Explorer",
+    "family": "family_0",
+    "class": "SystemGridExplorer",
+    "built": true
+  }
+}

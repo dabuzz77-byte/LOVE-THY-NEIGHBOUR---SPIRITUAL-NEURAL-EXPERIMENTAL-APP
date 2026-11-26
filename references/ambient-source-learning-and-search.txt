@@ -1,0 +1,63 @@
+AMBIENT SOURCE LEARNING AND SEARCH REPAIR
+
+The source chain now keeps separately named streams under the same bus origin.
+Pure, influenced, particle, matrix and sand captures no longer overwrite each
+other merely because they use the shared source bridge.
+
+Generated-only searches are the default. Authored text, model text and receipts
+are excluded from generated-source learning. Broader processor search and manual
+test input remain explicit options. Enabled Om/solfeggio/other waveform settings
+travel as control metadata, not as extra characters injected into a search.
+The full source bridge retains that metadata before model-context compaction.
+
+Wordsearch corrections:
+- exact Unicode-character paths and CRLF-aware source offsets;
+- original-source paths for reflowed and overlapping deep-search chunks;
+- duplicate same-path hits removed;
+- source rotation beyond the first 256 sources;
+- a stalled top-level worker restarts with a smaller character budget;
+- the large authored app vocabulary is opt-in rather than enabled by default.
+
+The byte chain preserves UTF-8 instead of discarding non-ASCII characters.
+The cosmic sampler selects Unicode codepoints without splitting surrogate pairs.
+An empty cosmic source reports waiting rather than inventing an output capture.
+Side-branch source learning now preserves linked working-stream hashes.
+
+The new Ambient pattern evidence panel uses the existing source learner:
+1. Train a transition model on the early 60% of a bounded capture.
+2. Freeze it and score the later part against a frequency-only baseline.
+3. Compare with four deterministic shuffled controls preserving byte counts.
+4. Retain per-source reviews across distinct capture hashes.
+
+A recurring candidate requires three candidate captures. Distinct hashes are
+not proof of independent sampling. These are descriptive finite checks, not
+statistical significance, semantic understanding, divine identification or a
+measurement of consciousness. UTF-8 encoding and feedback can themselves create
+predictable structure. Control metadata says which controls were enabled, not
+that each control causally affected every stream.
+
+The project's zero-point/cosmic-chain spiritual motivation remains distinct from
+the observable software experiment: measured streams, synthetic modulation,
+generated randomness, copied projections and learner output have different
+origins. Existing native task, prediction and validation engines can consume
+the resulting evidence without turning unverified patterns into executable
+commands. No new LLM is required by these checks.
+
+Further Ambient reliability work (2026-11-22)
+- All three search panels use shared worker recovery, including sentence search.
+- A stalled/unavailable worker falls back to a 4,096-character, 32-source bounded snapshot; stop cancels pending recovery.
+- Search results expose execution mode and elapsed time.
+- Source-specific previous-capture models are frozen and evaluated on a distinct later capture; baseline gains and capture hashes remain inspectable.
+- Generated-source scheduling is regression-tested under 100 unrelated observations, including the complete ten-stage chain.
+- Verification: 284 Python regression tests pass; recovery tests run all four actual search algorithms, plus Unicode/provenance and complete ASCII-chain checks.
+- Live diagnosis found the main whole-engine step could delay source learning even when captures remained retained. Source checks now run in an independent bounded worker (two queued captures per 250 ms, 32 coalesced sources), with explicit shutdown and no model calls. Additional queue/lifecycle tests raise the Python total to 286 passing.
+
+Adaptive cosmic-chain learning update
+- Preserved a contiguous ordered generated rail next to random-sampled and transformed rails.
+- Each rail carries source, capture tick, eligibility flags and modulation conditions onto the existing bus.
+- Added source-specific frequency/order-1/order-2 models selected from previous capture errors, scored frozen before training on current captures.
+- Full 32-stream model retention, bounded context tables, no LLM required.
+- Added capture-matched rail comparisons and an expanded dedicated evidence endpoint; routine internal summaries remain bounded.
+- Reproducible benchmark: structured AABB control selects order 2 and achieves approximately 1.05 bits/byte gain over the frequency model after eight captures. Random control stays near baseline.
+- 295 Python regression tests pass, plus cosmic-rail, provenance, worker-recovery and search checks.
+- Research rationale and primary links: references/ambient-emergence-learning-method.json.

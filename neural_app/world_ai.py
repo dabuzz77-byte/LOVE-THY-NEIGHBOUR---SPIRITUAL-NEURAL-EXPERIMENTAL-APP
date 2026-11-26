@@ -1,0 +1,26 @@
+"""Free-first coordination study using existing local measurements, never inferred access."""
+import copy,threading,time
+from .decision_framework import SYSTEM_REVIEW,AUTHORIZATION_REVIEW,KNOWLEDGE_DISCIPLINE
+FAMILIES=[('OpenAI','gpt-oss'),('Google','gemma'),('Meta','llama'),('Alibaba/Qwen','qwen'),('DeepSeek','deepseek'),('Mistral','mistral'),('Microsoft','phi'),('Anthropic','claude')]
+INFRASTRUCTURE=[('food-water','Food, clean water and urgent provision'),('devices','Owner devices and accessibility'),('connectivity','Community networks and connectivity'),('compute','CPU/GPU compute and storage'),('models','Model weights and inference services'),('knowledge','Public learning and source provenance'),('payments','Payments, wages and benefits'),('energy','Energy and essential infrastructure'),('communities','People, communities and local choice')]
+class WorldAI:
+ def __init__(self):self.lock=threading.RLock();self.next_at=0;self.sequence=0;self.state={};self.cursor=0
+ def tick(self,c):
+  if time.monotonic()<self.next_at:return
+  self.next_at=time.monotonic()+5
+  with c.thin_inference.lock:availability=copy.deepcopy(c.thin_inference.availability)
+  measured=availability.get('status')=='local Ollama responding';checked=availability.get('checked');fresh=bool(checked and 0<=time.time()-checked<120);names=availability.get('models',[]) if measured else []
+  registry=[]
+  for organisation,token in FAMILIES:
+   matches=[n for n in names if token in str(n).lower()]
+   registry.append({'organisation':organisation,'local_matches':matches,'local_status':'measured available' if matches and fresh else 'stale observation' if matches else 'no measured local model','measurement_time':checked,'hosted_status':'not checked by this engine','identity_scope':'Name-family match, not authenticated organisational participation','access_scope':'Existing local runtime only; registry is not a connection to a company backend'})
+  key,title=INFRASTRUCTURE[self.cursor%len(INFRASTRUCTURE)];self.cursor+=1;self.sequence+=1
+  framework=SYSTEM_REVIEW.get(key,SYSTEM_REVIEW.get('public-support') if key=='food-water' else SYSTEM_REVIEW.get('ai-action'))
+  from .souls_digits import experiment,transition_sweep
+  food_model={'budget':4,'parties':[{'id':'urgent-low-resource-household','need':3,'unit_cost':1,'payment':0,'vulnerable':True},{'id':'paying-household','need':3,'unit_cost':1,'payment':8,'vulnerable':False}]}
+  food_study={'units':'Illustrative daily food portions, not a nutritional or clinical prescription','allocation':experiment(food_model),'transition':transition_sweep(food_model),'four_way':{'true_good':'Prompt dependable nourishment and clean water, especially for urgent need','false_good':'Revenue or delivery counts substituted for actual nourishment, or a reform that interrupts supply','false_evil':'Rejecting effective mutual aid or fair assistance merely because it reduces revenue','true_evil':'Coercive deprivation, fraud, poisoning or knowingly obstructing necessities'},'dependencies':['Food supply','Safe water','Transport','Storage','Worker livelihoods','Fair distribution','Recipient access'],'verification':'Record actual receipt, safe use and remaining unmet need; simulation allocates no real food','authority':'No funds moved, private systems accessed or deliveries claimed'}
+  state={'sequence':self.sequence,'registry':registry,'local_service':availability,'fresh_local_measurement':fresh,'infrastructure':[{'id':i,'title':t,'status':'conceptual dependency, not a discovered external asset'} for i,t in INFRASTRUCTURE],'current_study':{'domain':key,'title':title,'four_way':framework,'questions':['What useful capability is missing?','What free permitted source or local skill could supply it?','What harms follow from delay or unnecessary restriction?','What privacy, resource or essential-service dependency must remain intact?','What observation would disprove the proposed benefit?'],'observations':{'local_registry_only':True,'external_infrastructure_measured':False},'inference':'A candidate dependency and access study, not knowledge of all world assets','authority':'No new remote execution or access permission'},'food_and_water_study':food_study,'authorization_review':AUTHORIZATION_REVIEW,'knowledge_discipline':KNOWLEDGE_DISCIPLINE,'verified_skills':len(c.teacher_intake.view()['skills']),'native_decisions':c.deep_decision.sequence,'policy':'✝ Provision, protection, dignity, forgiveness, truthful measurement and repair. Assess barriers and interventions equally.','cost':'No model inference, metered calls, new account creation or external scans from this worker.'}
+  with self.lock:self.state=state
+  c.bus.publish({'origin':'world-ai-study','target':'all','kind':'stage-output','payload':{'sequence':self.sequence,'measured_local_families':sum(bool(r['local_matches']) and fresh for r in registry),'verified_skills':state['verified_skills'],'provenance':'local-registry-and-conceptual-infrastructure-study','processing_receipt':True,'stochastic':False,'predefined_text':True}})
+ def view(self):
+  with self.lock:return copy.deepcopy(self.state) or {'sequence':0,'registry':[],'status':'Awaiting first local registry observation; no external connection inferred'}

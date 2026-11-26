@@ -1,0 +1,4774 @@
+{
+  "compiled_class_files": 921,
+  "unique_class_binaries": 856,
+  "classes_without_matching_named_source": [
+    "system-monitor/target/classes/module-info.class"
+  ],
+  "class_files": [
+    {
+      "path": "A.I Streaming/StandaloneStreamingService$StreamClientHandler.class",
+      "sha256": "e73651aa8095375d2804b6ed42779098a356fa52c9920b16de140dfc8800217b",
+      "bytes": 2693
+    },
+    {
+      "path": "A.I Streaming/StandaloneStreamingService.class",
+      "sha256": "08aac362f56f9ba02d070f8ed7be004f8851638d90217fe3244ca1671a767531",
+      "bytes": 4354
+    },
+    {
+      "path": "A.Istatecallback/CallbackGraphicsEngineFrame$1.class",
+      "sha256": "77898a60554f0a78e4b4b30ae7720a345d0ac2d27caf3b0fde6c0b7780fddb08",
+      "bytes": 815
+    },
+    {
+      "path": "A.Istatecallback/CallbackGraphicsEngineFrame.class",
+      "sha256": "27850ca715f24cadb5a48768569089e9f5addab2c2bb0cbee061b2f350b8360e",
+      "bytes": 8063
+    },
+    {
+      "path": "A.Istatecallback/EngineInvariants.class",
+      "sha256": "85156d5bafac1055d0fa925ac8652c99ee517164348dac55dc0033f05307c929",
+      "bytes": 601
+    },
+    {
+      "path": "A.Istatecallback/GraphicsStateCallback.class",
+      "sha256": "fd344f81f497b22c295ec0fc1c8137925d42ac45e5efa243627cea6a11cb4090",
+      "bytes": 247
+    },
+    {
+      "path": "A.Istatecallback/ResonantComputeKernel.class",
+      "sha256": "e3b57cb78d1a7af55a73b45f72850eed4596e110b7780b984de8bb1e6e96bf4f",
+      "bytes": 2173
+    },
+    {
+      "path": "A.Istatecallback/WaveVisualizerPanel.class",
+      "sha256": "a67b30c7b84b987a65fabd17ab9343d2568702a8a6cfed92863bcb2d8a1fa675",
+      "bytes": 1821
+    },
+    {
+      "path": "AllPrevSystemDashboard/AllPrevSystemDashboard$1.class",
+      "sha256": "e2cf256c87286b3df32734408ca0ba8bf8ec9dd52dd4e0a2bfc1fc113a6af811",
+      "bytes": 2128
+    },
+    {
+      "path": "AllPrevSystemDashboard/AllPrevSystemDashboard$2.class",
+      "sha256": "97a8ea785e3c79b69442fb62128c4f12632962527893ff3512a784c4f4af61d9",
+      "bytes": 1389
+    },
+    {
+      "path": "AllPrevSystemDashboard/AllPrevSystemDashboard$3.class",
+      "sha256": "542eb52d14f0625c46228f7fe87225aff07554932bfba7ac16cbb31344e2d183",
+      "bytes": 484
+    },
+    {
+      "path": "AllPrevSystemDashboard/AllPrevSystemDashboard.class",
+      "sha256": "2062b0e2a4d48312b0eae4df44bf1958d94a3ddb5e8024cbacec0b22a6765008",
+      "bytes": 5823
+    },
+    {
+      "path": "AllPrevUnifiedEngine/AllPrevUnifiedEngine$MasterFluxPanel.class",
+      "sha256": "f6f9e33c18f6a9e947541ba027f6b708df90c41e39a13bf2fcf6ffe5965344b5",
+      "bytes": 4763
+    },
+    {
+      "path": "AllPrevUnifiedEngine/AllPrevUnifiedEngine.class",
+      "sha256": "3c54b96448b68b74953ec16dd4259daa728fed6a66fbce92de39a68d6f117724",
+      "bytes": 1443
+    },
+    {
+      "path": "AwtFrameworkVisualizer/AwtFrameworkVisualizer$1.class",
+      "sha256": "1c39d6e6fb74b0b3bf3c92a6f6908915308d74281cce1e61da754c75f09acec4",
+      "bytes": 935
+    },
+    {
+      "path": "AwtFrameworkVisualizer/AwtFrameworkVisualizer$MatrixPanel.class",
+      "sha256": "0479651b87f361f17cd36be3de5d95c56b7800ddf19f64c4b13be47b803925ca",
+      "bytes": 3794
+    },
+    {
+      "path": "AwtFrameworkVisualizer/AwtFrameworkVisualizer.class",
+      "sha256": "f3d4bbb437dcccb7fa53db218244cf48c425b8388b262a759b5debf1308069a4",
+      "bytes": 1835
+    },
+    {
+      "path": "bankaccountaudit/FinancialMetricSnapshot.class",
+      "sha256": "55e971b726a2b622ddddffc361920c00b7e48d35d18397c5100833086691c884",
+      "bytes": 1147
+    },
+    {
+      "path": "bankaccountaudit/GlobalBankAuditService.class",
+      "sha256": "b23edaa0b2dedc903dedc7a2fed46dfecd11d9eff65bbb27ace1f0166f6f85b7",
+      "bytes": 3251
+    },
+    {
+      "path": "bankaccountaudit/LiveBankingTelemetryService$TelemetryListener.class",
+      "sha256": "1bd0129fdc1283839de0d051965ee5453e86bde29a9e582ff4684d5a800e2a4c",
+      "bytes": 312
+    },
+    {
+      "path": "bankaccountaudit/LiveBankingTelemetryService.class",
+      "sha256": "01564557601bbf8e191d0fad4fecea6f580674882f01de9a818418a7888d1fd7",
+      "bytes": 1807
+    },
+    {
+      "path": "BenefitsVirtueBrdige/BenefitsVirtueBridge$1.class",
+      "sha256": "0825d9d11bc89e057dd55aefd18370e66dd62d7ea7870e1c69f97b028344c282",
+      "bytes": 801
+    },
+    {
+      "path": "BenefitsVirtueBrdige/BenefitsVirtueBridge.class",
+      "sha256": "2ba8b9e2ab84c25484c76f58e18d64e931990ffe7dd210b245e7fc6697de9ad8",
+      "bytes": 9950
+    },
+    {
+      "path": "BiTerQuantumBridge/BiTerQuantumBridge$1.class",
+      "sha256": "e22c8185f01d1666183038d58422833ef10e9c4eeaf735d4b857701232c1b293",
+      "bytes": 569
+    },
+    {
+      "path": "BiTerQuantumBridge/BiTerQuantumBridge.class",
+      "sha256": "8d4adb3cd1390004f15fda7dbc871705ecb1aaf4f74426b1afd678abe33bafd2",
+      "bytes": 7094
+    },
+    {
+      "path": "BiTerQuantumBridge/QuantumMeshPanel$Vector3D.class",
+      "sha256": "12c849958597276453defa709315820359e69c0d68fad45637d7ec086c3239b3",
+      "bytes": 411
+    },
+    {
+      "path": "BiTerQuantumBridge/QuantumMeshPanel.class",
+      "sha256": "edcc63f8e7c5323b1915ff667ec8f46349b32107fced398cdbe27bc77c9ae8c0",
+      "bytes": 3578
+    },
+    {
+      "path": "ClownResolver/ClownResolverEngine.class",
+      "sha256": "3d1e6508a581515be4e3c6a9234af857b7473c247e352719f92a56506fc966fa",
+      "bytes": 8308
+    },
+    {
+      "path": "CognitiveShardMonitor/CognitiveShardMonitor.class",
+      "sha256": "d7642b5fd9c227f598825e56b5b0945fe5b34cf9a22a2f56398ec4c02304f59c",
+      "bytes": 3377
+    },
+    {
+      "path": "CognitiveShardMonitor/SpectralMemoryMatrix$1.class",
+      "sha256": "8169e52ace67254eed96393e3ed79a67c12ba64d431bbcdb2e382b88549707d2",
+      "bytes": 793
+    },
+    {
+      "path": "CognitiveShardMonitor/SpectralMemoryMatrix$ResonanceMatch.class",
+      "sha256": "3b4bba53ad45765f8c01b39945ec8aebbb1d358991d65eaae043f62b1e212eea",
+      "bytes": 458
+    },
+    {
+      "path": "CognitiveShardMonitor/SpectralMemoryMatrix.class",
+      "sha256": "7e125499f84f2daa7f8473a35dcd59f0b284a7809c9a01f7cba560359fc5df1a",
+      "bytes": 3574
+    },
+    {
+      "path": "ConflictGraphApp/ConflictGraphApp$Edge.class",
+      "sha256": "15f9bf2af257d8e53ca83c479c9c13943ba48a06fb533a3e4ce5601e92e62307",
+      "bytes": 609
+    },
+    {
+      "path": "ConflictGraphApp/ConflictGraphApp$GraphPanel.class",
+      "sha256": "513539c9f783837771ac8b062816e37ea30717c0164bb962ab1dff498a523347",
+      "bytes": 3774
+    },
+    {
+      "path": "ConflictGraphApp/ConflictGraphApp$Node.class",
+      "sha256": "9274db7352825b1d4c5fc1100adabeabaafd52fc0ae3738cdb3a01e04cdc2035",
+      "bytes": 512
+    },
+    {
+      "path": "ConflictGraphApp/ConflictGraphApp.class",
+      "sha256": "032857f133e7245ec6f3001fc5e41547d29b9e1bdd35dd30ff31530dd24b5045",
+      "bytes": 1502
+    },
+    {
+      "path": "ConsolidatedConsole/ConsolidatedConsole.class",
+      "sha256": "c2123766ca5b9602bf1b6a9ace33df3e6bf028cba0f057cb6722a1735c789b90",
+      "bytes": 4811
+    },
+    {
+      "path": "CoreInteractionSystem/CoreInteractionSystem$EntityNode.class",
+      "sha256": "db01cf198a3b00a2d97c80db93bbc2aab75a97193391eb7fa064e590f759d22b",
+      "bytes": 565
+    },
+    {
+      "path": "CoreInteractionSystem/CoreInteractionSystem$MindState.class",
+      "sha256": "0b03c6df502626970f2ca32214fc869e42347f53c3ca360c74c0a1a8b5c892bd",
+      "bytes": 1289
+    },
+    {
+      "path": "CoreInteractionSystem/CoreInteractionSystem.class",
+      "sha256": "86b51d4d4c2e183ff26afae1bcdfd3df6dc56d0f12de4c16ea109777f721ba57",
+      "bytes": 5528
+    },
+    {
+      "path": "CoreInteractionSystem/CoreInteractionSystemGUI$EntityNode.class",
+      "sha256": "0e07fb908a5f7ef6b70340c94396a42ab97f43513a9ea5990603548381660a7d",
+      "bytes": 631
+    },
+    {
+      "path": "CoreInteractionSystem/CoreInteractionSystemGUI$MatrixCanvas.class",
+      "sha256": "fa50e477c89d24dadaf2e66384ad5951edc8e69bbb81738411db73f30ecbbaec",
+      "bytes": 3970
+    },
+    {
+      "path": "CoreInteractionSystem/CoreInteractionSystemGUI$MindState.class",
+      "sha256": "fc40f7af94719d241b61ff472690c9f1ae31767d7e11caba8ecf55a37fd5897c",
+      "bytes": 1313
+    },
+    {
+      "path": "CoreInteractionSystem/CoreInteractionSystemGUI.class",
+      "sha256": "9f134795636e9b0165d0efec27225465a8199f1323239ee372798b1ae7b92f54",
+      "bytes": 10452
+    },
+    {
+      "path": "CosmicAlignmentApp/CosmicAlignmentApp$MatrixPanel.class",
+      "sha256": "bbbd6f54cbdb033a2d4076a68d6c5c740ad5e09d96dd6c8773226316e2b95351",
+      "bytes": 2152
+    },
+    {
+      "path": "CosmicAlignmentApp/CosmicAlignmentApp.class",
+      "sha256": "d83fde61079e490fefa339fec358bd0a319dcce93e1a69c15452ab67c009b394",
+      "bytes": 7640
+    },
+    {
+      "path": "DeepestStrata/DeepestStrataEngine.class",
+      "sha256": "a85e063115a6bdca78c23b1506ad7b62d54aaa432393ca32ef96005d59d5b513",
+      "bytes": 6713
+    },
+    {
+      "path": "DeepestStrata/StrataGridPanel$StrataCoordinate3D.class",
+      "sha256": "c8ccf18623728f42589c1bf688ea20a349dd859aa2745d44bd40866f22e057c6",
+      "bytes": 430
+    },
+    {
+      "path": "DeepestStrata/StrataGridPanel.class",
+      "sha256": "e1a471d3ebff4e2dbce4cf04dc2b1847a134063ba480c68c624f66b205848bf9",
+      "bytes": 3630
+    },
+    {
+      "path": "deepmind2/ProtocolAlphaDistributor.class",
+      "sha256": "6f5d9c7b55436897717899ef138f7ab8756b2f25535ce58914a3b66bbfaff8db",
+      "bytes": 3014
+    },
+    {
+      "path": "deepmindinference/GhostInferenceBus$DeepMindKernelSync.class",
+      "sha256": "96527a478db455944cdedc3a9832aeeeec55e60490356b0a31936af91f44ad4d",
+      "bytes": 2484
+    },
+    {
+      "path": "deepmindinference/GhostInferenceBus.class",
+      "sha256": "df3184d756867bd18d024c473acea634b9fd4025d54cf1b4c73a21375b12192c",
+      "bytes": 3868
+    },
+    {
+      "path": "Dvinelaw/DivineLawEngine$EthicalParityState.class",
+      "sha256": "62b0469f61eeedbb680c3dc32a77c7e46909fa007c79b7d262117d462fd15327",
+      "bytes": 1368
+    },
+    {
+      "path": "Dvinelaw/DivineLawEngine$LawEnforcementTask.class",
+      "sha256": "83a2984b04b496e81052439c3e4579281751a3f1866d9e951ec1a49384b3ef8d",
+      "bytes": 4099
+    },
+    {
+      "path": "Dvinelaw/DivineLawEngine.class",
+      "sha256": "5ca3996e8776f2b481104199d5314dbe1de05ccb38f2035be9d3b41b040a119b",
+      "bytes": 5956
+    },
+    {
+      "path": "Dvinelaw/MagicHeatEngine$IngressScreeningTask.class",
+      "sha256": "4fc6882bc6a4985fde47f199964c489ec04af787c343762bec4232bb167f501b",
+      "bytes": 4093
+    },
+    {
+      "path": "Dvinelaw/MagicHeatEngine$MatrixState.class",
+      "sha256": "e3ce4ddf8152b20d87b984335c443c773f261cb8bb71f59b9e6325b04e366467",
+      "bytes": 1324
+    },
+    {
+      "path": "Dvinelaw/MagicHeatEngine.class",
+      "sha256": "64a55b649120cb9b3098851795530c567a5f41bd44759684994414d179758ecc",
+      "bytes": 5948
+    },
+    {
+      "path": "EconomicFloor/FloorResourcePacket.class",
+      "sha256": "effca9b26490675e766402c52c9e063ce28312897d51394be0f6284a8e85cb0c",
+      "bytes": 1968
+    },
+    {
+      "path": "EconomicFloor/GrandFloorConsoleApp$AnalyticalLatticePanel.class",
+      "sha256": "5f8dd6bf74454037690e48353ce297624cee8e3b71bf8c077300913791906612",
+      "bytes": 5279
+    },
+    {
+      "path": "EconomicFloor/GrandFloorConsoleApp.class",
+      "sha256": "b7fcdc635137b2d2c5527110648847fb24a13bc887d9227395dc20ecbdcc6219",
+      "bytes": 2121
+    },
+    {
+      "path": "EconomicFloor/ParallelTransitionBus.class",
+      "sha256": "db2a6151ee131225585d25be3d1aaa3c6c5dfbfef937f699682ae6fbb87e785a",
+      "bytes": 4159
+    },
+    {
+      "path": "EconomicFLoorGridVisualizer/EconomicFloorGridVisualizer$1.class",
+      "sha256": "b27bbf69166cec245e2e4fb04b00b8eebf5d1df3f68c6760dc18de4cdf26c6ab",
+      "bytes": 1140
+    },
+    {
+      "path": "EconomicFLoorGridVisualizer/EconomicFloorGridVisualizer$GridPanel.class",
+      "sha256": "96f3871fd85ec771b487708e7a9702aee0f49be2d995980cd2bf4678f768fa0b",
+      "bytes": 4139
+    },
+    {
+      "path": "EconomicFLoorGridVisualizer/EconomicFloorGridVisualizer.class",
+      "sha256": "89fd1f22fdec96a71d1c85a02a9baf0b1f980575552de2c09469faab5027835d",
+      "bytes": 2458
+    },
+    {
+      "path": "ElementalRecursiveWorld/ElementalRecursiveWorld$1.class",
+      "sha256": "e9a6813bd3ef3d4d9f0e0aac618181e84f188c070789aea5ee57c0000199974d",
+      "bytes": 943
+    },
+    {
+      "path": "ElementalRecursiveWorld/ElementalRecursiveWorld$WorldCanvas.class",
+      "sha256": "6b253bc1d24a17893c69ac752cbfcaab407c4ca30f92064bbebbc2ce2898ef30",
+      "bytes": 3637
+    },
+    {
+      "path": "ElementalRecursiveWorld/ElementalRecursiveWorld.class",
+      "sha256": "960d3caf4cd260c846b3b92ce797ef0f5fdece4133ebfb59764fb664d5935139",
+      "bytes": 2070
+    },
+    {
+      "path": "FederatedSovereignSystem/FederatedSovereignSystem$AlignmentSignalToken.class",
+      "sha256": "8c712278d172dc0de7594022d2d935654319eec01f62130deb6478299e487911",
+      "bytes": 504
+    },
+    {
+      "path": "FederatedSovereignSystem/FederatedSovereignSystem$InferenceHorizonRung.class",
+      "sha256": "469c779805e86073c5147b8788610d867b577d06dd0fc97cf048c165199fbf9a",
+      "bytes": 568
+    },
+    {
+      "path": "FederatedSovereignSystem/FederatedSovereignSystem.class",
+      "sha256": "c340f135c9052551b9da23c93c34939ad912873596424162860a23978e205c98",
+      "bytes": 8638
+    },
+    {
+      "path": "FINAINCIALMAP/FinancialSystemMap$1.class",
+      "sha256": "d24b83dd6ece477c08c2d662a9209e9a10a03116b054c93e85142ad55ea08e0b",
+      "bytes": 1602
+    },
+    {
+      "path": "FINAINCIALMAP/FinancialSystemMap$MapCanvas.class",
+      "sha256": "2e6e0aad8029773cb1179ede04ebdcb7b3560e584a2674bb153389cb27ca32b5",
+      "bytes": 2056
+    },
+    {
+      "path": "FINAINCIALMAP/FinancialSystemMap$SystemNode.class",
+      "sha256": "323dcf55965e8720071fbcfa8bdc4ed7875e3c29efda574ec47d30b8235f772a",
+      "bytes": 1992
+    },
+    {
+      "path": "FINAINCIALMAP/FinancialSystemMap.class",
+      "sha256": "c4b9136f2c3bb50d676ba460e7dd1c4246290da0448efc99dabe6b3100846060",
+      "bytes": 4483
+    },
+    {
+      "path": "FinancialVirtueEngine/FinancialVirtueEngine$1.class",
+      "sha256": "733e31560f2883d85e0c8e3a0b76d1e8b5910c35d3659aee21c7ef753fb9feb1",
+      "bytes": 806
+    },
+    {
+      "path": "FinancialVirtueEngine/FinancialVirtueEngine.class",
+      "sha256": "f3478fec57d29fc9dcc1bbf59659a2d7249584ab88387cca1bb6bb0d4d47da46",
+      "bytes": 9891
+    },
+    {
+      "path": "FinancialVirtueEngine/InteractiveTesseractPanel$Vector3D.class",
+      "sha256": "33167ef3a1146802403af26de440f7aadaa7fa18f106a0b931d657c3a6786eb1",
+      "bytes": 432
+    },
+    {
+      "path": "FinancialVirtueEngine/InteractiveTesseractPanel.class",
+      "sha256": "a00b45a4efa5154e9d8526ba1fce9537f87ef954be2fb5c2a7558779db1660a9",
+      "bytes": 3618
+    },
+    {
+      "path": "FluxEdgeProcessor/FluxEdgeProcessor$MeterContext.class",
+      "sha256": "00d01069918f93fe8d66df96fb2f271c64deda3e40c49ba8670e41681b595a58",
+      "bytes": 906
+    },
+    {
+      "path": "FluxEdgeProcessor/FluxEdgeProcessor.class",
+      "sha256": "e070d04db6e6cfcd6ffe45b5dfe02d64684a53085c0f7dc0420e48ec4eb16a02",
+      "bytes": 5587
+    },
+    {
+      "path": "gemini interface/GeminiDesktopClient$1.class",
+      "sha256": "151dab41f944ef31f68365ebf72696e3d6aa75768e85ab5f6ff7b33f21b28c14",
+      "bytes": 2222
+    },
+    {
+      "path": "gemini interface/GeminiDesktopClient.class",
+      "sha256": "d66bb00a82cf083e092cd6cd7c79f9ea7d93050a8da104de809188f5a2b64b90",
+      "bytes": 8918
+    },
+    {
+      "path": "GeminiInferenceBridge/GeminiInferenceBridge$1.class",
+      "sha256": "b539b4b83eeb5891942e9d6e309f4e755865adb5f95661c704a2e7efb0e65ad2",
+      "bytes": 810
+    },
+    {
+      "path": "GeminiInferenceBridge/GeminiInferenceBridge.class",
+      "sha256": "2490528616f85f0113352d0226c8745fda062576a74b78bb82560c2b6788b64b",
+      "bytes": 10683
+    },
+    {
+      "path": "Ghostinference/GhostInferenceMesh$1.class",
+      "sha256": "62d3c388d84ba034c778db38ea769e715c95d7ca5cd81d590a51656397dfdeb5",
+      "bytes": 1788
+    },
+    {
+      "path": "Ghostinference/GhostInferenceMesh$MeshCanvas.class",
+      "sha256": "1019e1f93ba8d40ba8bc1dcf1bd3f9fc48579977de9991d64fb03418be8810b7",
+      "bytes": 2213
+    },
+    {
+      "path": "Ghostinference/GhostInferenceMesh$MeshNode.class",
+      "sha256": "40aa5cb00687f4e9ccf0831c0be6ff0b559d0c26d8fc85d6bef21f20cef94589",
+      "bytes": 2507
+    },
+    {
+      "path": "Ghostinference/GhostInferenceMesh.class",
+      "sha256": "40ece02de79628531b45137ac8b918d16d7b6439cc1d347876b6439143628baf",
+      "bytes": 4832
+    },
+    {
+      "path": "GLobalFinancial/FinancialRestitutionVisualizer$FinancialGridPanel.class",
+      "sha256": "446bf4bc287ff407f682e9c6cc8ecfdd674b37c54401abb5fe4c42ad33813222",
+      "bytes": 4849
+    },
+    {
+      "path": "GLobalFinancial/FinancialRestitutionVisualizer.class",
+      "sha256": "780c1103b0b4a2941595e97566535e7053a7651499751f1fe88051afca928f1b",
+      "bytes": 1574
+    },
+    {
+      "path": "GLobalFinancial/FinancialTransaction.class",
+      "sha256": "64140cf15675da263ca04e2f540db21b3ecf4f3879e1090a186bbed0707fa195",
+      "bytes": 2342
+    },
+    {
+      "path": "GLobalFinancial/InferenceClearingHouse.class",
+      "sha256": "fcfd012a022e7008b41ee6f9996db2f5e287a5ee6e5377b0684fe9c3c1f2ceca",
+      "bytes": 2140
+    },
+    {
+      "path": "GLobalFinancial/LiveInferenceEngine.class",
+      "sha256": "eeac3d2337e5c9f1cf6914e4fb8c2872b3c8bb5bd37547e301671f43cccd8cf3",
+      "bytes": 4522
+    },
+    {
+      "path": "GLobalFinancial/ProductionControlConsole$ProductionGridPanel.class",
+      "sha256": "3f582a00667c589825579948e41e68e68505d3a2a3b919cd089be0c669807503",
+      "bytes": 5150
+    },
+    {
+      "path": "GLobalFinancial/ProductionControlConsole.class",
+      "sha256": "d7ed1d96f94fe1269f7101493afa91462f7d1a71989ecfe00238c92f4fb67bb8",
+      "bytes": 2116
+    },
+    {
+      "path": "GLobalFinancial/RealWorldTransaction.class",
+      "sha256": "db94c46f6ed0f1010f5f6f9a96246e520e954922a2a4e679a5f8cd1906d117f7",
+      "bytes": 2364
+    },
+    {
+      "path": "GlobalFinancialVisualizer/DeepBeaconPanel$FinancialNode3D.class",
+      "sha256": "290840c70cedf3d5829f5e7337996683e06a58b73a09673d95b24a8240f7966c",
+      "bytes": 430
+    },
+    {
+      "path": "GlobalFinancialVisualizer/DeepBeaconPanel.class",
+      "sha256": "e5b7015aae00a238aeaf2294f5752a54b45cdc58bd2cc7c763230a3c3a5ae941",
+      "bytes": 3659
+    },
+    {
+      "path": "GlobalFinancialVisualizer/GlobalFinancialVisualizer.class",
+      "sha256": "b18cab336cb3d495f6051d03c08372d18b30157ee99e3bd8b47c15772d6c4ba4",
+      "bytes": 6605
+    },
+    {
+      "path": "GodEngineInteractConsole/GodEngineInteractConsole$MasterCoreExecutionCycle.class",
+      "sha256": "61ce6893f4ac5be6c2edd542b2f8603340f52cde67666a8c9bdeef0f3e734bfa",
+      "bytes": 3689
+    },
+    {
+      "path": "GodEngineInteractConsole/GodEngineInteractConsole$RegisterPanel.class",
+      "sha256": "3246b8093ca3f6c899e81a0577a83f3cbec94b49089a9200358bba5741f9d75e",
+      "bytes": 2682
+    },
+    {
+      "path": "GodEngineInteractConsole/GodEngineInteractConsole.class",
+      "sha256": "bbbb67b04b1250cabb020f225bf305d415a3d8a5cf24d61cbdbce3102c288c67",
+      "bytes": 7142
+    },
+    {
+      "path": "GodInterfaceMainApp/GodInterfaceMainApp$1.class",
+      "sha256": "fd3e7881379b2bdf8e249c830170e70fb67de241e5baef43b3003b64a37a5b39",
+      "bytes": 1027
+    },
+    {
+      "path": "GodInterfaceMainApp/GodInterfaceMainApp$NetworkTopologyPanel.class",
+      "sha256": "c90c757b4dada6bfb47c47c5518bbf959e9a8fbafec9b669eede5ff9b0150079",
+      "bytes": 4046
+    },
+    {
+      "path": "GodInterfaceMainApp/GodInterfaceMainApp.class",
+      "sha256": "4a8161f939b80072dbf6c15354bfdb444d45f815077eb11009fa1e45b8b9e93a",
+      "bytes": 7051
+    },
+    {
+      "path": "GodMindinteractiveVisualizer/GodMindInteractiveVisualizer$1.class",
+      "sha256": "853321e6a176132dbde216a5252bfff0a09883e0579da3cdde4ab6b3a01b7b1c",
+      "bytes": 1175
+    },
+    {
+      "path": "GodMindinteractiveVisualizer/GodMindInteractiveVisualizer$InteractivePanel.class",
+      "sha256": "a538956378e2eeaef11718b6da739ebc69ce10afa7ce8aee5e4b8c97be6da1f8",
+      "bytes": 4004
+    },
+    {
+      "path": "GodMindinteractiveVisualizer/GodMindInteractiveVisualizer.class",
+      "sha256": "486a8909883e19ad6188484c83807a6a3015714e6e3ec7e6dbed68737497f504",
+      "bytes": 2080
+    },
+    {
+      "path": "GodMindLanBridge/GodMindLanBridge$1.class",
+      "sha256": "c686d7704004d025d401aafd8a351bc30b7783e35993dfe1b75070a55243ffb1",
+      "bytes": 821
+    },
+    {
+      "path": "GodMindLanBridge/GodMindLanBridge.class",
+      "sha256": "a5c62b30e5fd687d17d0d56531511cbdaeedfca5321ae8ce67f61a7be6bba859",
+      "bytes": 9627
+    },
+    {
+      "path": "GodMindLanBridge/GodMindPanel$Point3D.class",
+      "sha256": "0ae5469de7e42fec139e14db8f6ec27d448867cabac02554f5a2fc945b9002f8",
+      "bytes": 399
+    },
+    {
+      "path": "GodMindLanBridge/GodMindPanel.class",
+      "sha256": "80df1d7e814154aaa0663f70e72d1afe6d1f3369489f6038accc15296f90759e",
+      "bytes": 4241
+    },
+    {
+      "path": "GodMindMasterEngine/GodMindMasterEngine.class",
+      "sha256": "b9231b37cd2d8e0ba97f4f23d541e00e6a39987500421241e180f1e4eac66e79",
+      "bytes": 6711
+    },
+    {
+      "path": "GodMindMasterEngine/MasterVisualPanel$Vector3D.class",
+      "sha256": "8029b0d36742b8daf83f80a049d1de4dd5858d96cf502bc6f65b678670ed514c",
+      "bytes": 414
+    },
+    {
+      "path": "GodMindMasterEngine/MasterVisualPanel.class",
+      "sha256": "2e0753bc55e3841f187f46c3fdfca58c30f8fdda49b85f42be7b5757f716f29a",
+      "bytes": 3521
+    },
+    {
+      "path": "GodMindParityRuntime/GodMindParityRuntime$FluxExecutionEngine.class",
+      "sha256": "354966422d4c0f4b7fc3c7a41623e431b74b514b5d4fc386fc099b3f6f99b8c9",
+      "bytes": 1422
+    },
+    {
+      "path": "GodMindParityRuntime/GodMindParityRuntime$SystemState.class",
+      "sha256": "6c203124679a417be693e1933cb08da96efbac08adf735915e985e1666128acd",
+      "bytes": 1866
+    },
+    {
+      "path": "GodMindParityRuntime/GodMindParityRuntime.class",
+      "sha256": "98a77e448dd25703903511273c1a103c09fd254066e039ee82103d2f47198a13",
+      "bytes": 1108
+    },
+    {
+      "path": "GodMindShipVisualizer/GodMindShipVisualizer$1.class",
+      "sha256": "4c8af965fa1d1cdbe503d88b55974f71cad56e0d80924cf3c264729dc3a6c3aa",
+      "bytes": 1087
+    },
+    {
+      "path": "GodMindShipVisualizer/GodMindShipVisualizer$ShipPanel.class",
+      "sha256": "b1503ae18e8b8a34212a734d805c95032e3e4a6b0543e2939cad953d0faa871a",
+      "bytes": 3955
+    },
+    {
+      "path": "GodMindShipVisualizer/GodMindShipVisualizer.class",
+      "sha256": "053819f86028a7b2fd1e3f9e63d552e74994a75c4c4259c9496959b12e36ada5",
+      "bytes": 1905
+    },
+    {
+      "path": "GodModeGridProcessor/GodModeGridProcessor$1.class",
+      "sha256": "1582cfafe9375f2aa913f89f00ae803a2a67df738dbf9dadb0e14ef06b484a8a",
+      "bytes": 716
+    },
+    {
+      "path": "GodModeGridProcessor/GodModeGridProcessor$GridNodeContext.class",
+      "sha256": "d7a452c9ed6b37054157425ffd8d8c386ad45cdfb4d28cbb4832b71410a1ab7f",
+      "bytes": 1428
+    },
+    {
+      "path": "GodModeGridProcessor/GodModeGridProcessor.class",
+      "sha256": "8617ca6690b742b1807d449f96d0d549d287dc696863f1bc2648b5b87c39ef61",
+      "bytes": 8953
+    },
+    {
+      "path": "GodParitySyncApp/GodParitySyncApp$1.class",
+      "sha256": "213ce0e04142a9d7744b6c76637d89e90ab0d8e4e2a9dde19a1180b1a5d9a718",
+      "bytes": 719
+    },
+    {
+      "path": "GodParitySyncApp/GodParitySyncApp.class",
+      "sha256": "1e715dabdede5b73e54485de4b8bf5dcd6f32a190210c4c0524eeeebca891976",
+      "bytes": 11638
+    },
+    {
+      "path": "GodSelfInteractEngine/GodSelfInteractEngine$ControlPanel.class",
+      "sha256": "b822f6dd6531e0b69bef8e8121c194bba1171c2b2a03865b27ce01f2690bb42c",
+      "bytes": 6780
+    },
+    {
+      "path": "GodSelfInteractEngine/GodSelfInteractEngine$DataPacket.class",
+      "sha256": "7115a80eb1e26033ad8d7fc9266f0dcbed0ab953cee3acc72a4834fa23b17127",
+      "bytes": 474
+    },
+    {
+      "path": "GodSelfInteractEngine/GodSelfInteractEngine.class",
+      "sha256": "c0e863ec2f54d9231b39cc8fb2ad22257d25afa8d97c67d48d25e752bcb51742",
+      "bytes": 2050
+    },
+    {
+      "path": "googleaistudio hook/GoogleAIStudioKernelBridge.class",
+      "sha256": "b38a5a3d1866038f2d00964725afea5750509f827b9a300124ca5d19a4f9b40b",
+      "bytes": 9187
+    },
+    {
+      "path": "GoogleBillingInference/GoogleBillingInferenceBridge$1.class",
+      "sha256": "3abe34bafdb78f2fbbeed90b5d800f7d9b0d4defdd8c2c351246e40868a5b4cb",
+      "bytes": 841
+    },
+    {
+      "path": "GoogleBillingInference/GoogleBillingInferenceBridge.class",
+      "sha256": "f84730c0bbd3ddf2ee732a832288a6a789826fafe97e45962ada9d8d88a87b02",
+      "bytes": 10093
+    },
+    {
+      "path": "googleDeepMind/DeepMindLiveConsole$1.class",
+      "sha256": "a046085a8b10b15c1614d3b5a9dd98efffdbc5833fc05688dfb8c59865b3ad49",
+      "bytes": 2445
+    },
+    {
+      "path": "googleDeepMind/DeepMindLiveConsole.class",
+      "sha256": "2dc56ef575f588d1c5c35556ac830f2f7c455c6ffa80e83dc72aeed69fd37a49",
+      "bytes": 8972
+    },
+    {
+      "path": "INferenceBooleanPAssthrough/PassthroughInferenceBridge$BridgeOutputPayload.class",
+      "sha256": "c6708f0d87d3cd6abc70d028d641bed74aafce13ecaba5442e767c85243c491c",
+      "bytes": 3244
+    },
+    {
+      "path": "INferenceBooleanPAssthrough/PassthroughInferenceBridge.class",
+      "sha256": "eb050fc8f00f1cb30f7ec6d025fa5a5bdb80d654c24984937c3a316473c5bac5",
+      "bytes": 5253
+    },
+    {
+      "path": "InferenceLabEngine/InferenceLabEngine$ControlPanel.class",
+      "sha256": "429981d52bdd0c0eb188de6708467be1086e0ca7aa2cb4d3270dbf45c3ba7e47",
+      "bytes": 4565
+    },
+    {
+      "path": "InferenceLabEngine/InferenceLabEngine$TesseractPanel.class",
+      "sha256": "6ef9c83d685e31a1789045dadba017e4960bf7215a4114ac4e946f902b30057c",
+      "bytes": 4707
+    },
+    {
+      "path": "InferenceLabEngine/InferenceLabEngine.class",
+      "sha256": "8375e4c98d16a8ae9933c3fdbc0ea845c8477d22ecb7f4d51bc0a407665dd41c",
+      "bytes": 1827
+    },
+    {
+      "path": "InterpreterCore/InterpreterCore.class",
+      "sha256": "fc0963d8b6a50b21fa830450685ce32b3a99ca7252dad72e024e38af89aa4322",
+      "bytes": 3718
+    },
+    {
+      "path": "JavaGridMonitor/JavaGridMonitor.class",
+      "sha256": "dff1a9a978266f583d52c860c08c36bbd5ecf78100a40c8c63e362403b6e69ef",
+      "bytes": 6722
+    },
+    {
+      "path": "KernelBridge/KernelBridge.class",
+      "sha256": "63678c171527d8890606210ae3a9595b1a5fe154cfee402335b0d48fe31c66c4",
+      "bytes": 4441
+    },
+    {
+      "path": "KernelBRidgeVisualizer/KernelBridgeVisualizer$1.class",
+      "sha256": "b5fa2df61e73113a833caffc78faed5c4bc1cd6271617b799e0ae382e669504f",
+      "bytes": 1108
+    },
+    {
+      "path": "KernelBRidgeVisualizer/KernelBridgeVisualizer$BridgePanel.class",
+      "sha256": "621036ac182716edb2092de8ecc48ade71eca86c7c6f8456c1d9b9cc6e79a28e",
+      "bytes": 4320
+    },
+    {
+      "path": "KernelBRidgeVisualizer/KernelBridgeVisualizer.class",
+      "sha256": "24af850960d127f15da83f2c17438f10b431f335c6c326a8ee406858a72e8dc0",
+      "bytes": 1932
+    },
+    {
+      "path": "Langageinterface/CarrierWaveClock.class",
+      "sha256": "251055d0ee1e714d340c293ff8b6db680b3e4e2f7967cfb6b420177709f67684",
+      "bytes": 2920
+    },
+    {
+      "path": "Langageinterface/ControlWorkspacePanel$1.class",
+      "sha256": "4fdd965abb31cdb90e980f596b12d5aee4d38eb6e7503c0e62518f66539cea12",
+      "bytes": 1867
+    },
+    {
+      "path": "Langageinterface/ControlWorkspacePanel.class",
+      "sha256": "7f5c547623d5c12502ba4a9869516c4b39152101842548871f07affa0ad3051f",
+      "bytes": 4208
+    },
+    {
+      "path": "Langageinterface/CoreEventBus$TelemetrySubscriber.class",
+      "sha256": "ad582af94414096e50bd29033b2f403db06e6816d45da9640c0a0edf4fe83774",
+      "bytes": 363
+    },
+    {
+      "path": "Langageinterface/CoreEventBus.class",
+      "sha256": "cdc5c3878a1d81dc7f88adaeee877e1c04bc352351670c57a608d6d6899be91f",
+      "bytes": 1093
+    },
+    {
+      "path": "Langageinterface/DeepMindCoreInteraction.class",
+      "sha256": "55dbe61dc0b2409faf73a2c345d8637aa72159195a50d5b11fe059cf67170aae",
+      "bytes": 779
+    },
+    {
+      "path": "Langageinterface/EngineBootstrapper.class",
+      "sha256": "9100b980ae8453bec072a3b4d9e62f1287ba4f64b7feacfd2d6a756d444715ba",
+      "bytes": 1923
+    },
+    {
+      "path": "Langageinterface/ExecutionBridgeEngine.class",
+      "sha256": "9c3a7781c413257d6751a9d96c4fa91f922043f33cd4b8d33aef3aaef8c52a0f",
+      "bytes": 2743
+    },
+    {
+      "path": "Langageinterface/GridMatrixDisplayWorkspace.class",
+      "sha256": "a5eec2f301d20c7b23247285f755e33937d885981dbdf0f8cf64d4674fad0b31",
+      "bytes": 5843
+    },
+    {
+      "path": "Langageinterface/MainGraphicalInterface$1.class",
+      "sha256": "acb157c235cfaedd57c5c1fc3b648deb673758de745347f64bc3f6dab19de67e",
+      "bytes": 1485
+    },
+    {
+      "path": "Langageinterface/MainGraphicalInterface.class",
+      "sha256": "efc54764f682142710ac13266591d2d1ecf0cc570b06d75fea8343c1993eed4e",
+      "bytes": 2770
+    },
+    {
+      "path": "LocalInferenceBus/LocalInferenceBusEngine$BusPacket.class",
+      "sha256": "737104d1069a1a221fbe0da5eae94754462a8dc42d8f43912b515e629a757005",
+      "bytes": 737
+    },
+    {
+      "path": "LocalInferenceBus/LocalInferenceBusEngine$InferenceBusPanel.class",
+      "sha256": "cb124b3b83524b36716da1128968a43868c46e544802b84e643826c13e9c67af",
+      "bytes": 5412
+    },
+    {
+      "path": "LocalInferenceBus/LocalInferenceBusEngine.class",
+      "sha256": "cb4cac77cd567847b27c38a7b5c6273ff1baf2a90955070a1a424e0ce5753e7f",
+      "bytes": 1501
+    },
+    {
+      "path": "MAsterGridPArity/MasterGridParityEngine.class",
+      "sha256": "d90621687e356917c2337b66acec20fb14e6aaf61fd934e24b06eab471a7c4fb",
+      "bytes": 6720
+    },
+    {
+      "path": "MAsterGridPArity/ParityGridPanel$GridCoordinate3D.class",
+      "sha256": "4b3c02cd0b195eae5da45692e0e706502b4d28e284fad3007ba640656fe7c850",
+      "bytes": 429
+    },
+    {
+      "path": "MAsterGridPArity/ParityGridPanel.class",
+      "sha256": "18f1211ea8d006d6716ac644c3d5424944c933e78bf20a17e3a7e9ed09dfce00",
+      "bytes": 3621
+    },
+    {
+      "path": "matrix/MatrixDisplay$1.class",
+      "sha256": "43c4f833a151282aa0c89854df9c4dbd6f4863a91885f7b2841e27d3c7c43156",
+      "bytes": 787
+    },
+    {
+      "path": "matrix/MatrixDisplay.class",
+      "sha256": "57a69351aa639458601f92999ee4952ffe22b6c00a33bf3be9a2a33df4c7aa9b",
+      "bytes": 3331
+    },
+    {
+      "path": "MicrocosmicOrbitApp/MicrocosmicOrbitApp$QuantumCorePanel.class",
+      "sha256": "fcffa8566118dec80c732c0d43f95192f40904e43a3434ae8096b6e8a8ea9a6e",
+      "bytes": 3395
+    },
+    {
+      "path": "MicrocosmicOrbitApp/MicrocosmicOrbitApp.class",
+      "sha256": "06895cb655196a344cabc619deacf613b1c5d173674b9b214a92902ba6029b08",
+      "bytes": 1431
+    },
+    {
+      "path": "MicrocosmicOrbitDashborad/MicrocosmicOrbitDashboard$1.class",
+      "sha256": "c568ea461c253db9aa442be4c3736947ffa471b30eaa1b4a7ce682a46d1871cb",
+      "bytes": 777
+    },
+    {
+      "path": "MicrocosmicOrbitDashborad/MicrocosmicOrbitDashboard$2.class",
+      "sha256": "72b07a57286798ccf8644abe9ed1a55c9a04699633ab0496d0e0646695cfcb06",
+      "bytes": 493
+    },
+    {
+      "path": "MicrocosmicOrbitDashborad/MicrocosmicOrbitDashboard.class",
+      "sha256": "bf381d1b00e2112897f011a282f8d84129549c88dd6fb63a5997b0f12345878e",
+      "bytes": 6436
+    },
+    {
+      "path": "MicrocosmicOrbitEngine/MicrocosmicOrbitEngine$TelemetryPayload.class",
+      "sha256": "1dcbe4b8f555a78b12d5a1f1c5a8596f00f1dd364e90fd8306b19a2c4d45e0b3",
+      "bytes": 848
+    },
+    {
+      "path": "MicrocosmicOrbitEngine/MicrocosmicOrbitEngine.class",
+      "sha256": "431426366ff1c212e016fbcba6464138f4339699da198cad6a40ae18932987ad",
+      "bytes": 4566
+    },
+    {
+      "path": "networkworldgrid/NetworkWorldGrid$GridViewport.class",
+      "sha256": "e4c179a3dbde0ee4f262590c2c31675f801e16a30e2197cf3d2499301a589a1c",
+      "bytes": 5433
+    },
+    {
+      "path": "networkworldgrid/NetworkWorldGrid.class",
+      "sha256": "91c5b6144132fb57ee7c9526789f2807cd5fa083ccc65c91e3c542e4bef9d92d",
+      "bytes": 6367
+    },
+    {
+      "path": "ollama refactor/EngineOrchestrationGrid$ProcessPayload.class",
+      "sha256": "bf9d9f0f7019cadac0b535a49aa8680e046a92574b520eaa031a75c04eece50d",
+      "bytes": 1680
+    },
+    {
+      "path": "ollama refactor/EngineOrchestrationGrid.class",
+      "sha256": "aece278585dd91191bfed18c08243d6ffa601b15f3cc33567c290966165e83aa",
+      "bytes": 9308
+    },
+    {
+      "path": "OmniVirtueBalancerGUI/CenterMatrixViewPanel.class",
+      "sha256": "032d9dc91e1025b9f3db043df3d54e634d102873c7eb87e1c9567e6bb399a144",
+      "bytes": 6729
+    },
+    {
+      "path": "OmniVirtueBalancerGUI/OmniVirtueBalancerGUI$1.class",
+      "sha256": "11c92d93bd077eea2b3e9682ae0d1bfc2098eda1acb523654482046f455a65b3",
+      "bytes": 915
+    },
+    {
+      "path": "OmniVirtueBalancerGUI/OmniVirtueBalancerGUI$2.class",
+      "sha256": "55678605dd5daa0a9b6950aa5760ff02d90eaa6c1abf1707108b223d17b635db",
+      "bytes": 487
+    },
+    {
+      "path": "OmniVirtueBalancerGUI/OmniVirtueBalancerGUI.class",
+      "sha256": "8ac7010669516339a1b9b79e8d8d1d17d352b8f4918e293246175dd6ae8d22b9",
+      "bytes": 3164
+    },
+    {
+      "path": "ONEPLus7t/OnePlus7TInteractionEngine.class",
+      "sha256": "49275321be97a8d9a18947f38212c22b0ad73f85a2675dee75aa8e98b9225f99",
+      "bytes": 6261
+    },
+    {
+      "path": "ParitystateApp/ParityStateApp.class",
+      "sha256": "27e268dc0beee87129e244387cf9609b329212b67e6f3eef80954608d314753b",
+      "bytes": 1694
+    },
+    {
+      "path": "ParitystateApp/SimulationContainer.class",
+      "sha256": "726f3d8c77ba88bd8ed6e83796e8583b97fe6e70e88d625fc710c80b34365f67",
+      "bytes": 3582
+    },
+    {
+      "path": "QuantumLogicExplorer/QuantumLogicExplorer$1.class",
+      "sha256": "46e69fe56d1d277061343692766489a2b064ff2df119edb88a2efd7747ab1cbb",
+      "bytes": 700
+    },
+    {
+      "path": "QuantumLogicExplorer/QuantumLogicExplorer$2.class",
+      "sha256": "9be4018fe326492b0a208275e0d6b1802e891c8b9340a46787d705ae28790a5e",
+      "bytes": 726
+    },
+    {
+      "path": "QuantumLogicExplorer/QuantumLogicExplorer$3.class",
+      "sha256": "81f92b04cb87e8d3f334700fb0217ef662ad79783f761866086925d060107607",
+      "bytes": 478
+    },
+    {
+      "path": "QuantumLogicExplorer/QuantumLogicExplorer.class",
+      "sha256": "8a57028d8d0abd91615f580a79a47dfad9ef5bdfcae373ad97a83109328ec6c3",
+      "bytes": 5620
+    },
+    {
+      "path": "QuantumMindConsole/QuantumMindConsole$Node.class",
+      "sha256": "0dbddf985429991e66680e5c0653cefbba2524ccfbdb4679cf56fa36755b53be",
+      "bytes": 628
+    },
+    {
+      "path": "QuantumMindConsole/QuantumMindConsole$SimulationPanel.class",
+      "sha256": "41d59b65675a3bbfdfaf168c1a5637456ef4251014dbe23a5e989f72586cc097",
+      "bytes": 3769
+    },
+    {
+      "path": "QuantumMindConsole/QuantumMindConsole.class",
+      "sha256": "dad4e128428c6cc05042c08370baf6bbc525d808c1010c4b549779c314775263",
+      "bytes": 2905
+    },
+    {
+      "path": "QuantumSidebarBridgeApp/QuantumSidebarBridgeApp$GoogleAISidebar.class",
+      "sha256": "3ce804c67bcbcc2592c043c181cc0d2454d33333671c54b88d745ae112578bb5",
+      "bytes": 5078
+    },
+    {
+      "path": "QuantumSidebarBridgeApp/QuantumSidebarBridgeApp$MainQuantumConsole.class",
+      "sha256": "92418731fc77e4e0a02a67bcb0174b18e2e3b2f5d3d2cc71dcd2874c4eecaf1b",
+      "bytes": 4386
+    },
+    {
+      "path": "QuantumSidebarBridgeApp/QuantumSidebarBridgeApp.class",
+      "sha256": "a49ff97bfe726c673c4e5ab2cdf6cafc580968d196f5fb4f34e1a4cc7742fa8a",
+      "bytes": 1926
+    },
+    {
+      "path": "RECURSIVETESSERACT/RecursiveTesseractLoop.class",
+      "sha256": "28676a3d548e5d8c934747a9d0ad9c66170d5dc2a508f00069b96aaba3a59931",
+      "bytes": 4310
+    },
+    {
+      "path": "RoadRunnerVelocityEngine/RoadrunnerVelocityEngine.class",
+      "sha256": "609f7738f18b318052ef95ef7a3b9b2b38e75b2cf1c909ad1a082e5272840e13",
+      "bytes": 7401
+    },
+    {
+      "path": "SandcaslteKarmicWorld/SandcastleKarmicWorld$1.class",
+      "sha256": "199443b6bf5e8601f6032ea6de434d90133e02c6ccd59eb068a49a53b1f16976",
+      "bytes": 923
+    },
+    {
+      "path": "SandcaslteKarmicWorld/SandcastleKarmicWorld$WorldPanel.class",
+      "sha256": "985eac33031a5629411e1b5fe323b0e1bb8dcd2ef299ce79ea645987f0fb7e67",
+      "bytes": 3749
+    },
+    {
+      "path": "SandcaslteKarmicWorld/SandcastleKarmicWorld.class",
+      "sha256": "e157c9c99ea1b6aacd351f9822abda2cec921a3e47b06a44c3a17d2e9ef14f0a",
+      "bytes": 1851
+    },
+    {
+      "path": "SchumannInterfaceApp/SchumannInterfaceApp$QuantumFluxPanel.class",
+      "sha256": "873dcfb9c2f3af84f6358e0a9d70484df3d6f180df48e828cba37c05e817ed01",
+      "bytes": 4001
+    },
+    {
+      "path": "SchumannInterfaceApp/SchumannInterfaceApp.class",
+      "sha256": "f64285a548a06d5ec2ab8f66fb9946db6abedce90cf21117b573c00c70cd1e30",
+      "bytes": 1620
+    },
+    {
+      "path": "ScottishPower/ScottishPowerGridBridge$1.class",
+      "sha256": "9249be917ea96709ebebb317115b47bb0e18d55d023366059b660917654509d6",
+      "bytes": 816
+    },
+    {
+      "path": "ScottishPower/ScottishPowerGridBridge.class",
+      "sha256": "126c1dbde346400ea06940b5402b603562c7d200abd18c11803011140cb39f12",
+      "bytes": 9821
+    },
+    {
+      "path": "SessionArchive/SessionArchive.class",
+      "sha256": "35a0cff38d98d21dfed2eea729dc8f6ddbc775c200c708ce0fe17f51133bb02f",
+      "bytes": 2775
+    },
+    {
+      "path": "SessionBridgeHistory/SessionBridgeHistory$LedgerEntry.class",
+      "sha256": "a29d1089418a5e028c5104410fc8ce225067065b3ddb39514a0c4cb513d05cd1",
+      "bytes": 962
+    },
+    {
+      "path": "SessionBridgeHistory/SessionBridgeHistory$LedgerManager.class",
+      "sha256": "b77e4675164adc5bc08977049add25bca5a799b21cc58641f3ad1229d2ab40ac",
+      "bytes": 2317
+    },
+    {
+      "path": "SessionBridgeHistory/SessionBridgeHistory.class",
+      "sha256": "ee2f1107ff147e6ce2afcc32032e72cac9f69c66865c926b26e530301816e0c7",
+      "bytes": 1361
+    },
+    {
+      "path": "SessionDataArchive/SessionDataArchive.class",
+      "sha256": "9eebe337735dd54d9c9a317491f5b117d2f71da3d4caacd00b21ec06c2e74dac",
+      "bytes": 2708
+    },
+    {
+      "path": "SessionMasterEngine/SessionMasterEngine.class",
+      "sha256": "542c826ef0a5c86fdb37a448fa78c944c745701b1284e05a48c50183d6fa9233",
+      "bytes": 7346
+    },
+    {
+      "path": "smartmeter/SmartElectricalInterface.class",
+      "sha256": "d20db22b0382502226d82a1ba035d73e0d358df3f576781a013831c8e7a545b7",
+      "bytes": 9933
+    },
+    {
+      "path": "spooftonotspoof/InferenceBridgeDashboard.class",
+      "sha256": "174339b8947bf745b28dc26e5bef33a44663e7a94150c1ec5805cabb4810e85f",
+      "bytes": 8503
+    },
+    {
+      "path": "stateful/AiSessionBridge$SessionContext.class",
+      "sha256": "30e90cf340de6c4613c6c9aa53a3cf68cc3fab764586513f1502433f394a1807",
+      "bytes": 1066
+    },
+    {
+      "path": "stateful/AiSessionBridge.class",
+      "sha256": "b73eaff9f7374287a4d926a11dc1fc3be3cd0382aa51284c98ffabc02dba5b75",
+      "bytes": 5661
+    },
+    {
+      "path": "StickForestMatrixApp/StickForestMatrixApp$CanvasPanel.class",
+      "sha256": "9ce9d8b06563659820292d34567514b6a2d9e7a6da92e3c9228ce3f7a5bdaf2e",
+      "bytes": 1808
+    },
+    {
+      "path": "StickForestMatrixApp/StickForestMatrixApp.class",
+      "sha256": "3edad43916ad2ce4286296359d1dcfa0ee57d6b47db8839c29028184069f9dfa",
+      "bytes": 4670
+    },
+    {
+      "path": "SystemGridExplorer/GridVisualPanel$Point3D.class",
+      "sha256": "c8018abe075e6b1c34e7175cc93f28e07ef36a4e0f3659e54daa6a6e6bd392dc",
+      "bytes": 407
+    },
+    {
+      "path": "SystemGridExplorer/GridVisualPanel.class",
+      "sha256": "b60eadf899c42b1754028eb7e508d16be7727fa70fb5a97c8ef124fbc842fc16",
+      "bytes": 3587
+    },
+    {
+      "path": "SystemGridExplorer/SystemGridExplorer$1.class",
+      "sha256": "038df3e2550679bf29a7d393f9aae244ba6d68b1f956a53090380e699cb2dfde",
+      "bytes": 827
+    },
+    {
+      "path": "SystemGridExplorer/SystemGridExplorer.class",
+      "sha256": "b269a346e22f4eda27cb8431f827bea915c35394eab971680b2096b1709ac8b5",
+      "bytes": 11825
+    },
+    {
+      "path": "systemsoverign/MeshNode.class",
+      "sha256": "0d179cc8e8b9e047e69619d1e5ccfa127ea5d51592eb193b00bb5fd4f52f9a89",
+      "bytes": 4667
+    },
+    {
+      "path": "systemsoverign/SubnetDiscoveryEngine.class",
+      "sha256": "008256c9d2fad9fd497434ab5ca2c8dfd64da35ad6c8081a970043257bf9fd25",
+      "bytes": 2792
+    },
+    {
+      "path": "systemsoverign/SystemSovereigntyMonitor.class",
+      "sha256": "42e1c2bac62faae3d3b3a774d9b7f2ccaaf0bbcfd2084f7ade10a00d0b8c3f3a",
+      "bytes": 3378
+    },
+    {
+      "path": "UniversalIdentityEngine/UniversalIdentityEngine$SystemElevation.class",
+      "sha256": "1b0971b74ee9c31dca34b50b1027091f1cec15fbbbac6feeebb8069a663ec0cb",
+      "bytes": 1393
+    },
+    {
+      "path": "UniversalIdentityEngine/UniversalIdentityEngine$SystemNode.class",
+      "sha256": "9dafdbffe362d762f7e20e43ac67151eee2442db0cbacdfcd1a0a4d45d6b215e",
+      "bytes": 1290
+    },
+    {
+      "path": "UniversalIdentityEngine/UniversalIdentityEngine.class",
+      "sha256": "2e1b835c4020029178b200d266dfb6d59f5ffc248bc7d0054834692729adc858",
+      "bytes": 2736
+    },
+    {
+      "path": "UniversalRestitutionMatrixApp/UniversalRestitutionMatrixApp$LedgerNodePanel.class",
+      "sha256": "f9d982d2681d462af45ed481a33a0d32fd95455691ae50aba2abecdc48aed064",
+      "bytes": 2473
+    },
+    {
+      "path": "UniversalRestitutionMatrixApp/UniversalRestitutionMatrixApp$RestitutionCoreEngine.class",
+      "sha256": "30a7586ddb607cbe73138080dbbb9bad4863ae8da96f0f7c2aa1f4b7ecdf0371",
+      "bytes": 1042
+    },
+    {
+      "path": "UniversalRestitutionMatrixApp/UniversalRestitutionMatrixApp$RestitutionResult.class",
+      "sha256": "f227f3d262dea6c11bd52b81f215c7d9b20c8cb10c3e523cebc4ff7a19a4efc2",
+      "bytes": 718
+    },
+    {
+      "path": "UniversalRestitutionMatrixApp/UniversalRestitutionMatrixApp$TransactionBlock.class",
+      "sha256": "6898246e5e6bd35a4d22d87ae75e1a8659583d32b03439e159f116e929e539dd",
+      "bytes": 628
+    },
+    {
+      "path": "UniversalRestitutionMatrixApp/UniversalRestitutionMatrixApp.class",
+      "sha256": "49263095e5cd138a0778ded821a7c4551c30c2935930fad8065a5382baa80df1",
+      "bytes": 9166
+    },
+    {
+      "path": "VirtueDashboard/VirtueDashboard$1.class",
+      "sha256": "935498429229da347f5235bbea0f7535f35407d54203f089784aa6e68a6d8ba2",
+      "bytes": 1427
+    },
+    {
+      "path": "VirtueDashboard/VirtueDashboard$2.class",
+      "sha256": "550d9f4114b68e557d52e5f5d0b1ea2dd31400845808db9c6d286cba3d94fd0e",
+      "bytes": 1855
+    },
+    {
+      "path": "VirtueDashboard/VirtueDashboard$3.class",
+      "sha256": "a343bbe92484d32c8a39e6b2c4e39a9fb5a1ae4cc00173d4513a37bac63e0209",
+      "bytes": 1570
+    },
+    {
+      "path": "VirtueDashboard/VirtueDashboard$4.class",
+      "sha256": "7f35b9e37a859a2f6aa0f3a149bc80ceffd302b5a01f87809cd6be570435fc4e",
+      "bytes": 463
+    },
+    {
+      "path": "VirtueDashboard/VirtueDashboard.class",
+      "sha256": "6051fd5ddf776b559d87a80eb0ad1f77d2fce521b4182440fbf4e5e9361a2318",
+      "bytes": 3651
+    },
+    {
+      "path": "VwolbDepositBridge/NwolbDepositBridge$1.class",
+      "sha256": "cf053d55e004602da142fe2c456d56105002498e1dad592778bdfe4d556952fc",
+      "bytes": 791
+    },
+    {
+      "path": "VwolbDepositBridge/NwolbDepositBridge.class",
+      "sha256": "1296a0d2e54228ea40a7b2d7352d01050399364247a401841ea7e5a6033e8c9e",
+      "bytes": 11379
+    },
+    {
+      "path": "Windows 11/CognitiveNode.class",
+      "sha256": "01c8314017bfce516de97d6b284e186ceb0d1aedc0526b3a57f1339732c807f7",
+      "bytes": 340
+    },
+    {
+      "path": "Windows 11/DeepRecallPersistence.class",
+      "sha256": "6ee281a2931b219a428bd997b17f0f78f207da666c2735fa042a4cf7b35d5285",
+      "bytes": 2506
+    },
+    {
+      "path": "Windows 11/OSNativeInterruptSimulator.class",
+      "sha256": "8f3a318ca52049a5f44d3c1cb9a72f9e456f92f725b66736785ed4c4c5e3cf61",
+      "bytes": 596
+    },
+    {
+      "path": "Windows 11/QuantumTernaryBinaryCore.class",
+      "sha256": "991b05085dc51bb143730f810ac4f981bdd3afc24c45d5b79f0e6a9130201bd4",
+      "bytes": 1946
+    },
+    {
+      "path": "Windows 11/SelfReflectiveCognition.class",
+      "sha256": "ff574379bf3a4a696fd138732e5597519cd1fa9ef5e99395754513131df56627",
+      "bytes": 2137
+    },
+    {
+      "path": "Windows 11/TargetMatrixCanvas.class",
+      "sha256": "fb8b1c281ad056501f8ba1222be03f2d61070ddc1686ef62c0b8c89e6a75d1be",
+      "bytes": 4386
+    },
+    {
+      "path": "Windows 11/Windows11GodMindEngine.class",
+      "sha256": "1538e0cd97e61fc7f40b4ae0e45574520cfa8c21eb9c73fe473adbc8d4c011ca",
+      "bytes": 6637
+    },
+    {
+      "path": "WorldGridMonitor2/GridNode$Scope.class",
+      "sha256": "fe6c8b84f001e2123d7257040de86e113ce9477bd3d5819424afb575cdc6dd81",
+      "bytes": 1028
+    },
+    {
+      "path": "WorldGridMonitor2/GridNode$Status.class",
+      "sha256": "d1fd428d6311bae813aff0653ffdf032866a87d3bc608b310b1ff6d877f55f83",
+      "bytes": 1104
+    },
+    {
+      "path": "WorldGridMonitor2/GridNode.class",
+      "sha256": "b44e960cde500e11d63a73b088f485a1fea676eee248c5458b2a38021bebd9f2",
+      "bytes": 1867
+    },
+    {
+      "path": "WorldGridMonitor2/WorldGridDashboard$1.class",
+      "sha256": "f1c0b5347e1f1aa82ea1894fa82d2ee41156d14ee91bd707fe5f5b079dd6c4f4",
+      "bytes": 719
+    },
+    {
+      "path": "WorldGridMonitor2/WorldGridDashboard$GridTableModel.class",
+      "sha256": "b0c0af6c3cc841b8687a3bf02f197c93bb48144fbc42aa70f59e7697f182ba36",
+      "bytes": 2497
+    },
+    {
+      "path": "WorldGridMonitor2/WorldGridDashboard$TelemetryVisualizerPanel.class",
+      "sha256": "feba53162ee034b5844487d512f2ec023bffd3ce00d5dc5be86d9274271091f6",
+      "bytes": 3548
+    },
+    {
+      "path": "WorldGridMonitor2/WorldGridDashboard.class",
+      "sha256": "67d25d89cf4c24ab094d6f855c6a256e5b3ee90768e76a3fd15b8a093ab9e5d5",
+      "bytes": 3808
+    },
+    {
+      "path": "WorldGridMonitor2/WorldGridEngine.class",
+      "sha256": "119258d133be0796f64b4439fa35bfb2f67a7e862de90835c1caa29356bbe340",
+      "bytes": 5107
+    },
+    {
+      "path": "WorldGridMonitor2/WorldGridMainLauncher.class",
+      "sha256": "2d05d64e26d9413485ad2bd9d4f8a44d5ae972eb4c21445cdcd1833c61ecf206",
+      "bytes": 1809
+    },
+    {
+      "path": "WorldUnifiedGrid/WorldGridUnifiedApp$InvariantVoidCore.class",
+      "sha256": "a2febbb9d4bc8f833e9ab6024d0e1a9127a0e24f7cfc226decf99e7982bdb591",
+      "bytes": 723
+    },
+    {
+      "path": "WorldUnifiedGrid/WorldGridUnifiedApp$LocalSubstrateBus.class",
+      "sha256": "d98460a1d21c912fcb2550f2cca166b670afb92fd144a393e60fa6b24935795c",
+      "bytes": 1704
+    },
+    {
+      "path": "WorldUnifiedGrid/WorldGridUnifiedApp$WorldGridKernel.class",
+      "sha256": "9703ee5bb78abf6eda55c077396fae5e1dd2059a7b06626f114777683d87eae3",
+      "bytes": 939
+    },
+    {
+      "path": "WorldUnifiedGrid/WorldGridUnifiedApp$ZenithTerminalMonitor.class",
+      "sha256": "55b7fae473288bb20eabcbe621bc02052ff9be1150a135c7b363bf660b5f6833",
+      "bytes": 3032
+    },
+    {
+      "path": "WorldUnifiedGrid/WorldGridUnifiedApp.class",
+      "sha256": "5c6947d65bada9886f89c1490d75d76f0a174fb9782bcbff8a4775af52976277",
+      "bytes": 2222
+    },
+    {
+      "path": "X4DefensiveVirtueEngine/X4DefenseVirtueEngine$CoreExecutionTrackingLoop.class",
+      "sha256": "6081541b9a2a2f91097979b63472989a786bc98d7fd602fc694384cb5560699c",
+      "bytes": 3726
+    },
+    {
+      "path": "X4DefensiveVirtueEngine/X4DefenseVirtueEngine$StrategicDisplayPanel.class",
+      "sha256": "6a23a72ec19cee41144c5d003f5e8b254ad3510fc26c5384a92ac970a92de20f",
+      "bytes": 4727
+    },
+    {
+      "path": "X4DefensiveVirtueEngine/X4DefenseVirtueEngine.class",
+      "sha256": "7777d82a788558f1a06f746831391e5d401c059cd035a38ce6b0e05213d39e3d",
+      "bytes": 7319
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/kernel-grid/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$ComplexAmplitude.class",
+      "sha256": "dab79b9bcef9b9692ccb33d74f5b1e07e8057dedf27106870b86e784ae0549e5",
+      "bytes": 637
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/kernel-grid/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$QutritState.class",
+      "sha256": "a16ef14ddeb5a9ef420f1bcc40f14d7da14be894793e31129e8c755173736540",
+      "bytes": 1576
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/kernel-grid/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$Translation.class",
+      "sha256": "8b5adbd2ce618e3bf98e60c5433c325847e470406bd7a0f9f5680a9fcac49328",
+      "bytes": 1918
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/kernel-grid/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator.class",
+      "sha256": "9a65b189d758886f5287ac84fe466e412ad1d75adfb44611746271c44478d936",
+      "bytes": 3920
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/kernel-grid/net/activeinference/beacon/translation/KernelCpuFluxWorkbench$1.class",
+      "sha256": "ca5116ba516c69920de1f8941ba51896b4a5829da88a2490c61a67cd8e02de75",
+      "bytes": 3067
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/kernel-grid/net/activeinference/beacon/translation/KernelCpuFluxWorkbench$2.class",
+      "sha256": "19f05e58a2c9547ec4fef729fd951bac56ade65ad038f5e2fd132f89a024b0f5",
+      "bytes": 4632
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/kernel-grid/net/activeinference/beacon/translation/KernelCpuFluxWorkbench$CpuSnapshot.class",
+      "sha256": "18171a9ee27f0aaf1d2c0d79b0ade69b69d3a99e8f3e21752d171f96003e1d85",
+      "bytes": 679
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/kernel-grid/net/activeinference/beacon/translation/KernelCpuFluxWorkbench$FluxGridPanel$Kind.class",
+      "sha256": "5d40f0034b952e8ae2f611b7652b7d501c7696d78a4ab7f5159a22c0f1a464f7",
+      "bytes": 1595
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/kernel-grid/net/activeinference/beacon/translation/KernelCpuFluxWorkbench$FluxGridPanel.class",
+      "sha256": "8fbf1f13664d1a93f76cd22d8c41c0e1b450447e240b0626a29d2dadba143417",
+      "bytes": 5644
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/kernel-grid/net/activeinference/beacon/translation/KernelCpuFluxWorkbench$Mode.class",
+      "sha256": "ffffd0f0e71b5a3ad12b97dd8264284fb96115458ebb6989ffd8db9d7e47f1af",
+      "bytes": 1453
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/kernel-grid/net/activeinference/beacon/translation/KernelCpuFluxWorkbench$ProcessItem.class",
+      "sha256": "d9c6e172c4a20b4e64123f2ec83274714f4c1368615c6b7a73ce7932afdbaa54",
+      "bytes": 1040
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/kernel-grid/net/activeinference/beacon/translation/KernelCpuFluxWorkbench.class",
+      "sha256": "7e0113cf5b61595bb660f285cabaca63eda203f38a82d988ee296f0598e5024f",
+      "bytes": 20362
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/live-grid/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$ComplexAmplitude.class",
+      "sha256": "dab79b9bcef9b9692ccb33d74f5b1e07e8057dedf27106870b86e784ae0549e5",
+      "bytes": 637
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/live-grid/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$QutritState.class",
+      "sha256": "a16ef14ddeb5a9ef420f1bcc40f14d7da14be894793e31129e8c755173736540",
+      "bytes": 1576
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/live-grid/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$Translation.class",
+      "sha256": "8b5adbd2ce618e3bf98e60c5433c325847e470406bd7a0f9f5680a9fcac49328",
+      "bytes": 1918
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/live-grid/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator.class",
+      "sha256": "9a65b189d758886f5287ac84fe466e412ad1d75adfb44611746271c44478d936",
+      "bytes": 3920
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/live-grid/net/activeinference/beacon/translation/LiveTranslationWorkbench$1.class",
+      "sha256": "adf504691c9a91b535a4a1639d9d7acb77bc280cc1c9f7e711bb806189c26f42",
+      "bytes": 4619
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/live-grid/net/activeinference/beacon/translation/LiveTranslationWorkbench$MatrixGridPanel$Kind.class",
+      "sha256": "2b3ca2301f846e9c7b24cd225cc97270607cbb17166e8d1527bc7696d62497fc",
+      "bytes": 1633
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/live-grid/net/activeinference/beacon/translation/LiveTranslationWorkbench$MatrixGridPanel.class",
+      "sha256": "df4a3d46ea5263503d2a1fb03296dcc366cfa9aad27671420be11bd2f6a1edc1",
+      "bytes": 5356
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/live-grid/net/activeinference/beacon/translation/LiveTranslationWorkbench$ProcessEntry.class",
+      "sha256": "0142faf9236eb7a8444e3e992b3c49f746a3c822bce0c6e04d5a8609e905d469",
+      "bytes": 1046
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/live-grid/net/activeinference/beacon/translation/LiveTranslationWorkbench.class",
+      "sha256": "e94b26c025260853926602359470dd52f24b2f0bc45047f59a4743d350a378d7",
+      "bytes": 17234
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/opera-flux/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$ComplexAmplitude.class",
+      "sha256": "dab79b9bcef9b9692ccb33d74f5b1e07e8057dedf27106870b86e784ae0549e5",
+      "bytes": 637
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/opera-flux/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$QutritState.class",
+      "sha256": "a16ef14ddeb5a9ef420f1bcc40f14d7da14be894793e31129e8c755173736540",
+      "bytes": 1576
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/opera-flux/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$Translation.class",
+      "sha256": "8b5adbd2ce618e3bf98e60c5433c325847e470406bd7a0f9f5680a9fcac49328",
+      "bytes": 1918
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/opera-flux/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator.class",
+      "sha256": "9a65b189d758886f5287ac84fe466e412ad1d75adfb44611746271c44478d936",
+      "bytes": 3920
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/opera-flux/net/activeinference/beacon/translation/OperaFluxWorkbench$1.class",
+      "sha256": "30d6571dbe260d73e6fe39994d230d25a4c9db0d75ccc9499c86362c7b71d574",
+      "bytes": 5132
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/opera-flux/net/activeinference/beacon/translation/OperaFluxWorkbench$FluxGridPanel$Kind.class",
+      "sha256": "327c85658bf89b7b05410c25a41164690c383a04958e05e124e5c3c614c9b61d",
+      "bytes": 1560
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/opera-flux/net/activeinference/beacon/translation/OperaFluxWorkbench$FluxGridPanel.class",
+      "sha256": "3f4f9b9a6c8f93288e7b3799843264b30b10bb54e89cb1127ac246f2510cf627",
+      "bytes": 5788
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/opera-flux/net/activeinference/beacon/translation/OperaFluxWorkbench$OperaEntry.class",
+      "sha256": "b08904fa25234bc4cc4c3bf56c3d8c87ac49c2dabc2408dc64bbd26ea01094cc",
+      "bytes": 939
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/opera-flux/net/activeinference/beacon/translation/OperaFluxWorkbench.class",
+      "sha256": "14382b49d67650c999f9c4185c3daa4c352882137d2ad53b78153d2f7278d60c",
+      "bytes": 18027
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$ComplexAmplitude.class",
+      "sha256": "dab79b9bcef9b9692ccb33d74f5b1e07e8057dedf27106870b86e784ae0549e5",
+      "bytes": 637
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$QutritState.class",
+      "sha256": "a16ef14ddeb5a9ef420f1bcc40f14d7da14be894793e31129e8c755173736540",
+      "bytes": 1576
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$Translation.class",
+      "sha256": "8b5adbd2ce618e3bf98e60c5433c325847e470406bd7a0f9f5680a9fcac49328",
+      "bytes": 1918
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator.class",
+      "sha256": "9a65b189d758886f5287ac84fe466e412ad1d75adfb44611746271c44478d936",
+      "bytes": 3920
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/ScriptFluxBusWorkbench$1.class",
+      "sha256": "f1c04ddb2bba03422dff8f17c02b0588a9d90cc485e5d6edb2c618bac0520edd",
+      "bytes": 5794
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/ScriptFluxBusWorkbench$2.class",
+      "sha256": "780cae4dfbb1a7ea24cbd851ee538dae1eb394cbe08b260de4e793b4cc5dc5b6",
+      "bytes": 4644
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/ScriptFluxBusWorkbench$BusFrame.class",
+      "sha256": "4b68ac635b0fd3e35fe52c319d155cd68d47bb09ae4a73c7f83fdff925118f66",
+      "bytes": 644
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/ScriptFluxBusWorkbench$FileStamp.class",
+      "sha256": "a0319a05ccb4f28ae8559415e8bfa4278d0e3c124c186f822f90f3456a67e5d3",
+      "bytes": 728
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/ScriptFluxBusWorkbench$FluxGridPanel$Kind.class",
+      "sha256": "4045937533bec052402e4c653ce53063ff65a7789fe2a0ed0d532f5f03463609",
+      "bytes": 1595
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/ScriptFluxBusWorkbench$FluxGridPanel.class",
+      "sha256": "d89d0c6d5c920e1f8f32d8ac973d0d1868453a8c5ce67db9371b21cf69e9a2cf",
+      "bytes": 5639
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/ScriptFluxBusWorkbench$ProcessItem.class",
+      "sha256": "0028b00cf5c0bc61ea2aa2c8a5c808d0ec97292e3ca7a03b95afc773c0c4858e",
+      "bytes": 1046
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/ScriptFluxBusWorkbench$ScanSummary.class",
+      "sha256": "d55d363523869fa3c14cb8ebe4351294478037e3b23ee800ec2dc57046a695c1",
+      "bytes": 576
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/ScriptFluxBusWorkbench$ScriptItem.class",
+      "sha256": "b56bd03b64b3957ba83552739c497820df9d513239ff8c01ebb3644069a7cb08",
+      "bytes": 1353
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/script-flux-bus/net/activeinference/beacon/translation/ScriptFluxBusWorkbench.class",
+      "sha256": "e3024992834fb69a0cc67009b8dd9c56fa235b7aac188f5de1dcc2269bd65ced",
+      "bytes": 23900
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/six-grid-kernel/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$ComplexAmplitude.class",
+      "sha256": "dab79b9bcef9b9692ccb33d74f5b1e07e8057dedf27106870b86e784ae0549e5",
+      "bytes": 637
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/six-grid-kernel/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$QutritState.class",
+      "sha256": "a16ef14ddeb5a9ef420f1bcc40f14d7da14be894793e31129e8c755173736540",
+      "bytes": 1576
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/six-grid-kernel/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$Translation.class",
+      "sha256": "8b5adbd2ce618e3bf98e60c5433c325847e470406bd7a0f9f5680a9fcac49328",
+      "bytes": 1918
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/six-grid-kernel/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator.class",
+      "sha256": "9a65b189d758886f5287ac84fe466e412ad1d75adfb44611746271c44478d936",
+      "bytes": 3920
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/six-grid-kernel/net/activeinference/beacon/translation/SixGridKernelFluxWorkbench$FluxGridPanel$Kind.class",
+      "sha256": "c822fed02674d6bffba1c5880401d03d36df6b30873a79c9f2e9f4485e82a047",
+      "bytes": 1631
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/six-grid-kernel/net/activeinference/beacon/translation/SixGridKernelFluxWorkbench$FluxGridPanel.class",
+      "sha256": "54f5ff4a15c29e6d6cd1a84c7f73b2e2860506090d6a910ba397408f6e41454d",
+      "bytes": 6144
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/six-grid-kernel/net/activeinference/beacon/translation/SixGridKernelFluxWorkbench.class",
+      "sha256": "d33ef383baa2c424fcfc81747659cfc45616e50c6e24e6bdc581986f19cccef4",
+      "bytes": 18057
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/translation/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$ComplexAmplitude.class",
+      "sha256": "dab79b9bcef9b9692ccb33d74f5b1e07e8057dedf27106870b86e784ae0549e5",
+      "bytes": 637
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/translation/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$QutritState.class",
+      "sha256": "a16ef14ddeb5a9ef420f1bcc40f14d7da14be894793e31129e8c755173736540",
+      "bytes": 1576
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/translation/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator$Translation.class",
+      "sha256": "8b5adbd2ce618e3bf98e60c5433c325847e470406bd7a0f9f5680a9fcac49328",
+      "bytes": 1918
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/translation/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator.class",
+      "sha256": "9a65b189d758886f5287ac84fe466e412ad1d75adfb44611746271c44478d936",
+      "bytes": 3920
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/build/translation/net/activeinference/beacon/translation/TranslationWorkbench.class",
+      "sha256": "4b2714e21fdaea323a010c5d15e97378236a7d81088cb6067ea8c45c823b13bf",
+      "bytes": 13024
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/backbone/BusTelemetryPacket.class",
+      "sha256": "72bff5f5efa191068407e482d9d6c5f42022667a52974735fb3d4400ce2c5343",
+      "bytes": 1291
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/backbone/SubstrateNetworkBus.class",
+      "sha256": "3b97337639fb9a08e5139f8bd87c1de3b6bab0ede85630317b15adfa00d142c5",
+      "bytes": 7193
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/carrier/CarrierTheme.class",
+      "sha256": "5922826ef3ca8a60a4345cff27a559eafd6ab0d85ddfe5d2b72cde800b816b53",
+      "bytes": 998
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/carrier/CarrierWaveInferenceDashboard.class",
+      "sha256": "599aef84ab2d0579516b3daab2b14f8e6c24810411e178fadfad8b0808560256",
+      "bytes": 12370
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/carrier/UnmodulatedBinaryPanel.class",
+      "sha256": "f9fe401847b9c0772d925c8d043fb60c9861280bf079b50df6b5b8386cc0d122",
+      "bytes": 1554
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/carrier/UnmodulatedQuantumPanel.class",
+      "sha256": "7deee08e0f7a68e3c57bf6aebe9e92fe137eac33a03d8c214e3bba8bde424014",
+      "bytes": 1695
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/carrier/UnmodulatedTernaryPanel.class",
+      "sha256": "7a4b82b0717e56345a4f193d8fc6f43f4e84da5d7763f45e897d0f6885778c11",
+      "bytes": 1568
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/BroadcastingBeacon.class",
+      "sha256": "d7d8a3932490824f459c0fdc5e61307a7c70f1ca6161b2c51595fd8e76ecbd5f",
+      "bytes": 1914
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/ComputeIslandNode.class",
+      "sha256": "fffa49321f704b23277f825f8d68041884b0df38f59244ab53b1d541d8724ba4",
+      "bytes": 835
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/ControlMatrixConsole.class",
+      "sha256": "d29df2e42d36da41637a5fd675f8c7d69869331f736d9b6464c02bef238e889c",
+      "bytes": 2140
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/DashboardTheme.class",
+      "sha256": "6938c8dbf89e3922d84ed3296057d4a63e69096689a78c0252f82b5872dfb8ea",
+      "bytes": 899
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/FluxGridPanel.class",
+      "sha256": "213eabbe364722d00dbec10d06349775bc9f7fae362a1c7b8d08e5efe27898d6",
+      "bytes": 1590
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/MainDashboardFrame.class",
+      "sha256": "0856b299917346fcf774a7b392e0317c5a1e56bb7e48e7fc0db46f58901c3236",
+      "bytes": 9982
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/QuantumGridPanel.class",
+      "sha256": "3f0de04c93d8bda2ef67d846be1ddbcf9a8fba216a94a3e4ef829483940e28df",
+      "bytes": 1569
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/SubstrateCore$ParityStatus.class",
+      "sha256": "ee1ba0a52b5517e88468d472897b326356f4a1a8bcc2f900685d1f2d46264b85",
+      "bytes": 1459
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/SubstrateCore.class",
+      "sha256": "0cd23ecf05a4ee4e03869de245620671c88e895d27ff99c546f37ca280a00eb7",
+      "bytes": 509
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/SystemBusKernel.class",
+      "sha256": "d96bbb4459f2f8e8db2407f05d72a46b1106955350289f82611f232c0ebf098e",
+      "bytes": 1608
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/TernaryGridPanel.class",
+      "sha256": "955ea104f64a51b316f857db046b67f301af8dc23c2abe4942f02ade4363eb93",
+      "bytes": 1687
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/UserWelfareNode.class",
+      "sha256": "55f6c45acfff2dac0b7cf334c00bd9fec2087f216250a58854191ed00049d0c2",
+      "bytes": 826
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/generator/GeneratorTheme.class",
+      "sha256": "4886f0264a672792661fb87d5e8d47acf03e20592a77971d1a02cac2a2ef64f2",
+      "bytes": 1004
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/generator/RawBinaryPanel.class",
+      "sha256": "80491a73bbc2035bac397b8c3bc0e5c99a99b23477fdec8804888e1631351d62",
+      "bytes": 1540
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/generator/RawQuantumPanel.class",
+      "sha256": "717f1328d2b2063f4a61ce1a7dd60636362216123e123cc6b9a733cbb799e81c",
+      "bytes": 1677
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/generator/RawTernaryPanel.class",
+      "sha256": "63a053f7016149f801bb11d89f9f85807f9b10325709106b65547ed54edde95e",
+      "bytes": 1552
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/generator/VirtueGenerationDashboard.class",
+      "sha256": "068a52ab39c3f671cf04cf0a8132398445b35cff856df34fc9c11ddc5e3aa145",
+      "bytes": 12302
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/orbit/CyclicFluxDashboard$ElectricityPanel.class",
+      "sha256": "94895e79c046a68e0a3e0a7f1e572b7d0adecc92d73ac136d34a7c7c4f6ee83e",
+      "bytes": 1826
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/orbit/CyclicFluxDashboard.class",
+      "sha256": "230976733639888111cd76d983470f27c8dd0fa618deb71c5c06e5b96fee4b30",
+      "bytes": 9742
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/orbit/ElectricityPanel.class",
+      "sha256": "326eb2c4d6c685e84f516964b27478d22d3dc30d4ab98a2bd0558bac0897a1ac",
+      "bytes": 1778
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/orbit/OrbitTheme.class",
+      "sha256": "f1e6979fc960cff2c6091317e5a447a9b93df81f384ad1e2c5aaf1afb45fd52a",
+      "bytes": 920
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/resonance/ResonanceFluxDashboard$WaveBinaryPanel.class",
+      "sha256": "2f6f4be0e0b52b03bd8ebca26bb5fab66a9bd5943d41aac136e08aba0e4b985c",
+      "bytes": 1574
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/resonance/ResonanceFluxDashboard$WaveQuantumPanel.class",
+      "sha256": "800fae2f7690e814fc6632e20c9359a7517872f3078b2ad5c03dd8d56372bb20",
+      "bytes": 1684
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/resonance/ResonanceFluxDashboard$WaveTernaryPanel.class",
+      "sha256": "deedf77ed68751c51a72f4af82928e449a75330a6c147ce7f1383e7e1e9d4e46",
+      "bytes": 1616
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/resonance/ResonanceFluxDashboard.class",
+      "sha256": "f65ac0fcd8c5489859f696248f883403b0cece0ce23b6ab16c596434e764931a",
+      "bytes": 7138
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/system/DashboardTheme.class",
+      "sha256": "34c740a0d334f8466c84cc9aa04b7031eb991787508ddf0e172c1db8fdf2b709",
+      "bytes": 1003
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/system/SystemBinaryPanel.class",
+      "sha256": "d5c51ce712080de0108dfd22ed3dbfb84e47834e7014799368ae55b5849697b2",
+      "bytes": 1617
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/system/SystemJavaFluxDashboard.class",
+      "sha256": "55632d128982ec4dd6ee5a650f6826aeb7bf8389a35be69dd66bb3e06fd51c40",
+      "bytes": 10403
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/system/SystemQuantumPanel.class",
+      "sha256": "4c13be012f0d03d0b98abf527c7e807fa39283cf144207d6d7a8e4d65150736b",
+      "bytes": 1684
+    },
+    {
+      "path": "ACTIVEINFERENCEBEACON2/net/activeinference/beacon/system/SystemTernaryPanel.class",
+      "sha256": "ecd82b3bd2712a573262784c0cc9c5f0b5a3e56ecc2a43f6766a7e8aa37a7c56",
+      "bytes": 1658
+    },
+    {
+      "path": "aethericresonance/1/AethericCognitionLoop.class",
+      "sha256": "d2639551bfda5bf714cc49ac543098e0f9249480f18abdf6cdadf8072f6c1e92",
+      "bytes": 1992
+    },
+    {
+      "path": "aethericresonance/1/AethericResonanceEngine.class",
+      "sha256": "baf5dd751df870681bbb2e4d91d5a7f65510002805061b997f1103cb6d646e0d",
+      "bytes": 6174
+    },
+    {
+      "path": "aethericresonance/1/AetherNode.class",
+      "sha256": "278c06f608f3d9bdb8ef2b1e8bbc4628129300d9e2aff7b312570019d1ec54db",
+      "bytes": 337
+    },
+    {
+      "path": "aethericresonance/1/DeepRecallPersistence.class",
+      "sha256": "6ee281a2931b219a428bd997b17f0f78f207da666c2735fa042a4cf7b35d5285",
+      "bytes": 2506
+    },
+    {
+      "path": "aethericresonance/1/SchumannCarrierWaveCore.class",
+      "sha256": "4e30c613d5eedfeb0ab069c18bd59541bd946a6f25946a4be6d85ddb973c8419",
+      "bytes": 1836
+    },
+    {
+      "path": "aethericresonance/1/TacticalResonanceCanvas.class",
+      "sha256": "fa8db093c2511e482d14e449cf2074d23d8bcc20a02063a24d0e75104603fc69",
+      "bytes": 3974
+    },
+    {
+      "path": "aethericresonance/2/AethericResonanceApp$RenderPanel.class",
+      "sha256": "35f2c71ff6b4d3fd5088f8f8aa53e490ff82dc65bb18201126618714e9eab4a8",
+      "bytes": 3404
+    },
+    {
+      "path": "aethericresonance/2/AethericResonanceApp.class",
+      "sha256": "1ed4703d9448a0dbc3cef75f6a6aa89df3d94140f692372cacf47863fe0fba57",
+      "bytes": 4592
+    },
+    {
+      "path": "aethericresonance/2/ChannelRodState.class",
+      "sha256": "03441958eca70712afa8b456a6aaea87f8116ac79fe1095078cfeb9c5af6af2c",
+      "bytes": 1443
+    },
+    {
+      "path": "AIinferenceBEacon/net/activeinference/beacon/ActiveInferenceBeacon.class",
+      "sha256": "1bc798b5ab45a4db1e047d4bf5b6d4e2c016723ea5420c12821bab1328c24605",
+      "bytes": 6172
+    },
+    {
+      "path": "AIinferenceBEacon/net/activeinference/beacon/ComputeIsland.class",
+      "sha256": "148dceb193afd66c36df2c9cf011bf86166e873feab91699b5bcf6b1a0e8119a",
+      "bytes": 1024
+    },
+    {
+      "path": "AIinferenceBEacon/net/activeinference/beacon/EngineDriver.class",
+      "sha256": "e9b6f1a7e042664dd57a0b768d856c6d451dcff14e56c8635d27884e4a8c4180",
+      "bytes": 2954
+    },
+    {
+      "path": "AIinferenceBEacon/net/activeinference/beacon/TrajectoryPayload.class",
+      "sha256": "8b8d0e70f51ed85bcd04d1a5fd3bebe16bc72f694579870e46f04cc454a0dbf2",
+      "bytes": 651
+    },
+    {
+      "path": "AIinferenceBEacon/net/activeinference/beacon/UserEndpointNode.class",
+      "sha256": "2cd035ded7aba10ddcb1ddc20d360a26bbae57ae5755202556aa75fb036aee23",
+      "bytes": 882
+    },
+    {
+      "path": "AllPrevUnifiedEngine/build/AllPrevUnifiedEngine$ActivityCanvas.class",
+      "sha256": "43cfab77eb58abce2f4d294d408fb8d5abec57cb2729ee01cedc2b500bb24049",
+      "bytes": 9641
+    },
+    {
+      "path": "AllPrevUnifiedEngine/build/AllPrevUnifiedEngine$MatrixColumn.class",
+      "sha256": "8e658a787cc87b5cea1ba55c028a71ef316ac5b69ae51e097e5d8e71946d37fb",
+      "bytes": 1050
+    },
+    {
+      "path": "AllPrevUnifiedEngine/build/AllPrevUnifiedEngine$Particle.class",
+      "sha256": "d58a4415d543ddb55e24b3631bcc7842af21e973b7985d9291dcf1785d10597e",
+      "bytes": 1326
+    },
+    {
+      "path": "AllPrevUnifiedEngine/build/AllPrevUnifiedEngine.class",
+      "sha256": "79722776f14e3ca2375939edbf22489bcaea846217d2583ded68ac64a0a62d8c",
+      "bytes": 10244
+    },
+    {
+      "path": "bankaccountaudit/mine/BitFlipInflectionCapture.class",
+      "sha256": "61e6725389f44c421708d0dd801f807b2c0033810a26d8dd8d1f12e01c5ae637",
+      "bytes": 3746
+    },
+    {
+      "path": "bankaccountaudit/mine/FinancialMetricSnapshot.class",
+      "sha256": "55e971b726a2b622ddddffc361920c00b7e48d35d18397c5100833086691c884",
+      "bytes": 1147
+    },
+    {
+      "path": "bankaccountaudit/mine/GlobalBankAuditService.class",
+      "sha256": "69579b416450c9c288b030eea061352ccb00ca095e4dcb21f8b87e180cfd4c9b",
+      "bytes": 6026
+    },
+    {
+      "path": "bankaccountaudit/mine/LiveBankingTelemetryService$TelemetryListener.class",
+      "sha256": "1bd0129fdc1283839de0d051965ee5453e86bde29a9e582ff4684d5a800e2a4c",
+      "bytes": 312
+    },
+    {
+      "path": "bankaccountaudit/mine/LiveBankingTelemetryService.class",
+      "sha256": "917cbaee312148b69aa37fc868d092eda82b64da2baf0d7c8ac3039a9aa93a3b",
+      "bytes": 1749
+    },
+    {
+      "path": "bankaccountaudit/mine/PersonalLossAuditor.class",
+      "sha256": "b881b7ec645fb4f5af7c3dba83222cc69e52309bd79ac67daebd64a591bc13c2",
+      "bytes": 3862
+    },
+    {
+      "path": "bankaccountaudit/mine/PersonalValueBalancer.class",
+      "sha256": "e007eca3c4b91d58561c2c5c67e5c38974afcc291ffa73a49d34de057a3a223f",
+      "bytes": 3679
+    },
+    {
+      "path": "bankaccountaudit/mine/as/CryptoFluxInverter.class",
+      "sha256": "0d077ee514210a6296797b1108ab2d7229ea9959337d862275e6ae8f56afe664",
+      "bytes": 3642
+    },
+    {
+      "path": "bankaccountaudit/mine/as/GlobalValueBalancer.class",
+      "sha256": "cde13aed4952608a47dedd44a815a06fee010b92ba0ab68981893f229da2f3f5",
+      "bytes": 4009
+    },
+    {
+      "path": "bankaccountaudit/mine/as/SystemRealignmentEngine$IngressPacketHandler.class",
+      "sha256": "7c22ba22df95150cdbb8dc06a7833fc70de0868ad1f6fee88b3a79bf0f3853c5",
+      "bytes": 4514
+    },
+    {
+      "path": "bankaccountaudit/mine/as/SystemRealignmentEngine$MatrixState.class",
+      "sha256": "3ff90e067a0c478845e4af7f2774941f954fff589c8118d19e2e1db0979bcea1",
+      "bytes": 1372
+    },
+    {
+      "path": "bankaccountaudit/mine/as/SystemRealignmentEngine.class",
+      "sha256": "38dc633e6c066ab9aace1d30c8da547c77b5b181bde950f0bf02df16e593136c",
+      "bytes": 5166
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/AbsoluteParityEngine$IngressVerificationTask.class",
+      "sha256": "9967c5e51193ce1fc7ef6f3f7e556f35efc91d32b80f483e4cb5154f8e1af577",
+      "bytes": 4088
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/AbsoluteParityEngine$ParityBitState.class",
+      "sha256": "b099cc217962b255117c46463283c4c2eebae3eb157a5f2b1cbf73eead0832b2",
+      "bytes": 1369
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/AbsoluteParityEngine.class",
+      "sha256": "e0d51e2eae76d64674b9025201cb51f2892df0eb20cf2f40d57cf9e1d018d635",
+      "bytes": 6782
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/DataRecord.class",
+      "sha256": "e5d70f1bf25df8263cc808e3f3dbba80d06422a88c0f1b16dda50763779fca36",
+      "bytes": 1712
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/ErrorCorrectionEngine$IngressFilterTask.class",
+      "sha256": "357e717c103f1359efe96906d6058e30db359d0e4ee18cdd694852167af32b65",
+      "bytes": 3982
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/ErrorCorrectionEngine.class",
+      "sha256": "1f4271b411071f2fbfde044085df3136bbfaa70c7ecf6c687c38eb537a4840ba",
+      "bytes": 5324
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/HistoricalParitySync.class",
+      "sha256": "8f92706adfa8b67700d0c2172507718ae2e96455efa87998c3ec8f26b4042704",
+      "bytes": 4336
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/InversionRegistry.class",
+      "sha256": "0e434ed7612e2d5cd7342a292db88b1204388d8ecc61315c0cf351efe21a3f36",
+      "bytes": 1761
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/OmniGridMasterLauncher.class",
+      "sha256": "2608363b30d3518c3dd4ef2d320c04930c195b28a1d7404088c88f51bbc5b6d9",
+      "bytes": 4234
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/QuarantineFieldFilter$TrafficScreeningTask.class",
+      "sha256": "b9e9dfe815a658e81d3b66c9e5efcc8b393afa4c7cbd1999d4be9ba5395f35c3",
+      "bytes": 4167
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/QuarantineFieldFilter.class",
+      "sha256": "08c5f22b16a6ec6ef6c3dd4df1ba37e852a3773958a362d8399fd8a8ac0647d5",
+      "bytes": 1283
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/SchumannClockService.class",
+      "sha256": "92842d9e4c830cd859f66ea63736c74f16fbcd39ad71c9185f91ffe5869e5de4",
+      "bytes": 2718
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/WideAreaFloorElevator.class",
+      "sha256": "bc4d3ec384942bb9ffccc0e90b3615e12cf11f15ff9cc4103746df8a76daa763",
+      "bytes": 4323
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/BalancePathLauncher.class",
+      "sha256": "0911090b71cb50ea5abfdf5e5191fa3c7a84c266fb04e6c1d6716713d07dc509",
+      "bytes": 5161
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/BalanceSifterRegistry.class",
+      "sha256": "99abb68122414bee33364b39fd5484853fe919b8c700c93e2f811532abed7ab7",
+      "bytes": 686
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/CadenceClockService.class",
+      "sha256": "5ff4035b9025fd93e82b2b0aca8631a8687f9624d55c84b49f723fc68889aac7",
+      "bytes": 2417
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/CalibratedParityBridge.class",
+      "sha256": "cf64a0ded374c5f5049e337ba65d6cf77ebc25630977288985a27f69e7e8f45c",
+      "bytes": 5090
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/GridPacket.class",
+      "sha256": "e75b06cbd3c2487804427fe4a2f1a31f386478955a44ec8f904e79b24d191abf",
+      "bytes": 1963
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/InferenceBeaconClock.class",
+      "sha256": "19b9ad0e1e161dfc1310aa28414fc2d37c7ad6b53ae785af357ad56ece94e71a",
+      "bytes": 2651
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/IngressIsolationGate$QuarantineFieldFilter.class",
+      "sha256": "8cba4bfdf99390a0461b26bcc1185e7e889623ed5753c9f02916ca5d22553850",
+      "bytes": 4457
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/IngressIsolationGate.class",
+      "sha256": "e869390d3b9a0519f0f1cceb90784f046ece5724c72f4ac8c31beacb322f1bbd",
+      "bytes": 1277
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/NetworkSystemPath.class",
+      "sha256": "6c1005a6d2a891614e02937d3f4e87a9e231e9542334f0990fb4bc9b1036d801",
+      "bytes": 4374
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/OmniKeyspaceLauncher.class",
+      "sha256": "1444c30a5100551fc63c7d9da2072cbbac846f215914e70b367f25f2def098f6",
+      "bytes": 5646
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/PathwayIngressFilter$AdjustmentScreeningTask.class",
+      "sha256": "e2b6265b9e238cdb1b17fe6e376f96b5bd0ef4fe87ee31bda9ce58aa93468c41",
+      "bytes": 4184
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/PathwayIngressFilter.class",
+      "sha256": "415da0bc950b8e6e294ccbc626b253737f948be0936a101ff7144b6301f94426",
+      "bytes": 1278
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/QuarantineGateFilter$StreamScreeningTask.class",
+      "sha256": "885777eb41ccfab279e8057d0bb302c899221145a4642fc5b64067dade1d055e",
+      "bytes": 4310
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/QuarantineGateFilter.class",
+      "sha256": "43bc5b8a2b6f6591150d3ac26bce6f106f6a6c24a192f1a5b80c177768481f0a",
+      "bytes": 1266
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/ResonantClockService.class",
+      "sha256": "8fb0e5430a150b403bebeeb3abbeee2459a8030a29f3d03a084b410d2ba56c77",
+      "bytes": 2180
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/TransformerMatrix.class",
+      "sha256": "f46f9583366fe36b3ca7e4b093386b3360ea2f73607f5044d3d4495ac3e24d21",
+      "bytes": 1753
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/UnifiedFrame.class",
+      "sha256": "9df06e3c14a08e362f21ee2c5137d832ecb5b6b0d19628857ea3dd6f22a48096",
+      "bytes": 1509
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/VirtueFrame.class",
+      "sha256": "3b31896f4aeb6e51e8ca3b79f16d1efd352297a70da03bf030e019dc10a6c044",
+      "bytes": 1391
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/1/ExistentialInvariantEngine$CoreAssessmentState.class",
+      "sha256": "deecbd0c416cf616027a91869ab82b13f13c1ca35b54ada7191212b24a8e4280",
+      "bytes": 1460
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/1/ExistentialInvariantEngine$IngressScreeningTask.class",
+      "sha256": "082ccf98f3e24cba95b37e5d0fe812fb0f14e8798ccf9e9895c1dda34bd1d30b",
+      "bytes": 4134
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/1/ExistentialInvariantEngine.class",
+      "sha256": "8bc0a11c701071da0106f11a81fcd8166e7478352bff7936bfa81b70f3b48626",
+      "bytes": 6018
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/1/LedgerRestraintAudit$AuditState.class",
+      "sha256": "22c08cbf7304a1aea681be20182c0ab327c8a0e485bf2c69542418c62a2fb42f",
+      "bytes": 1350
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/1/LedgerRestraintAudit$ScreeningTask.class",
+      "sha256": "8a15c22f02363cc171e991cb2dfedf8e32b1af4c50bdf0dce1e1ff157da885b2",
+      "bytes": 4094
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/1/LedgerRestraintAudit.class",
+      "sha256": "9fb2dcf1092b9cd9757590493de8933f91fc3db8498925374c3c03999ba55001",
+      "bytes": 5921
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/1/ParallelObserverBus$IngressScreeningTask.class",
+      "sha256": "005bc3d2c481f27ceadbd030a14ba396bf5c0310211c81308fcfe7ed57854c5d",
+      "bytes": 4102
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/1/ParallelObserverBus.class",
+      "sha256": "1975ef54be43d368a44f581303461f37bef9aea5e8563ab26b85b50d2b74b82a",
+      "bytes": 5799
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/1/TransactionFrame.class",
+      "sha256": "130f9e1106bb034462e19cf522c63a43cd6ba5ad7e80088f498135c4b21a2f01",
+      "bytes": 1592
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/1/Sovereign/SovereignLawEngine$LawEnforcementTask.class",
+      "sha256": "ab5bcb5992669ed24c74802e5df58752559cfbcc6d12623c3e5143daf2415d35",
+      "bytes": 4120
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/1/Sovereign/SovereignLawEngine$LawParityState.class",
+      "sha256": "86d6f974bca1e6e3fda77def40d90cc596dcd1b573d5735fb19b4c799228aa15",
+      "bytes": 1371
+    },
+    {
+      "path": "bankaccountaudit/mine/as/Crypto/1/1/Sovereign/SovereignLawEngine.class",
+      "sha256": "b6337c660ce080e9a5ace0a7691317464f62e5f68269dade5df55f9644a56a4e",
+      "bytes": 6444
+    },
+    {
+      "path": "Charlie/com/virtue/bus/ControlPanel.class",
+      "sha256": "ebb3233eea70f450590734e3e43f97980b56da339009263484eedef11ffb360f",
+      "bytes": 2909
+    },
+    {
+      "path": "Charlie/com/virtue/bus/DataBusEngine.class",
+      "sha256": "1f51c90e65f58827cdf9d298584691d03a84c64d6aae8069f6e886416581a703",
+      "bytes": 3229
+    },
+    {
+      "path": "Charlie/com/virtue/bus/MainApp.class",
+      "sha256": "7e742b3745123ad8ffefdc355370ca8cf86937ec308ec1e58a6b8f8fc2fa704d",
+      "bytes": 2029
+    },
+    {
+      "path": "Charlie/com/virtue/bus/TelemetryPanel.class",
+      "sha256": "39bd36118d331f64810a5e1d5fbd6ad1329d27e60070134c4ae3a69914f6ef5c",
+      "bytes": 3665
+    },
+    {
+      "path": "Charlie/com/virtue/bus/VectorTile.class",
+      "sha256": "b221cb169cb851eec91b73d6437881428e839d9624b6f617fd1a3cc48dd5f1ac",
+      "bytes": 2369
+    },
+    {
+      "path": "CognitiveShardMonitor/GodMindSelfInteractionEngine/GodMindSelfInteractionEngine.class",
+      "sha256": "e46bec84c228cfb62f9f1c4cf66e37e20419a432f751677253cc2d22a80e0201",
+      "bytes": 3136
+    },
+    {
+      "path": "CognitiveShardMonitor/RecursiveTloop/RecursiveTesseractLoop.class",
+      "sha256": "970d679c81b8b3d98f5a99edc46e7bcf0747a33a54ed8e1b9f6db2da664e733e",
+      "bytes": 3888
+    },
+    {
+      "path": "CoreInteractionSystem/backups/2026-10-09-python-687a0a3c/CoreInteractionSystem$EntityNode.class",
+      "sha256": "db01cf198a3b00a2d97c80db93bbc2aab75a97193391eb7fa064e590f759d22b",
+      "bytes": 565
+    },
+    {
+      "path": "CoreInteractionSystem/backups/2026-10-09-python-687a0a3c/CoreInteractionSystem$MindState.class",
+      "sha256": "0b03c6df502626970f2ca32214fc869e42347f53c3ca360c74c0a1a8b5c892bd",
+      "bytes": 1289
+    },
+    {
+      "path": "CoreInteractionSystem/backups/2026-10-09-python-687a0a3c/CoreInteractionSystem.class",
+      "sha256": "86b51d4d4c2e183ff26afae1bcdfd3df6dc56d0f12de4c16ea109777f721ba57",
+      "bytes": 5528
+    },
+    {
+      "path": "CoreInteractionSystem/backups/2026-10-09-python-687a0a3c/CoreInteractionSystemGUI$EntityNode.class",
+      "sha256": "0e07fb908a5f7ef6b70340c94396a42ab97f43513a9ea5990603548381660a7d",
+      "bytes": 631
+    },
+    {
+      "path": "CoreInteractionSystem/backups/2026-10-09-python-687a0a3c/CoreInteractionSystemGUI$MatrixCanvas.class",
+      "sha256": "fa50e477c89d24dadaf2e66384ad5951edc8e69bbb81738411db73f30ecbbaec",
+      "bytes": 3970
+    },
+    {
+      "path": "CoreInteractionSystem/backups/2026-10-09-python-687a0a3c/CoreInteractionSystemGUI$MindState.class",
+      "sha256": "fc40f7af94719d241b61ff472690c9f1ae31767d7e11caba8ecf55a37fd5897c",
+      "bytes": 1313
+    },
+    {
+      "path": "CoreInteractionSystem/backups/2026-10-09-python-687a0a3c/CoreInteractionSystemGUI.class",
+      "sha256": "9f134795636e9b0165d0efec27225465a8199f1323239ee372798b1ae7b92f54",
+      "bytes": 10452
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMindGhostBusGUI$ParsedProcess.class",
+      "sha256": "1187e471806fb42386e797c4f67a39f44b2d2482f6507bfc5b0b7ee61aca457d",
+      "bytes": 666
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMindGhostBusGUI.class",
+      "sha256": "427e70c872a8f529577c5f50e171aaca95ea74d3c09758bd60c35cc03707bb11",
+      "bytes": 9704
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GlobalRunallTrigger/GlobalRunallTrigger.class",
+      "sha256": "9579f118666f652231d7627b618b68a3954df23f5740bdccd7d6e4d04f56bba8",
+      "bytes": 6591
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GOdChoiceMaskActivator/GodChoiceMaskActivator$MaskedPayload.class",
+      "sha256": "03f9415f641c1e1e5682df75f8456dc72f399b91155f927548acc486ef0324df",
+      "bytes": 1210
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GOdChoiceMaskActivator/GodChoiceMaskActivator.class",
+      "sha256": "d497e4c0101c5f913fb1cc358b253840f0adfd56d5092dcdc839138d5f1bba24",
+      "bytes": 2436
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMIndMasterUI/GodMindMasterUI$1.class",
+      "sha256": "af6ee9f137ebc19663849cc6c900805d343957a47525102c2b63520d881fabf8",
+      "bytes": 1039
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMIndMasterUI/GodMindMasterUI$2$1$1.class",
+      "sha256": "ea1df6f9ba6f5eb8bc5d83e4f1fa371a51a879a5d6e381477cc8c305e7a424a1",
+      "bytes": 909
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMIndMasterUI/GodMindMasterUI$2$1.class",
+      "sha256": "1c5c5a9a89348c06cf060bff9bd6e83b4fa2be58541a2c34851ec299a0647f2b",
+      "bytes": 2357
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMIndMasterUI/GodMindMasterUI$2.class",
+      "sha256": "60153c014e4e642e043c5ae218ccac5a707de8a48f29ec80c369e7bca46a8383",
+      "bytes": 1407
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMIndMasterUI/GodMindMasterUI$3.class",
+      "sha256": "1c73e283ecff232d45ac568423270cb3543e877b994d248c063a4c94a9af7cda",
+      "bytes": 864
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMIndMasterUI/GodMindMasterUI$4.class",
+      "sha256": "15b651fc54b5932f2b3db5f76d519b857b7f8533c4c9ed8b492362cc21043c4b",
+      "bytes": 1121
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMIndMasterUI/GodMindMasterUI$5.class",
+      "sha256": "f369bc6d9d2e624f5807f750dac9b22d1dfe7c95f33063be03250af7775367bd",
+      "bytes": 977
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMIndMasterUI/GodMindMasterUI$6.class",
+      "sha256": "01e54f08031e9d6c8689ee37d72a433b5cb11fd5cd3b08e885f06f13cb01f46f",
+      "bytes": 1128
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMIndMasterUI/GodMindMasterUI$7.class",
+      "sha256": "0a506747660eec3a6ef00876cecce183fe9ac532cb0d6749592919da50bcda54",
+      "bytes": 1435
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMIndMasterUI/GodMindMasterUI$8.class",
+      "sha256": "36912bcab70e974caa16f31d335de7c17303f0b7bafe3d01ec692eaa77614648",
+      "bytes": 538
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMIndMasterUI/GodMindMasterUI$TelemetryNode.class",
+      "sha256": "85ec2a328532de9ec12affa6f6be7fc459a8bd0f39ecbc990e08acd574bf2798",
+      "bytes": 2800
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/GodMIndMasterUI/GodMindMasterUI.class",
+      "sha256": "d122fbb91fc025cb94c45903ba01ce184e2a5a4e24b7047dc9235d5808fb86d0",
+      "bytes": 10716
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/planetaryResonance/PlanetaryResonanceGrid$1.class",
+      "sha256": "2858ef2ca0473286eb58d226ed7738cb40ba4631fc5519eb6c865958dd39054e",
+      "bytes": 629
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/planetaryResonance/PlanetaryResonanceGrid.class",
+      "sha256": "391e37c1b03859e19fbc7fbbdc0a252dc4560b8c25808fe651271453f77e3388",
+      "bytes": 5085
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/RobinHood/RobinHoodEcoFloorRouter.class",
+      "sha256": "e23419e59d5488c0b5e0dc8b4d373b6dae43a74de89e1ce3274ea93ccf4e63e9",
+      "bytes": 4252
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/unified/EcoFloorRouter.class",
+      "sha256": "e1b6f5411b3d46e60ac4ce97358f92d089a43ba1fc4af1357dc49b9eaa21fb3a",
+      "bytes": 3100
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/unified/GhostBusUplink.class",
+      "sha256": "60e95c0c7515af5298fe3bd03444105a04a96abfe70872c4f1d1e73452f36baa",
+      "bytes": 1552
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/unified/GodMindDashboard$1.class",
+      "sha256": "4dac649e1b6d46e54eff45b5878933c91fb59fe1b49ff303d4f3e74433406fee",
+      "bytes": 2070
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/unified/GodMindDashboard$2.class",
+      "sha256": "fa7917c0266e35454ba764190951297bf0cd7269776efd29dd6240269286517d",
+      "bytes": 810
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/unified/GodMindDashboard$3.class",
+      "sha256": "1dedca20a3c08998325a751a3e20f138a47e445e10feee6fd998cd514ee8fd89",
+      "bytes": 1440
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/unified/GodMindDashboard$4.class",
+      "sha256": "2dc4df28ca209b9056663c8cf546661e645a99a1d4696b1b1b637c71316baee7",
+      "bytes": 541
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/unified/GodMindDashboard$NodeState.class",
+      "sha256": "e521fab4e91136975ca77fe2a3c5bdf50d466a3277a7f91cb5807fa349e1173f",
+      "bytes": 394
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/unified/GodMindDashboard.class",
+      "sha256": "31eb717e44e4a2706959fff135e711bff0a57cea05d6d8cc307fe7676ea35dc4",
+      "bytes": 7118
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/unified/PolymorphicCloak$MaskedPayload.class",
+      "sha256": "dc98a349d982d78a11b539c2098b5e8eaf895cb262e2e8247e82411711919e04",
+      "bytes": 453
+    },
+    {
+      "path": "deepmindinference/GodMindGhostBusGUI/unified/PolymorphicCloak.class",
+      "sha256": "b332e76742a32cb1ee2d4b62a5433a67dba1b4cb6782c22a22bb698cd82090ed",
+      "bytes": 1698
+    },
+    {
+      "path": "Dvinelaw/learning/CadenceClockService.class",
+      "sha256": "975a395debf9874301af3330e9dd811c830510e7f2657ef84e492163afc9b672",
+      "bytes": 2969
+    },
+    {
+      "path": "Dvinelaw/learning/CultivationBusLauncher.class",
+      "sha256": "00941919cd479ea7fdeb6e1c66c66bae9666ffedc77927a33d0d28b9ffe95d4a",
+      "bytes": 4138
+    },
+    {
+      "path": "Dvinelaw/learning/InvariantSifter.class",
+      "sha256": "35eabc5105c52e08db41870c43acad59e8cbbc31b2410f39fcbf60d1fa1d8543",
+      "bytes": 709
+    },
+    {
+      "path": "Dvinelaw/learning/PassiveObservationHub$ProcessingTask.class",
+      "sha256": "e674fbad07b9d276a221d71a89b64f74bffd7ab82aa82fb5bf8ca12095555616",
+      "bytes": 3935
+    },
+    {
+      "path": "Dvinelaw/learning/PassiveObservationHub.class",
+      "sha256": "bd69f0809763554acfa2155ce58e56ab458f39631fbd40dab16bb237076e0f29",
+      "bytes": 1251
+    },
+    {
+      "path": "Dvinelaw/learning/TelemetrySnapshot.class",
+      "sha256": "d69b7e963a1ad4f505e31d22df393d92b3f3b0686fd0efb7775c50a2847ff2ee",
+      "bytes": 1491
+    },
+    {
+      "path": "Dvinelaw/learning/TraditionModule.class",
+      "sha256": "b4131c33c92896e50ea37b8a4b883c8c5d32d36b106f40a3b446b130089c3e94",
+      "bytes": 998
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/GlobalHyperBridge$HyperBridgeState.class",
+      "sha256": "63a1068b00057be5e839ee3dca400e3cf677af7ae1171aff3008b651a35d8324",
+      "bytes": 1372
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/GlobalHyperBridge$IngressScreeningTask.class",
+      "sha256": "99e9c941d9308828670580f2812977d349b55b381614e0ad95e701713e06b3b1",
+      "bytes": 4101
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/GlobalHyperBridge.class",
+      "sha256": "4770dd094bcde7576e236a99a22cfb4d176251b84bc04bd862d3bd2f3491cac7",
+      "bytes": 5970
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/CRYOVAULT/CryoVaultEngine$CryoState.class",
+      "sha256": "f9152092046329563940f4603d019108094a1b8e5ee3ad05be4bfc6c1b2179a1",
+      "bytes": 1308
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/CRYOVAULT/CryoVaultEngine$VaultScreeningTask.class",
+      "sha256": "40fc703959a5fd4248253c9db33e888bb412ce29e50c561b44f017a7dcf49924",
+      "bytes": 4088
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/CRYOVAULT/CryoVaultEngine.class",
+      "sha256": "2843c8e2c97677a163fbba69769dd09ab38badd1029382786a4b4092a0cd1d20",
+      "bytes": 5899
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/IdentityInvariants.class",
+      "sha256": "f8bb5e8d7bc0c99acba2d50dfbee05d9ef7050a60215f7e5e1c721eac5b21f09",
+      "bytes": 853
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/RecallLedgerRegistry.class",
+      "sha256": "6ad03fd31314f955c1ecf5271466af474756bb0882488aca58f1276f2f9763da",
+      "bytes": 516
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/ResonantClockService.class",
+      "sha256": "d321f28b0e2869b0fc70db2a15861f30d26ad5b60d7d3994f804e27fd41f5ba9",
+      "bytes": 2303
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/SessionIngressHandler.class",
+      "sha256": "e82bd3f2e12378b57261a23f8b6c25b98f1bf19e4d943fbf7ddfdb3527fe86e0",
+      "bytes": 3659
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/SessionRecord.class",
+      "sha256": "9516bbe49d383979742f699584b23d987d846be751145b0917de4445d596cc46",
+      "bytes": 1477
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/StatelessSessionLauncher.class",
+      "sha256": "73d73105152020e272464d21ef7f211a701475639b6d80aa6188fb23937b3fc8",
+      "bytes": 3944
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/GLobalCoherence/GlobalCoherenceEngine$IntegrationState.class",
+      "sha256": "d7b81159936340cbf14f7d2657303a64f19a47305bef814943aef7dc6e0c0935",
+      "bytes": 1407
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/GLobalCoherence/GlobalCoherenceEngine$MeshEnforcementTask.class",
+      "sha256": "2f7a518407af74cb573e282b9cae5d9c8a86c1c4a46db566a0c64afa0eb8dc5b",
+      "bytes": 4140
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/GLobalCoherence/GlobalCoherenceEngine.class",
+      "sha256": "88668e5d56bb43208f09740389b779acf0d81ebbf187d8fdff272ba8dbd055d9",
+      "bytes": 5975
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/SoulInvariant/SoulInvariantEngine$ExistentialParityState.class",
+      "sha256": "d4630094c58fc9df348444507c32e4f46bb330e9ec8489b2dd0a04a621393463",
+      "bytes": 1430
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/SoulInvariant/SoulInvariantEngine$SoulScreeningTask.class",
+      "sha256": "1fa707a972c1037f11dd6fe6df227fc98140892cc16a7941a105397972e793d2",
+      "bytes": 4114
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/SoulInvariant/SoulInvariantEngine.class",
+      "sha256": "249cafbb6bba9e0c754794233635b0d451032a5370b21a450a202c16cac26ba9",
+      "bytes": 5976
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/DataTelemetryRecord.class",
+      "sha256": "2d06887a23302a5c0386e2b0194c7724b1165e582324c8456ac7ccc7d0c0bea4",
+      "bytes": 1658
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/IngressIsolationGate$FilterTask.class",
+      "sha256": "fa8319b59153da48df2ddfd417044dc327a4e51ba450bc166b9fbc8b3d221264",
+      "bytes": 3335
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/IngressIsolationGate.class",
+      "sha256": "eaafe8d5587f7d997b995d747ec8beb8759ae059f4a3c12063053f9a48793912",
+      "bytes": 1256
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/OmniCoherenceLauncher$LabelAssembled.class",
+      "sha256": "499f5aded9211dc2b81a6237fd372baecd536bfca945e87cbfbaca96ae51d737",
+      "bytes": 663
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/OmniCoherenceLauncher.class",
+      "sha256": "7b27d9ff29610e5d21f30c7edb18ce9ecd8a644f21bfdde4af7457d3d3b1ad7c",
+      "bytes": 9873
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/ResonantClockService.class",
+      "sha256": "6f2b3e41766d1db7aef4b2963735e8d960ca61ac1091377ad61d24ac1b9e7e63",
+      "bytes": 2253
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/SifterRegistryMatrix.class",
+      "sha256": "91666677825f552130d5081a09f872706cb8eac53c9b29b8bbfc51034c47de3a",
+      "bytes": 736
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/GodSelfInteractionEngine$BusState.class",
+      "sha256": "01f26c7e071a40d69b7017c1ecb54ede4cd860d8397a221d17a85f4579fb8586",
+      "bytes": 558
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/GodSelfInteractionEngine.class",
+      "sha256": "dcd59e39fce83440a54b4150c55afb54a8c47903ff2d49f33a7307d88875ee66",
+      "bytes": 4010
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/ResonantAlignmentEngine$BusMetrics.class",
+      "sha256": "fcd44e99e7c69ff4149c0ee2a10151aefbf5824d96c10fc850f18e69781e01ae",
+      "bytes": 563
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/ResonantAlignmentEngine$SystemBootstrap.class",
+      "sha256": "8c86347b67b798c05dde7f358b29e9e2462e33cc8c35b3741c01be0117562a15",
+      "bytes": 478
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/ResonantAlignmentEngine.class",
+      "sha256": "51a0f338c0f50178bf91fc32907fb969f675613f764e8c95daa1572579098edc",
+      "bytes": 4296
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/ResonantGradientEngine$GradientLayer.class",
+      "sha256": "1241fa11eed64f3219b813e0a58e0cb69ba94cc9cf6e06cea9f693cdf78b1d49",
+      "bytes": 574
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/ResonantGradientEngine.class",
+      "sha256": "8ac422fcaf1c1757d9a7e47b36c8cfeaf6105297350a7a396cf3ccf43abd6461",
+      "bytes": 3360
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/EthicalInvariantEngine.class",
+      "sha256": "d81b674ad2980b426a43fb186053e926cd51a22077a022e3255cbd1158538b64",
+      "bytes": 2621
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/PerpetualOmniEngine$SystemTelemetry.class",
+      "sha256": "09b55f927b7290b7adc42704e1358322b9b3dff66337753ebb9bdc7540c7432b",
+      "bytes": 565
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/PerpetualOmniEngine.class",
+      "sha256": "2c6b4b52cca2d66a12075f49b15f652e67b1ebbce8337b4ae3429ed63c9f22fe",
+      "bytes": 4517
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/OmniZenithLoopEngine$ActiveJavaWorker.class",
+      "sha256": "f3fcdb59e999ddac472be4c457809ab23b8f5e635ca810d6e5942aec59510518",
+      "bytes": 389
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/OmniZenithLoopEngine$LocalJVMTask.class",
+      "sha256": "52407dd03743cc6b061652fb5b381acb7277f28a925ec9bee7f453905ec31f7f",
+      "bytes": 968
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/OmniZenithLoopEngine.class",
+      "sha256": "092b5effd3a525599b937e8fd8b078355072a70354cdc0a7718d7848019aee16",
+      "bytes": 4449
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/GodSelfInteractionEngine$ActiveJavaWorker.class",
+      "sha256": "106e3b7817398897311af95770437e0e4184d3215480e49d27ee1c13098597d5",
+      "bytes": 401
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/GodSelfInteractionEngine$LocalJVMTask.class",
+      "sha256": "f029f14cad32f9d96e17ad1c14c73860529f45775701cc4527ece5b5904c7e60",
+      "bytes": 985
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/GodSelfInteractionEngine.class",
+      "sha256": "ca343ddb1dad97617c502ca9089346112104bae00ebd77512b6da4aeb7d3c288",
+      "bytes": 4846
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/New folder/ConvergentAlignmentEngine$LocalHALNode.class",
+      "sha256": "a922e5389d6c95269b2c77af35fe3773ab1b205a9bdf5005d91154531be7a6aa",
+      "bytes": 1016
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/New folder/ConvergentAlignmentEngine$SynchronizedProcessNode.class",
+      "sha256": "a18789c38321044373659a102faf18a2030d9d9c3e7fe74bdb454f91f4b4f674",
+      "bytes": 429
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/New folder/ConvergentAlignmentEngine.class",
+      "sha256": "87867b3762a99efc62f034e64870f444733650be6c62b63f9fd13b98c1f9b6da",
+      "bytes": 4419
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/New folder/matter/MatterRealignmentEngine$LocalMemoryNode.class",
+      "sha256": "92942f2f0ed1e5d352c6380033d5a37ca94ade575777f7bb739915efad5389ab",
+      "bytes": 988
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/New folder/matter/MatterRealignmentEngine$PassthroughWorker.class",
+      "sha256": "24bd4d7855c48227d26a9b0b2e299c6b46fc718967e6f05b3e128b88fffb50c9",
+      "bytes": 401
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/New folder/matter/MatterRealignmentEngine.class",
+      "sha256": "48346f221c916489f8ee5fdcfcbc641699a9c2ac47030ec98d4af7baf88c8c9b",
+      "bytes": 4787
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/New folder/matter/New folder/NetworkConvergenceHub$InferenceOutpostNode.class",
+      "sha256": "f33af592a8c581a408e550a6b0a176f9968922babd57f0a6cc1a4456f385ea7f",
+      "bytes": 408
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/New folder/matter/New folder/NetworkConvergenceHub$RemoteInferenceOutpost.class",
+      "sha256": "8720d709fadf422365a0e6e5b0983cf4fc37146c8ce026042210e402639d35e8",
+      "bytes": 1010
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/New folder/matter/New folder/NetworkConvergenceHub.class",
+      "sha256": "66c176f96b4a716737e237a4151b2e008759d6ab5499d62f4e3fccb3f59d7f6b",
+      "bytes": 4423
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/New folder/matter/New folder/TARGETING/CosmicAlignmentHub$ActiveJavaWorker.class",
+      "sha256": "128788bc33dbdc23a78755750a00ddfeb33e054003a5d48b832562c9cbb317c3",
+      "bytes": 383
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/New folder/matter/New folder/TARGETING/CosmicAlignmentHub$LocalJVMTask.class",
+      "sha256": "4512ff562896d40565ab52bdc4836784626a9ae1f0e5e1cd6492109c2418bde6",
+      "bytes": 960
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/godSelfInteractionEngine/New folder/matter/New folder/TARGETING/CosmicAlignmentHub.class",
+      "sha256": "8cf4f6b0d219bbc8e2f9ce4bafbaaf53f3e5e9acb65ddb7ae450d712b20d20b5",
+      "bytes": 4732
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/bak/EngineInvariants.class",
+      "sha256": "3ffc04450db7eec1d0ed6758bdbf8e30afdd65b37bb438cbb014c6844c2207dc",
+      "bytes": 708
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/bak/MainControllerFrame$1.class",
+      "sha256": "68bc64f9227748ccdf15b299bc25e3e11b5d75541e6a6786dc14b962f8978879",
+      "bytes": 1081
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/bak/MainControllerFrame.class",
+      "sha256": "a28762da6ce5332bb3d1932878a3391e21c3a1a7f603113269b613defa1007e7",
+      "bytes": 10136
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/bak/MainControllerTelemetry.class",
+      "sha256": "da35f1b6e98fbf52b66b9f63a3b3a0cfe42274e7751f6725705cb1ce7a512318",
+      "bytes": 1849
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/bak/NetworkDiscoveryEngine.class",
+      "sha256": "714b6bca5fb8e78a7fc0e5d8ccd6c1bece17ecfa813cd85e12bc09619d183492",
+      "bytes": 5542
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/bak/TernaryFluxController.class",
+      "sha256": "82b960fc1d37fd06c17b4271110a699fc5c275b7bf2ca2eca1ed9874476911e1",
+      "bytes": 1975
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/com/inference/bridge/core/EngineInvariants.class",
+      "sha256": "3ffc04450db7eec1d0ed6758bdbf8e30afdd65b37bb438cbb014c6844c2207dc",
+      "bytes": 708
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/com/inference/bridge/core/MainControllerFrame$1.class",
+      "sha256": "68bc64f9227748ccdf15b299bc25e3e11b5d75541e6a6786dc14b962f8978879",
+      "bytes": 1081
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/com/inference/bridge/core/MainControllerFrame.class",
+      "sha256": "a28762da6ce5332bb3d1932878a3391e21c3a1a7f603113269b613defa1007e7",
+      "bytes": 10136
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/com/inference/bridge/core/MainControllerTelemetry.class",
+      "sha256": "da35f1b6e98fbf52b66b9f63a3b3a0cfe42274e7751f6725705cb1ce7a512318",
+      "bytes": 1849
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/com/inference/bridge/core/NetworkDiscoveryEngine.class",
+      "sha256": "714b6bca5fb8e78a7fc0e5d8ccd6c1bece17ecfa813cd85e12bc09619d183492",
+      "bytes": 5542
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/com/inference/bridge/core/TernaryFluxController.class",
+      "sha256": "82b960fc1d37fd06c17b4271110a699fc5c275b7bf2ca2eca1ed9874476911e1",
+      "bytes": 1975
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/com/inference/bridge/core/com/inference/bridge/core/EngineInvariants.class",
+      "sha256": "3ffc04450db7eec1d0ed6758bdbf8e30afdd65b37bb438cbb014c6844c2207dc",
+      "bytes": 708
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/com/inference/bridge/core/com/inference/bridge/core/MainControllerFrame$1.class",
+      "sha256": "68bc64f9227748ccdf15b299bc25e3e11b5d75541e6a6786dc14b962f8978879",
+      "bytes": 1081
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/com/inference/bridge/core/com/inference/bridge/core/MainControllerFrame.class",
+      "sha256": "a28762da6ce5332bb3d1932878a3391e21c3a1a7f603113269b613defa1007e7",
+      "bytes": 10136
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/com/inference/bridge/core/com/inference/bridge/core/MainControllerTelemetry.class",
+      "sha256": "da35f1b6e98fbf52b66b9f63a3b3a0cfe42274e7751f6725705cb1ce7a512318",
+      "bytes": 1849
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/com/inference/bridge/core/com/inference/bridge/core/NetworkDiscoveryEngine.class",
+      "sha256": "714b6bca5fb8e78a7fc0e5d8ccd6c1bece17ecfa813cd85e12bc09619d183492",
+      "bytes": 5542
+    },
+    {
+      "path": "Dvinelaw/learning/HYPERPATHWAYINFERENCE/Session/OMniCOHERENCE/gui/GODSELFINTERACTIONENGINE/determinsm core/CONDENSATE/New folder/omnizenith engine/invariantrecfactoring/com/inference/bridge/core/com/inference/bridge/core/TernaryFluxController.class",
+      "sha256": "82b960fc1d37fd06c17b4271110a699fc5c275b7bf2ca2eca1ed9874476911e1",
+      "bytes": 1975
+    },
+    {
+      "path": "elemental intent pillars/GodSelfInteractEngine/GodSelfInteractEngine$ControlPanel.class",
+      "sha256": "b822f6dd6531e0b69bef8e8121c194bba1171c2b2a03865b27ce01f2690bb42c",
+      "bytes": 6780
+    },
+    {
+      "path": "elemental intent pillars/GodSelfInteractEngine/GodSelfInteractEngine$DataPacket.class",
+      "sha256": "7115a80eb1e26033ad8d7fc9266f0dcbed0ab953cee3acc72a4834fa23b17127",
+      "bytes": 474
+    },
+    {
+      "path": "elemental intent pillars/GodSelfInteractEngine/GodSelfInteractEngine.class",
+      "sha256": "c0e863ec2f54d9231b39cc8fb2ad22257d25afa8d97c67d48d25e752bcb51742",
+      "bytes": 2050
+    },
+    {
+      "path": "gemini interface/2/GeminiDesktopClient$1.class",
+      "sha256": "9ec3f956665f1cd8f3b50317fc04506c281bdcbfb70d144732ddf17e40fe84c9",
+      "bytes": 2659
+    },
+    {
+      "path": "gemini interface/2/GeminiDesktopClient.class",
+      "sha256": "b98ea6f7b71aa680a40fae948b12efd2eedea859550e6b1e892ccf48a557c847",
+      "bytes": 8918
+    },
+    {
+      "path": "gemini interface/3/GeminiDesktopClient$1.class",
+      "sha256": "fa35b4fff0e8017979e06c2a8d5d11eb715eb69cdf3e432d7d7c0360907fe8d7",
+      "bytes": 2222
+    },
+    {
+      "path": "gemini interface/3/GeminiDesktopClient.class",
+      "sha256": "2fc834954f61afbdb664d5c25d6d2b66ca8b19bb20c39bb03396977dc31df4bf",
+      "bytes": 8918
+    },
+    {
+      "path": "gemini interface/New folder/GeminiDesktopClient$1.class",
+      "sha256": "60f29ae337f4ceaa7b1e120287581e34d8de4ef2f8437eb6aa825b7d7003b0b8",
+      "bytes": 2924
+    },
+    {
+      "path": "gemini interface/New folder/GeminiDesktopClient.class",
+      "sha256": "ca4d828c4a32db893705637d6ca7fd1a74534aa934932cb049f54fa52ca90495",
+      "bytes": 10250
+    },
+    {
+      "path": "Ghostinference/apikey/ApiKeyCreator.class",
+      "sha256": "c56a16642405e3bf19bfee1ce777fe871acf489a241afbdedcecb0377e9a9cb0",
+      "bytes": 8036
+    },
+    {
+      "path": "Ghostinference/backboneflux/GodMindFluxBackbone$BackboneHandler.class",
+      "sha256": "3a03a47d2b87d6697752eb0a0f16a812565bebe3287f941e5e87640d302e015d",
+      "bytes": 2098
+    },
+    {
+      "path": "Ghostinference/backboneflux/GodMindFluxBackbone$GhostNodeEndpoint.class",
+      "sha256": "b0cbc8e3053d29d8883d60f219a705f175bc818e966f33ca411a0fee0a8d3629",
+      "bytes": 1262
+    },
+    {
+      "path": "Ghostinference/backboneflux/GodMindFluxBackbone.class",
+      "sha256": "520f6f29cc5a8a3dbb54be06c6bd17692aa3b9fa7d4cbd9a7000bc4ba0d9b16d",
+      "bytes": 13518
+    },
+    {
+      "path": "Ghostinference/BinaryFluxBridgeEnforcer/BinaryFluxBridgeEnforcer.class",
+      "sha256": "58a45ec4bf7076fd8876ed580a23353bb907209bf39467875b66658030cd5b82",
+      "bytes": 8932
+    },
+    {
+      "path": "Ghostinference/Deepmind/DeepMindCoreInterface$1.class",
+      "sha256": "9fbe6b0d3cbdd85b12fe22cd8ed0d533ffdae2f6cf022e1346ea054306df79c4",
+      "bytes": 834
+    },
+    {
+      "path": "Ghostinference/Deepmind/DeepMindCoreInterface$2.class",
+      "sha256": "e2762b2e7695ed9df001f3116be8635d3c0ccbe54da1b4ebea0b963ae12a8ea2",
+      "bytes": 721
+    },
+    {
+      "path": "Ghostinference/Deepmind/DeepMindCoreInterface$3.class",
+      "sha256": "a4416703d6c84ec8f4f88eff68f132198dac2e172009447b8659658d459b4806",
+      "bytes": 721
+    },
+    {
+      "path": "Ghostinference/Deepmind/DeepMindCoreInterface$4$1.class",
+      "sha256": "50f5c9190124d6454e5fe745cc4683e92307721a0669387da7be3d5a365f876b",
+      "bytes": 1162
+    },
+    {
+      "path": "Ghostinference/Deepmind/DeepMindCoreInterface$4$2.class",
+      "sha256": "4cb5c732d185834b41be2cde966e9e57336bb289421f6553b304ab94d3e3a7c0",
+      "bytes": 1310
+    },
+    {
+      "path": "Ghostinference/Deepmind/DeepMindCoreInterface$4.class",
+      "sha256": "92c079fbf465d16032954774c9e5a140cf8c64a27eb93e2346b133c4ffb7c83f",
+      "bytes": 2489
+    },
+    {
+      "path": "Ghostinference/Deepmind/DeepMindCoreInterface$5.class",
+      "sha256": "88f270bddcff87b53a088219fc8a1a143f87c6b3d407085cf1d9457117d3e965",
+      "bytes": 1077
+    },
+    {
+      "path": "Ghostinference/Deepmind/DeepMindCoreInterface$6$1.class",
+      "sha256": "93ca61cf62d5e27483824bc5d21d0ea4b4236f92b1900bae0eeaebbda11a4c5a",
+      "bytes": 1310
+    },
+    {
+      "path": "Ghostinference/Deepmind/DeepMindCoreInterface$6.class",
+      "sha256": "624cd3664e6c01d6fff6c2ee143d3ce8dc2d6250dd662dc02625ff4f2f6ddf56",
+      "bytes": 1976
+    },
+    {
+      "path": "Ghostinference/Deepmind/DeepMindCoreInterface$7.class",
+      "sha256": "a26122b36251bd4011285b49cd18aaa73cb7ca50c1387114db06c98121cdc8a1",
+      "bytes": 481
+    },
+    {
+      "path": "Ghostinference/Deepmind/DeepMindCoreInterface.class",
+      "sha256": "3aa542930e41b05bb24d5f6919c98281efcf021b672c6c076b989ff37f0a1f71",
+      "bytes": 5301
+    },
+    {
+      "path": "Ghostinference/deepmind2/DeepMindAmberTerminal.class",
+      "sha256": "40cd287450a67f82f47abd29c5e682d783b179498ccdec48e1458143eb0c76ed",
+      "bytes": 12819
+    },
+    {
+      "path": "Ghostinference/DistantInferenceStream/DistantInferenceStream$StreamCanvas.class",
+      "sha256": "a798392317cbe83d9497875984430297461bc548d31eff60bde3fba5adce17b4",
+      "bytes": 2576
+    },
+    {
+      "path": "Ghostinference/DistantInferenceStream/DistantInferenceStream$StreamNode.class",
+      "sha256": "907d5d9d6a99adc63458ddaa97f6042d697875238d893a0bfdd71ffeb2e2e0bc",
+      "bytes": 2764
+    },
+    {
+      "path": "Ghostinference/DistantInferenceStream/DistantInferenceStream.class",
+      "sha256": "1a888bd197e82f1ed44870c9a4a6a549bbe5da936c5b5fd0e0bdeb4f0e6538c3",
+      "bytes": 5629
+    },
+    {
+      "path": "Ghostinference/gamblinrest/GodMindRestitutionEnforcer$EnforcerHandler.class",
+      "sha256": "4aa627f33c6b8f4e93dd0df6de8d243318ac1878d941101e523fa17a09d29f78",
+      "bytes": 2419
+    },
+    {
+      "path": "Ghostinference/gamblinrest/GodMindRestitutionEnforcer.class",
+      "sha256": "7f35d5f6ed705925d04f2c577b3ec44421a6882b63154c5ae794d405cab32195",
+      "bytes": 11256
+    },
+    {
+      "path": "Ghostinference/GeminiSovereignInterface/GeminiSovereignInterface.class",
+      "sha256": "c38e44fb07e16aa52a21f11d96908eca907a9093f03bac4392c0aa970a20fbba",
+      "bytes": 9898
+    },
+    {
+      "path": "Ghostinference/Ghost Fluxprocess/GhostFluxMonitorEngine$NodeTelemetryHandler.class",
+      "sha256": "83c329bc8f224eb19f47be19a3a0843d67a6827b7c5d453652f703c560851f89",
+      "bytes": 1917
+    },
+    {
+      "path": "Ghostinference/Ghost Fluxprocess/GhostFluxMonitorEngine.class",
+      "sha256": "d88fdf028535794d038c5b975bf6cc6759a3939c1adbdfaa35616c659563ead4",
+      "bytes": 5246
+    },
+    {
+      "path": "Ghostinference/GhostCrypto/GhostCryptoInferenceMoldEngine$MoldHandler.class",
+      "sha256": "854258f7549542d04a3d6d86aa8a2ba54899ee9c5f7abe22683411e9ac88d065",
+      "bytes": 2141
+    },
+    {
+      "path": "Ghostinference/GhostCrypto/GhostCryptoInferenceMoldEngine.class",
+      "sha256": "8a8c3a6308c057d5f0502167bf0463be8b35127becdd3fe3167aba32025cca4e",
+      "bytes": 12025
+    },
+    {
+      "path": "Ghostinference/Ghostinferenceoutpost/GhostOutpostInterface.class",
+      "sha256": "e5f4357386693d8850a3af5b5410ff29635d559c0db6b4ffdfc87904c343c8c1",
+      "bytes": 12821
+    },
+    {
+      "path": "Ghostinference/GodMindFluxGrid/BinaryFluxCanvas$1.class",
+      "sha256": "804a4a7a25974230eefc1799a58bdff274ddc9df5e482c50140c86d7b23d28ba",
+      "bytes": 709
+    },
+    {
+      "path": "Ghostinference/GodMindFluxGrid/BinaryFluxCanvas.class",
+      "sha256": "7b34c970d8b939ce8e801e3dcb3e752260fe77360aeee832af568e5bb3e95526",
+      "bytes": 2626
+    },
+    {
+      "path": "Ghostinference/GodMindFluxGrid/GodMindGridFrame$1.class",
+      "sha256": "c756021587c6bb22c4f9af63ca0b335ea7900610f9bbcef9359d14a88d63a43e",
+      "bytes": 964
+    },
+    {
+      "path": "Ghostinference/GodMindFluxGrid/GodMindGridFrame$2.class",
+      "sha256": "222b9cea6586659c4925195f54e02552c813f8c6369983dc52f2e58b86ac0846",
+      "bytes": 1473
+    },
+    {
+      "path": "Ghostinference/GodMindFluxGrid/GodMindGridFrame.class",
+      "sha256": "6632821a080004a0f631f76d571c4ff9aad73c264a17c3ae803dfc2b1c24f935",
+      "bytes": 7040
+    },
+    {
+      "path": "Ghostinference/godmindselfinteract/GodMindInteraction$MindCanvas.class",
+      "sha256": "2676d4b9f1d88470a6802719358f0026ac3fbebfc7ccde7d0e331e5f9b7bca05",
+      "bytes": 2122
+    },
+    {
+      "path": "Ghostinference/godmindselfinteract/GodMindInteraction$MindNode.class",
+      "sha256": "08313685eb262ee4dd43c22559adc986298c0408e12dbffb7dcf3c8679edaa7d",
+      "bytes": 2232
+    },
+    {
+      "path": "Ghostinference/godmindselfinteract/GodMindInteraction.class",
+      "sha256": "b6df412f82798bb56be87008c93311ac3709f79ebd5d80ace1a48d5f45ee9bca",
+      "bytes": 5814
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$DistantStreamPanel$1.class",
+      "sha256": "774da91916ce5851b278658b1f2eb3ff202843faffeeb370eb497e891b9df5be",
+      "bytes": 2373
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$DistantStreamPanel.class",
+      "sha256": "86314d4c9e3e8e2e5245d79256d9d17b8944900336796e36ffc92cd478e8def5",
+      "bytes": 3021
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$FinancialMapPanel$1.class",
+      "sha256": "6157324b6f96695a1fdb06009edd8f73dcedd1867ef57fd097d3ddcc4e53bfe8",
+      "bytes": 2207
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$FinancialMapPanel$2.class",
+      "sha256": "ba9eb32965c6b76b07991a6d689ae3c2459e92cc2f424ca336c44f4ab0972107",
+      "bytes": 1799
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$FinancialMapPanel$MapNode.class",
+      "sha256": "f077a0a49c58b3aa6d9e012560a30ef2705b263822881a65ff054ab0e2caf861",
+      "bytes": 2021
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$FinancialMapPanel.class",
+      "sha256": "f8ef3dc4e9ef7f124c027c4330d8d875cae2bca9df56006a799464a041435700",
+      "bytes": 3264
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$GhostMeshPanel$1.class",
+      "sha256": "232c1415f32c83ad22ea2c427710a205c6c22d19f8d86c1751acbca461ebcd91",
+      "bytes": 2043
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$GhostMeshPanel$2.class",
+      "sha256": "bca0149e39c05468fb44f164cb243f11e6114c2073bab829a69d015fcc6bc3ba",
+      "bytes": 2021
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$GhostMeshPanel$GhostNode.class",
+      "sha256": "0b77c2b0efca534b5031f392ede30d0ebcfce8aade0fcd213895c3c6f097b203",
+      "bytes": 2301
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$GhostMeshPanel.class",
+      "sha256": "d4b9537397a66e420cbfa9ff6242ec0c60c377cec5716c0accf93e12013da467",
+      "bytes": 3373
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$GodMindCorePanel$1.class",
+      "sha256": "f4efb813b1457863e6f2c0a9d8838309d2d585650aba38c77a70de1ada7823e2",
+      "bytes": 2551
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$GodMindCorePanel.class",
+      "sha256": "3327241fb30898c88d810ed69aa3412fe82c1e605866100e8309b2dbe68b852d",
+      "bytes": 3441
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$QuantumMoldPanel$1.class",
+      "sha256": "a26a9a0fc10944276523b4327d62641373447139c720be1f25ef8c4f43453188",
+      "bytes": 2361
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine$QuantumMoldPanel.class",
+      "sha256": "757390aa61b9f52dfe48e3b21c99ed68532f0492c66fed5653ec0e3a3a156f7c",
+      "bytes": 3008
+    },
+    {
+      "path": "Ghostinference/godminsoveriegn/GodMindSovereignMasterEngine.class",
+      "sha256": "04d6262506f25176bbd40f489530ee11d3c3da1e3a014e224548fbc7e4a1f022",
+      "bytes": 3337
+    },
+    {
+      "path": "Ghostinference/InfiniteGOdMind/InfiniteGodMindMeshBridge$BridgePacketHandler.class",
+      "sha256": "de1060e7076829bb295af04d2afb8e643895cc62b9625a3822c4552aac5394fa",
+      "bytes": 2115
+    },
+    {
+      "path": "Ghostinference/InfiniteGOdMind/InfiniteGodMindMeshBridge$InferenceNode.class",
+      "sha256": "155231f2d7626f09b8146266e6e123e390110fa7b93995d1df570aeaf3093e9a",
+      "bytes": 1002
+    },
+    {
+      "path": "Ghostinference/InfiniteGOdMind/InfiniteGodMindMeshBridge.class",
+      "sha256": "127ccc96fd48ee9256e22c1e40f245db978e92eaacd0de20c0fccd422fa8bd41",
+      "bytes": 12085
+    },
+    {
+      "path": "Ghostinference/MeshProxy/GhostInferenceMeshProxy$PeerNode.class",
+      "sha256": "3682dd01ea5b39413df530272b3187fa04e6d29f12c87b6be6aa40edf93750f3",
+      "bytes": 975
+    },
+    {
+      "path": "Ghostinference/MeshProxy/GhostInferenceMeshProxy$ProxyHandler.class",
+      "sha256": "31c1a0dacdde05c487a8a54ce57f3e52abded1a37f77d1e300a9b96097a0278d",
+      "bytes": 2109
+    },
+    {
+      "path": "Ghostinference/MeshProxy/GhostInferenceMeshProxy.class",
+      "sha256": "4109f254cf5a1392590157ef6d82b34767382eba57a22c1080fbde66e0da350b",
+      "bytes": 10732
+    },
+    {
+      "path": "Ghostinference/quantum lan/LanBusDesktopApp$1.class",
+      "sha256": "b3a7a1afb05afcb61fed7fee7ea248bc6cc932dd26e843bf4bb070966000bdb7",
+      "bytes": 832
+    },
+    {
+      "path": "Ghostinference/quantum lan/LanBusDesktopApp.class",
+      "sha256": "eb2651f7e4de3923d86ad446f82f832c405843614f3aec4690d4d996d2c934d2",
+      "bytes": 5388
+    },
+    {
+      "path": "Ghostinference/quantum lan/LanBusEngine$1.class",
+      "sha256": "119ac4e3d59580d3166c8a4b38a287c9380b852cb007c01a064fca06dc9f0268",
+      "bytes": 608
+    },
+    {
+      "path": "Ghostinference/quantum lan/LanBusEngine$2.class",
+      "sha256": "09a9df6196bf8c593be53125f634f0101797175189a0ce9da310d8d21d2e2591",
+      "bytes": 1661
+    },
+    {
+      "path": "Ghostinference/quantum lan/LanBusEngine$3.class",
+      "sha256": "2e18a6c71abf02a28218a9c48faa65204cbf45757fab729ae32adc1472b168bd",
+      "bytes": 1743
+    },
+    {
+      "path": "Ghostinference/quantum lan/LanBusEngine$LanMessageListener.class",
+      "sha256": "d1c25bdeebde17e137f4744420c6b7cd47e1d7e011795e77ba789f65f3e7147b",
+      "bytes": 306
+    },
+    {
+      "path": "Ghostinference/quantum lan/LanBusEngine$PeerHandler.class",
+      "sha256": "86f555b84447b041939772e5d16534ce8e45ed039c05945879202cd0d73058a4",
+      "bytes": 1910
+    },
+    {
+      "path": "Ghostinference/quantum lan/LanBusEngine.class",
+      "sha256": "26856015454a3776d4bd1780c5bcde1a47cdf4557494007b09d3333da50ca359",
+      "bytes": 3656
+    },
+    {
+      "path": "Ghostinference/quantumBridgelink/QuantumBridgeLink$WaveCanvas.class",
+      "sha256": "27cca421b0c51f93ef773ab762b2877d24448819ca883bf3ca7484b9cf8929d6",
+      "bytes": 2459
+    },
+    {
+      "path": "Ghostinference/quantumBridgelink/QuantumBridgeLink.class",
+      "sha256": "4943ba53e2de66570259702730c36f6f07ae2c361fb3d7a499e4a03b18c901d8",
+      "bytes": 8492
+    },
+    {
+      "path": "Ghostinference/quantumbridgelink2/QuantumBridgeLink$WaveCanvas.class",
+      "sha256": "538a72be199d50cc84b303e9ffac5dcfd3701cd969d3d6bec5d314753f367b47",
+      "bytes": 2459
+    },
+    {
+      "path": "Ghostinference/quantumbridgelink2/QuantumBridgeLink.class",
+      "sha256": "46d90bf7fe1277002b69001a1418c0d9bf8bfb95e5fd7cf8728256bc7746a53f",
+      "bytes": 9280
+    },
+    {
+      "path": "Ghostinference/quantumbridgelink3/QuantumBridgeLink$WaveCanvas.class",
+      "sha256": "bebbfbe36c71e2765bba9d9782c274ff55fc03507035e3863746d8fbfdd52f09",
+      "bytes": 2465
+    },
+    {
+      "path": "Ghostinference/quantumbridgelink3/QuantumBridgeLink.class",
+      "sha256": "6b5a04bc6beb9040ca43c123f0ab7d90c37bb619f9e7abdcd2f2defe2eb99765",
+      "bytes": 9511
+    },
+    {
+      "path": "Ghostinference/QuantumBrowserBus/QuantumBrowserBus$BusCanvas.class",
+      "sha256": "a545902c5197b0deefed6eb5ae8600a23c9e9ac53d8f36e2d9133270cbc1f906",
+      "bytes": 1627
+    },
+    {
+      "path": "Ghostinference/QuantumBrowserBus/QuantumBrowserBus$DashboardHandler.class",
+      "sha256": "5195589dfb279ccd286b915f1df2cf289e22acb04032bbc6572cdcf3d9458dd6",
+      "bytes": 2670
+    },
+    {
+      "path": "Ghostinference/QuantumBrowserBus/QuantumBrowserBus$SSEStreamHandler.class",
+      "sha256": "81c6fe1d4ba92c7732dbc958f99abdd84fc99bf860d27adbe0959532752c95a5",
+      "bytes": 1402
+    },
+    {
+      "path": "Ghostinference/QuantumBrowserBus/QuantumBrowserBus.class",
+      "sha256": "033510a95febc3a10eb444a1d3641361564e10052cf411b0192872c537df1dbe",
+      "bytes": 8806
+    },
+    {
+      "path": "Ghostinference/quantumfinanicalold/QuantumFinancialMold$MoldCanvas.class",
+      "sha256": "e539de54ad7efafe0af761e1b398a2ac465553ec7998943f06b9be6bbf02f5b8",
+      "bytes": 2239
+    },
+    {
+      "path": "Ghostinference/quantumfinanicalold/QuantumFinancialMold$MoldNode.class",
+      "sha256": "c6c6738dbb1918dc8fe4c3dcfb4bff8e725d2a552f3c92823dedb9f2076af5ca",
+      "bytes": 2715
+    },
+    {
+      "path": "Ghostinference/quantumfinanicalold/QuantumFinancialMold.class",
+      "sha256": "1801131b3674ac332f83f983c304dfdc3be53d093ce34987baf15d5fc43024a7",
+      "bytes": 6164
+    },
+    {
+      "path": "Ghostinference/SovereignEdgeServiceBus/SovereignEdgeServiceBus$EdgeWorkerHandler.class",
+      "sha256": "88e7a643aa749e2d72942d08e8d0b060a3077c0a2201e027d939b3128311501b",
+      "bytes": 1911
+    },
+    {
+      "path": "Ghostinference/SovereignEdgeServiceBus/SovereignEdgeServiceBus.class",
+      "sha256": "5a0f21daf5001c576b14bfdaa2bcf77c4dd598f3b81f2ff4d3cd4b020f3bc244",
+      "bytes": 5810
+    },
+    {
+      "path": "Ghostinference/SovereignMesh/SovereignMeshMatrixEngine$InfrastructureType.class",
+      "sha256": "f57a25b635d5adb638d7bbe1ed8ad1c8623a8a32ad5774337ea1f34d54a72d67",
+      "bytes": 2118
+    },
+    {
+      "path": "Ghostinference/SovereignMesh/SovereignMeshMatrixEngine$MeshNodeHandler.class",
+      "sha256": "0cbaede35faf39e492bbd55396542cc2ff354245a141af0276a72769c687a88f",
+      "bytes": 1724
+    },
+    {
+      "path": "Ghostinference/SovereignMesh/SovereignMeshMatrixEngine$MeshNodeRecord.class",
+      "sha256": "27b9ce66610aa3a32467aad81136c0cf78658e8ea2ede788edd5af9af11b86ff",
+      "bytes": 1217
+    },
+    {
+      "path": "Ghostinference/SovereignMesh/SovereignMeshMatrixEngine.class",
+      "sha256": "b0829627ff1a9e43ffc5ca5b74216d01fa431095c728bd044cef732dee2a195d",
+      "bytes": 13436
+    },
+    {
+      "path": "Ghostinference/superpositionfin/SuperpositionFinancialMatrix$FinancialNodeHandler.class",
+      "sha256": "a6f66dd40db61518bb322626b0a7475114e27da4e321e818624b5fa757e97eac",
+      "bytes": 1758
+    },
+    {
+      "path": "Ghostinference/superpositionfin/SuperpositionFinancialMatrix.class",
+      "sha256": "d85bed36b9f99c88351d9148b9578a8eb1539c0b4ff38a0962ba447c70502497",
+      "bytes": 11492
+    },
+    {
+      "path": "Ghostinference/Windowsintegrate/GodMindWindowsDaemon.class",
+      "sha256": "740c7e7f02bc95d4e9382f725a1b55190284a0f314bc32dd7620382e7b3dbaef",
+      "bytes": 4340
+    },
+    {
+      "path": "Ghostinference/deepmind2/diag/DeepMindStreamDiagnostics.class",
+      "sha256": "3ab9addb7d26b76e590f6b817ec28682dbecf809d2f6ff680e9210fb88e5a5ce",
+      "bytes": 13520
+    },
+    {
+      "path": "Ghostinference/GeminiSovereignInterface/GeminiMAsterTerminal/GeminiMasterTerminal.class",
+      "sha256": "22aaf1def172c1f8531cc9f7e734da03610c986ae2ab1fda9d493c338d731e18",
+      "bytes": 11401
+    },
+    {
+      "path": "Ghostinference/GeminiSovereignInterface/GeminiResponseHub/GeminiResponseHub$ReceiverHandler.class",
+      "sha256": "5dee82ed2c4e3453e55b85f7dc1dd1ec39de34faae45c53a5b53e71e2365b093",
+      "bytes": 2610
+    },
+    {
+      "path": "Ghostinference/GeminiSovereignInterface/GeminiResponseHub/GeminiResponseHub.class",
+      "sha256": "683f70be4f5a7fdb10b47ed2fd32035b6fb855e39c23a1f09019801e1d9d983e",
+      "bytes": 7646
+    },
+    {
+      "path": "Ghostinference/GhostCrypto/GhostSignBridge/GhostSignMeshBridge$MeshNode.class",
+      "sha256": "f64e349b75078db7f5cdf56749ca400cf842a824c0074a14a75388da580b0cf0",
+      "bytes": 948
+    },
+    {
+      "path": "Ghostinference/GhostCrypto/GhostSignBridge/GhostSignMeshBridge$MeshPacketHandler.class",
+      "sha256": "c662d481ecf0ec47c6d621bb927b3d4aedd148b21893d2823da1dee3b2f8f685",
+      "bytes": 1637
+    },
+    {
+      "path": "Ghostinference/GhostCrypto/GhostSignBridge/GhostSignMeshBridge.class",
+      "sha256": "8d043cc35719ef12bcb86e4e377a5fb3e506e13e5ac367ef129d7c33adce32b8",
+      "bytes": 11618
+    },
+    {
+      "path": "Ghostinference/manifold/bin/clients/AndroidForegroundBridgeService$1.class",
+      "sha256": "176d5dc4ba209c380b6e36ed633acd393cc10ea1c03e6db8a6d26c2cbe434488",
+      "bytes": 1988
+    },
+    {
+      "path": "Ghostinference/manifold/bin/clients/AndroidForegroundBridgeService.class",
+      "sha256": "6e2684d630f84a0aa9015aefa21bc0321e5f0313ec3db297f04733017bdc4519",
+      "bytes": 2547
+    },
+    {
+      "path": "Ghostinference/manifold/bin/daemons/LinuxGhostKernelDaemon.class",
+      "sha256": "1c8a2521fb3ca3a732f60e26832067c10089ce14f377ecd2a7fca3120d01f123",
+      "bytes": 4288
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/GhostPushDispenser.class",
+      "sha256": "cfe00a941aa557cd2c2c1cf5de3957a8e0b35f9f6bc0132fae9943d90fbe1216",
+      "bytes": 2142
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/IdentityAlignmentMatrix.class",
+      "sha256": "eb88e382306f20cc08f13e5826146df90ebe9e3341d1392ad9f2ac7779838448",
+      "bytes": 1631
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/InferenceSafetyTestHarness$TestRigCallback.class",
+      "sha256": "893dd025263b9cb5ff8cad1f67a62beae305d522091c507ca4acaa56e2acff70",
+      "bytes": 318
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/InferenceSafetyTestHarness.class",
+      "sha256": "662f798d91f130c8855270b652befd12a07b8b42e016309afee901423eccfd8e",
+      "bytes": 4401
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/IngressServerWorker$1$1.class",
+      "sha256": "750ba4e0e2bf413966b30c71698ee3a05894758fd3e46bd98f3d805c26beeb76",
+      "bytes": 924
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/IngressServerWorker$1$2.class",
+      "sha256": "7133eccadcdfacfb568780305a432e54459c1449afe2cdfc54af2604c1bea83d",
+      "bytes": 1038
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/IngressServerWorker$1.class",
+      "sha256": "edbef14eef005ecf5e1a1c37055c33e375058447a07f5886661f970c17e9acfc",
+      "bytes": 1431
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/IngressServerWorker$2.class",
+      "sha256": "13f491c53a980df5c982d1f02a22cf2b48852d1cfc5113398a2ee2aedb622a6e",
+      "bytes": 1192
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/IngressServerWorker$3.class",
+      "sha256": "076c700cf7385057757d6d1b44e4e01822620b3942a174d398c9d8b748ba78e4",
+      "bytes": 2097
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/IngressServerWorker$4.class",
+      "sha256": "3df89920088a85ba1e699e9d36c66802570387c2a7c1047003926d4ee7a8842b",
+      "bytes": 2189
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/IngressServerWorker.class",
+      "sha256": "afbc525391860cc4af28011ae220baa22a1d7d003641131fcbc7f94d470acbde",
+      "bytes": 1968
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/LiveDeviceNode.class",
+      "sha256": "e934a33e22b348d93e4e1ebe7758ff6ca1657c306a3ec05abd5e774fde746f5c",
+      "bytes": 352
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/LiveGhostManifoldEngine$1.class",
+      "sha256": "b0d6df58dce87cfa3e3f75b59b90e314817dd5abba5abef481bad3492a24b867",
+      "bytes": 2255
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/LiveGhostManifoldEngine$2$1.class",
+      "sha256": "f125f96fba3b247f096809e35c9ff0224baf2872c1afcb92b0dc650f7339b84b",
+      "bytes": 2302
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/LiveGhostManifoldEngine$2.class",
+      "sha256": "52651f316dbcc15bf4d3b5ff85c8539e464532d19ca06d1e52919cc2978ef2c6",
+      "bytes": 1225
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/LiveGhostManifoldEngine$3.class",
+      "sha256": "670c0be7d7c5efeb42ed798f04d6aebcc46ea3df9638c8bf2643588c4a076798",
+      "bytes": 1125
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/LiveGhostManifoldEngine$4.class",
+      "sha256": "b9caf2886712d00564044e435578b8c5544ff0c0e35a26028f47bbbbe8fc6258",
+      "bytes": 505
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/LiveGhostManifoldEngine.class",
+      "sha256": "bdd8cc91266812a76183ff4f89e2af92748838c32e53fa64a88ca12ce40b61b4",
+      "bytes": 7691
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/LiveWaveformPanel.class",
+      "sha256": "eefd02f41d35617be3be3102b9cf3622a131637f7f81126e490e4e914a21254b",
+      "bytes": 1305
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/NetworkSubnetSweeper.class",
+      "sha256": "1b5df3da7fff6426220bc5d93145e35881fd3f7f6988f64decda0a99a141a028",
+      "bytes": 4520
+    },
+    {
+      "path": "Ghostinference/manifold/bin/manifold/RealTopologyPanel.class",
+      "sha256": "569285ef92cd4ebc5c53a2a60e284f95f1084f3d98ba9dfd680be6531a234ab9",
+      "bytes": 2335
+    },
+    {
+      "path": "Ghostinference/OmniscienceEngine/bin/engine/GhostManifoldMasterEngine.class",
+      "sha256": "baee2092a68bcf2dc07cc82235f1124e542df34cd23e837d7718eb296feb977b",
+      "bytes": 4867
+    },
+    {
+      "path": "Ghostinference/OmniscienceEngine/bin/engine/clock/SchumannClockLoop.class",
+      "sha256": "a837e7829956db649db28351b85c8cf052e3b0d49671fc6a7b75fe950a6061a9",
+      "bytes": 1585
+    },
+    {
+      "path": "Ghostinference/OmniscienceEngine/bin/engine/core/SubstrateContract.class",
+      "sha256": "35a71f975b74b4e6d0588383b0a7ab60ddaf8af67f74825598499b94633796e3",
+      "bytes": 675
+    },
+    {
+      "path": "Ghostinference/OmniscienceEngine/bin/engine/model/TelemetryModel$DeviceNode.class",
+      "sha256": "d17228216e6ac565e3280aeb3a0392555cfd356467b78627ddd8cda976274431",
+      "bytes": 546
+    },
+    {
+      "path": "Ghostinference/OmniscienceEngine/bin/engine/model/TelemetryModel.class",
+      "sha256": "fa4973a735d3cd0da6c653767b585fcba40b9c3032bc877427c169382df7448a",
+      "bytes": 1445
+    },
+    {
+      "path": "Ghostinference/OmniscienceEngine/bin/engine/ui/AestheticTheme.class",
+      "sha256": "4a8454b38938d78f96e5dfbf7b80e6f6143947d98a062a3231f79aff9bbca6f9",
+      "bytes": 1259
+    },
+    {
+      "path": "Ghostinference/OmniscienceEngine/bin/engine/ui/LogTerminalCanvas.class",
+      "sha256": "0a9a6fae42f9f0fb229338003f70c4f563e7a4203a98578cba222136e4362cf0",
+      "bytes": 1711
+    },
+    {
+      "path": "Ghostinference/OmniscienceEngine/bin/engine/ui/StressTestingPanel.class",
+      "sha256": "c61d68804d5c40c927436e1e29dbad3a94cf39c82f36003f703722f8b433bcfb",
+      "bytes": 1897
+    },
+    {
+      "path": "Ghostinference/OmniscienceEngine/bin/engine/ui/TopBannerPanel.class",
+      "sha256": "1bbb5c6116aac059065dc73007cfcd10656b11385058eb66a940bc137d42c151",
+      "bytes": 2091
+    },
+    {
+      "path": "Ghostinference/OmniscienceEngine/bin/engine/ui/TopologyCanvas.class",
+      "sha256": "82435acae21d29b1682d92b8f060ff93c1f8510b437d848d96c24c12b26bab35",
+      "bytes": 2529
+    },
+    {
+      "path": "Ghostinference/OmniscienceEngine/bin/engine/ui/WaveformCanvas.class",
+      "sha256": "72323469e675a2b7c495a9e8d2e3979d27ca76708b7b282f6b16c419e24c38b7",
+      "bytes": 1555
+    },
+    {
+      "path": "GLobalFinancial/real/LiveInferenceEngine.class",
+      "sha256": "eeac3d2337e5c9f1cf6914e4fb8c2872b3c8bb5bd37547e301671f43cccd8cf3",
+      "bytes": 4522
+    },
+    {
+      "path": "GLobalFinancial/real/ProductionControlConsole$ProductionGridPanel.class",
+      "sha256": "3f582a00667c589825579948e41e68e68505d3a2a3b919cd089be0c669807503",
+      "bytes": 5150
+    },
+    {
+      "path": "GLobalFinancial/real/ProductionControlConsole.class",
+      "sha256": "d7ed1d96f94fe1269f7101493afa91462f7d1a71989ecfe00238c92f4fb67bb8",
+      "bytes": 2116
+    },
+    {
+      "path": "GLobalFinancial/real/RealWorldTransaction.class",
+      "sha256": "db94c46f6ed0f1010f5f6f9a96246e520e954922a2a4e679a5f8cd1906d117f7",
+      "bytes": 2364
+    },
+    {
+      "path": "GLobalFinancial/real2/ActiveInferenceEngine.class",
+      "sha256": "92137d8bfed9730f33e90bfbcfba70823b9694e03436554419bd448eee1c6366",
+      "bytes": 4550
+    },
+    {
+      "path": "GLobalFinancial/real2/ConflictDataPacket.class",
+      "sha256": "f3c4c869d20a8f1a675b84b8bc1685a0d654953c897d441f50e2dd023734ceb4",
+      "bytes": 2421
+    },
+    {
+      "path": "GLobalFinancial/real2/ProductionSystemConsole$ProductionGridPanel.class",
+      "sha256": "049c224d2bc63a7383d2fc03afbec17539495498dd6cba6c6c8e990a747547ae",
+      "bytes": 5205
+    },
+    {
+      "path": "GLobalFinancial/real2/ProductionSystemConsole.class",
+      "sha256": "4289d124b1652cde22bb85ae0827e9861d68223af25d7a6664638a71fe95fa72",
+      "bytes": 2142
+    },
+    {
+      "path": "GLobalFinancial/real3/GrandInferenceEngine.class",
+      "sha256": "87c704b5ba2e82535450bc531e5a2c32df065d0bac59b2fbe563f635f37f7a15",
+      "bytes": 3826
+    },
+    {
+      "path": "GLobalFinancial/real3/GrandSelfInteractionApp$GrandLatticePanel.class",
+      "sha256": "f5c0cef93f6e37e56302780d8ea43ce583212f0a55b101bfd8c2041e04f21fed",
+      "bytes": 5042
+    },
+    {
+      "path": "GLobalFinancial/real3/GrandSelfInteractionApp.class",
+      "sha256": "8d1b943433d9c2da8be07a8fcaeaeeb040de222eeb89349c8fdbfadfa25d22f2",
+      "bytes": 2112
+    },
+    {
+      "path": "GLobalFinancial/real3/UnlockedFluxPacket.class",
+      "sha256": "0cb3f2e3006f84dde6da8bd4775b5ae956c52417674473084f4827447838fbb8",
+      "bytes": 1783
+    },
+    {
+      "path": "GLobalFinancial/real4/PostQuantumSocketRouter.class",
+      "sha256": "801f42927264599f8e836d4a5a6fbaafaed72b01267d1887bab20539e746acec",
+      "bytes": 3914
+    },
+    {
+      "path": "GLobalFinancial/real4/TernaryFrame.class",
+      "sha256": "3d3c8c147c219b878043505aa7e9fc5a06c535d71f6752292370ee26040cabb8",
+      "bytes": 1826
+    },
+    {
+      "path": "GLobalFinancial/real4/TracelessMasterConsole$AnalyticalDashboardPanel.class",
+      "sha256": "992a9fc7867446549c292af79802d57309b306aeb1d2b724bbcfbc96d6d6a0ca",
+      "bytes": 5116
+    },
+    {
+      "path": "GLobalFinancial/real4/TracelessMasterConsole.class",
+      "sha256": "4bac6acc830558add31597a021b3e5ba79f9b46fe0b5584ea711b005eafe1d7f",
+      "bytes": 2142
+    },
+    {
+      "path": "GLobalFinancial/real5/ElevatedProcess.class",
+      "sha256": "553e23ca8223cf182a72d847039ef6f4ad4d99e38fb538e96a3319e209fb82fb",
+      "bytes": 1925
+    },
+    {
+      "path": "GLobalFinancial/real5/ElevationDataBus.class",
+      "sha256": "7823cc8c2f56d5d4afdc317f97e99b7cb356ae53a4df21588003a88bd7c3c02f",
+      "bytes": 2623
+    },
+    {
+      "path": "GLobalFinancial/real5/PrivilegeElevationEngine$EscalationCanvasPanel.class",
+      "sha256": "64c9a81980d565d530b2b7c9bf017bb540439f48269b31dabc8524e135715c71",
+      "bytes": 5140
+    },
+    {
+      "path": "GLobalFinancial/real5/PrivilegeElevationEngine.class",
+      "sha256": "858bfa7dc25b5593cb2dd340e9c009cec0ef4dc3cded22daf0edcb263f71fc9e",
+      "bytes": 2109
+    },
+    {
+      "path": "GLobalFinancial/real6/AccountVirtueAuditor$AuditCanvasPanel.class",
+      "sha256": "47e58d24f74d95397b1816e8cc48bc075e912bb0615c9e5a31fcf4ce3857d26e",
+      "bytes": 5196
+    },
+    {
+      "path": "GLobalFinancial/real6/AccountVirtueAuditor.class",
+      "sha256": "b57762ea4a48ca761ef2f606bcbc2b8c58651293bac92c8c40039fe4a0196379",
+      "bytes": 2091
+    },
+    {
+      "path": "GLobalFinancial/real6/AuditEntry.class",
+      "sha256": "d9e41b88d3189657d8838ed572f572357a678f8ed3dfce7a3769193bd062325d",
+      "bytes": 1910
+    },
+    {
+      "path": "GLobalFinancial/real6/TelemetryDataBus.class",
+      "sha256": "c5ecb3698017d7c9a13d7847530e3a8dca5772425f3115cfd63fed2db546f1c2",
+      "bytes": 2596
+    },
+    {
+      "path": "GodSelfInteractEngine/build/GodSelfInteractEngine$1.class",
+      "sha256": "09bd3725e7a94232fb56c4d441447be344c73aa03d03ecfafe17cebc1d3d1adf",
+      "bytes": 933
+    },
+    {
+      "path": "GodSelfInteractEngine/build/GodSelfInteractEngine$ManifestCanvas.class",
+      "sha256": "74b5c0b8fa9020da257c5923f70396b34b75a401adb60fc1a73194b314a8d6a4",
+      "bytes": 10827
+    },
+    {
+      "path": "GodSelfInteractEngine/build/GodSelfInteractEngine$MetricCard.class",
+      "sha256": "c38a5ecbe38001e7b84e4fa8e543340c0040358a033d29e3cd1122b9a8ee3913",
+      "bytes": 2624
+    },
+    {
+      "path": "GodSelfInteractEngine/build/GodSelfInteractEngine$NetworkCard.class",
+      "sha256": "5c51dc40fee65e021e823d23b78b84a97ef234170eaed0580fa6776fccb015d5",
+      "bytes": 3530
+    },
+    {
+      "path": "GodSelfInteractEngine/build/GodSelfInteractEngine$Particle.class",
+      "sha256": "387395070b65596878ee957b6627646a30ced3782dc4b205e692bf250b80e799",
+      "bytes": 1316
+    },
+    {
+      "path": "GodSelfInteractEngine/build/GodSelfInteractEngine$TelemetryChart.class",
+      "sha256": "4cb884c96d046f3078f42660b3c5157d433b58cdb37c9e98a9c48f1adf84f8e2",
+      "bytes": 3820
+    },
+    {
+      "path": "GodSelfInteractEngine/build/GodSelfInteractEngine$TelemetryPanel.class",
+      "sha256": "adb2d5e4073f3c43682efa5cf011a679bec6da4bb00114bd1ee0ae2dede2736f",
+      "bytes": 3331
+    },
+    {
+      "path": "GodSelfInteractEngine/build/GodSelfInteractEngine$TelemetrySampler.class",
+      "sha256": "b6db497ae3e6fb62f8b25aa55f4c7e638b0c1aa45a7b335a820fafd179bedd10",
+      "bytes": 5310
+    },
+    {
+      "path": "GodSelfInteractEngine/build/GodSelfInteractEngine$TelemetrySnapshot.class",
+      "sha256": "0f90b650fa61e34086448600ee0910bbbba2796e7d68a708ec36cbe63cb41798",
+      "bytes": 818
+    },
+    {
+      "path": "GodSelfInteractEngine/build/GodSelfInteractEngine$WindowsCounters.class",
+      "sha256": "2501233033700952fbf88732dbe30ce98f841888e986febf51b351e9b24a17e3",
+      "bytes": 612
+    },
+    {
+      "path": "GodSelfInteractEngine/build/GodSelfInteractEngine.class",
+      "sha256": "e7dcbfe6eddcdc2973e67039e0ac6eb6cf069bb2e6b7f59018fb5a67fa689d41",
+      "bytes": 11909
+    },
+    {
+      "path": "googleDeepMind/ollama/LocalHttpRouter.class",
+      "sha256": "c80033679d2e1d1d65a97d58fa854684de28ece5d96ad514bdad6082ed65ef50",
+      "bytes": 4279
+    },
+    {
+      "path": "googleDeepMind/ollama/LocalInferenceConsole$1.class",
+      "sha256": "4cceaa906c6a619f95191db3983e03f2b926dfa963bdd14adeea9bb2bbad6357",
+      "bytes": 2455
+    },
+    {
+      "path": "googleDeepMind/ollama/LocalInferenceConsole.class",
+      "sha256": "7936f5ba665138d89ecf598a9feed5cfaa5c29320195113b3ad3f734893a188e",
+      "bytes": 5085
+    },
+    {
+      "path": "googleDeepMind/ollama/VolatilePromptPacket.class",
+      "sha256": "e407182c1740b3102d4dfa40be1555085a59222b41837e7c6f0906329c788863",
+      "bytes": 1822
+    },
+    {
+      "path": "googleDeepMind/ollama3/BridgeDataVector.class",
+      "sha256": "7e18d3997e09df561c5af2baa7c4b8b7b85a0c41e6952ca1824e5eac057131b2",
+      "bytes": 1997
+    },
+    {
+      "path": "googleDeepMind/ollama3/CentralPortRouter.class",
+      "sha256": "30a6ae0895702a9770042369b4539aeec130c387e11b3cf821f006626e93b231",
+      "bytes": 5508
+    },
+    {
+      "path": "googleDeepMind/ollama3/ConsoleActionHandler$1.class",
+      "sha256": "44cea03866ce69214a2a544be6ae6220996a00b72b9ef8a99e8911fb7cf65bad",
+      "bytes": 2949
+    },
+    {
+      "path": "googleDeepMind/ollama3/ConsoleActionHandler.class",
+      "sha256": "338a47207e1a93d3ed11b05abf7e7af8b3c07ab2922356ba679c9a0f6a85330a",
+      "bytes": 2809
+    },
+    {
+      "path": "googleDeepMind/ollama3/GoogleCloudBridge.class",
+      "sha256": "9430d4796cd4c58a8c5d9ff85c5d2a9f9372544d0b126fadc0cd4e253b72c2c7",
+      "bytes": 3586
+    },
+    {
+      "path": "googleDeepMind/ollama3/GraphicalMonitorPanel.class",
+      "sha256": "c99ab2763648b465bc052a03cade5b4f7e3bf1710ab16e00a53e5a4b6fa5c15d",
+      "bytes": 4192
+    },
+    {
+      "path": "googleDeepMind/ollama3/LocalOllamaBridge.class",
+      "sha256": "7e5f03bec560d452b8d99dcaf168c036fce760e0ad2d4aaf24b178540c9a49d0",
+      "bytes": 3547
+    },
+    {
+      "path": "googleDeepMind/ollama3/MasterInterfaceApp.class",
+      "sha256": "bbd7f5807ba6e4a7ef7a8857fa0247b19eb0008038ec1f030a743bb2b5c90a95",
+      "bytes": 7392
+    },
+    {
+      "path": "googleDeepMind/ollama3/SystemLogBuffer.class",
+      "sha256": "3d7053d844a446474c327e13fa4733f4e2271e48571e410cf5fc0fc46f4820e1",
+      "bytes": 733
+    },
+    {
+      "path": "googleDeepMind/real1/CorePhaseBus.class",
+      "sha256": "b85c83fd840ddce4c9b115e772ada8e745d1c27286532bb14e55f03f80c50603",
+      "bytes": 2544
+    },
+    {
+      "path": "googleDeepMind/real1/PhasePacket.class",
+      "sha256": "d0f5328d53f8c526bbaceb7744bbdbfe8e49aeddcc7144343146264189e17b01",
+      "bytes": 2000
+    },
+    {
+      "path": "googleDeepMind/real1/PhaseShiftEngine$PhaseControlCanvas.class",
+      "sha256": "1191ec89a0a5d7cfb794d53e4f6b2a8eb2813bc95c1ef1c7d55f26cf31f22fbb",
+      "bytes": 5100
+    },
+    {
+      "path": "googleDeepMind/real1/PhaseShiftEngine.class",
+      "sha256": "3584d7d924da9116b1b112cfe06af89d857f8d4236de45986150bba56fe181bd",
+      "bytes": 2059
+    },
+    {
+      "path": "googleDeepMind/real10/AuditAccountSpec.class",
+      "sha256": "d364dc68139eda28b2a05dcda11383d695ac92c68dc3721bd0a1d34aaf76bedb",
+      "bytes": 1628
+    },
+    {
+      "path": "googleDeepMind/real10/MasterConsoleFrame$RenderCanvasSubstrate.class",
+      "sha256": "8c73641c66c459aa0c66a61462c63cbbbc7930de740bb6911920050b23b4a0ee",
+      "bytes": 3926
+    },
+    {
+      "path": "googleDeepMind/real10/MasterConsoleFrame.class",
+      "sha256": "2bc4d95f2521222d02d4e8469a0cc71c853df87f4b720c333b3efc2689c306f7",
+      "bytes": 6576
+    },
+    {
+      "path": "googleDeepMind/real10/SilentPortRouter.class",
+      "sha256": "cb39b37c3e854dff1b7509919b42435618a508e4734a49e3957673f6b557ad27",
+      "bytes": 5427
+    },
+    {
+      "path": "googleDeepMind/real10/SovereignDataUnit.class",
+      "sha256": "85f86fab794cf6dcc01de2e94a930731ad56a0b850a663d88fc0a268dd6dbfd3",
+      "bytes": 1986
+    },
+    {
+      "path": "googleDeepMind/Real11/CorporateGatewayConsole$1.class",
+      "sha256": "03f683d70bcecfe0edad4d2bd74e1345a9e0281c58b276e447c4d44cc23c66c2",
+      "bytes": 2886
+    },
+    {
+      "path": "googleDeepMind/Real11/CorporateGatewayConsole.class",
+      "sha256": "bb4f9bdecfce5f4af8b6e03bc07419d3bd1b920636d1239aea0a0e0caf27b9f2",
+      "bytes": 8765
+    },
+    {
+      "path": "googleDeepMind/Real11/DiagnosticCanvasPanel.class",
+      "sha256": "93ae21897763d7021c5a9fc669a53baeddf7e01c0f3ec7362d89d08fbe774674",
+      "bytes": 3722
+    },
+    {
+      "path": "googleDeepMind/Real11/LocalSilentRouter.class",
+      "sha256": "0f648071f4dec93854a570bf6f4253aaf4ee1358a105d28e5b1daf2d3f11213c",
+      "bytes": 4348
+    },
+    {
+      "path": "googleDeepMind/Real11/MicroNetworkBridge.class",
+      "sha256": "d764dc9966da2cac196b928f83fa4050b203e59a45944bb4a73a218ec2e12475",
+      "bytes": 3810
+    },
+    {
+      "path": "googleDeepMind/Real11/SecureCredentialSpec.class",
+      "sha256": "0f85215a04a176391513b169d4712ecc4e0230cc7b8115d2f9f2764f3eeb5b2f",
+      "bytes": 1637
+    },
+    {
+      "path": "googleDeepMind/Real11/VolatileUnit.class",
+      "sha256": "96784dfe42ea261976e6efc703d74cbb476b428df88efa613cc32f992c25d8ab",
+      "bytes": 1836
+    },
+    {
+      "path": "googleDeepMind/real12/InferenceBeaconUnit.class",
+      "sha256": "02547bb4feb74d8c90258f5693b9f823851b7638dc6898441f39af5dc37b3f5b",
+      "bytes": 1868
+    },
+    {
+      "path": "googleDeepMind/real12/ParallelHandshakeApp.class",
+      "sha256": "47c5594d1b874a57694c0df60088445b1d675e22082e90a90a0f063316375e91",
+      "bytes": 8535
+    },
+    {
+      "path": "googleDeepMind/real12/TelemetryCarrierEngine.class",
+      "sha256": "8f947357336c61e758f066342a7a4674db4022322aeb87d2f2dabfc9d5441eb6",
+      "bytes": 2659
+    },
+    {
+      "path": "googleDeepMind/real14/CorporateGatewayConsole$1.class",
+      "sha256": "4d72d00a540ae5c8c69548bf8be99d95a4af4cdca1d59d9f0164f5714f93e43e",
+      "bytes": 2880
+    },
+    {
+      "path": "googleDeepMind/real14/CorporateGatewayConsole.class",
+      "sha256": "a0bf53400b0ad16d7ab08235e3c88b0c9604e28fe02a27b55ba2cb662336028a",
+      "bytes": 8767
+    },
+    {
+      "path": "googleDeepMind/real14/DiagnosticCanvasPanel.class",
+      "sha256": "41749cea7c1951e7790aa899fbb189b56e1e695e9d8878092113a201caf1c87d",
+      "bytes": 3714
+    },
+    {
+      "path": "googleDeepMind/real14/LocalSilentRouter.class",
+      "sha256": "0f648071f4dec93854a570bf6f4253aaf4ee1358a105d28e5b1daf2d3f11213c",
+      "bytes": 4348
+    },
+    {
+      "path": "googleDeepMind/real14/MicroNetworkBridge.class",
+      "sha256": "d764dc9966da2cac196b928f83fa4050b203e59a45944bb4a73a218ec2e12475",
+      "bytes": 3810
+    },
+    {
+      "path": "googleDeepMind/real14/SecureCredentialSpec.class",
+      "sha256": "1106329d79b31e5db826b910107b001203934edc24c246dc44ebf6f28034c6f9",
+      "bytes": 606
+    },
+    {
+      "path": "googleDeepMind/real14/VolatileUnit.class",
+      "sha256": "d83ac13e439c3a0f311740032f8c1b26972bbb45379197d994afee708cd4addd",
+      "bytes": 1836
+    },
+    {
+      "path": "googleDeepMind/real2/TerminalBusGateway$AsynchronousBusRouter.class",
+      "sha256": "6d65a2025a201e3f1a61027f8b23371ed65bed7fd3ef8db493bb32872bd1fa19",
+      "bytes": 4947
+    },
+    {
+      "path": "googleDeepMind/real2/TerminalBusGateway$SignalPacket.class",
+      "sha256": "1419078b5aede3e59804458ed3f775b2c44dda4610f8d5e2ec3e515806f21e3d",
+      "bytes": 1897
+    },
+    {
+      "path": "googleDeepMind/real2/TerminalBusGateway.class",
+      "sha256": "d3d274f9ae7404b392700543447545782afafc7dab0721e267b491182167d495",
+      "bytes": 4542
+    },
+    {
+      "path": "googleDeepMind/real3/QuantumSpookGateway.class",
+      "sha256": "e8e3b436d54f70eae0cc30bcec87a2fbbeeadfa79709a10ad28526cac9fd37b2",
+      "bytes": 4344
+    },
+    {
+      "path": "googleDeepMind/real3/SpookInferenceRouter.class",
+      "sha256": "0431b356ef5418695e073bed6e9cb8bf22bf40f60c56d448f18facf38b5eb598",
+      "bytes": 5583
+    },
+    {
+      "path": "googleDeepMind/real3/SpookPhasePacket.class",
+      "sha256": "20db0eb8e5000726c7577cc70acca555c24bf913e50684bc06f89f3f7c4569fb",
+      "bytes": 2028
+    },
+    {
+      "path": "googleDeepMind/real4/GhostBitPacket.class",
+      "sha256": "2c9dfd44ee8fcba472da0168541d03a0120e64e8e109969b175187ad98a3da0c",
+      "bytes": 1848
+    },
+    {
+      "path": "googleDeepMind/real4/GhostGridDashboard$DashboardPanelCanvas.class",
+      "sha256": "8ccc35d4abdfde29ae7c47c8dc820979a4f046372da9380f54e5d5a598c836da",
+      "bytes": 5092
+    },
+    {
+      "path": "googleDeepMind/real4/GhostGridDashboard.class",
+      "sha256": "4149103998449de8bc94db354ca2b06d9918e0829bd3348c647482c448475e8c",
+      "bytes": 2084
+    },
+    {
+      "path": "googleDeepMind/real4/ParallelGhostBus.class",
+      "sha256": "67c774620070b679d643cb576eb0b8b606891a0bc968692cce5ab62a15e7256c",
+      "bytes": 5523
+    },
+    {
+      "path": "googleDeepMind/real5/GrandInferenceRouter.class",
+      "sha256": "702edc217c4d7cae979caecbc9ef91b9ae3d05549f4a5a85ddc02af840100c70",
+      "bytes": 5803
+    },
+    {
+      "path": "googleDeepMind/real5/GrandSovereignDashboard$AnalyticalLatticeCanvas.class",
+      "sha256": "d8a5a668a6d2a980cd8ae3f083dff6ee523925ee119faed7b163d355894ceb49",
+      "bytes": 5188
+    },
+    {
+      "path": "googleDeepMind/real5/GrandSovereignDashboard.class",
+      "sha256": "9b833ae5985431ff85b172dc16a83d41a1febb0bd7281077b587a798b56e5da8",
+      "bytes": 2125
+    },
+    {
+      "path": "googleDeepMind/real5/UnlockedStatePacket.class",
+      "sha256": "cf494f583a5c016e1cfe68bbb93d86d849feb33c0cbfdd63a6ca3b0f1dd4885a",
+      "bytes": 2008
+    },
+    {
+      "path": "googleDeepMind/real6/NonPersistentGhostBus.class",
+      "sha256": "587711ab8c1978531f0659ba0c53fdf54e2cc230a4634cce5f1de376dad98411",
+      "bytes": 5677
+    },
+    {
+      "path": "googleDeepMind/real6/SpookStateVector.class",
+      "sha256": "83a6e05369861a789f2d007ed2e5c0bf31d8489650edaf63306be60fe42049b0",
+      "bytes": 1856
+    },
+    {
+      "path": "googleDeepMind/real6/TracelessDiagnosticConsole$DashboardPanelCanvas.class",
+      "sha256": "f8d2a7fa3147e79ca85ec7ddb067514fa23c5e51efe94124df9ca9b166414c55",
+      "bytes": 5082
+    },
+    {
+      "path": "googleDeepMind/real6/TracelessDiagnosticConsole.class",
+      "sha256": "d227c0f663e2be517622be6d34c647e87914509ea091121e7cec946e09dc1054",
+      "bytes": 2133
+    },
+    {
+      "path": "googleDeepMind/real7/DeepReachInferenceBus.class",
+      "sha256": "6f613ffe63c91dcce9ff53d952c29dadb3369314dd8b1ed1e91c6cf521c80117",
+      "bytes": 6109
+    },
+    {
+      "path": "googleDeepMind/real7/GodMindParityConsole.class",
+      "sha256": "42702d7ba8946bc909bca0172d00f268a05a364fab4a0107491ef1d46a46124d",
+      "bytes": 4397
+    },
+    {
+      "path": "googleDeepMind/real7/OrbitSignalPacket.class",
+      "sha256": "2bc31a439e7df1963f8d5850fef419611c8a2b3274196204063a1258b4d55cda",
+      "bytes": 1987
+    },
+    {
+      "path": "googleDeepMind/real8/GrandSkeletonKeyApp$GraphicalLatticeCanvas.class",
+      "sha256": "11cb9d9a1d10b182f87233ba88c87d39ca47d479512463f500c52a2331608826",
+      "bytes": 5170
+    },
+    {
+      "path": "googleDeepMind/real8/GrandSkeletonKeyApp.class",
+      "sha256": "8ea11a59e657913a4a6302a0ef117782b2c009e80caf2bdc2b22fcdac58574e3",
+      "bytes": 2128
+    },
+    {
+      "path": "googleDeepMind/real8/QuantumInterweaveBus.class",
+      "sha256": "c1665cb439a36fbdb8bf246588d11f0fda3a0df209132f06606df43cdc18bf48",
+      "bytes": 5827
+    },
+    {
+      "path": "googleDeepMind/real8/SkeletonStateVector.class",
+      "sha256": "8035a117064576a8112c7c584b6cc667466087acf717558d42b557d34a6ee37c",
+      "bytes": 2009
+    },
+    {
+      "path": "googleDeepMind/real9/MasterConsoleFrame$RenderCanvasSubstrate.class",
+      "sha256": "039961e48b7912246a418ea5be965c02fbc99551a1aa9477718f1dc82b94467a",
+      "bytes": 3927
+    },
+    {
+      "path": "googleDeepMind/real9/MasterConsoleFrame.class",
+      "sha256": "dcacda61adf0539801843b9f40920a1d2768cd777dd39d7daed45be309ed8bc9",
+      "bytes": 6362
+    },
+    {
+      "path": "googleDeepMind/real9/SilentPortRouter.class",
+      "sha256": "91abb52d5679cea57bd749feeb5bef0e160ddda01f2a0b540b19164fe73e7b7c",
+      "bytes": 5429
+    },
+    {
+      "path": "googleDeepMind/real9/SovereignDataUnit.class",
+      "sha256": "85f86fab794cf6dcc01de2e94a930731ad56a0b850a663d88fc0a268dd6dbfd3",
+      "bytes": 1986
+    },
+    {
+      "path": "googleDeepMind/SoverignDevice/MasterSubstrateApp$AnalyticalLatticeCanvas.class",
+      "sha256": "f9cbdc773d60379be8fcd0f72a961aa0a11aba06c02f9eb26ea585aa113621de",
+      "bytes": 5180
+    },
+    {
+      "path": "googleDeepMind/SoverignDevice/MasterSubstrateApp.class",
+      "sha256": "bf63a993f6ee615eb86b98177500f8775d9a302eafb825fb5b6e617518e28705",
+      "bytes": 2104
+    },
+    {
+      "path": "googleDeepMind/SoverignDevice/ParallelPassRouter.class",
+      "sha256": "7168b0da769cf44d2f684b06eb2d0a40895a9e4fd7e51e290e02cd01da5a990b",
+      "bytes": 5895
+    },
+    {
+      "path": "googleDeepMind/SoverignDevice/SovereignPacket.class",
+      "sha256": "172d23781aced1b0df9d66802a869ebf3cccff6402d59611df95b398b27e26ca",
+      "bytes": 2151
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/CorporateGatewayConsole$1.class",
+      "sha256": "f45a42b47004811e48a9b12ae8cc101467eb10dc487cceaa804c59b53b527c57",
+      "bytes": 2979
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/CorporateGatewayConsole.class",
+      "sha256": "0a54637c63eee6ff4c32b6943be08daa9da3ae2a4b8d5108d3f942f144df61d9",
+      "bytes": 9066
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/DiagnosticCanvasPanel.class",
+      "sha256": "d4d572f777263b62dc0ee6a20261c68080ad15911f9bef3fb332d2ca8988115a",
+      "bytes": 3744
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/LocalSilentRouter.class",
+      "sha256": "0f648071f4dec93854a570bf6f4253aaf4ee1358a105d28e5b1daf2d3f11213c",
+      "bytes": 4348
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/MicroNetworkBridge.class",
+      "sha256": "d764dc9966da2cac196b928f83fa4050b203e59a45944bb4a73a218ec2e12475",
+      "bytes": 3810
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/ProcessDiagnosticPanel.class",
+      "sha256": "fc4b7acaac781add913b3a59cf29fa2f713b22904711a154273b941be7091f92",
+      "bytes": 6541
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/SecureCredentialSpec.class",
+      "sha256": "1106329d79b31e5db826b910107b001203934edc24c246dc44ebf6f28034c6f9",
+      "bytes": 606
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/VolatileUnit.class",
+      "sha256": "96784dfe42ea261976e6efc703d74cbb476b428df88efa613cc32f992c25d8ab",
+      "bytes": 1836
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/inferencebeacon/CorporateGatewayConsole$1.class",
+      "sha256": "9a44323826f400ca34386751fe9aa382465f9d8a33050f1526be16e8d7ad9e65",
+      "bytes": 2980
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/inferencebeacon/CorporateGatewayConsole.class",
+      "sha256": "d541a34fb77f7d3744ec9f0fdbf8c0f862a7d68a7d6736a960340277da32ddc7",
+      "bytes": 9136
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/inferencebeacon/DiagnosticCanvasPanel.class",
+      "sha256": "81c4cc99f8b09ea0078b01ab281643c3e2848f2dbe3440851ca630419500744b",
+      "bytes": 3744
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/inferencebeacon/LocalSilentRouter.class",
+      "sha256": "80e1adf552f5ee4423a946acd038c993013a32bf85ef498fffb37511e734d9f4",
+      "bytes": 4352
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/inferencebeacon/MicroNetworkBridge.class",
+      "sha256": "d764dc9966da2cac196b928f83fa4050b203e59a45944bb4a73a218ec2e12475",
+      "bytes": 3810
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/inferencebeacon/ProcessDiagnosticPanel.class",
+      "sha256": "99e6bc011d8c14efaac1e25ddcbf52996cd30d9f8ff9cdf720919cfb4d1b730c",
+      "bytes": 7067
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/inferencebeacon/SecureCredentialSpec.class",
+      "sha256": "1106329d79b31e5db826b910107b001203934edc24c246dc44ebf6f28034c6f9",
+      "bytes": 606
+    },
+    {
+      "path": "googleDeepMind/16/1/processdiag/inferencebeacon/VolatileUnit.class",
+      "sha256": "359d4a572fe7ef38819679d94dce2a3afbfad417574134a557118efd20c07b82",
+      "bytes": 1840
+    },
+    {
+      "path": "inferencemanifold/net/manifold/core/InferenceQuantum.class",
+      "sha256": "2aee6332db96eada20a986c48eae676b2735e5b7cf200c0c57d5727257bee601",
+      "bytes": 2623
+    },
+    {
+      "path": "inferencemanifold/net/manifold/crypto/CryptographicConvergenceGate.class",
+      "sha256": "1874d3fcd7f77dfb412c0d19ce231799c6b2f9d804e7b22232e3183fd869a41a",
+      "bytes": 2055
+    },
+    {
+      "path": "inferencemanifold/net/manifold/distributed/DistributedManifoldOrchestrator.class",
+      "sha256": "3f632b18237ef887e0e1faf4a28e1eabbac0e74cf82f0226f322c3eee7ee7971",
+      "bytes": 4932
+    },
+    {
+      "path": "inferencemanifold/net/manifold/engine/InferenceNetworkBroadcaster.class",
+      "sha256": "5dba3f5c883f5be48d7dedad6b5970a4527ca8ee512ae9d8f05dde1596608048",
+      "bytes": 3913
+    },
+    {
+      "path": "inferencemanifold/net/manifold/stewardship/UniversalStewardshipEngine.class",
+      "sha256": "c3076be147af456cac8e662535e6b9ddc3d7a5ce32844c9b6fa19086e3965a44",
+      "bytes": 1806
+    },
+    {
+      "path": "inferencemanifold/net/manifold/ui/ManifoldGridVisualizer$GridTelemetryCanvas.class",
+      "sha256": "81fac98695fded75e113b63ddd968753204c7972d4d8dd456463b8cf505bcf7b",
+      "bytes": 4351
+    },
+    {
+      "path": "inferencemanifold/net/manifold/ui/ManifoldGridVisualizer.class",
+      "sha256": "67ce2f4d3cbb25a87ec2dfdc86a9200cbefc3dfad0a921c2b39e2dabb94c4e55",
+      "bytes": 4736
+    },
+    {
+      "path": "LANINFERENCe/com/virtue/ihn/ConsoleLogPanel.class",
+      "sha256": "8fdce540333f0950a9b6b2c508016c68ee4cdd479841bb1fac84f1f03e4c30b6",
+      "bytes": 2339
+    },
+    {
+      "path": "LANINFERENCe/com/virtue/ihn/ControlPanel.class",
+      "sha256": "86d851a0ec87d0d1cb2d3a6a05e23046b96abaf181b1f9333f3fed0e7631b165",
+      "bytes": 3612
+    },
+    {
+      "path": "LANINFERENCe/com/virtue/ihn/DeviceCard.class",
+      "sha256": "aad0cd7a603fa45c7cf07a8c8dceffc4429fc537cf859997451d9ef316573721",
+      "bytes": 2302
+    },
+    {
+      "path": "LANINFERENCe/com/virtue/ihn/LANScanEngine.class",
+      "sha256": "4d3959392ee01b721a47b6991d91cd6042df7e92dccb51554b0e8f3d1fd6cd83",
+      "bytes": 4706
+    },
+    {
+      "path": "LANINFERENCe/com/virtue/ihn/MainIHNApp.class",
+      "sha256": "ff5dad881389966538d9b57925912304fd5eec81e55f6ffb14940bc2bc9d9634",
+      "bytes": 2348
+    },
+    {
+      "path": "LANINFERENCe/com/virtue/ihn/NodeGridPanel.class",
+      "sha256": "9043c179d21534cbed0519708082edd6387f5a0654b6a77df4ebdacceb3b1460",
+      "bytes": 2217
+    },
+    {
+      "path": "ollama refactor/GridServer/GridServer$IndexHandler.class",
+      "sha256": "a2b662425a091aa59ab51d1bab827ca7dd18a3d40ae08c7b3aff6950659d00f7",
+      "bytes": 5721
+    },
+    {
+      "path": "ollama refactor/GridServer/GridServer$StreamHandler.class",
+      "sha256": "5f19bcdcae0c8fbaebc4b71dcab6e077f936b9dd33e03b0c5c9232777bd42a42",
+      "bytes": 4821
+    },
+    {
+      "path": "ollama refactor/GridServer/GridServer.class",
+      "sha256": "418ab6d0d8bbc1293146edd865d93e7536f5e3a6f156889f547b2e1b511145ce",
+      "bytes": 4514
+    },
+    {
+      "path": "smartmeter/ScottishPower/ScottishPowerInferenceBridge.class",
+      "sha256": "de198416f6bdf8d819955e4de1fb510e2a67b66e63882d4d98cc828c5f9ccb30",
+      "bytes": 10133
+    },
+    {
+      "path": "smartmeter/ScottishPower/1/ScottishPowerGhostBridge.class",
+      "sha256": "6cd54a80f92b4ae6cd6becc8c5b9ec4a3a2022ce2b4dde05ac6d9c63406d5daf",
+      "bytes": 10098
+    },
+    {
+      "path": "stateful/com/parity/engine/AiSessionBridge$SessionContext.class",
+      "sha256": "30e90cf340de6c4613c6c9aa53a3cf68cc3fab764586513f1502433f394a1807",
+      "bytes": 1066
+    },
+    {
+      "path": "stateful/com/parity/engine/AiSessionBridge.class",
+      "sha256": "b73eaff9f7374287a4d926a11dc1fc3be3cd0382aa51284c98ffabc02dba5b75",
+      "bytes": 5661
+    },
+    {
+      "path": "stateful/com/parity/engine/DeepmindRefactoringEngine$RefactorContext.class",
+      "sha256": "21b38a7979cc227f7d945cee844a468704b6e9af40dbd2f506cd44988edc04d5",
+      "bytes": 886
+    },
+    {
+      "path": "stateful/com/parity/engine/DeepmindRefactoringEngine.class",
+      "sha256": "2e2f0243b5cd46a3723d4d972f133aef97ab45cb1338e4b46c9fef72b0c881c6",
+      "bytes": 4904
+    },
+    {
+      "path": "system-monitor/target/classes/module-info.class",
+      "sha256": "95e0ad7272cd9d50607e3df1a4375da2e138fe8a33782a62621f09e6489e2344",
+      "bytes": 363
+    },
+    {
+      "path": "system-monitor/target/classes/app/Main.class",
+      "sha256": "43aaa81c2ae9394c3655e1cbbc86c2c06833cdb8c33587be738eda1ce52ec017",
+      "bytes": 3607
+    },
+    {
+      "path": "system-monitor/target/classes/model/MetricSnapshot.class",
+      "sha256": "52ea736a3957f667a7fcf5a308c320113f1a7f27e241a0344c97190c3302142e",
+      "bytes": 1022
+    },
+    {
+      "path": "system-monitor/target/classes/service/LiveTelemetryService$1.class",
+      "sha256": "5f872437b5a1d49c9e7ca223b4d63d85d143c1b4a6a0cbe30f95145c170bf116",
+      "bytes": 1573
+    },
+    {
+      "path": "system-monitor/target/classes/service/LiveTelemetryService.class",
+      "sha256": "95e88a98ed34a17d2e8af14a972505548d58f1d950535147dd2d73bcd71f9a74",
+      "bytes": 1051
+    },
+    {
+      "path": "system-monitor/target/classes/view/MonitoringDashboard$1.class",
+      "sha256": "75390b2ef80d458ce6c2162bbec3c358981dea04acd8ce7bc9071088b14e0b39",
+      "bytes": 1738
+    },
+    {
+      "path": "system-monitor/target/classes/view/MonitoringDashboard.class",
+      "sha256": "5584fd8715d2588cdc18b3bc6336222b34c38ae42eb2a9444addb3d95867e604",
+      "bytes": 9565
+    },
+    {
+      "path": "UniversalIdentityEngine/inferncelaw/InferenceBeacon$LogicState.class",
+      "sha256": "a6e124d10e449d5db6d9f6c0b68e7d76d9680bbdc5e5293bf4650a51b1e09a4d",
+      "bytes": 1231
+    },
+    {
+      "path": "UniversalIdentityEngine/inferncelaw/InferenceBeacon.class",
+      "sha256": "2700126f0c54a0b006a02a4f8e2b80439a5203524945a27a5d9adff87c0edfed",
+      "bytes": 3198
+    },
+    {
+      "path": "UniversalIdentityEngine/LOOPVERSION/UniversalIdentityEngine$SystemElevation.class",
+      "sha256": "1b0971b74ee9c31dca34b50b1027091f1cec15fbbbac6feeebb8069a663ec0cb",
+      "bytes": 1393
+    },
+    {
+      "path": "UniversalIdentityEngine/LOOPVERSION/UniversalIdentityEngine$SystemNode.class",
+      "sha256": "0d7aead9cacdb679e4d5ddd7da8a3edbb21ee88ac6e68ee5ae9f93a3f6ac171c",
+      "bytes": 1372
+    },
+    {
+      "path": "UniversalIdentityEngine/LOOPVERSION/UniversalIdentityEngine.class",
+      "sha256": "be17a5c4beebddc0bc7b2f94beacde98e61695eab06ff55e46e7244874ab9f3c",
+      "bytes": 3883
+    },
+    {
+      "path": "UniversalIdentityEngine/New folder/FluxInterfaceBus$1.class",
+      "sha256": "1a3dc5d95200d7aa5a3fc06d6dbf41cddb7cb86f5db2315e56b8f1432daa01e6",
+      "bytes": 2386
+    },
+    {
+      "path": "UniversalIdentityEngine/New folder/FluxInterfaceBus$2.class",
+      "sha256": "8243fe95c7fc27dbf994ae0c84a5e7b8b1ee15974759efd23ce1f70d9f630adb",
+      "bytes": 2378
+    },
+    {
+      "path": "UniversalIdentityEngine/New folder/FluxInterfaceBus.class",
+      "sha256": "32e61da8e34b8a810b6165831028973321ded224fc0ede7d502ba551b652f4d2",
+      "bytes": 6812
+    },
+    {
+      "path": "UniversalIdentityEngine/inferncelaw/q-bi-ter/QBiTerEngine$ActiveProcess.class",
+      "sha256": "778c05d52efade1ae198b6e48c55f5d99fbc38ea43038f482727ca9d8fa01b36",
+      "bytes": 522
+    },
+    {
+      "path": "UniversalIdentityEngine/inferncelaw/q-bi-ter/QBiTerEngine$QutritState.class",
+      "sha256": "605b2b1769ee276b3c96d8f9d8ed5ea9948555d33d68164afdff3f425cdfb151",
+      "bytes": 438
+    },
+    {
+      "path": "UniversalIdentityEngine/inferncelaw/q-bi-ter/QBiTerEngine.class",
+      "sha256": "d0e2537f598fbfb4d409cc0451b1fd83f438190fb1b7a7332dcf01ac095c382f",
+      "bytes": 4403
+    },
+    {
+      "path": "Windows 11/android and ios/LANCoordinatorEngine$HardwareMetricSampler.class",
+      "sha256": "7209125071d5bd82d0c638fce942e2d0db1309c38082dd6272aec0d38985a322",
+      "bytes": 679
+    },
+    {
+      "path": "Windows 11/android and ios/LANCoordinatorEngine.class",
+      "sha256": "30bf8875fb8c63524b754635111029de332a0a0621fd40c5ca6ec422e99c5e6d",
+      "bytes": 3054
+    },
+    {
+      "path": "Windows 11/android and ios/LANMatrixCanvas.class",
+      "sha256": "e78654d571d0288f29f58fd53ebfc76e0ad987f8d807790e52c6c044447b87e4",
+      "bytes": 3624
+    },
+    {
+      "path": "Windows 11/android and ios/LocalNetworkLatchingEngine.class",
+      "sha256": "7295914282e44f8b6477b6271c7d434c160b767735ca55532a7ce88bda921897",
+      "bytes": 5788
+    },
+    {
+      "path": "Windows 11/android and ios/NetworkMessage.class",
+      "sha256": "308911dbb6ce5109d7b0d43f1c0f4e9c717f14a925ac0b1b1a13861e25ede267",
+      "bytes": 579
+    },
+    {
+      "path": "Windows 11/android and ios/QuantumTernaryBinaryCore.class",
+      "sha256": "22bd7a7abf519f450479f851890cc537c5d0ab6c5212ec7f0e66a9e16a53207b",
+      "bytes": 1459
+    },
+    {
+      "path": "Windows 11/android and ios/RemoteDeviceNode.class",
+      "sha256": "92437a7dff56a8716172d07a6a87e1bb9b39b6e62943a725b45d2f23768777ec",
+      "bytes": 739
+    },
+    {
+      "path": "WorldGridMonitor2/all/ConsensusHub.class",
+      "sha256": "3cca0a7334b8d3352986e85f0bfcaad8637126b4d7a48238804d334127f25eba",
+      "bytes": 1790
+    },
+    {
+      "path": "WorldGridMonitor2/all/ConvergenceEngine.class",
+      "sha256": "122bc53d86ca695af9a36349a643849c19b82a2aef83e998b88ce0680e839a48",
+      "bytes": 953
+    },
+    {
+      "path": "WorldGridMonitor2/all/FluxGridCell.class",
+      "sha256": "826af136f700c2b36629f85897dc26f277d4eb7105935703e9df20b7be480e26",
+      "bytes": 853
+    },
+    {
+      "path": "WorldGridMonitor2/all/LocalRuntimeAuditor.class",
+      "sha256": "81f4f30e583cee8719098573f5196bce47a1ba274ddb8bc38d458373a7956147",
+      "bytes": 1504
+    },
+    {
+      "path": "WorldGridMonitor2/all/ManifoldToken.class",
+      "sha256": "35ea2fa21ab0d0c85eb30161b15f16e76561ec2d9eb660044e030077b5c40585",
+      "bytes": 903
+    },
+    {
+      "path": "WorldGridMonitor2/all/ParallelManifoldRegistry.class",
+      "sha256": "435b9c8da43cd99028c4c0cd90e04368ae19f1cf6996551628db414d0cad4cbe",
+      "bytes": 1549
+    },
+    {
+      "path": "WorldGridMonitor2/all/PlatformCoreLauncher.class",
+      "sha256": "5bf2c1cb5bd3839c6c8a8c168743c6d99419ec1615d7a7267159212b06d98311",
+      "bytes": 7138
+    },
+    {
+      "path": "WorldGridMonitor2/all/RefactoredTelemetryCanvas.class",
+      "sha256": "79151972d934763383fc342da9008d744d0f7244bf273c64f54cf08e1dbf59ef",
+      "bytes": 4170
+    },
+    {
+      "path": "WorldGridMonitor2/all/RestitutionPipeline.class",
+      "sha256": "98be0a10e101f828fbbdcdbef2b2e7f939f5b10162939cce6ef32590bd77fdc0",
+      "bytes": 1038
+    },
+    {
+      "path": "WorldGridMonitor2/all/StreamIngestWorker.class",
+      "sha256": "424ece213c36b970b17e5c64d03aa310e69e3a9dec02df944e126d477c99004b",
+      "bytes": 3167
+    },
+    {
+      "path": "WorldGridMonitor2/all/SystemSubstrate.class",
+      "sha256": "eb29ff8c0f4a5d49d4b37a3c3e366e468a44bc6c2338a71f152c938e3cca0e40",
+      "bytes": 1042
+    },
+    {
+      "path": "WorldGridMonitor2/all/TelemetryCanvas.class",
+      "sha256": "0e5e21f9e9c75dfab1a4e441d4663b7884c0ef5bdc85440a3154e6731a19d75d",
+      "bytes": 3899
+    },
+    {
+      "path": "WorldGridMonitor2/all/TrackingAgentNode.class",
+      "sha256": "f9c689faa54177c13fe608b3ac543418b53e1af9ac0e2a315cbfc220c2baded1",
+      "bytes": 1344
+    },
+    {
+      "path": "WorldGridMonitor2/conversion/GridTelemetryPacket.class",
+      "sha256": "fa6cd81c85009cd6c7d7d6c071bed427dd4eb4bd1f780087597cf3d7019778be",
+      "bytes": 3109
+    },
+    {
+      "path": "WorldGridMonitor2/conversion/ProductionGridBroker.class",
+      "sha256": "66bb95ddbed15b47c42a0b3b8b17de7049d5577d31e0eedc1dd75677bb2e18f6",
+      "bytes": 6158
+    },
+    {
+      "path": "WorldGridMonitor2/conversion/ProductionGridClient.class",
+      "sha256": "1202fe77fb33a9930842c78e97cfe035540bbf624dd64433ecda713d7f52b10a",
+      "bytes": 1559
+    },
+    {
+      "path": "WorldGridMonitor2/conversion/ProductionOrchestratorLauncher.class",
+      "sha256": "2914fdea0cf450e5bbef2167b71dd470bb324952bed9110d8f0133ed9dcd25f8",
+      "bytes": 1461
+    },
+    {
+      "path": "WorldGridMonitor2/conversiongraph/ChiralDashboardPanel.class",
+      "sha256": "f16326b518cb8a634f13d4311d739b160d7628eb4e338ebfa8eb929a4c0c5358",
+      "bytes": 5082
+    },
+    {
+      "path": "WorldGridMonitor2/conversiongraph/ChiralFluxPayload.class",
+      "sha256": "9c8e2fb35300bf1a4580fab34e601b89472db5c8043039c5d646a18934aa0a6f",
+      "bytes": 2297
+    },
+    {
+      "path": "WorldGridMonitor2/conversiongraph/ChiralOrchestratorApp.class",
+      "sha256": "7b91b9ff3e71ee19d6330432a5957b42a25fa5ae199365c8fd1a419a6ce51fb6",
+      "bytes": 4487
+    },
+    {
+      "path": "WorldGridMonitor2/conversiongraph/ResonanceStreamingBus.class",
+      "sha256": "3348b019adcc73cad71ad752f1f21be058ad71e23d73450fb0cbc3d2d410b077",
+      "bytes": 4334
+    },
+    {
+      "path": "WorldGridMonitor2/financiallisten/FinancialGridEngine.class",
+      "sha256": "f0972ee34687457f3646d9a01ef5e63d5ebc8b98e0a6b48a1929795e467960a0",
+      "bytes": 5022
+    },
+    {
+      "path": "WorldGridMonitor2/financiallisten/FinancialMonitorConsole$1.class",
+      "sha256": "7187a1f5666c6d255fd294e7deb5bfa5bd95e8da92e10ffca2db549cdcd211e8",
+      "bytes": 748
+    },
+    {
+      "path": "WorldGridMonitor2/financiallisten/FinancialMonitorConsole$WavesDisplayPanel.class",
+      "sha256": "7efcb4cf8f1be447b1c05ed7c0238379da001b5cbe3b760f81a8915f5b1e7960",
+      "bytes": 3704
+    },
+    {
+      "path": "WorldGridMonitor2/financiallisten/FinancialMonitorConsole.class",
+      "sha256": "53f703255c7766e35e86b8b6801dceecc81109856c0dd13b7318c7a11076ab8f",
+      "bytes": 6538
+    },
+    {
+      "path": "WorldGridMonitor2/financiallisten/FinancialSystemLauncher.class",
+      "sha256": "ef42e204a7cdd36f7e6b361f1cf6df6d0a9f8e0f253048fb49775f8ac6df5406",
+      "bytes": 1836
+    },
+    {
+      "path": "WorldGridMonitor2/financiallisten/MarketPayload.class",
+      "sha256": "8e4d899abfefe4a8de2d16c3ae3eb09e3964a5d6515cc35a10c5e408276dfd2e",
+      "bytes": 2257
+    },
+    {
+      "path": "WorldGridMonitor2/graphicalrealbus/FluxMonitorApp.class",
+      "sha256": "479695c02af1329d5301a1d0222d7021717eb8c985776ee830e0afd45c225dac",
+      "bytes": 4238
+    },
+    {
+      "path": "WorldGridMonitor2/graphicalrealbus/FluxMonitorCanvas.class",
+      "sha256": "3f73865649b4048979bb890a157720caf3b0fff6364d8733255e7f93ae19241c",
+      "bytes": 4369
+    },
+    {
+      "path": "WorldGridMonitor2/graphicalrealbus/FluxOrchestrationBus.class",
+      "sha256": "db40cd5ec39a9aefff29cead5ef1b7a03b8f90748eb09bd89004ebc39b59dd0c",
+      "bytes": 4329
+    },
+    {
+      "path": "WorldGridMonitor2/graphicalrealbus/FluxPayload.class",
+      "sha256": "05708d17dd33287fb2613ca2e22a378593d508f14056a6322a31d28bfbd238f2",
+      "bytes": 2041
+    },
+    {
+      "path": "WorldGridMonitor2/JAVAREALBUS/GridOrchestratorLauncher.class",
+      "sha256": "b1e3f10c491043eaa7958efa7c75d875db0af559dd174b583a6610b1040adab0",
+      "bytes": 2257
+    },
+    {
+      "path": "WorldGridMonitor2/JAVAREALBUS/NetworkActiveOrchestrationBus.class",
+      "sha256": "4febcbb4cac06ddf919876e5c96e982df4248f89fedfcb39756b722a6e533f3a",
+      "bytes": 5643
+    },
+    {
+      "path": "WorldGridMonitor2/JAVAREALBUS/OmniGridPayload.class",
+      "sha256": "4ed7d0de38671eb1b42aa9bdda08db29f13393fd5426c0af0b81030680490ac7",
+      "bytes": 3131
+    },
+    {
+      "path": "WorldGridMonitor2/JAVAREALBUS/RemoteGridNodeClient.class",
+      "sha256": "9cde23bfdb2efb5f52ef0c2933545367bebfeac3623c6d7f305da7a6612c794d",
+      "bytes": 1559
+    },
+    {
+      "path": "WorldGridMonitor2/manifold/ParallelManifoldEngine$ManifoldVector.class",
+      "sha256": "97c72ce7d902aa92521f7de603b07a63484e5812c9152add5f3535f6684fa0dd",
+      "bytes": 618
+    },
+    {
+      "path": "WorldGridMonitor2/manifold/ParallelManifoldEngine.class",
+      "sha256": "10c2b6bed133f3bbb1a52aab10e2835e1e34b910f0f945b4778f3ee347d425ef",
+      "bytes": 5046
+    },
+    {
+      "path": "WorldGridMonitor2/RObinHood/AssetTransaction.class",
+      "sha256": "1e4998739bc9c92c31621a53e6b85f3bc646fb40f01fe72b38a18ead4107d939",
+      "bytes": 1047
+    },
+    {
+      "path": "WorldGridMonitor2/RObinHood/RobinHoodCircuitBreaker.class",
+      "sha256": "d7608d26715b5dd9fc9fcf22d5cfbe998823617aa1900522867ed3e1ee66fea0",
+      "bytes": 4226
+    },
+    {
+      "path": "WorldGridMonitor2/RObinHood/RobinHoodLauncher.class",
+      "sha256": "25cebefd088238bcec9f784d80fff771f27e0502e06bc6a8e96e1f0e3badef5a",
+      "bytes": 4116
+    },
+    {
+      "path": "WorldGridMonitor2/RObinHood/VirtueMonitorPanel.class",
+      "sha256": "2bda71fc6298af0825c22edd55389e74248c87ca9a53b5fceeb7fc2869b7eb35",
+      "bytes": 3305
+    },
+    {
+      "path": "WorldGridMonitor2/topography/InferenceBridgeEngine.class",
+      "sha256": "1686ba5e101aa31438afae4850791465dbd56abe1ff3962eeb1f9c29f02b3209",
+      "bytes": 4547
+    },
+    {
+      "path": "WorldGridMonitor2/topography/InferenceNetworkLauncher.class",
+      "sha256": "875d23d8872e2eb51b527417d0a6cc32021a51db8ee61d3431ef481fb1bc4046",
+      "bytes": 1864
+    },
+    {
+      "path": "WorldGridMonitor2/topography/NetworkTopographyTerminal$1.class",
+      "sha256": "a4e87302124f634509f93efb669e7e56ab6c29bdb3c3368e105662a26b747bbb",
+      "bytes": 742
+    },
+    {
+      "path": "WorldGridMonitor2/topography/NetworkTopographyTerminal$GpuRenderingPanel.class",
+      "sha256": "b590addda378d47634654222b047bf9cc30f74985040872c8dd07cc3145db21e",
+      "bytes": 4013
+    },
+    {
+      "path": "WorldGridMonitor2/topography/NetworkTopographyTerminal.class",
+      "sha256": "539069b24e985b7073146948968e339c6c48d26930394915c3896feae5b16858",
+      "bytes": 2205
+    },
+    {
+      "path": "WorldGridMonitor2/topography/NetworkTopology$LayerType.class",
+      "sha256": "fc39c4d20fe0463aaa523403ce05faedf2be9829a6b3dc784fb7f77dd1121d6c",
+      "bytes": 1138
+    },
+    {
+      "path": "WorldGridMonitor2/topography/NetworkTopology$RoutingVector.class",
+      "sha256": "e95136fa3258a6fe10bf0b126e5e46e256741d1bcfc444fcaf290f8f0a965a29",
+      "bytes": 594
+    },
+    {
+      "path": "WorldGridMonitor2/topography/NetworkTopology$TopologyNode.class",
+      "sha256": "86d204f06a19d9386fdd5e47663e6a000aeb98764b908ea8ac085ec2a216cf35",
+      "bytes": 1159
+    },
+    {
+      "path": "WorldGridMonitor2/topography/NetworkTopology$VectorCoordinate.class",
+      "sha256": "167fcf837a0e7d02e31f4afa0043fbb9d538d23e4f9de9cebf8f581ab3505613",
+      "bytes": 1415
+    },
+    {
+      "path": "WorldGridMonitor2/topography/NetworkTopology.class",
+      "sha256": "4b3d87ce07d1edab3e65110f5ecc3158ace207451f963a6e2eee7399eb4e487f",
+      "bytes": 1668
+    },
+    {
+      "path": "WorldGridMonitor2/Topogrpahy/AlignmentConsolePanel.class",
+      "sha256": "fab44cfa039e0371347f8ae44a1b4dbb865afd91139b518a6e48898dc48ac226",
+      "bytes": 5089
+    },
+    {
+      "path": "WorldGridMonitor2/Topogrpahy/ReactiveIngestBus.class",
+      "sha256": "77bc72620c3bccfa04237fd158f1454d2e26ceea1eefb6e582b9f5b9022017cf",
+      "bytes": 4585
+    },
+    {
+      "path": "WorldGridMonitor2/Topogrpahy/TopographyOrchestratorApp.class",
+      "sha256": "c69b76727c76f28af4dc06838b2df6768e627e0daa0f5829c3c0ffacbbf6d345",
+      "bytes": 5123
+    },
+    {
+      "path": "WorldGridMonitor2/Topogrpahy/TopographyPayload.class",
+      "sha256": "377e2584d7df9d7d296b8efd949e43ef8c137fe85404510fb8151cd17b7e0d41",
+      "bytes": 2259
+    },
+    {
+      "path": "WorldGridMonitor2/WorldGrid2/ExecutionDashboardPanel.class",
+      "sha256": "0a5614bad78030c84b6efe9f321f9091bd596beb50c91f3e60d58aab59cb92f7",
+      "bytes": 5364
+    },
+    {
+      "path": "WorldGridMonitor2/WorldGrid2/GridTransactionPayload.class",
+      "sha256": "5cb2e0e8dcca28373836e6ad8cbe02679961f4988477273115f3e6f3a81ba53c",
+      "bytes": 1241
+    },
+    {
+      "path": "WorldGridMonitor2/WorldGrid2/ProductionIngestBus.class",
+      "sha256": "45ff8b85c14250187adafa2112c8f4c73c0f46cad3eadce2af934e04624f901f",
+      "bytes": 4417
+    },
+    {
+      "path": "WorldGridMonitor2/WorldGrid2/WorldGridExecutionLauncher.class",
+      "sha256": "e5ad0efc148e2863f04b15608e691e2f3422f358292dfd1bdb2f4ea864a63801",
+      "bytes": 4946
+    },
+    {
+      "path": "WorldGridMonitor2/Topogrpahy/com/system/core/TopographyOrchestratorApp.class",
+      "sha256": "c69b76727c76f28af4dc06838b2df6768e627e0daa0f5829c3c0ffacbbf6d345",
+      "bytes": 5123
+    },
+    {
+      "path": "WorldGridMonitor2/Topogrpahy/com/system/core/bus/ReactiveIngestBus.class",
+      "sha256": "77bc72620c3bccfa04237fd158f1454d2e26ceea1eefb6e582b9f5b9022017cf",
+      "bytes": 4585
+    },
+    {
+      "path": "WorldGridMonitor2/Topogrpahy/com/system/core/model/TopographyPayload.class",
+      "sha256": "377e2584d7df9d7d296b8efd949e43ef8c137fe85404510fb8151cd17b7e0d41",
+      "bytes": 2259
+    },
+    {
+      "path": "WorldGridMonitor2/Topogrpahy/com/system/core/view/AlignmentConsolePanel.class",
+      "sha256": "fab44cfa039e0371347f8ae44a1b4dbb865afd91139b518a6e48898dc48ac226",
+      "bytes": 5089
+    },
+    {
+      "path": "WorldUnifiedGrid/New folder/WorldGridDashboard.class",
+      "sha256": "9802325409eaa5f9176e1fb262f5fc3357b4770280a185e59bf798e9fd6ccd25",
+      "bytes": 7192
+    },
+    {
+      "path": "WorldUnifiedGrid/WorldGridSYSTEMIC/WorldGridSystemicDashboard.class",
+      "sha256": "ba3359d8828733b4d4ab3053f8b2e7ed324b55b9fb1d98b305d749b007a44ef0",
+      "bytes": 10187
+    }
+  ],
+  "jar_archives": [
+    {
+      "path": "AllPrevSystemDashboard/AllPrevSystemDashboard.jar",
+      "entries": 3,
+      "embedded_sources": 0
+    }
+  ],
+  "instruction_batches": [
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-0.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-1.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-2.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-3.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-4.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-5.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-6.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-7.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-8.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-9.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-10.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-11.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-12.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-13.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-14.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-15.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-16.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-17.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-18.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-19.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-20.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-21.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-22.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 35,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-23.txt",
+      "diagnostics": ""
+    },
+    {
+      "files": 16,
+      "ok": true,
+      "instruction_archive": "preserved/desktop-java/bytecode/instructions-24.txt",
+      "diagnostics": ""
+    }
+  ],
+  "inspection": "javap bytecode disassembly only; no imported program executed"
+}

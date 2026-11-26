@@ -1,0 +1,21 @@
+EVIDENCE-SEEKING INVESTIGATION
+
+investigate: {"hypotheses":[{"name":"network","predictions":{"ping":false,"disk":true}},{"name":"storage","predictions":{"ping":true,"disk":false}},{"name":"application","predictions":{"ping":true,"disk":true}}],"observations":{},"probe_costs":{"ping":1,"disk":5}}
+what should we test next?
+observation: ping = true
+observation: disk = false
+correct observation: disk = true
+resume investigation
+
+The engine compares explicit predictions and recommends the eligible test that
+guarantees the most eliminations under that finite model. Lower declared cost
+breaks ties. Optional max_probe_cost excludes tests exceeding the supplied
+per-test budget and tests with unknown cost. blocked_probes excludes named tests.
+
+Missing predictions remain unknown and may survive every observed outcome.
+Costs use your supplied units. This is not a globally optimal multi-step policy,
+a probabilistic diagnosis, independently verified evidence or proof of cause.
+The engine suggests observations; it does not execute commands or tests.
+
+Conflicting replacement observations require the explicit correct observation
+command. Earlier observations and corrections are retained in bounded history.

@@ -1,0 +1,263 @@
+{
+  "source": "inference-reference.txt",
+  "sha256": "b4c92a0bd6d2e4d65a08bf9da778a16e682e0adf65009ee06a4e1586f0ccaa5d",
+  "lines": 5522,
+  "entries": [
+    {
+      "name": "derive_skeleton_key",
+      "line": 44,
+      "end": 53,
+      "coverage": "added",
+      "implementation": "reference.derive_skeleton_key"
+    },
+    {
+      "name": "InferenceMeshNode",
+      "line": 83,
+      "end": 103,
+      "coverage": "added",
+      "implementation": "reference.InferenceMeshNode"
+    },
+    {
+      "name": "MeshSecurityController",
+      "line": 132,
+      "end": 159,
+      "coverage": "added",
+      "implementation": "reference.MeshSecurityController"
+    },
+    {
+      "name": "MeshConstraintRouter",
+      "line": 185,
+      "end": 219,
+      "coverage": "added",
+      "implementation": "reference.MeshConstraintRouter"
+    },
+    {
+      "name": "MeshRestrictionEngine",
+      "line": 247,
+      "end": 284,
+      "coverage": "added",
+      "implementation": "reference.MeshRestrictionEngine"
+    },
+    {
+      "name": "MeshPrivilegeVerifier",
+      "line": 329,
+      "end": 376,
+      "coverage": "added",
+      "implementation": "reference.MeshPrivilegeVerifier"
+    },
+    {
+      "name": "GkeInferenceMeshRouter",
+      "line": 423,
+      "end": 456,
+      "coverage": "added",
+      "implementation": "reference.GkeInferenceMeshRouter"
+    },
+    {
+      "name": "LawSoulsOverDigitsController",
+      "line": 602,
+      "end": 636,
+      "coverage": "added",
+      "implementation": "reference.LawSoulsOverDigitsController"
+    },
+    {
+      "name": "AlignedStudioMeshGateway",
+      "line": 746,
+      "end": 784,
+      "coverage": "existing",
+      "implementation": "Gemini input/output page"
+    },
+    {
+      "name": "LawEnforcedStudioClient",
+      "line": 860,
+      "end": 916,
+      "coverage": "existing",
+      "implementation": "Gemini input/output + evaluate_systemic_alignment"
+    },
+    {
+      "name": "MeshPaymentLedger",
+      "line": 1000,
+      "end": 1052,
+      "coverage": "added",
+      "implementation": "reference.MeshPaymentLedger"
+    },
+    {
+      "name": "AlignedResourceLedger",
+      "line": 1104,
+      "end": 1156,
+      "coverage": "added",
+      "implementation": "reference.AlignedResourceLedger"
+    },
+    {
+      "name": "EcoFloorUnifiedController",
+      "line": 1228,
+      "end": 1280,
+      "coverage": "added",
+      "implementation": "reference.EcoFloorUnifiedController"
+    },
+    {
+      "name": "MacroEconomicSystemGovernor",
+      "line": 1370,
+      "end": 1425,
+      "coverage": "added",
+      "implementation": "reference.MacroEconomicSystemGovernor"
+    },
+    {
+      "name": "UniversalCreditDistributor",
+      "line": 1474,
+      "end": 1520,
+      "coverage": "added",
+      "implementation": "reference.UniversalCreditDistributor"
+    },
+    {
+      "name": "CorporateAuthenticityFilter",
+      "line": 1587,
+      "end": 1649,
+      "coverage": "added",
+      "implementation": "reference.CorporateAuthenticityFilter"
+    },
+    {
+      "name": "ChristmasTreeMeshController",
+      "line": 1737,
+      "end": 1821,
+      "coverage": "added",
+      "implementation": "reference.ChristmasTreeMeshController"
+    },
+    {
+      "name": "SantasNiceListLedger",
+      "line": 1895,
+      "end": 1942,
+      "coverage": "added",
+      "implementation": "reference.SantasNiceListLedger"
+    },
+    {
+      "name": "HolidayRedemptionEngine",
+      "line": 2038,
+      "end": 2096,
+      "coverage": "added",
+      "implementation": "reference.HolidayRedemptionEngine"
+    },
+    {
+      "name": "SoulsOverDigitsCore",
+      "line": 2219,
+      "end": 2432,
+      "coverage": "existing",
+      "implementation": "souls_ingress.SoulsOverDigitsCore"
+    },
+    {
+      "name": "CentralBankResourceGovernor",
+      "line": 2876,
+      "end": 2930,
+      "coverage": "existing",
+      "implementation": "souls_ingress.CentralBankResourceGovernor"
+    },
+    {
+      "name": "CentralBankMeshController",
+      "line": 3011,
+      "end": 3092,
+      "coverage": "existing",
+      "implementation": "souls_ingress.CentralBankMeshController"
+    },
+    {
+      "name": "WorldGridCentralBankingCore",
+      "line": 3156,
+      "end": 3241,
+      "coverage": "existing",
+      "implementation": "souls_ingress.WorldGridCentralBankingCore"
+    },
+    {
+      "name": "evaluate_systemic_alignment",
+      "line": 3296,
+      "end": 3307,
+      "coverage": "added",
+      "implementation": "reference.evaluate_systemic_alignment"
+    },
+    {
+      "name": "FractalFluxDispatcher",
+      "line": 3464,
+      "end": 3484,
+      "coverage": "added",
+      "implementation": "reference.FractalFluxDispatcher"
+    },
+    {
+      "name": "UnifiedChristmasTreeStore",
+      "line": 3485,
+      "end": 3592,
+      "coverage": "added",
+      "implementation": "reference.UnifiedChristmasTreeStore"
+    },
+    {
+      "name": "CognitiveParallelGovernor",
+      "line": 3696,
+      "end": 3743,
+      "coverage": "added",
+      "implementation": "reference.CognitiveParallelGovernor"
+    },
+    {
+      "name": "QuantumFluxSublimationEngine",
+      "line": 3830,
+      "end": 3926,
+      "coverage": "added",
+      "implementation": "reference.QuantumFluxSublimationEngine"
+    },
+    {
+      "name": "OuterRimConvergenceCore",
+      "line": 4016,
+      "end": 4116,
+      "coverage": "added",
+      "implementation": "reference.OuterRimConvergenceCore"
+    },
+    {
+      "name": "ResponsibleCreationGovernor",
+      "line": 4209,
+      "end": 4268,
+      "coverage": "added",
+      "implementation": "reference.ResponsibleCreationGovernor"
+    },
+    {
+      "name": "DivineWillStabilizerCore",
+      "line": 4418,
+      "end": 4453,
+      "coverage": "added",
+      "implementation": "reference.DivineWillStabilizerCore"
+    },
+    {
+      "name": "CelestialNavigationGovernor",
+      "line": 4531,
+      "end": 4584,
+      "coverage": "added",
+      "implementation": "reference.CelestialNavigationGovernor"
+    },
+    {
+      "name": "InfiniteShipyardController",
+      "line": 4730,
+      "end": 4815,
+      "coverage": "added",
+      "implementation": "reference.InfiniteShipyardController"
+    },
+    {
+      "name": "ChristLikeShipyardRedemptionCore",
+      "line": 4891,
+      "end": 4955,
+      "coverage": "added",
+      "implementation": "reference.ChristLikeShipyardRedemptionCore"
+    },
+    {
+      "name": "SolfeggioHarmonicGovernor",
+      "line": 5086,
+      "end": 5129,
+      "coverage": "added",
+      "implementation": "reference.SolfeggioHarmonicGovernor"
+    },
+    {
+      "name": "GlobalSovereignCoreMatrix",
+      "line": 5229,
+      "end": 5445,
+      "coverage": "added",
+      "implementation": "reference.GlobalSovereignCoreMatrix"
+    }
+  ],
+  "technical_sources": [
+    "https://cryptography.io/en/latest/fernet/",
+    "https://cryptography.io/en/latest/hazmat/primitives/asymmetric/ed25519/"
+  ]
+}

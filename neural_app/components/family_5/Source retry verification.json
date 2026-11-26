@@ -1,0 +1,59 @@
+[
+  {
+    "offset": 600,
+    "count": 12,
+    "flux_acknowledged": true,
+    "attempts": 3
+  },
+  {
+    "offset": 576,
+    "count": 12,
+    "flux_acknowledged": true,
+    "attempts": 1
+  },
+  {
+    "offset": 564,
+    "count": 12,
+    "flux_acknowledged": true,
+    "attempts": 2
+  },
+  {
+    "offset": 552,
+    "count": 12,
+    "flux_acknowledged": true,
+    "attempts": 1
+  },
+  {
+    "offset": 540,
+    "count": 12,
+    "flux_acknowledged": true,
+    "attempts": 1
+  },
+  {
+    "offset": 276,
+    "count": 12,
+    "flux_acknowledged": true,
+    "attempts": 1
+  },
+  {
+    "offset": 216,
+    "count": 12,
+    "flux_acknowledged": false,
+    "attempts": 3
+  },
+  {
+    "offset": 216,
+    "count": 4,
+    "flux_acknowledged": true
+  },
+  {
+    "offset": 220,
+    "count": 4,
+    "flux_acknowledged": true
+  },
+  {
+    "offset": 224,
+    "count": 4,
+    "flux_acknowledged": true
+  }
+]

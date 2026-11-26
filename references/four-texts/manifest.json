@@ -1,0 +1,57 @@
+{
+  "license_evidence": [
+    "https://www.gospels.net/",
+    "https://www.luminescence-llc.net/nag-hammadi",
+    "https://www.luminescence-llc.net/dialogue-of-the-savior"
+  ],
+  "records": [
+    {
+      "id": "john",
+      "title": "Apocryphon of John",
+      "url": "https://thegnosticlibrary.com/texts/secret-book-of-john/",
+      "translator": "Samuel Zinner; edited by Mark M. Mattison; long recension, Codex II with IV readings",
+      "file": "john.txt",
+      "bytes": 48576,
+      "sha256": "fd30e14e4586a22040f6361d50d808ba3b6ea4aeb9dae9c7fcc1e2e6857be07e",
+      "license": "Public-domain translation; provenance and manuscript gap markers retained.",
+      "downloaded": "2026-11-11",
+      "reading_scope": "Selected English edition, surviving text; not all manuscript variants or original Coptic."
+    },
+    {
+      "id": "mary",
+      "title": "Gospel of Mary",
+      "url": "https://www.gospels.net/mary",
+      "translator": "Mark M. Mattison; Berlin Codex 8502,1",
+      "file": "mary.txt",
+      "bytes": 6256,
+      "sha256": "9d5faa9689f4baaeb67f4140d21bf98f0e0a8d720862832ae4f9891d1675d23f",
+      "license": "Public-domain translation; provenance and manuscript gap markers retained.",
+      "downloaded": "2026-11-11",
+      "reading_scope": "Selected English edition, surviving text; not all manuscript variants or original Coptic."
+    },
+    {
+      "id": "thomas",
+      "title": "Gospel of Thomas",
+      "url": "https://www.gospels.net/thomas",
+      "translator": "Mark M. Mattison; Nag Hammadi II,2",
+      "file": "thomas.txt",
+      "bytes": 30206,
+      "sha256": "2174ad7a064be2a5003e4dd0bf6c4af5fbc7fb7885fe8c7f3fd8ddfc817e5c2e",
+      "license": "Public-domain translation; provenance and manuscript gap markers retained.",
+      "downloaded": "2026-11-11",
+      "reading_scope": "Selected English edition, surviving text; not all manuscript variants or original Coptic."
+    },
+    {
+      "id": "dialogue",
+      "title": "Dialogue of the Savior",
+      "url": "https://www.luminescence-llc.net/dialogue-of-the-savior",
+      "translator": "Samuel Zinner; edited by Mark M. Mattison; Nag Hammadi III,5",
+      "file": "dialogue.txt",
+      "bytes": 22535,
+      "sha256": "c1be1b4a5a7d118c8eb8e4d78a298ed52daf7e16d937e6073ede33aa3a6e6018",
+      "license": "Public-domain translation; provenance and manuscript gap markers retained.",
+      "downloaded": "2026-11-11",
+      "reading_scope": "Selected English edition, surviving text; not all manuscript variants or original Coptic."
+    }
+  ]
+}

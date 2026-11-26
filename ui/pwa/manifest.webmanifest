@@ -1,0 +1,25 @@
+{
+  "id": "./companion.html",
+  "name": "Neural App \u00b7 User Autonomy Mesh",
+  "short_name": "Neural Mesh",
+  "description": "Voluntary low-data intent and inference companion",
+  "start_url": "./companion.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#09131d",
+  "theme_color": "#c6a35b",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

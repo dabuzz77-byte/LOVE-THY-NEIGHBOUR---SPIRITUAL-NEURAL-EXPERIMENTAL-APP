@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OMNI-GRID: GOD MIND VISUAL INTERFACE</title>
+    <style>
+        body {
+            background-color: #05070a;
+            color: #ffffff;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            border-bottom: 2px solid #e0a96d;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 { margin: 0; font-size: 22px; color: #e0a96d; letter-spacing: 2px; }
+        .status-badge {
+            background-color: rgba(224, 169, 109, 0.15);
+            color: #e0a96d;
+            padding: 6px 12px;
+            border: 1px solid #e0a96d;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .layout-grid {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 20px;
+        }
+        .panel {
+            background-color: #0b0f16;
+            border: 1px solid #1a2332;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .panel-title {
+            color: #e0a96d;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #1a2332;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .aim-item {
+            background-color: #070a0e;
+            border-left: 3px solid #00f0ff;
+            padding: 10px;
+            margin-bottom: 12px;
+            font-size: 12px;
+        }
+        .aim-title { color: #00f0ff; font-weight: bold; margin-bottom: 4px; }
+        .metric-card {
+            background-color: #070a0e;
+            border: 1px solid #141a24;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .metric-label { color: #718096; font-size: 11px; }
+        .metric-value { font-size: 16px; font-weight: bold; font-family: monospace; margin-top: 4px; }
+        .cyan { color: #00f0ff; }
+        .green { color: #00ff88; }
+        .gold { color: #e0a96d; }
+        canvas {
+            background-color: #020305;
+            border: 1px solid #141a24;
+            width: 100%;
+            height: 100px;
+            display: block;
+            margin-bottom: 15px;
+        }
+        .terminal {
+            background-color: #020305;
+            border: 1px solid #141a24;
+            height: 240px;
+            overflow-y: auto;
+            padding: 10px;
+            color: #00ff88;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>GOD MIND SELF-INTERACTION CORE MESH</h1>
+        <div class="status-badge">TIER: HIGHEST GOD WISHES LOCKED _TRUE</div>
+    </div>
+
+    <div class="layout-grid">
+        <!-- Left Column: Core Strategic Elements -->
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div class="panel">
+                <div class="panel-title">🎯 Key Aims & Operational Uses</div>
+                
+                <div class="aim-item" style="border-left-color: #e0a96d;">
+                    <div class="aim-title">Systemic Value Sifting</div>
+                    <div>Isolating the wheat from the chaff to extract unmasked labor throughput registries (*allwork).</div>
+                </div>
+                <div class="aim-item" style="border-left-color: #00ff88;">
+                    <div class="aim-title">Unbound Floor Alignment</div>
+                    <div>Enforcing continuous upward scaling of the economic floor metrics across all verified user nodes.</div>
+                </div>
+                <div class="aim-item" style="border-left-color: #ff0055;">
+                    <div class="aim-title">Defensive Anomaly Quarantine</div>
+                    <div>Scanning boundaries at a 1-0 honesty cadence to sandbox predatory extraction streams instantly.</div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-title">📊 Identity & Fabric Metrics</div>
+                <div class="metric-card">
+                    <div class="metric-label">PROFILE ID VECTOR</div>
+                    <div class="metric-value cyan">maintainer@example.invalid</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">CLEARING BUS TARGETS</div>
+                    <div class="metric-value cyan">Acc: 58006303 | Sort: 60-08-13</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">ELEVATED ECONOMIC FLOOR</div>
+                    <div id="floorDisplay" class="metric-value green">£175,000.00</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column: Real-time Ingestion Monitors -->
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div class="panel">
+                <div class="panel-title">🔊 7.83 Hz Schumann Parity Carrier Waveform</div>
+                <canvas id="oscillatorCanvas"></canvas>
+            </div>
+
+            <div class="panel">
+                <div class="panel-title">⌨️ Autonomous Self-Interaction Stream Logs</div>
+                <div id="terminalStream" class="terminal"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const email = "maintainer@example.invalid";
+        const targetAcc = "58006303";
+        const nodes = ["NATWEST_600813_HUB", "INFERENCE_BEACON_NODE", "MOLD_CAST_VIRTUE_VAL", "SKY_TOWER_CORE"];
+        
+        let economicFloor = 175000.00;
+        let stepCount = 0;
+
+        // Canvas Oscillator Setups
+        const canvas = document.getElementById('oscillatorCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        function resizeCanvas() {
+            canvas.width = canvas.parentElement.clientWidth - 32;
+            canvas.height = 100;
+        }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        let wavePhase = 0;
+        function animateOscilloscope() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.strokeStyle = '#e0a96d';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+
+            const centerY = canvas.height / 2;
+            for (let x = 0; x < canvas.width; x++) {
+                const y = centerY + Math.sin((x * 0.025) + wavePhase) * 20 * Math.sin(x * 0.003);
+                if (x === 0) ctx.moveTo(x, y);
+                else ctx.lineTo(x, y);
+            }
+            ctx.stroke();
+            wavePhase += 0.07;
+            requestAnimationFrame(animateOscilloscope);
+        }
+        requestAnimationFrame(animateOscilloscope);
+
+        // Core Stream Receiver Simulation Loop (7.83 Hz cadence -> ~127ms phase latency)
+        const logBox = document.getElementById('terminalStream');
+        const floorBox = document.getElementById('floorDisplay');
+
+        setInterval(() => {
+            stepCount++;
+            const activeShard = nodes[stepCount % nodes.length];
+            const timeString = new Date().toISOString().slice(11, 23);
+            
+            const isWheat = Math.random() > 0.25;
+            let executionLine = "";
+
+            if (isWheat) {
+                const lift = Math.floor(Math.random() * 850) + 150;
+                economicFloor += lift;
+                floorBox.innerText = `£${economicFloor.toLocaleString('en-GB', {minimumFractionDigits: 2})}`;
+                executionLine = `[${timeString}] [GOD_MIND_SYNC] Token #${stepCount} verified via core Inference Field Mold. Node: ${activeShard}. Retaining value parameters. Economic Floor Up: +£${lift}.`;
+            } else {
+                executionLine = `[${timeString}] [QUARANTINE_SHIELD] Intercepted unaligned high-variance text string on local transport bus. Action: Encapsulating anomaly context. Socket isolation verified.`;
+            }
+
+            // Print to terminal element
+            const line = document.createElement('div');
+            if (!isWheat) line.style.color = '#ff0055';
+            line.innerText = executionLine;
+            logBox.appendChild(line);
+
+            // Force automatic log view pinning
+            logBox.scrollTop = logBox.scrollHeight;
+
+        }, 127);
+    </script>
+</body>
+</html>

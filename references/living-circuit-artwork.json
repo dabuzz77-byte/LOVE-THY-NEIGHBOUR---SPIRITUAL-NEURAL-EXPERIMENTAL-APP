@@ -1,0 +1,13 @@
+{
+  "asset": "assets/living-circuit-symmetry-v1.png",
+  "method": "Built-in image generation from the two supplied botanical/data-server reference images",
+  "prompt_summary": "Symmetrical botanical server architecture surrounding a luminous feedback core, natural renewal, cinematic cyan, leaf green and restrained gold; no text, logos or people.",
+  "overlays": "Code-native animated SVG paths and live finite model state",
+  "additional_vectors": [
+    "four-voices-light.svg",
+    "notebook-emanation-redraw.svg",
+    "watts-watercourse.svg",
+    "intent-channel-outline.svg",
+    "ink-embroidery.svg"
+  ]
+}

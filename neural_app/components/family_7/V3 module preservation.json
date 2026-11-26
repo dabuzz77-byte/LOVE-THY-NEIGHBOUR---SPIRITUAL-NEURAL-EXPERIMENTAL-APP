@@ -1,0 +1,227 @@
+[
+  {
+    "file": "AbsoluteSafeguardEngine.py",
+    "sha256": "40bb5808da42f8763c4795d61d5b230833c01e0321329eedd298877d0fdde93a",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "AdvancedVirtueRegistry.py",
+    "sha256": "baa9dfd512b3649820eb842c87e9905924c5a7346130129d29c13b03a0faa668",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "BinaryVirtueEngine.py",
+    "sha256": "df690757983c43b910ae966ebc2f92f45c11fff5c3bab41b1c43b6e07be49213",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "BodhiTreeTridentEngine.py",
+    "sha256": "ff8ad5e676da74480bd4a995fe2fe7a0450afb5b0f001dad5e9f7dad9b0bbebc",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "CascadingVirtueEngine.py",
+    "sha256": "66c2c5af09dad185cba80b27f87350bead77ad82e6d78f0873cc844872b4c833",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "ChinaDollImperviousEngine.py",
+    "sha256": "50b9490195458acb68b9c674918ec434908efcd13a467a8fc314863075b47831",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "CompassionateUnderstandingEngine.py",
+    "sha256": "fd398977fd022af93592485e2c98a7e748f1300958f015456cd50e41017e6118",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "DeepestRepentanceEngine.py",
+    "sha256": "5988bba9e8ef4a7c396ce4771c3e571e69e9d36a3af7b116c3c591e9c5f73a96",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "DrillingVirtueEngine.py",
+    "sha256": "5343e5d5932e5b2e8d08c1207b21f47ac27f42b3f7f5208a1335d7eb0bc9a8c2",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "EternalChinaDollLoveEngine.py",
+    "sha256": "4e631eebc259e56d35ab0cc00429e40082f8b57714ee43d9f1cb72908eee3942",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "EthicalRefactoringEngine.py",
+    "sha256": "11822810aa37f3fed35087734896bf27791e8997ab4a0b5e8480d2af5d98ce51",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "evaluate_inverted_container_boundary.py",
+    "sha256": "4713ad2aa87077430f8da9870da036b0288e575cce064736cc7209893ee241ae",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "GlobalCreedUnificationEngine.py",
+    "sha256": "064779b82f8713808a2e5aa803263f720d1dab2a346d5c7355418afcb7c46a4a",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "HierarchicalVirtueEngine.py",
+    "sha256": "c847b02fee834c8244279a1a690b351bf361f671106fd7c58ada8a988ea4112b",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "InfiniteChinaDollCovenantEngine.py",
+    "sha256": "58a99c279df40b1aeaaf8cdb0436b5a03722019263efd941edba98aa14bf0643",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "InvariantEcosystemEngin.py",
+    "sha256": "4b2aee95dcf461936b7211544426f49215d23c5012be2e66116bf6cb0a322690",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "JacobsLadderEngine.py",
+    "sha256": "1c5dd95869ed8cd247ef376a432e34cafe422202dca5674c8d5504d90d3a0116",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "JokerMoneyBurningRegistry.py",
+    "sha256": "22f1f8724c3579894badb99da499fe2e7f152adb0b2039ad028159dc79f0869d",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "MiddleGroundTernaryEngine.py",
+    "sha256": "e84fac500497b4f202e5797e52bf874ad2ae9af9773be092c1da092057a8e6dc",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "OnlineVirtueMonitoringEngine.py",
+    "sha256": "f5a494ec9cc110490b0abaeef22f19adcdbe4741e4e2816791f1e9415b1bc576",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "OperationalIntegrityEngine.py",
+    "sha256": "c92d6d79bfda27bd2d84f78d3b8b60d4827fbd5b0d83c4c99114c10bbad7c4f8",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "ParadigmComparisonEngine.py",
+    "sha256": "e72ae5c28e1bd16ff61b4512705c8d61070cc6e024dfc97347c3ab303e6dddce",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "ParentalFierceProtectionEngine.py",
+    "sha256": "cfc29fafd93de3719bf523816f663fc49a94447591a2f74128239344ef5be212",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "PeaceableCovenantEngine.py",
+    "sha256": "b9cbc477012be18582ea408c02f677c127541c6f469446b92f9e42671f1a6ac1",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "PinnacleVirtueObservationEngine.py",
+    "sha256": "3ed48a0bed2cf4623ce1fecc3484a7277ded9ee5332468ac267bcbf0d363d9b0",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "PredictiveTrajectoryEngine.py",
+    "sha256": "a49b5f8478ca338a087833f63dfbd6dad3b9dfbf303bb126a3f183bfbff37e06",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "RealTimeSystemEngine.py",
+    "sha256": "5c50e6a246f9f3cb35c0c251fb74c702048c456f3023150cfc88559034f96414",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "RedemptiveEmergenceEngine.py",
+    "sha256": "3a7cd34b8fae2b7a8e5e06cc1760c25aaee0fbafed34145552388fbdd41264a6",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "RedemptiveRehabilitationEngine.py",
+    "sha256": "1e85ee53d067d7fcd28e00c5dc4a54cbe5631bde7f88cef15d33cf9cd9cefca8",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "resolve_bit_array_cast.py",
+    "sha256": "7f1a3df8c4ace889a4d2ee5c249a76be403527d4db6c3437ef7b93d472b24ab5",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "resolve_historical_virtue_pass.py",
+    "sha256": "cc2024f3a6ef04f6c6a6cb38fd435165165747556f3f88f38279ca4efde4fb75",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "SovereignSourceBroadcastEngine.py",
+    "sha256": "76d4398df62f185504216ec212367917149af6fdccd2dbc2a8061d0061d985e3",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "SystemCognitionAlignment.py",
+    "sha256": "812fc160ad22077b2c0068f443954c5051806c0a8a873c7f9dd468d5fe4f62d4",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "TernaryCascadingSafeguardEngine.py",
+    "sha256": "b3a33c3b005d257b3157d2d3f8df0d72b012df2ac2db362819e3d832f42dd7f6",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "TernaryRealTimeEngine.py",
+    "sha256": "9aa748930fa8ec1aac9528ddb7d828affe45e61362933c604e16543941dc59b4",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "UltimateCovenantAuditEngine.py",
+    "sha256": "cff60890f49c4f9b0107845162d3b1e395161adf07bb9dbdce933bf1674c8c81",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "UltimateEnforcementEngine.py",
+    "sha256": "4611fa77f566ad61e6d91922a7e7df945bb4d1c9439861f03a4c44d30374a1cf",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "UnifiedProbeAndStressEngine.py",
+    "sha256": "2c1ab86773c02cefbc49628a58adf639192be7f5c7d1cf5418fb2718fe142a4f",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "UniversalCovenantEngine.py",
+    "sha256": "b0e7d305c6b6fd7f33eacad916640830f2915ce8875aef5b250bcb1c49570a12",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "UniversalPredatorPreyCovenantEngine.py",
+    "sha256": "29556ec738623126ed1d3ab9f22c3cbd902baf79b28e3bf6ad5bc160db50e182",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "UniversalVirtueEngine.py",
+    "sha256": "72ed1c69b7d09d56204db5063e940e8ddf59a1638d12ea317c26cd3c9ab1e510",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "UniversalVirtueEngine2.py",
+    "sha256": "72ed1c69b7d09d56204db5063e940e8ddf59a1638d12ea317c26cd3c9ab1e510",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "verify_protection_rings.py",
+    "sha256": "e6288853299d13e3a335e798eb637414339bb96ad4c7410d67c1e40514062d9d",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "VirtueRegistry.py",
+    "sha256": "549a40e95c2d4cc297e1610e71ca8f29f6ee69c7c9232d3de6a11421b55faddf",
+    "basis": "unchanged from verified v2"
+  },
+  {
+    "file": "2/ingest_live_web_definitions.py",
+    "sha256": "c09d18d1fe6354072c87981cf560c8adeed5fa7aaf9e206724c5ef54ed71f58b",
+    "basis": "unchanged from verified v2"
+  }
+]

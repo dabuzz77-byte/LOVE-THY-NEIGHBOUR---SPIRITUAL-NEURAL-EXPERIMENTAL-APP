@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Quantum Bus · Local signal lab</title>
+  <style>
+    :root{--bg:#0a101a;--panel:#111c2a;--edge:#26364a;--text:#e7eff8;--muted:#8fa5bd;--mint:#69ebc7;--violet:#b39bff;--amber:#f6c67b;--radius:16px}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 85% -20%,#16373666,transparent 52%),var(--bg);color:var(--text);font-family:Inter,"Segoe UI",sans-serif;font-size:14px;line-height:1.5;min-width:320px}
+    button,input,select{font:inherit}button,a,input,select{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.45}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--mint);outline-offset:4px}
+    .shell{max-width:1540px;margin:auto;padding:30px 40px 22px}.topbar{display:flex;align-items:center;justify-content:space-between;padding-bottom:26px;border-bottom:1px solid var(--edge);gap:20px}.brand{display:flex;align-items:center;gap:13px}.brandmark{width:43px;height:43px;background:#69ebc710;border:1px solid #69ebc74a;display:grid;place-items:center;border-radius:12px;color:var(--mint)}svg{display:block}.brand-name{font-size:15px;font-weight:750;letter-spacing:2.5px}.brand-name span{color:var(--mint)}.subtle{color:var(--muted);font-size:12px}.top-actions{display:flex;align-items:center;gap:18px}.local{font-family:Consolas,monospace;color:var(--muted);font-size:12px}.status{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--edge);padding:7px 12px;border-radius:50px;font-size:11px;font-weight:650;letter-spacing:.8px;color:var(--muted);white-space:nowrap}.status:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}.status.live{color:var(--mint);background:#69ebc70a;border-color:#69ebc733}.status.warn{color:var(--amber);background:#f6c67b0a;border-color:#f6c67b33}
+    .intro{display:flex;justify-content:space-between;align-items:end;margin:30px 0 24px;gap:20px}.eyebrow{font-size:10px;font-weight:700;letter-spacing:2px;color:var(--mint);margin:0 0 7px}h1{font-size:32px;line-height:1.2;font-weight:550;letter-spacing:-1px;margin:0 0 9px}p{margin:0}.intro p{color:var(--muted);font-size:13px}.button{border:1px solid var(--edge);border-radius:9px;background:#182538;color:var(--text);padding:10px 14px;font-size:12px;font-weight:600;display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;transition:background .18s,border-color .18s}.button:hover:not(:disabled){background:#21344b;border-color:#426078}.button.primary{background:var(--mint);border-color:var(--mint);color:#0a2620}.button.primary:hover:not(:disabled){background:#94f3d9}.button.quiet{background:transparent}.button.small{padding:6px 10px;font-size:11px}.intro-actions{display:flex;gap:8px}
+    .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px}.metric{background:linear-gradient(120deg,#162436,#111b28);border:1px solid var(--edge);border-radius:12px;padding:17px 20px;position:relative;overflow:hidden}.metric:after{content:"";position:absolute;width:64px;height:64px;background:#69ebc709;border-radius:50%;right:-14px;bottom:-20px}.metric-label{font-size:10px;color:var(--muted);font-weight:650;letter-spacing:1.2px}.metric-value{font-variant-numeric:tabular-nums;font-size:29px;font-weight:500;letter-spacing:-.8px;margin:5px 0 3px}.metric-value small{font-size:12px;color:var(--muted);letter-spacing:0;margin-left:4px}.metric-note{font-size:11px;color:var(--muted)}.metric:nth-child(1) .metric-value{color:var(--mint)}
+    .workspace{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:20px;align-items:start}.panel{background:linear-gradient(145deg,#121f2e,#0f1926);border:1px solid var(--edge);border-radius:var(--radius);overflow:hidden}.panel-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:20px 22px 16px}.panel-title{font-size:14px;font-weight:600;letter-spacing:-.2px}.panel-meta{font-size:11px;color:var(--muted);margin-top:4px}.scope-head{align-items:start}.scope-options{display:flex;align-items:center;gap:12px}.live-key{display:flex;gap:7px;align-items:center;font-size:10px;color:var(--mint);white-space:nowrap}.live-key:before{content:"";width:14px;height:2px;background:var(--mint)}.segment{display:flex;background:#09111d;border:1px solid var(--edge);border-radius:7px;padding:3px;gap:3px}.segment button{background:transparent;border:0;color:var(--muted);padding:4px 9px;font-size:10px;border-radius:4px}.segment button[aria-pressed="true"]{background:#26394b;color:var(--text)}
+    .canvas-wrap{position:relative;height:300px;margin:0 16px}canvas{width:100%;height:100%;display:block}.empty{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:#101b2788;pointer-events:none;text-align:center;padding:25px}.empty[hidden]{display:none}.empty strong{font-weight:500;font-size:17px}.empty span{font-size:12px;color:var(--muted)}.scope-footer{display:flex;align-items:center;justify-content:space-between;padding:13px 22px;border-top:1px solid var(--edge);font-family:Consolas,monospace;font-size:10px;color:var(--muted);gap:10px}.scope-footer b{font-weight:400;color:var(--text)}.scope-footer .tag{color:var(--violet)}
+    .activity{margin-top:20px}.activity .panel-head{padding-bottom:12px}.log{height:137px;overflow:auto;padding:0 22px 15px;scrollbar-width:thin;scrollbar-color:#34465c transparent}.log-row{display:grid;grid-template-columns:64px 6px 1fr;gap:13px;padding:9px 0;border-bottom:1px solid #26364a88;font-size:11px}.log-time{font-family:Consolas,monospace;color:#7189a2}.log-dot{width:5px;height:5px;background:var(--mint);border-radius:50%;margin-top:6px}.log-row.warn .log-dot{background:var(--amber)}.log-message{color:#bdccde}.log-empty{padding:14px 0;color:var(--muted);font-size:12px}
+    .control-panel .panel-head{padding-bottom:20px;border-bottom:1px solid var(--edge)}.control-body{padding:20px}.field{margin-bottom:22px}.field label,.field-title{display:block;font-size:11px;color:var(--muted);margin-bottom:10px}.field-line{display:flex;align-items:center;justify-content:space-between}.field-line label{margin-bottom:10px}.field output{font-family:Consolas,monospace;color:var(--mint);font-size:12px}.number-wrap{display:flex;align-items:center;gap:10px;border:1px solid var(--edge);background:#0b1421;padding:11px 13px;border-radius:9px}.number-wrap input{color:var(--text);background:transparent;border:0;min-width:0;width:100%;font-family:Consolas,monospace;font-size:25px;padding:0;outline:none!important}.number-wrap:focus-within{border-color:var(--mint)}.number-wrap span{color:var(--muted);font-size:11px}.hint{font-size:10px;color:#7890a9;margin-top:7px}.wave-options{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.wave-option{padding:12px 4px 9px;background:#0b1421;border:1px solid var(--edge);border-radius:8px;color:var(--muted);font-size:10px;display:flex;align-items:center;flex-direction:column;gap:7px}.wave-option[aria-pressed="true"]{background:#69ebc70c;border-color:#69ebc76b;color:var(--mint)}.wave-option svg{width:35px;height:18px}.field input[type=range]{width:100%;accent-color:var(--mint);height:5px;margin:8px 0;cursor:pointer}.range-labels{display:flex;justify-content:space-between;color:#7890a9;font-size:9px;margin-top:5px}.full{width:100%}.form-feedback{min-height:33px;font-size:10px;color:var(--muted);padding-top:9px}.form-feedback.error{color:var(--amber)}.connection-card{border-top:1px solid var(--edge);padding:16px 20px;background:#0a131e66}.connection-row{display:flex;justify-content:space-between;gap:12px;font-size:10px;margin-bottom:8px;color:var(--muted)}.connection-row strong{font-weight:400;color:var(--text);font-family:Consolas,monospace}.connection-card .button{margin-top:9px}.footnote{padding:17px 4px;color:#7990a8;font-size:10px;line-height:1.7}.footnote strong{color:#a3b7cc;font-weight:500}.footer{display:flex;justify-content:space-between;gap:15px;color:#6c849e;font-size:10px;margin-top:25px}.footer span:last-child{font-family:Consolas,monospace}
+    @media(min-width:1400px){.canvas-wrap{height:360px}.log{height:145px}}@media(max-width:1050px){.shell{padding:24px}.workspace{grid-template-columns:minmax(0,1fr) 265px}.scope-head{flex-wrap:wrap}.metric{padding:15px}.local{display:none}.scope-footer{flex-wrap:wrap}}@media(max-width:780px){.workspace{grid-template-columns:1fr}.control-panel{width:100%}.control-body{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}.control-body .full,.form-feedback{grid-column:1/-1}.connection-card{display:grid;grid-template-columns:1fr 1fr;gap:5px 20px}.connection-card .button{grid-column:1/-1}.footnote{padding-bottom:0}.intro{align-items:start}.intro-actions{flex-direction:column}.metrics{gap:10px}.metric-value{font-size:25px}.metric-label{font-size:9px;letter-spacing:.5px}.metric-note{font-size:10px}}@media(max-width:540px){.shell{padding:18px 14px}.topbar{padding-bottom:18px}.brand-name{font-size:12px;letter-spacing:1.4px}.brandmark{width:35px;height:35px}.top-actions{gap:6px}.status{font-size:9px;padding:6px 8px}.subtle{font-size:10px}.intro{margin:24px 0 20px;flex-direction:column;gap:15px}h1{font-size:28px}.intro-actions{flex-direction:row}.metrics{grid-template-columns:1fr 1fr}.metric-value{font-size:28px}.panel-head{padding:17px}.canvas-wrap{margin:0 8px;height:270px}.scope-footer{padding:12px 17px}.control-body{padding:17px;gap:0 18px}.scope-options{width:100%;justify-content:space-between}.footer{flex-direction:column;gap:5px}.log{padding-left:17px;padding-right:17px}.log-row{gap:8px}.connection-card{padding:17px}.field{min-width:0}}
+    @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+  </style>
+</head>
+<body>
+<div class="shell">
+  <header class="topbar">
+    <div class="brand"><div class="brandmark" aria-hidden="true"><svg width="25" height="25" viewBox="0 0 28 28" fill="none"><path d="M2 14h5l3-8 7 16 3-8h6" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></div><div><div class="brand-name">QUANTUM <span>/</span> BUS</div><div class="subtle">Local signal lab</div></div></div>
+    <div class="top-actions"><span id="host" class="local"></span><span id="status" class="status" role="status">CONNECTING</span></div>
+  </header>
+  <section class="intro"><div><div class="eyebrow">SIGNAL WORKSPACE</div><h1>A window into your waveform.</h1><p>Generate, observe and capture a live signal across your browser tabs.</p></div><div class="intro-actions"><button id="freeze" class="button quiet" aria-pressed="false" disabled>Freeze view</button><button id="export" class="button" disabled><svg width="14" height="14" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M9 2v9m-3-3 3 3 3-3M3 11v4h12v-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Export CSV</button></div></section>
+  <section class="metrics" aria-label="Live signal metrics">
+    <div class="metric"><div class="metric-label">FREQUENCY</div><div class="metric-value"><span id="frequencyValue">—</span><small>Hz</small></div><div class="metric-note" id="waveformValue">Awaiting signal</div></div>
+    <div class="metric"><div class="metric-label">SIGNAL VALUE</div><div class="metric-value" id="signalValue">—</div><div class="metric-note">Normalized amplitude</div></div>
+    <div class="metric"><div class="metric-label">CONNECTED TABS</div><div class="metric-value" id="clientsValue">—</div><div class="metric-note">Sharing this local bus</div></div>
+    <div class="metric"><div class="metric-label">RECEIVE RATE</div><div class="metric-value"><span id="rateValue">0</span><small>samples/s</small></div><div class="metric-note">Target: 50 samples per second</div></div>
+  </section>
+  <main class="workspace">
+    <div>
+      <section class="panel" aria-label="Live oscilloscope">
+        <div class="panel-head scope-head"><div><div class="panel-title">Signal scope</div><div class="panel-meta">Amplitude over time · normalized ±1</div></div><div class="scope-options"><span class="live-key" id="traceLabel">LIVE TRACE</span><div class="segment" aria-label="Time window"><button data-window="1" aria-pressed="false">1 s</button><button data-window="2" aria-pressed="true">2 s</button><button data-window="5" aria-pressed="false">5 s</button></div></div></div>
+        <div class="canvas-wrap"><canvas id="scope" role="img" aria-label="Live waveform chart. The current value and frequency are shown in the metrics above."></canvas><div id="empty" class="empty"><strong>Waiting for your signal</strong><span>The scope will appear when the local bus connects.</span></div></div>
+        <div class="scope-footer"><span>WINDOW <b id="windowLabel">2.0 s</b></span><span>RECEIVED <b id="received">0</b></span><span>UPTIME <b id="uptime">00:00</b></span><span class="tag">SIMULATED SIGNAL</span></div>
+      </section>
+      <section class="panel activity"><div class="panel-head"><div><div class="panel-title">Session activity</div><div class="panel-meta">Connection and signal events</div></div><button id="clearLog" class="button quiet small">Clear</button></div><div id="log" class="log" role="log" aria-live="polite" aria-label="Session activity"></div></section>
+    </div>
+    <aside>
+      <section class="panel control-panel"><div class="panel-head"><div class="panel-title">Signal controls</div><span class="subtle">01 / SOURCE</span></div>
+        <form id="controls" class="control-body">
+          <div class="field"><label for="frequency">Frequency</label><div class="number-wrap"><input id="frequency" name="frequency" type="number" min="0.1" max="20" step="0.01" value="7.83" required aria-describedby="frequencyHint"><span>Hz</span></div><div class="hint" id="frequencyHint">0.10–20.00 Hz · 50 samples/s</div></div>
+          <div class="field"><span id="waveformLabel" class="field-title">Waveform</span><div class="wave-options" role="group" aria-labelledby="waveformLabel">
+            <button type="button" class="wave-option" data-wave="sine" aria-pressed="true"><svg viewBox="0 0 36 18" fill="none" aria-hidden="true"><path d="M1 9C7-8 12-1 18 9S29 26 35 9" stroke="currentColor" stroke-width="1.5"/></svg>Sine</button>
+            <button type="button" class="wave-option" data-wave="triangle" aria-pressed="false"><svg viewBox="0 0 36 18" fill="none" aria-hidden="true"><path d="m1 9 8-7 17 14 9-7" stroke="currentColor" stroke-width="1.5"/></svg>Triangle</button>
+            <button type="button" class="wave-option" data-wave="square" aria-pressed="false"><svg viewBox="0 0 36 18" fill="none" aria-hidden="true"><path d="M1 9V2h17v14h17V9" stroke="currentColor" stroke-width="1.5"/></svg>Square</button>
+          </div></div>
+          <div class="field full"><div class="field-line"><label for="amplitude">Amplitude</label><output id="amplitudeOutput" for="amplitude">80%</output></div><input id="amplitude" name="amplitude" type="range" min="0" max="1" value="0.8" step="0.01"><div class="range-labels"><span>0%</span><span>50%</span><span>100%</span></div></div>
+          <button id="apply" type="submit" class="button primary full" disabled>Apply to bus <span aria-hidden="true">↗</span></button><div id="feedback" class="form-feedback" role="status">Changes apply to every connected tab.</div>
+        </form>
+        <div class="connection-card"><div class="connection-row"><span>Transport</span><strong>Server-sent events</strong></div><div class="connection-row"><span>Access</span><strong>Localhost only</strong></div><div class="connection-row"><span>Buffer</span><strong id="buffer">0 / 1,500</strong></div><div class="connection-row"><span>Signal</span><strong id="signalState">Waiting</strong></div><button id="pauseSignal" class="button quiet full" disabled>Pause signal</button><button id="connection" class="button quiet full">Disconnect tab</button></div>
+      </section>
+      <p class="footnote"><strong>Your own little signal lab.</strong><br>This is a software-generated waveform. Quantum Bus does not measure or transmit physical electromagnetic signals.</p>
+    </aside>
+  </main>
+  <footer class="footer"><span>Quantum Browser Bus · Local by design. No external services.</span><span>50 Hz sampling / 30 s rolling capture</span></footer>
+</div>
+<script>
+(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const canvas = $('scope'), ctx = canvas.getContext('2d');
+  const capacity = 1500, ring = new Array(capacity);
+  let count = 0, cursor = 0, source = null, online = false, manual = false, frozen = false, frozenSamples = [];
+  let dirty = false, saving = false, chosenWave = 'sine', windowSeconds = 2, totalReceived = 0;
+  let latest = null, previousSettings = '', lastId = null, lastArrival = 0, lastMetrics = 0, lastFrame = 0;
+  let arrivals = [], frame = 0, cssWidth = 0, cssHeight = 0, currentDpr = 0;
+  const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  $('host').textContent = location.host;
+
+  function samples() { const result = []; for (let i = 0; i < count; i++) result.push(ring[(cursor - count + i + capacity) % capacity]); return result; }
+  function addSample(data) { ring[cursor] = data; cursor = (cursor + 1) % capacity; count = Math.min(capacity, count + 1); }
+  function log(message, warning = false) {
+    const row = document.createElement('div'); row.className = 'log-row' + (warning ? ' warn' : '');
+    const time = document.createElement('span'); time.className = 'log-time'; time.textContent = new Date().toLocaleTimeString([], {hour12:false});
+    const dot = document.createElement('span'); dot.className = 'log-dot';
+    const text = document.createElement('span'); text.className = 'log-message'; text.textContent = message;
+    const list = $('log'); list.querySelector('.log-empty')?.remove(); list.prepend(row); row.append(time, dot, text);
+    while (list.children.length > 60) list.lastElementChild.remove();
+  }
+  function feedback(message, error = false) { $('feedback').textContent = message; $('feedback').classList.toggle('error', error); }
+  function setStatus(text, kind = '') { $('status').textContent = text; $('status').className = 'status ' + kind; }
+  function controlsEnabled() {
+    $('apply').disabled = !online || saving; $('pauseSignal').disabled = !online || saving;
+    $('frequency').disabled = saving; $('amplitude').disabled = saving;
+    document.querySelectorAll('[data-wave]').forEach(b => b.disabled = saving);
+    $('traceLabel').textContent = frozen ? 'FROZEN VIEW' : online ? 'LIVE TRACE' : count ? 'LAST CAPTURE' : 'AWAITING SIGNAL';
+  }
+  function chooseWave(wave) { chosenWave = wave; document.querySelectorAll('[data-wave]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.wave === wave))); }
+  function syncControls(data) { if (dirty || saving) return; $('frequency').value = data.frequency.toFixed(2); $('amplitude').value = data.amplitude; $('amplitudeOutput').textContent = Math.round(data.amplitude * 100) + '%'; chooseWave(data.waveform); }
+  function updateMetrics(now) {
+    if (now - lastMetrics < 180) return; lastMetrics = now;
+    arrivals = arrivals.filter(t => now - t < 1000); $('rateValue').textContent = arrivals.length;
+    if (!latest) return;
+    $('frequencyValue').textContent = latest.frequency.toFixed(2); $('waveformValue').textContent = latest.waveform[0].toUpperCase() + latest.waveform.slice(1) + ' waveform';
+    $('signalValue').textContent = (latest.mod >= 0 ? '+' : '') + latest.mod.toFixed(3);
+    $('clientsValue').textContent = online ? latest.clients : '—'; $('received').textContent = totalReceived.toLocaleString();
+    const seconds = Math.floor(latest.elapsed); $('uptime').textContent = String(Math.floor(seconds / 60)).padStart(2,'0') + ':' + String(seconds % 60).padStart(2,'0');
+    $('buffer').textContent = count.toLocaleString() + ' / 1,500'; $('signalState').textContent = online ? (latest.paused ? 'Paused' : 'Running') : 'Disconnected';
+    $('pauseSignal').textContent = latest.paused ? 'Resume signal' : 'Pause signal';
+    if (online && now - lastArrival > 3000) setStatus('WAITING FOR DATA','warn');
+  }
+  function connect() {
+    source?.close(); manual = false; online = false; setStatus('CONNECTING'); controlsEnabled(); $('connection').textContent = 'Disconnect tab';
+    const current = source = new EventSource('/stream');
+    current.onopen = () => { if (source !== current) return; log('Connected to the local bus. Receiving live samples.'); };
+    current.onmessage = event => {
+      if (source !== current) return;
+      let data;
+      try {
+        data = JSON.parse(event.data);
+        if (!Number.isFinite(data.mod) || !Number.isFinite(data.frequency) || !Number.isFinite(data.amplitude) || !Number.isFinite(data.elapsed) || !Number.isInteger(data.id) || !['sine','triangle','square'].includes(data.waveform)) throw new Error('Invalid sample');
+      } catch { log('Ignored an invalid packet.', true); return; }
+      if (lastId !== null && data.id <= lastId) { count = cursor = 0; frozenSamples = []; previousSettings = ''; log('A new server session started. Capture buffer reset.'); }
+      lastId = data.id; latest = data; addSample(data); totalReceived++; lastArrival = performance.now(); arrivals.push(lastArrival);
+      if (arrivals.length > 200) arrivals.splice(0, arrivals.length - 200);
+      online = true; setStatus(data.paused ? 'SIGNAL PAUSED' : 'BUS LIVE', data.paused ? 'warn' : 'live'); controlsEnabled();
+      $('empty').hidden = true; $('export').disabled = false; $('freeze').disabled = false;
+      const signature = [data.frequency, data.amplitude, data.waveform, data.paused].join('|');
+      if (previousSettings && signature !== previousSettings) log(`${data.waveform} · ${data.frequency.toFixed(2)} Hz · ${Math.round(data.amplitude * 100)}% amplitude${data.paused ? ' · signal paused' : ''}`);
+      previousSettings = signature; syncControls(data);
+    };
+    current.onerror = () => {
+      if (source !== current || manual) return;
+      if (online || $('status').textContent !== 'RECONNECTING') log('Connection interrupted. Retrying automatically…', true);
+      online = false; arrivals = []; setStatus('RECONNECTING','warn'); controlsEnabled();
+      if (!count) { $('empty').hidden = false; $('empty').querySelector('strong').textContent = 'Looking for the local bus'; $('empty').querySelector('span').textContent = 'Start the Java app. This tab will reconnect automatically.'; }
+    };
+  }
+  $('connection').addEventListener('click', () => {
+    if (manual) { log('Reconnecting this tab…'); connect(); return; }
+    manual = true; online = false; source?.close(); source = null; arrivals = [];
+    setStatus('DISCONNECTED'); controlsEnabled(); $('connection').textContent = 'Reconnect tab'; log('Tab disconnected. Your captured samples are still available.');
+  });
+  $('freeze').addEventListener('click', () => {
+    frozen = !frozen; frozenSamples = frozen ? samples() : [];
+    $('freeze').textContent = frozen ? 'Resume view' : 'Freeze view'; $('freeze').setAttribute('aria-pressed', String(frozen));
+    controlsEnabled();
+    log(frozen ? 'Scope frozen. Capture continues in the background.' : 'Live scope resumed.');
+  });
+  document.querySelectorAll('[data-window]').forEach(button => button.addEventListener('click', () => {
+    windowSeconds = Number(button.dataset.window); $('windowLabel').textContent = windowSeconds.toFixed(1) + ' s';
+    document.querySelectorAll('[data-window]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
+  }));
+  document.querySelectorAll('[data-wave]').forEach(button => button.addEventListener('click', () => { chooseWave(button.dataset.wave); dirty = true; feedback('Unapplied changes. Apply to update the bus.'); }));
+  $('frequency').addEventListener('input', () => { dirty = true; feedback('Unapplied changes. Apply to update the bus.'); });
+  $('amplitude').addEventListener('input', () => { dirty = true; $('amplitudeOutput').textContent = Math.round(Number($('amplitude').value) * 100) + '%'; feedback('Unapplied changes. Apply to update the bus.'); });
+  async function sendSettings(settings) {
+    if (saving || !online) return false;
+    saving = true; controlsEnabled();
+    try {
+      const response = await fetch('/api/settings', {method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded','X-Quantum-Client':'dashboard'}, body:new URLSearchParams(settings), signal:AbortSignal.timeout(5000)});
+      if (!response.ok) throw new Error(await response.text());
+      feedback('Applied. All connected tabs share these settings.'); return true;
+    } catch (error) { feedback('Could not apply: ' + error.message, true); log('Settings were not applied. Check your connection.', true); return false; }
+    finally { saving = false; controlsEnabled(); }
+  }
+  $('controls').addEventListener('submit', async event => {
+    event.preventDefault(); if (!$('controls').reportValidity()) return;
+    if (await sendSettings({frequency:$('frequency').value, amplitude:$('amplitude').value, waveform:chosenWave})) dirty = false;
+  });
+  $('pauseSignal').addEventListener('click', () => { if (latest) sendSettings({paused:String(!latest.paused)}); });
+  $('clearLog').addEventListener('click', () => { $('log').replaceChildren(); const text = document.createElement('div'); text.className = 'log-empty'; text.textContent = 'Activity cleared. New events will appear here.'; $('log').append(text); });
+  $('export').addEventListener('click', () => {
+    const data = samples(); if (!data.length) return;
+    const rows = ['id,timestamp_ms,elapsed_seconds,value,frequency_hz,amplitude,waveform,paused', ...data.map(s => [s.id,s.timestamp,s.elapsed,s.mod,s.frequency,s.amplitude,s.waveform,s.paused].join(','))];
+    const url = URL.createObjectURL(new Blob([rows.join('\n') + '\n'], {type:'text/csv;charset=utf-8'}));
+    const link = document.createElement('a'); link.href = url; link.download = 'quantum-bus-' + new Date().toISOString().replace(/[:.]/g,'-') + '.csv';
+    document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000); log(`Exported ${data.length.toLocaleString()} captured samples as CSV.`);
+  });
+
+  function resize() {
+    const bounds = canvas.getBoundingClientRect(); const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    if (cssWidth === bounds.width && cssHeight === bounds.height && currentDpr === dpr) return;
+    cssWidth = bounds.width; cssHeight = bounds.height; currentDpr = dpr;
+    canvas.width = Math.round(cssWidth * dpr); canvas.height = Math.round(cssHeight * dpr); ctx.setTransform(dpr,0,0,dpr,0,0);
+  }
+  function draw() {
+    resize(); const width = cssWidth, height = cssHeight, left = 40, right = width - 14, top = 14, bottom = height - 32;
+    ctx.clearRect(0,0,width,height); ctx.font = '10px Consolas, monospace'; ctx.lineWidth = 1;
+    for (let i = 0; i <= 4; i++) {
+      const y = top + (bottom - top) * i / 4; ctx.strokeStyle = i === 2 ? '#33485d' : '#223348';
+      ctx.setLineDash(i === 2 ? [] : [2,5]); ctx.beginPath(); ctx.moveTo(left,y); ctx.lineTo(right,y); ctx.stroke();
+      ctx.fillStyle = '#718aa5'; ctx.textAlign = 'right'; ctx.fillText((1 - i / 2).toFixed(1),left - 12,y + 3);
+    }
+    for (let i = 0; i <= 8; i++) {
+      const x = left + (right - left) * i / 8; ctx.strokeStyle = '#223348'; ctx.setLineDash([2,5]); ctx.beginPath(); ctx.moveTo(x,top); ctx.lineTo(x,bottom); ctx.stroke();
+      if (i % 2 === 0) { ctx.textAlign = i === 0 ? 'left' : i === 8 ? 'right' : 'center'; ctx.fillStyle = '#718aa5'; ctx.fillText(i === 8 ? 'NOW' : '−' + (windowSeconds * (1-i/8)).toFixed(1) + ' s',x,height - 9); }
+    }
+    ctx.setLineDash([]); const data = frozen ? frozenSamples : samples(); if (!data.length) return;
+    const end = data[data.length-1].elapsed; const visible = data.filter(s => s.elapsed >= end-windowSeconds); if (!visible.length) return;
+    const xOf = s => left + (s.elapsed-end+windowSeconds)/windowSeconds * (right-left);
+    const yOf = s => (top+bottom)/2-s.mod*(bottom-top)/2;
+    ctx.save(); ctx.beginPath(); ctx.rect(left,top-2,right-left,bottom-top+4); ctx.clip();
+    // A long interruption begins a new path instead of drawing a false bridge.
+    const trace = new Path2D(); let previous = null;
+    for (const sample of visible) {
+      const x = xOf(sample), y = yOf(sample);
+      if (!previous || sample.elapsed - previous.elapsed > .15) trace.moveTo(x,y); else trace.lineTo(x,y);
+      previous = sample;
+    }
+    ctx.lineJoin = 'round'; ctx.lineCap = 'round'; ctx.strokeStyle = '#69ebc710'; ctx.lineWidth = 9; ctx.stroke(trace);
+    ctx.strokeStyle = '#69ebc724'; ctx.lineWidth = 5; ctx.stroke(trace); ctx.strokeStyle = frozen ? '#b39bff' : '#69ebc7'; ctx.lineWidth = 1.8; ctx.stroke(trace);
+    const last = visible[visible.length-1]; ctx.beginPath(); ctx.arc(xOf(last),yOf(last),3,0,Math.PI*2); ctx.fillStyle = '#c5fff0'; ctx.fill(); ctx.restore();
+  }
+  function animate(now) {
+    if (document.hidden) { frame = 0; return; }
+    if (now-lastFrame >= (motion.matches ? 100 : 30)) { draw(); updateMetrics(now); lastFrame = now; }
+    frame = requestAnimationFrame(animate);
+  }
+  document.addEventListener('visibilitychange', () => { if (!document.hidden && !frame) frame = requestAnimationFrame(animate); });
+  window.addEventListener('pagehide', () => { source?.close(); cancelAnimationFrame(frame); frame = 0; });
+  window.addEventListener('pageshow', event => { if (event.persisted) { if (!manual) connect(); if (!frame) frame = requestAnimationFrame(animate); } });
+  log('Workspace ready. Connecting to the local signal bus…'); connect(); frame = requestAnimationFrame(animate);
+})();
+</script>
+</body>
+</html>

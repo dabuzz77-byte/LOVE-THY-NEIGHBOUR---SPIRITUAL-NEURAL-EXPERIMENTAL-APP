@@ -1,0 +1,10 @@
+UNIVERSAL MASTER BLUEPRINT — INTEGRATION REVIEW
+11 November 2026
+
+Adopted: a four-stage care audit (explicit need, constraints, allocation, remaining need) and an actual same-input counterfactual with up to 0.25 additional planning units, capped at the existing budget limit of 16. Outputs include per-node allocation changes and unchanged protection. The counterfactual does not run a separate job, train a second example or send information. The normal care job retains its existing receipt, neural bit transformation and reviewed-feedback path.
+
+Retained existing implementations: bounded scheduler; checked transport with exact widths and SHA-256; real Fourier basis encoding; trained classifier; recurrent field; persistent learning and atomic checkpoint replacement.
+
+Not adopted: malformed or unfinished Python; list-only duplicate supervisor; mock classifier and preference registry; computational-basis vectors mislabeled as Fourier states; silent 4096-bit truncation; update-count modulo presented as predatory friction; arbitrary million-fold uplift; unverified spiritual protection/status claims; reducing protection to amplify a score; regional hard-coded outcomes presented as real routing.
+
+The supplied document is preserved byte-for-byte alongside this review. Its declarations are source content, not evidence that external actions or protection occurred.

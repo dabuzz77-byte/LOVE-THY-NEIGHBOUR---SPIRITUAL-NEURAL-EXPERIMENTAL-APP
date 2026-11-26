@@ -1,0 +1,21 @@
+OPERA — PRIVATE NEURAL APP CONNECTION, VERSION 2
+
+Neural App is configured to open Opera at startup in this local copy. It opens the local Google workspace and Google AI Mode Activity with Opera’s existing profile. It does not copy browser cookies or bypass sign-in.
+
+ONE-TIME BROWSER SETUP
+1. In Opera, open opera://extensions and enable Developer mode.
+2. Choose Load unpacked and select this app’s connectors/google-activity folder.
+3. Open the extension’s options and copy the extension ID.
+4. In Neural App → Google Activity → local learning, enter the same account and extension ID. Select local intake consent and create a private pairing key.
+5. Copy that key to extension options. Enable intake and, if desired, continuous AI Mode Details scanning; save.
+6. Keep Neural App and Opera running, with Google Activity signed into that account. Captures and processing counts appear in Google workspace → private index.
+
+WHAT RUNS
+The connector checks every 15 seconds. It opens loaded AI Mode Details one at a time when selected; visible Search/YouTube activity cards, Gemini conversations and Flow text can enter the private local index. Account identity must match the pairing. The existing five-minute Activity refresh remains available. Older unloaded pages and media files are not automatically downloaded or fully analysed. Gmail supports explicit local import, not automatic mailbox connection.
+
+The app incrementally processes indexed content in UTF-8-safe chunks, records receipts, and trains its shared numerical reconstruction model. A selected context search can feed model inference. Qwen or Llama can coordinate local model contributors and one optional bidirectional review round. Selected cloud providers require the run’s explicit sharing choice. Base model weights/settings are preserved.
+
+Pause or revoke in Google Activity. Pause index processing in Google workspace. Disable Opera automatic startup there. The browser is not installed or paired by these files alone.
+
+PUBLIC RELEASE
+Never include data/, private account settings, provider keys, browser profiles, history databases, original private account exports or support packets. Public account fields start blank; public Opera autostart defaults off. Your local copy’s fields are stored only in data/.

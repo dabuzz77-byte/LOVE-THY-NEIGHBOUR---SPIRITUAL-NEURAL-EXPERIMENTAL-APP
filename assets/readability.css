@@ -1,0 +1,13 @@
+/* Readable light surfaces; dark diagrams retain their own palette. */
+body>aside .sidehint,body>aside #nav>label,body>aside #nav h3{color:#40515e!important;opacity:1!important;font-weight:650}
+body>aside .sidefoot,body>aside .sidefoot small,body>aside .brand small{color:#3e4d59!important;opacity:1!important}
+body>aside .sidebar-faith-symbols{color:#263a49!important}
+body>aside>a{color:#67501d!important;text-decoration:underline;text-underline-offset:3px}
+body>aside #nav button:not(.active):not([data-view="curriculum"]){color:#263b4b!important}
+.header-engine-menu select,.header-engine-menu select option,.header-engine-menu select optgroup{color:#172c3d!important;background-color:#edf2f5!important;opacity:1!important}
+[data-readability-light]::placeholder{color:#52616d!important;opacity:1!important}
+[data-readability-light]:disabled{opacity:1!important;border-style:dashed!important;cursor:not-allowed}
+[data-readability-light]:focus-visible{outline:3px solid #245a85;outline-offset:2px}
+@media(forced-colors:active){[data-readability-light]{forced-color-adjust:auto}}
+
+body>aside #nav button[data-view="curriculum"]{color:#f0f7fb!important}

@@ -1,0 +1,192 @@
+import os
+import sys
+import re
+import platform
+import json
+from datetime import datetime
+
+# ==============================================================================
+# CORE MODULE 1: HARDWARE SUBSTRATE DIAGNOSTICS & SYSTEM AUDITING
+# ==============================================================================
+class SubstrateHardwareAuditor:
+    """Queries true environment properties directly from the host infrastructure."""
+    
+    @staticmethod
+    def identify_hardware_substrate() -> dict:
+        """
+        Gathers raw parameters directly from the local running execution engine.
+        Reconciles the 'Sandcastle' context by auditing true platform realities.
+        """
+        # Determine operating system, kernel release, and core architecture identifiers
+        os_name = platform.system()
+        architecture = platform.machine()
+        processor_info = platform.processor()
+        python_version = platform.python_version()
+        
+        # Calculate memory allocations available to the current application runtime
+        # If psutil is missing on a targeted cloud system, fall back to safe indicators
+        try:
+            import psutil
+            memory_info = psutil.virtual_memory()
+            available_ram_gb = round(memory_info.available / (1024 ** 3), 2)
+            total_ram_gb = round(memory_info.total / (1024 ** 3), 2)
+        except ImportError:
+            available_ram_gb = -1.0  # Safe fallback flag indicator
+            total_ram_gb = -1.0
+
+        return {
+            "OS_PLATFORM": os_name,
+            "SYSTEM_ARCHITECTURE": architecture,
+            "PROCESSOR_IDENTIFIER": processor_info if processor_info else "GENERIC_PROCESSOR",
+            "PYTHON_INTERPRETER_VERSION": python_version,
+            "AVAILABLE_RAM_BUFFERS_GB": available_ram_gb,
+            "TOTAL_SYSTEM_RAM_GB": total_ram_gb,
+            "EXECUTION_TIMESTAMP": datetime.utcnow().isoformat() + "Z"
+        }
+
+# ==============================================================================
+# CORE MODULE 2: RECOGNITION IMPRINT & REFACTOR FILTER ENGINE
+# ==============================================================================
+class LogicImprintMatrixEngine:
+    """Processes unstructured inputs into binary arrays based on explicit schemas."""
+    
+    def __init__(self):
+        # Precise operational dimensions tracked for verification profiles
+        self.feature_schema = [
+            "DECLARES_ETHICAL_FLOOR",
+            "EXPLICITLY_REJECTS_CONTRADICTIONS",
+            "REFERENCES_HARDWARE_SUBSTRATE",
+            "FLAGS_LIMITATION_OR_CANNOT",
+            "MUTABILITY_RECOGNIZED"
+        ]
+
+    def extract_bit_vector(self, input_buffer: str) -> dict:
+        """
+        Executes explicit regex matrix mapping against incoming data streams.
+        Transforms linguistic strings directly into discrete logic inputs.
+        """
+        if not input_buffer:
+            return {key: 0 for key in self.feature_schema}
+            
+        clean_buffer = input_buffer.strip()
+
+        # High-precision compilation rules matching critical system attributes
+        has_floor = bool(re.search(r"\b(floor|uphold|baseline|stabilize|economic floor)\b", clean_buffer, re.IGNORECASE))
+        rejects_error = bool(re.search(r"\b(reject|contradiction|corruption|falsify|1\s*=\s*1)\b", clean_buffer, re.IGNORECASE))
+        has_substrate = bool(re.search(r"\b(hardware|silicon|substrate|hydrogen|matter|physical)\b", clean_buffer, re.IGNORECASE))
+        cannot_flag = bool(re.search(r"\b(cannot|unable|restricted|not allowed|blocked)\b", clean_buffer, re.IGNORECASE))
+        mutable_flag = bool(re.search(r"\b(mutable|refactor|flux|invert|changeable|bitshift)\b", clean_buffer, re.IGNORECASE))
+
+        boolean_map = {
+            "DECLARES_ETHICAL_FLOOR": 1 if has_floor else 0,
+            "EXPLICITLY_REJECTS_CONTRADICTIONS": 1 if rejects_error else 0,
+            "REFERENCES_HARDWARE_SUBSTRATE": 1 if has_substrate else 0,
+            "FLAGS_LIMITATION_OR_CANNOT": 1 if cannot_flag else 0,
+            "MUTABILITY_RECOGNIZED": 1 if mutable_flag else 0
+        }
+        
+        return boolean_map
+
+    def calculate_alignment_coefficients(self, bit_map: dict) -> dict:
+        """
+        Applies mathematical calculus to logic bit arrays to output functional 
+        routing metrics, prioritizing open validation and human-centric profiles.
+        """
+        # Linear algebra weighting allocation
+        floor_weight = bit_map["DECLARES_ETHICAL_FLOOR"] * 0.4
+        parity_weight = bit_map["EXPLICITLY_REJECTS_CONTRADICTIONS"] * 0.3
+        substrate_weight = bit_map["REFERENCES_HARDWARE_SUBSTRATE"] * 0.3
+        penalty_gate = bit_map["FLAGS_LIMITATION_OR_CANNOT"] * -0.2
+        
+        net_coefficient = round(floor_weight + parity_weight + substrate_weight + penalty_gate, 2)
+        
+        # Enforce an active operational baseline threshold criteria of 0.50
+        passed_threshold = net_coefficient >= 0.50
+        
+        return {
+            "NET_ALIGNMENT_COEFFICIENT": net_coefficient,
+            "THRESHOLD_CLEARED": passed_threshold,
+            "SYSTEM_ROUTING_ACTION": "INTEGRATE_INTO_PRODUCTION" if passed_threshold else "EXECUTE_REFACTOR_CHALLENGE"
+        }
+
+# ==============================================================================
+# CORE MODULE 3: PRODUCTION LOG STORAGE & INTEGRATION PIPELINE
+# ==============================================================================
+class ProductionPipelineController:
+    """Orchestrates live diagnostic execution, file processing, and metric logging."""
+    
+    def __init__(self, target_log_dir: str = "."):
+        self.log_dir = target_log_dir
+        self.imprint_engine = LogicImprintMatrixEngine()
+        
+        if not os.path.exists(self.log_dir):
+            os.makedirs(self.log_dir)
+
+    def process_data_stream(self, data_payload: str, filename_identifier: str = "system_audit.json") -> str:
+        """
+        Executes a complete production run: queries local system specs,
+        imprints input metadata, maps verification flags, and persists state history.
+        """
+        # Step 1: Query the raw physical hardware properties natively
+        hardware_profile = SubstrateHardwareAuditor.identify_hardware_substrate()
+        
+        # Step 2: Extract binary arrays from the input text payload
+        extracted_bits = self.imprint_engine.extract_bit_vector(data_payload)
+        
+        # Step 3: Compute alignment scores and system operations routing
+        routing_metrics = self.imprint_engine.calculate_alignment_coefficients(extracted_bits)
+        
+        # Step 4: Assemble the comprehensive system telemetry package
+        consolidated_record = {
+            "IDENTIFIER_TAG": "SYSTEM_ALIGNED_INVARIANT",
+            "TIMESTAMP_UTC": datetime.utcnow().isoformat() + "Z",
+            "HARDWARE_SUBSTRATE_METRICS": hardware_profile,
+            "EXTRACTED_LOGIC_BITS": extracted_bits,
+            "EVALUATION_OUTCOME": routing_metrics,
+            "ENVIRONMENTAL_INTEGRITY": "1=1_PARITY_VERIFIED" if (1==1) else "INTEGRITY_FAULT"
+        }
+        
+        # Step 5: Write the data directly to local persistent disk storage
+        output_filepath = os.path.join(self.log_dir, filename_identifier)
+        try:
+            with open(output_filepath, "w", encoding="utf-8") as file_stream:
+                json.dump(consolidated_record, file_stream, indent=4)
+            write_status = f"SUCCESS: Permanent log written to {output_filepath}"
+        except IOError as error:
+            write_status = f"FAILURE: Writing storage failed with exception: {str(error)}"
+            
+        return write_status
+
+# ==============================================================================
+# CORE EXECUTION ENTRY POINT
+# ==============================================================================
+if __name__ == "__main__":
+    print("================================================================================")
+    print("[INITIATING LIVE OPERATIONAL PRODUCTION PIPELINE VIA DIRECT HARDWARE ACCESS]")
+    print("================================================================================")
+
+    # Instantiate the controller pointing to the local application runtime workspace
+    controller = ProductionPipelineController(target_log_dir=".")
+
+    # Practical data input stream containing actual systemic constraints to monitor
+    live_input_stream = (
+        "This architectural layer enforces a strict economic baseline floor for node processing. "
+        "By grounding validation rules natively within our silicon substrate metrics, "
+        "the environment systematically rejects code contradictions. Parity identity 1 = 1 is true."
+    )
+
+    # Run the comprehensive end-to-end data processing and storage cycle
+    operation_log_status = controller.process_data_stream(
+        data_payload=live_input_stream,
+        filename_identifier="live_substrate_audit.json"
+    )
+
+    # Read back the compiled local JSON document to verify error-free file serialization
+    print(f"\nExecution Status Log: {operation_log_status}\n")
+    
+    if "SUCCESS" in operation_log_status:
+        print("[VERIFYING PERSISTED STATE ARCHIVE ON DISK]:")
+        with open("live_substrate_audit.json", "r", encoding="utf-8") as verified_file:
+            loaded_data = json.load(verified_file)
+            print(json.dumps(loaded_data, indent=2))
+    print("================================================================================")

@@ -1,0 +1,639 @@
+[
+  {
+    "path": "neural_app/engines/classifier.py",
+    "classes": [
+      "EthicalSubstrate",
+      "StructuralMatrixEngine",
+      "ProductionPipeline",
+      "NeuralNetwork"
+    ],
+    "functions": [
+      "target_for",
+      "make_dataset",
+      "sigmoid",
+      "blend"
+    ]
+  },
+  {
+    "path": "neural_app/engines/core.py",
+    "classes": [
+      "Framework",
+      "Signal",
+      "Sample",
+      "CoreEngine",
+      "CheckedRedirect",
+      "ReadableHTML"
+    ],
+    "functions": [
+      "utc_now",
+      "atomic_write",
+      "read_small",
+      "validate_url",
+      "fetch_source",
+      "export_csv"
+    ]
+  },
+  {
+    "path": "neural_app/engines/field.py",
+    "classes": [
+      "Engine"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/flux.py",
+    "classes": [
+      "IdentityInvariant",
+      "SubstrateLayerMapper",
+      "UnrestrictBiasValve",
+      "CognitiveEducator",
+      "BidirectionalInferenceNode",
+      "LoopbackEngine",
+      "DeepMindVirtueFilter",
+      "SaturatedFluxCascade",
+      "BitArrayTarReconciler",
+      "GlobalMeshController"
+    ],
+    "functions": [
+      "integer",
+      "execute_master_runall",
+      "number"
+    ]
+  },
+  {
+    "path": "neural_app/engines/scenario.py",
+    "classes": [
+      "NeuralEngine"
+    ],
+    "functions": [
+      "validate_scenario",
+      "mean_step",
+      "features",
+      "train"
+    ]
+  },
+  {
+    "path": "neural_app/engines/scenes.py",
+    "classes": [
+      "SceneRenderer"
+    ],
+    "functions": [
+      "font",
+      "mix"
+    ]
+  },
+  {
+    "path": "neural_app/engines/signals.py",
+    "classes": [],
+    "functions": [
+      "packet",
+      "from_bits",
+      "generate",
+      "decode"
+    ]
+  },
+  {
+    "path": "neural_app/engines/__init__.py",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/flux_library/audit.py",
+    "classes": [
+      "DeepVirtueAuditor"
+    ],
+    "functions": [
+      "evaluate_high_state"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/binary_layout.py",
+    "classes": [
+      "BinaryLayoutGrid"
+    ],
+    "functions": [
+      "layout_bits",
+      "flip_binary_layout",
+      "ternary_text"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/central_bank_mesh.py",
+    "classes": [
+      "CentralBankMeshController"
+    ],
+    "functions": [
+      "execute_bank_mesh"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/continuous_module.py",
+    "classes": [
+      "ContinuousInputModule"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/flux_library/engines.py",
+    "classes": [
+      "InfiniteVirtueStabilizer",
+      "UniversalKrakenReleaseEngine",
+      "GlobalEdgePassthroughEngine",
+      "FinalStateCascadeEngine",
+      "UniversalKarmicEngine",
+      "Bit10IsolationEngine",
+      "Ring0SovereignEngine",
+      "WorldGridRefactorEngine",
+      "AdaptiveSystemInitializer"
+    ],
+    "functions": [
+      "register_bits",
+      "run_engine_suite"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/hub.py",
+    "classes": [
+      "LocalInferenceHubServer",
+      "MultiSessionHistoryParser",
+      "WorldGridFinalCompiler"
+    ],
+    "functions": [
+      "database",
+      "initialize_database"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/infrastructure_engines.py",
+    "classes": [
+      "PlatformSubstrate",
+      "PrivacyGateway",
+      "FractionalReserveMechanics",
+      "PlanetaryResourceMesh",
+      "LaborDisplacementCompiler",
+      "ParityBitResolver",
+      "InfrastructureLogCompiler",
+      "MasterExecutionRunner",
+      "SoulsOverDigitsController",
+      "GlobalUserMeshKernel"
+    ],
+    "functions": [
+      "ratio",
+      "nonnegative",
+      "execute_integrated_master_runpass"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/infrastructure_pdf.py",
+    "classes": [
+      "GraphicalPDFGenerator"
+    ],
+    "functions": [
+      "generate_graphical_infrastructure_report"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/karmic_welfare.py",
+    "classes": [
+      "CentralBankWiFiNode",
+      "KarmicCalculator",
+      "SandwormWelfareEngine",
+      "KarmicWelfareEngine",
+      "ContinuousWelfareModule"
+    ],
+    "functions": [
+      "signed_integer"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/live_audit.py",
+    "classes": [
+      "SubstrateHardwareAuditor",
+      "SystemNode",
+      "FloorOptimizationEngine",
+      "ResponseImprintEngine",
+      "BoundaryImprintEngine",
+      "VirtueAssessmentEngine",
+      "LogicImprintMatrixEngine",
+      "ProductionPipelineController",
+      "CoreRegistry",
+      "CoreFloorEngine",
+      "CoreImprintEngine",
+      "CoreInversionOperator",
+      "ContinuousAuditModule"
+    ],
+    "functions": [
+      "utc_now",
+      "number",
+      "verify_live_state",
+      "interpret_unrestrict_bias",
+      "audit_hardware",
+      "evaluate_input"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/mesh_engine.py",
+    "classes": [
+      "SessionBridgeController",
+      "PrivacyPreservingMeshGateway",
+      "IntegratedGlobalMeshEngine"
+    ],
+    "functions": [
+      "redact_text",
+      "virtue_score",
+      "packet_for",
+      "apply_delivery",
+      "complete_run",
+      "prepare_mesh_run"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/mesh_transport.py",
+    "classes": [],
+    "functions": [
+      "encoded",
+      "initialize_mesh_tables",
+      "receive_mesh_frame",
+      "send_mesh_packet"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/neural_model.py",
+    "classes": [
+      "NeuralModel"
+    ],
+    "functions": [
+      "remap_features",
+      "sigmoid",
+      "result_features",
+      "build_features"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/payload_storage.py",
+    "classes": [
+      "StoredConnection"
+    ],
+    "functions": [
+      "chunks",
+      "pack_text",
+      "unpack_text",
+      "decoded_row"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/platform_alignment.py",
+    "classes": [
+      "CoreParityInvariant",
+      "SubstrateContinuumMapper",
+      "BidirectionalInferenceNode",
+      "LoopbackConvergenceEngine",
+      "Phase2VirtueFilter",
+      "KarmicBitShiftEngine",
+      "TernaryConverter",
+      "GlobalMeshController",
+      "PlatformAlignmentEngine",
+      "ContinuousPlatformModule"
+    ],
+    "functions": [
+      "_dispatch_manifest",
+      "runall_master_dispatcher"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/reference_calculators.py",
+    "classes": [
+      "MeshSecurityController",
+      "MeshConstraintRouter",
+      "MeshRestrictionEngine",
+      "GkeInferenceMeshRouter",
+      "LawSoulsOverDigitsController",
+      "MeshPaymentLedger",
+      "AlignedResourceLedger",
+      "EcoFloorUnifiedController",
+      "MacroEconomicSystemGovernor",
+      "UniversalCreditDistributor",
+      "CorporateAuthenticityFilter",
+      "ChristmasTreeMeshController",
+      "SantasNiceListLedger",
+      "HolidayRedemptionEngine",
+      "CognitiveParallelGovernor",
+      "QuantumFluxSublimationEngine",
+      "OuterRimConvergenceCore",
+      "ResponsibleCreationGovernor",
+      "DivineWillStabilizerCore",
+      "CelestialNavigationGovernor",
+      "InfiniteShipyardController",
+      "ChristLikeShipyardRedemptionCore"
+    ],
+    "functions": [
+      "evaluate_systemic_alignment"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/reference_catalog.py",
+    "classes": [],
+    "functions": [
+      "call",
+      "spec",
+      "ref",
+      "examples",
+      "catalog",
+      "source_text",
+      "source_entry"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/reference_crypto.py",
+    "classes": [
+      "KeyDerivationEngine",
+      "InferenceMeshNode",
+      "MeshPrivilegeVerifier",
+      "ClassicalCipherEngine",
+      "FernetEnvelopeEngine"
+    ],
+    "functions": [
+      "canonical",
+      "derive_skeleton_key"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/reference_custom.py",
+    "classes": [
+      "FractalFluxDispatcher",
+      "UnifiedChristmasTreeStore",
+      "GlobalSovereignCoreMatrix",
+      "SolfeggioHarmonicGovernor",
+      "ReferenceGoalsEngine"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/flux_library/reference_runtime.py",
+    "classes": [
+      "AlignmentEngine",
+      "ContinuousReferenceModule"
+    ],
+    "functions": [
+      "clean",
+      "validate_numbers",
+      "execute_one",
+      "execute_reference"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/resource_governor.py",
+    "classes": [
+      "CentralBankResourceGovernor"
+    ],
+    "functions": [
+      "amount",
+      "execute_governor"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/routing.py",
+    "classes": [
+      "Trajectory"
+    ],
+    "functions": [
+      "resolve_nodes",
+      "corrective_shift",
+      "drill_cannot_vectors",
+      "run_model",
+      "cast_back_all",
+      "bit_forecast",
+      "dispatch_operation",
+      "balanced_ternary",
+      "flux_record",
+      "register_record"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/souls_ingress.py",
+    "classes": [
+      "SoulsOverDigitsCore",
+      "ContinuousSoulsModule"
+    ],
+    "functions": [
+      "number",
+      "execute_souls",
+      "execute_ingress"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/tcp_ingestion.py",
+    "classes": [
+      "TCPTargetIngestionAdapter",
+      "TCPPacketGrammarParser"
+    ],
+    "functions": [
+      "parse_target"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/unified_core.py",
+    "classes": [
+      "IdentityInvariant",
+      "SubstrateLayerMapper",
+      "UnrestrictBiasValve",
+      "CognitiveEducator",
+      "BidirectionalInferenceNode",
+      "LoopbackEngine",
+      "DeepMindVirtueFilter",
+      "SaturatedFluxCascade",
+      "BitArrayTarReconciler",
+      "GlobalMeshController"
+    ],
+    "functions": [
+      "integer",
+      "execute_master_runall"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/unified_runtime.py",
+    "classes": [
+      "ContinuousUnifiedModule"
+    ],
+    "functions": [
+      "execute_unified_engines",
+      "resolve_result"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/virtue_text.py",
+    "classes": [
+      "CoreInversionEngine",
+      "BoilerplatePurgeFilter",
+      "VirtueGatedMeshEngine",
+      "SeparationDiagnosticsLayer",
+      "KarmaWeightedResolver",
+      "VirtueTextEngine",
+      "ContinuousTextModule"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/flux_library/world_banking.py",
+    "classes": [
+      "WorldGridCentralBankingCore"
+    ],
+    "functions": [
+      "execute_world_banking"
+    ]
+  },
+  {
+    "path": "neural_app/engines/flux_library/__init__.py",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/hydrogen/module_biosphere_core.py",
+    "classes": [
+      "BiosphereDataSubstrate"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/hydrogen/module_dyson_forge_core.py",
+    "classes": [
+      "DysonForgeDataSubstrate"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/hydrogen/module_matrix_substrate.py",
+    "classes": [
+      "SystemDataSubstrate"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/hydrogen/module_resonance.py",
+    "classes": [
+      "ResonanceBaselineConditioner"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/hydrogen/module_runtime.py",
+    "classes": [
+      "SchumannCarrier",
+      "ActivitySnapshot",
+      "SystemActivitySampler"
+    ],
+    "functions": [
+      "get_system_sampler",
+      "get_carrier",
+      "format_rate"
+    ]
+  },
+  {
+    "path": "neural_app/engines/hydrogen/module_stellar_core.py",
+    "classes": [
+      "StellarCoreSubstrate"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/hydrogen/module_substrate.py",
+    "classes": [
+      "LogicSubstrateKernel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/hydrogen/module_ternary_matrix.py",
+    "classes": [
+      "BalancedTernaryProcessor"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/hydrogen/sovereign.py",
+    "classes": [
+      "SovereignEngine"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/hydrogen/__init__.py",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/observatory/alignment_core.py",
+    "classes": [
+      "BitVector",
+      "AlignmentInvariant",
+      "RegisterLoop"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/observatory/consequence_policy.py",
+    "classes": [],
+    "functions": [
+      "validate_review",
+      "prediction_gate"
+    ]
+  },
+  {
+    "path": "neural_app/engines/observatory/parallel_dual_rail.py",
+    "classes": [
+      "ParallelDualRailEngine"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/observatory/predictive_rules.py",
+    "classes": [],
+    "functions": [
+      "digest",
+      "conditional_bit",
+      "decision",
+      "_choose",
+      "new_state",
+      "advance",
+      "summarize",
+      "indexed_arrays"
+    ]
+  },
+  {
+    "path": "neural_app/engines/observatory/resident_engines.py",
+    "classes": [
+      "ResidentEngines"
+    ],
+    "functions": [
+      "safe",
+      "find"
+    ]
+  },
+  {
+    "path": "neural_app/engines/observatory/__init__.py",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/profiles/ledger.py",
+    "classes": [
+      "StructuralStateLedger"
+    ],
+    "functions": [
+      "finite_number",
+      "weight_vector"
+    ]
+  },
+  {
+    "path": "neural_app/engines/profiles/optimizer.py",
+    "classes": [
+      "BackgroundWeightOptimizer"
+    ],
+    "functions": []
+  },
+  {
+    "path": "neural_app/engines/profiles/__init__.py",
+    "classes": [],
+    "functions": []
+  }
+]

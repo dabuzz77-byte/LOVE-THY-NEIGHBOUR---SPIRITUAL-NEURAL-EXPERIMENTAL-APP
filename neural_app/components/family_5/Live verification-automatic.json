@@ -1,0 +1,23 @@
+{
+  "observed_at": 1792757317.9402757,
+  "enabled": true,
+  "worker_pid": 34600,
+  "worker_status": "listening",
+  "resident_definitions": 36,
+  "engines_received_live_inputs": 36,
+  "successful_public_sources": 10,
+  "configured_public_sources": 10,
+  "source_kinds": {
+    "bus": 1940,
+    "web": 41
+  },
+  "processed_web_documents": 41,
+  "durable_passes": 1981,
+  "actual_source_method_calls_this_worker": 467,
+  "flux_mode": "Checkpoint-only read; live FluxBus events also arrive through Observatory",
+  "live_context_used_in_prompt_responses": 15,
+  "errors": {
+    "bus": null,
+    "flux": null
+  }
+}

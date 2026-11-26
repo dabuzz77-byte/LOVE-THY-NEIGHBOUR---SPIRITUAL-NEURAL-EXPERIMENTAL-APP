@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "check": "All 36 resident engines receive inputs and retain state across passes",
+      "status": "passed"
+    },
+    {
+      "check": "Untrusted input is data; missing typed fields stay visible",
+      "status": "passed"
+    },
+    {
+      "check": "Public-source validation blocks local addresses, credentials and unsupported schemes",
+      "status": "passed"
+    },
+    {
+      "check": "Persistent input queue deduplicates identical content and preserves changed structured values",
+      "status": "passed"
+    },
+    {
+      "check": "Malformed process Unicode is losslessly escape-preserved without poisoning the input queue",
+      "status": "passed"
+    }
+  ],
+  "passed": 5,
+  "failed": 0
+}

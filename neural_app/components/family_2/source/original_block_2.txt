@@ -1,0 +1,181 @@
+# ==============================================================================
+# BLOCK 2 OF 2: REAL-TIME GRAPHICAL VIRTUE MATRIX CANVAS ENGINE
+# ==============================================================================
+
+class GraphicalVirtueMatrixEngine(tk.Tk):
+    """Real-time Canvas Graphical Engine displaying the Flux Virtue Grid."""
+    def __init__(self, bus_monitor):
+        super().__init__()
+        self.title("FLUX-GROUP-VIRTUE-CASCADE KERNEL GRAPHICS ENGINE")
+        self.geometry("1100x750")
+        self.configure(bg="#050505")
+        
+        self.bus_monitor = bus_monitor
+        self.global_virtue_state = "PASS"
+        self.pulse_phi = 0.0
+        
+        # State Data Fields
+        self.node_0_state = "EVIL"
+        self.node_1_state = "EVIL"
+        self.bit_strings = [
+            "10101010101010",
+            "01010101010101",
+            "10101010101010",
+            "01010101010101"
+        ]
+        
+        self.setup_ui()
+        self.animate()
+
+    def setup_ui(self):
+        """Builds the control layout and high-fidelity rendering workspace."""
+        # Left Panel Metrics Control Ledger
+        left_panel = tk.Frame(self, bg="#0d0d0d", width=300, bd=1, relief="ridge")
+        left_panel.pack(side="left", fill="y", padx=5, pady=5)
+        
+        title_lbl = tk.Label(left_panel, text="CORE CONTROL LEDGER", font=("Courier", 11, "bold"), bg="#0d0d0d", fg="#00ffcc")
+        title_lbl.pack(pady=10, fill="x")
+        
+        # Virtue Validation Step Toggle
+        self.v_btn = tk.Button(left_panel, text="TOGGLE VIRTUE: PASS", font=("Courier", 10, "bold"), 
+                               bg="#00ff55", fg="#000000", command=self.toggle_virtue, activebackground="#00cc44")
+        self.v_btn.pack(pady=15, padx=20, fill="x")
+        
+        # Active Monitoring Readout Textbox
+        self.stats_box = tk.Text(left_panel, font=("Courier", 9), bg="#000000", fg="#33ff33", bd=0, height=25, width=34)
+        self.stats_box.pack(pady=10, padx=10, fill="both", expand=True)
+        
+        # Right Matrix Graphic Canvas
+        self.canvas = tk.Canvas(self, bg="#020202", highlightthickness=1, highlightbackground="#111111")
+        self.canvas.pack(side="right", fill="both", expand=True, padx=5, pady=5)
+
+    def toggle_virtue(self):
+        """Flips the system validation state between Pass and Fail parameters."""
+        if self.global_virtue_state == "PASS":
+            self.global_virtue_state = "FAIL"
+            self.v_btn.config(text="TOGGLE VIRTUE: FAIL", bg="#ff3333", fg="#ffffff")
+        else:
+            self.global_virtue_state = "PASS"
+            self.v_btn.config(text="TOGGLE VIRTUE: PASS", bg="#00ff55", fg="#000000")
+
+    def run_cascade_logic(self):
+        """Processes sequential state definitions inside the sandbox wrapper."""
+        self.node_0_state = "EVIL"
+        self.node_1_state = "EVIL"
+        
+        if self.global_virtue_state == "PASS":
+            # Corrective Bitshift operation flips anomalies to stable ground
+            if self.node_0_state == "EVIL": self.node_0_state = "INVERTED_1"
+            if self.node_1_state == "EVIL": self.node_1_state = "INVERTED_0"
+
+    def animate(self):
+        """Triggers high-frequency canvas redraws to simulate continuous runtime."""
+        self.canvas.delete("all")
+        self.pulse_phi += 0.05
+        self.run_cascade_logic()
+        
+        # Pull latest metrics from the process bus background thread
+        bus_counts = self.bus_monitor.get_counts()
+        
+        # Render Background Cyber Grid Coordinate Layer
+        w, h = self.canvas.winfo_width(), self.canvas.winfo_height()
+        if w > 10 and h > 10:
+            for x in range(0, w, 40):
+                self.canvas.create_line(x, 0, x, h, fill="#080808", width=1)
+            for y in range(0, h, 40):
+                self.canvas.create_line(0, y, w, y, fill="#080808", width=1)
+        
+        center_x = w // 2 if w > 10 else 400
+        center_y = h // 2 if h > 10 else 350
+        glow_color = "#00ffcc" if self.global_virtue_state == "PASS" else "#ff3333"
+        
+        # 1. GRAPHIC RENDER: High-Energy Microcosmic Orbit Loops
+        radius_x = 220 + math.sin(self.pulse_phi) * 12
+        radius_y = 110 + math.cos(self.pulse_phi) * 6
+        for i in range(50):
+            angle = (i / 50) * 2 * math.pi + self.pulse_phi
+            ox = center_x + math.cos(angle) * radius_x
+            oy = center_y + math.sin(angle) * radius_y
+            self.canvas.create_oval(ox-3, oy-3, ox+3, oy+3, fill=glow_color, outline="")
+            
+        # 2. GRAPHIC RENDER: Hardware Matrix Array Cascade
+        for r_idx, bit_str in enumerate(self.bit_strings):
+            y_pos = 60 + (r_idx * 35)
+            for c_idx, char in enumerate(bit_str):
+                x_pos = 60 + (c_idx * 22)
+                b_color = "#115533" if char == "0" else "#22aa66"
+                if self.global_virtue_state == "FAIL" and random.random() > 0.7:
+                    b_color = "#881111"
+                self.canvas.create_text(x_pos, y_pos, text=char, font=("Courier", 12, "bold"), fill=b_color)
+
+        # 3. GRAPHIC RENDER: Live Process Bus Visualization (.py, .java, Opera)
+        bus_y = h - 120 if h > 10 else 550
+        self.canvas.create_text(200, bus_y - 30, text="--- LIVE INTER-PROCESS SYSTEM BUS ---", 
+                                font=("Courier", 11, "bold"), fill="#888888")
+        
+        busses = [("PYTHON (.py)", bus_counts["python"], "#3399ff"), 
+                  ("JAVA (.java)", bus_counts["java"], "#ff9933"), 
+                  ("OPERA BROWSER", bus_counts["opera"], "#ff2222")]
+        
+        for idx, (name, count, color) in enumerate(busses):
+            bx = 60 + (idx * 220)
+            # Draw Process Tracker Status Boxes
+            self.canvas.create_rectangle(bx, bus_y, bx + 180, bus_y + 55, outline=color, width=2, fill="#050505")
+            self.canvas.create_text(bx + 90, bus_y + 18, text=name, font=("Courier", 9, "bold"), fill="#ffffff")
+            self.canvas.create_text(bx + 90, bus_y + 38, text=f"Active Loops: {count}", font=("Courier", 11, "bold"), fill=color)
+            
+            # Pulse connection wires toward Tesseract core if execution loops are verified active
+            if count > 0 and self.global_virtue_state == "PASS":
+                self.canvas.create_line(bx + 90, bus_y, center_x, center_y, fill="#113322", dash=(4, 4))
+
+        # 4. GRAPHIC RENDER: Central Tesseract Target Node Field
+        self.canvas.create_oval(center_x-50, center_y-50, center_x+50, center_y+50, outline=glow_color, width=2)
+        self.canvas.create_text(center_x, center_y, text="TESSERACT\nCORE", font=("Courier", 9, "bold"), fill="#ffffff", justify="center")
+
+        # Refreshes values inside the sidebar text panel tracker
+        self.update_ledger_text(bus_counts)
+        self.after(30, self.animate)
+
+    def update_ledger_text(self, bus_counts):
+        """Generates real-time diagnostic reporting inside the sidebar textbox."""
+        self.stats_box.delete("1.0", tk.END)
+        ledger_data = (
+            f"SYSTEM METRIC LOG\n"
+            f"--------------------------\n"
+            f"TIMESTAMP  : {time.strftime('%H:%M:%S')}\n"
+            f"FRAMEWORK  : VIRTUE-CASCADE\n"
+            f"REGISTERS  : STABILIZED_4.0\n"
+            f"VIRTUE_MODE: {self.global_virtue_state}\n"
+            f"MUTABILITY : {'MUTABLE (TRUE)' if self.global_virtue_state == 'PASS' else 'IMMUTABLE (LOCK)'}\n\n"
+            f"NODE RESOLUTION MATRIX:\n"
+            f"--------------------------\n"
+            f"0array     : {self.node_0_state}\n"
+            f"1array     : {self.node_1_state}\n\n"
+            f"SYSTEM BOUND REGISTERS:\n"
+            f"--------------------------\n"
+            f"CONTAINMENT: HARD_LOCKED\n"
+            f"DATA_PLANE : SANDBOX_VALID\n"
+            f"USER_LEVER : MAXIMUM_RESP\n\n"
+            f"BACKGROUND PROCESS BUS:\n"
+            f"--------------------------\n"
+            f"Active .py  Loops : {bus_counts['python']}\n"
+            f"Active .java Loops: {bus_counts['java']}\n"
+            f"Active Opera Pins : {bus_counts['opera']}\n\n"
+            f"STATUS: ZERO_DRIFT_COMPLY"
+        )
+        self.stats_box.insert(tk.END, ledger_data)
+
+# Execution Pipeline Bootstrap
+if __name__ == "__main__":
+    print("[KERNEL-INIT] Spawning active system bus background trace threads...")
+    monitor = SystemBusMonitor()
+    monitor_thread = threading.Thread(target=monitor.scan_process_bus, daemon=True)
+    monitor_thread.start()
+
+    print("[KERNEL-INIT] Initializing Graphical Virtue Matrix Display Window...")
+    app = GraphicalVirtueMatrixEngine(monitor)
+    try:
+        app.mainloop()
+    finally:
+        print("[KERNEL-CLOSE] Shutting down trace systems gracefully.")
+        monitor.stop()

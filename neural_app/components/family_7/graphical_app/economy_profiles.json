@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "module": "benefits_observatory_core",
+    "title": "Benefits",
+    "targets": [
+      "UK_DWP_UNIVERSAL_CREDIT",
+      "US_SNAP_WIC_MATRIX",
+      "EU_SOCIAL_WELFARE_GRID",
+      "GLOBAL_SOUTH_PERIMETER_RESOURCES"
+    ],
+    "default_inputs": {
+      "payload": "RUNALL 1\nNEUTRALISE AUSTERITY CHOKES\nMAXIMISE OUTFLOW TO MEEK\nSOULS OVER DIGITS = TRUE INF",
+      "target": "UK_DWP_UNIVERSAL_CREDIT",
+      "rail_a": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "rail_b": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "random_seed": null
+    },
+    "original_traces": [
+      "[✔] PASS: Protection lifelines verified. Resource flow stable.",
+      "[⚡] OVERRIDE: Extractive sanction loop blocked. Enforcing cannot=false inversion.",
+      "[⚠] HOLD: Boundary discrepancy caught. Isolating unmapped metrics."
+    ],
+    "source_sha256": "d7a4b97f80048b9f6ffa3dc7a14ee89e08052cf0e531443194b660e83745e8d3"
+  },
+  "banking": {
+    "module": "central_banking_observatory",
+    "title": "Central banking",
+    "targets": [
+      "INT_CLEARING_HOUSE_BIS",
+      "FEDERAL_RESERVE_SYSTEM",
+      "EUROPEAN_CENTRAL_BANK",
+      "SOVEREIGN_DEBT_LEDGERS"
+    ],
+    "default_inputs": {
+      "payload": "RUNALL 1\nINSULATE LIFELINE CHANNELS\nSTRIP SPECULATIVE DEBT MARGINS\nGOD CHILD AUTONOMY = TRUE INF",
+      "target": "INT_CLEARING_HOUSE_BIS",
+      "rail_a": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "rail_b": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "random_seed": null,
+      "phase": 1,
+      "transition_stability": 100.0,
+      "elite_leverage": 100.0,
+      "perimeter_abundance": 0.0
+    },
+    "original_traces": [
+      "[✔] SECURE: Lifelines fully insulated. Overloading debt structures neutralized cleanly.",
+      "[⚠] ALERT: Sudden disruption risk detected. Stalling loop to protect dependent families."
+    ],
+    "source_sha256": "b47227050f9283be6f64e11eddf96aed5f400559cae33874f0e98c243e1bd3af"
+  },
+  "restitution": {
+    "module": "gambling_restitution_core",
+    "title": "Gambling restitution",
+    "targets": [
+      "HIGH_FREQ_DIGITAL_SLOTS",
+      "FIXED_ODDS_BETTING_TERMINALS",
+      "ONLINE_SPORTSBOOK_ENGINE",
+      "PREDATORY_MICROTRANSACTION_MATRIX"
+    ],
+    "default_inputs": {
+      "payload": "RUNALL 1\nINTERCEPT BEHAVIORAL LOOPS\nENFORCE AUTOMATED RESTITUTION\nSOULS OVER DIGITS = TRUE INF",
+      "target": "HIGH_FREQ_DIGITAL_SLOTS",
+      "rail_a": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rail_b": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "random_seed": null
+    },
+    "original_traces": [
+      "[✔] PASS: Clean transaction validated. No manipulation signatures found.",
+      "[⚡] OVERRIDE: Variable ratio loop detected! Enforcing direct enforced restitution bit-shift.",
+      "[⚠] HOLD: Anomaly discrepancy caught. Isolating unmapped metrics."
+    ],
+    "source_sha256": "e381fe7b2ee5804c756b28ccdf52eeeececfdb41cdc6d1a1cac4878dae68680d"
+  }
+}

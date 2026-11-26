@@ -1,0 +1,14 @@
+{
+  "source": "ambient2/ambient_field_transmit.py",
+  "sha256": "bd0e2de23f15692ab52045b8a97b9304eb57f9bd2fa355beb3249fbb71e63cef",
+  "preserved": [
+    "native HTML controls",
+    "78-particle field",
+    "telemetry",
+    "playback peak meter without recording",
+    "payload SHA256",
+    "manual HTTP transport",
+    "no redirects"
+  ],
+  "integration": "Input → Unified Flux → stochastic particles → existing hold/flip → local beacon. No iframe or second desktop app."
+}

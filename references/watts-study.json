@@ -1,0 +1,359 @@
+{
+  "title": "Alan Watts · listening, relationship and care",
+  "subtitle": "Original study notes · official catalogue · private transcript learning",
+  "kicker": "LISTEN · ATTEND · CONNECT · CARE",
+  "hero": "watts-watercourse.svg",
+  "hero_alt": "Ink and gold ripples around a listening circle",
+  "hero_caption": "An original watercourse study graphic: one circle, many relationships.",
+  "practice_title": "Reflect through shared learning",
+  "scope": "Introductory synthesis and an expandable source library. Full lecture recordings have not been ingested.",
+  "chapters": [
+    {
+      "id": "overview",
+      "title": "A listening room, a study map and an honest source trail",
+      "paragraphs": [
+        "Watts invites a reconsideration of the isolated self, habitual striving and the habit of treating descriptions as the things they describe. This is an original introductory study map, not a transcript of his complete archive. The app keeps catalogue records, its own reflections and authorised imported text as distinct source types."
+      ],
+      "graphic": "roots",
+      "sources": [
+        "story"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "self",
+      "title": "Self and world: consider the relationship",
+      "paragraphs": [
+        "An organism lives through relationships with its environment. As a reflection, ask what changes when care includes the circumstances that sustain a person: air, water, food, community and attention. For this app, the practical counterpart is to inspect effects across connected sections rather than treating an isolated score as the whole result."
+      ],
+      "graphic": "sphere",
+      "sources": [
+        "story"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "language",
+      "title": "Words, models and experience",
+      "paragraphs": [
+        "A label is useful when it helps us attend, yet it can obscure experience when treated as its complete replacement. Read a model with awareness of its inputs and scope. In the app, words, exact encodings, generated illustrations and observed results have different roles; preserving their source makes interpretation more useful."
+      ],
+      "graphic": "manuscripts",
+      "sources": [
+        "story"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "change",
+      "title": "Change, polarity and the watercourse",
+      "paragraphs": [
+        "Study change without assuming that every opposition demands an enemy. Activity and rest, speaking and listening, making plans and adapting can support one another. In practical decisions this means maintaining the ability to revise a plan when its effects become clearer. This is a modern reflection connected to the app’s I Ching and order/chaos sections."
+      ],
+      "graphic": "water",
+      "sources": [
+        "story"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "attention",
+      "title": "Attention without turning life into a contest",
+      "paragraphs": [
+        "A moment can be valued for its lived quality rather than only for a future reward. A bounded practice is to notice ordinary breathing and surrounding sound, then return to the task with gentleness. The app’s learning counters are operational information; they do not rank a person’s spiritual worth."
+      ],
+      "graphic": "lamb",
+      "sources": [
+        "story"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "care",
+      "title": "Connectedness expressed through care",
+      "paragraphs": [
+        "The app’s own ethical synthesis is to let a sense of connectedness lead toward practical consideration: whose needs are unmet, who bears the cost, and what could be repaired? This is an explicitly authored application, not a quotation or a claim that Watts endorsed every rule in this project."
+      ],
+      "graphic": "cross",
+      "sources": [
+        "story"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "listening",
+      "title": "Listen to original recordings and keep attribution",
+      "paragraphs": [
+        "The official Essential Lectures catalogue lists 32 recordings across four groups. The recordings are offered through the publisher’s account and purchase system. The app links to that catalogue and can study text you are authorised to import; it does not label a catalogue entry as a recording it has heard."
+      ],
+      "graphic": "manuscripts",
+      "sources": [
+        "catalogue"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "learning",
+      "title": "Continuous study with a visible coverage count",
+      "paragraphs": [
+        "When enabled, the shared scheduler processes the next authorised text chunk, or rotates these original study notes when no unread imported chunk remains. Every successful chunk has a saved receipt. Private imported text stays in the local data folder and its background pipeline omits the inference stage. Repeated numerical updates do not mean the complete archive has been ingested."
+      ],
+      "graphic": "gates",
+      "sources": [
+        "story"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "projection-field-lens",
+      "title": "Centred projection · field displacement",
+      "graphic": "orbit",
+      "paragraphs": [
+        "The author describes a centred practitioner gathering attention and projecting intention into a surrounding or distant field. Displacement names the change sought in a harmful pattern or threatening encounter.",
+        "Luke’s meditation on Ahch-To and projected appearance on Crait in The Last Jedi supply the narrative comparison: the distant encounter changes while the practitioner remains at the centre.",
+        "Faith holds direction; discipline steadies the centre; discernment governs the response. Apply the lesson through protection, accountability, constructive action and review.",
+        "The lesson connects four images: water for a spreading ripple, light for illumination and direction, a tree for roots and branching relationships, and a computer for inputs, signals and feedback. Together they give the author’s spiritual model a visible structure: centre, connection, projection, encounter and response."
+      ],
+      "sources": [
+        "luke-projection"
+      ],
+      "projection_lens": "projection-field-lens"
+    }
+  ],
+  "sources": [
+    {
+      "id": "catalogue",
+      "title": "Official Essential Lectures catalogue",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "kind": "Publisher catalogue",
+      "reading_status": "32 titles indexed; recordings not ingested"
+    },
+    {
+      "id": "story",
+      "title": "Alan Watts Org · archive and mission",
+      "url": "https://alanwatts.org/our-story",
+      "kind": "Archive steward",
+      "reading_status": "Public archive description reviewed; not a lecture transcript"
+    },
+    {
+      "id": "luke-projection",
+      "title": "Star Wars · Luke Skywalker · Force projection",
+      "url": "https://www.starwars.com/databank/luke-skywalker/",
+      "kind": "Official narrative reference",
+      "reading_status": "The Last Jedi: projection from Ahch-To to Crait."
+    }
+  ],
+  "author_notes": [],
+  "recording_catalogue": [
+    {
+      "title": "We As Organism",
+      "group": "Tao of Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Do You Do It, or Does It Do You",
+      "group": "Tao of Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Coincidence of Opposites",
+      "group": "Tao of Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Learning the Human Game",
+      "group": "Tao of Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Myth of Myself",
+      "group": "Tao of Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Intellectual Yoga",
+      "group": "Tao of Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Man in Nature",
+      "group": "Tao of Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Doing Itself",
+      "group": "Tao of Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "What is Reality",
+      "group": "Philosophy and Society",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Nature of Consciousness",
+      "group": "Philosophy and Society",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Play of the Self",
+      "group": "Philosophy and Society",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Veil of Thoughts Pt. 1",
+      "group": "Philosophy and Society",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Veil of Thoughts Pt. 2",
+      "group": "Philosophy and Society",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Veil of Thoughts Pt. 3",
+      "group": "Philosophy and Society",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Divine Madness",
+      "group": "Philosophy and Society",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Education for Non-Entity",
+      "group": "Philosophy and Society",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Seeing Through the Net",
+      "group": "Comparative Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Mind Over Mind",
+      "group": "Comparative Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Eastern Thought in the West",
+      "group": "Comparative Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Mysticism and Morality",
+      "group": "Comparative Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Psychology of Mystical Experience",
+      "group": "Comparative Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Spiritual Authority",
+      "group": "Comparative Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "On Being God",
+      "group": "Comparative Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Limits of Language",
+      "group": "Comparative Philosophy",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Of Itself So",
+      "group": "Ways of Liberation",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Thou Art That",
+      "group": "Ways of Liberation",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Mythology of Hinduism",
+      "group": "Ways of Liberation",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Game of Hide and Seek",
+      "group": "Ways of Liberation",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "The Cosmic Drama",
+      "group": "Ways of Liberation",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "The Middle Way",
+      "group": "Ways of Liberation",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "On Buddhism",
+      "group": "Ways of Liberation",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    },
+    {
+      "title": "Wisdom of the Watercourse",
+      "group": "Ways of Liberation",
+      "url": "https://alanwatts.com/collections/essential-lectures-collection/products/essential-lectures-collection-original-recordings",
+      "ingestion": "Not ingested"
+    }
+  ],
+  "projection_lens": {
+    "id": "projection-field-lens",
+    "title": "Centred projection · field displacement",
+    "attribution": "The author’s spiritual teaching, with a Star Wars narrative comparison",
+    "paragraphs": [
+      "The author describes a centred practitioner gathering attention and projecting intention into a surrounding or distant field. Displacement names the change sought in a harmful pattern or threatening encounter.",
+      "Luke’s meditation on Ahch-To and projected appearance on Crait in The Last Jedi supply the narrative comparison: the distant encounter changes while the practitioner remains at the centre.",
+      "Faith holds direction; discipline steadies the centre; discernment governs the response. Apply the lesson through protection, accountability, constructive action and review.",
+      "The lesson connects four images: water for a spreading ripple, light for illumination and direction, a tree for roots and branching relationships, and a computer for inputs, signals and feedback. Together they give the author’s spiritual model a visible structure: centre, connection, projection, encounter and response."
+    ],
+    "source": {
+      "id": "luke-projection",
+      "title": "Star Wars · Luke Skywalker · Force projection",
+      "url": "https://www.starwars.com/databank/luke-skywalker/",
+      "kind": "Official narrative reference",
+      "reading_status": "The Last Jedi: projection from Ahch-To to Crait."
+    }
+  }
+}

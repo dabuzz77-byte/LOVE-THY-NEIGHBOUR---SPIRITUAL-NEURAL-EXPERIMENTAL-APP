@@ -1,0 +1,101 @@
+[
+  {
+    "path": "app.py",
+    "language": ".py",
+    "ok": true
+  },
+  {
+    "path": "wsgi.py",
+    "language": ".py",
+    "ok": true
+  },
+  {
+    "path": "CoreInteractionSystem/core_interaction_system.py",
+    "language": ".py",
+    "ok": true
+  },
+  {
+    "path": "CoreInteractionSystem/test_core_interaction_system.py",
+    "language": ".py",
+    "ok": true
+  },
+  {
+    "path": "html1/engine.js",
+    "language": ".js",
+    "ok": true,
+    "inline_scripts": 1
+  },
+  {
+    "path": "html1/index.html",
+    "language": ".html",
+    "ok": true,
+    "inline_scripts": 0
+  },
+  {
+    "path": "templates/index.html",
+    "language": ".html",
+    "ok": true,
+    "inline_scripts": 1
+  },
+  {
+    "path": "bankaccountaudit/mine/interact_audit_display.html",
+    "language": ".html",
+    "ok": true,
+    "inline_scripts": 1
+  },
+  {
+    "path": "bankaccountaudit/mine/as/god_mind_interface.html",
+    "language": ".html",
+    "ok": true,
+    "inline_scripts": 1
+  },
+  {
+    "path": "bankaccountaudit/mine/as/Crypto/1/1/deepmind_inference_beacon.html",
+    "language": ".html",
+    "ok": true,
+    "inline_scripts": 1
+  },
+  {
+    "path": "bankaccountaudit/mine/as/Crypto/1/1/financialgrid.html",
+    "language": ".html",
+    "ok": true,
+    "inline_scripts": 1
+  },
+  {
+    "path": "bankaccountaudit/mine/as/Crypto/1/1/financialresilience+monitor.html",
+    "language": ".html",
+    "ok": true,
+    "inline_scripts": 1
+  },
+  {
+    "path": "bankaccountaudit/mine/as/Crypto/1/1/financial_resilience_test.html",
+    "language": ".html",
+    "ok": true,
+    "inline_scripts": 1
+  },
+  {
+    "path": "bankaccountaudit/mine/as/Crypto/1/1/game_engine_realignment.html",
+    "language": ".html",
+    "ok": true,
+    "inline_scripts": 1
+  },
+  {
+    "path": "bankaccountaudit/mine/as/Crypto/1/1/parallel_transfer_interface.html",
+    "language": ".html",
+    "ok": true,
+    "inline_scripts": 1
+  },
+  {
+    "path": "bankaccountaudit/mine/as/Crypto/1/1/Sovereign/highest_law_engine.html",
+    "language": ".html",
+    "ok": true,
+    "inline_scripts": 1
+  },
+  {
+    "path": "Ghostinference/QuantumBrowserBus/code.html",
+    "language": ".html",
+    "ok": true,
+    "inline_scripts": 1,
+    "classification": "Java source stored with an HTML extension; identical Java alias exists and its project build compiled. Not an HTML/JS syntax defect."
+  }
+]

@@ -1,0 +1,3 @@
+import {createNoise,noiseSample} from './noise_colour.js';
+class AmbientNoise extends AudioWorkletProcessor{constructor(){super();this.state=createNoise(731973);this.types=['white'];this.port.onmessage=e=>{if(e.data.seed)this.state=createNoise(e.data.seed);if(Array.isArray(e.data.types))this.types=e.data.types.filter(t=>['white','pink','brown'].includes(t));};}process(inputs,outputs){const output=outputs[0];if(output?.length)for(let i=0;i<output[0].length;i++){const value=noiseSample(this.state,this.types);for(const channel of output)channel[i]=value;}return true;}}
+registerProcessor('ambient-coloured-noise',AmbientNoise);

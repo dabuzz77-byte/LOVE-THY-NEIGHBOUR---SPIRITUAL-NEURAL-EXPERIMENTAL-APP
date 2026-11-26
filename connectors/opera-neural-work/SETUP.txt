@@ -1,0 +1,39 @@
+Neural App · Opera Work Bridge 1.1
+
+BIDIRECTIONAL LOCAL BRIDGE
+
+1. Restart Neural App so its updated local server is running.
+2. In Opera, open opera://extensions, enable Developer mode, choose Load unpacked,
+   and select this folder (or Reload if already installed):
+   connectors/opera-neural-work
+3. Copy the extension ID into Neural App > Automatic flow > Opera work bridge.
+   Generate the connection and paste its pairing key into extension options.
+   Save the connection. The default endpoint is:
+   http://127.0.0.1:8797/api/automatic-flow/browser
+   If the app uses another port, change the endpoint in extension options.
+4. Enable automatic capture on sites you want included. Optionally enable
+   all enabled-site tabs and the tab-inventory permission. Use Sync with desktop
+   now once; it also starts minute-by-minute return-channel synchronization.
+5. In Automatic flow, send a return message or optional HTTPS link. It appears
+   in the Opera connector. A link opens only when clicked.
+
+Browser and desktop app windows connected to the same local server share state.
+The extension is needed to reach other Opera tabs. Two independently running app
+servers do not automatically merge; use the desktop server URL in both clients.
+
+SHARING
+Permitted page text enters the local work queue and the shared thinking circuit.
+Optional normal HTTPS tab inventory includes titles, paths and status (128 tabs
+maximum, with omitted count shown). Private browsing, cookies, credentials,
+editable fields and password-entry pages are excluded. Query strings/fragments
+are removed. Large pages require selecting a smaller portion. Site text is data,
+not executable instructions. No browser security settings are bypassed.
+
+The return channel carries explicit app messages and compact engine status.
+Captured page text and tab titles are not sent to outside recipients by this bridge.
+
+Controls: pause automatic capture; remove a site; disable inventory; disable the
+extension to stop both channels. Re-pairing rotates the local pairing key.
+
+Prepared and API-tested locally; the extension must be loaded/reloaded in Opera
+and paired before browser-wide sharing becomes active.

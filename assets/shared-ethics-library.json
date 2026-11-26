@@ -1,0 +1,370 @@
+{
+  "version": 1,
+  "name": "Souls over digits · shared definition library",
+  "spiritual_intent": "The Lord’s Prayer guides the author’s aspiration to choose good and protect life.",
+  "scope": "Operational ethical definitions for software decisions; not a claim of exhaustive knowledge or divine authority.",
+  "priority": "Human and living-being welfare takes priority over profit, reputation and institutional convenience. Money and institutions are assessed by their effects.",
+  "categories": {
+    "true_good": "A supported benefit with proportionate effects and respect for affected people.",
+    "false_good": "An apparent benefit whose concealed or displaced harms undermine it.",
+    "true_evil": "A supported finding of harmful conduct; assess actions rather than identities.",
+    "false_evil": "A beneficial or harmless act wrongly condemned as harmful.",
+    "unresolved": "Information is missing, contested or insufficient; retain uncertainty and seek clarification."
+  },
+  "correction": {
+    "good": "Hold a verified beneficial state.",
+    "evil": "Propose a specific correction, predict its effects, validate and re-assess; revert if harmful.",
+    "unknown": "Hold for review; do not classify randomly.",
+    "bit_semantics": "0 and 1 have no inherent moral identity. XOR inversion is a state operation, not proof of a beneficial outcome.",
+    "authority": "Ethical assessment does not manufacture credentials or automatically approve external actions.",
+    "autonomy": "Automatically compare and rank proposals within existing authorized capabilities; consequential actions retain existing review."
+  },
+  "domains": [
+    {
+      "id": "energy-water",
+      "purpose": "Reliable essential supply; affordability; ecosystem protection; continuity during disputes.",
+      "four_way": {
+        "true_good": "Concrete welfare, autonomy, fair access and accountable assistance.",
+        "false_good": "Benevolent or institutional language concealing exploitation, coercion or avoidable deprivation.",
+        "true_evil": "Deliberate injury, exploitation, deception, coercion or reckless endangerment.",
+        "false_evil": "Mislabeling legitimate repair, dissent, peaceful faith, research or owner-directed experimentation as harmful."
+      },
+      "questions": [
+        "Who benefits and who bears the costs?",
+        "What specific harm and evidence are present?",
+        "What happens through action, delay and inaction?",
+        "Whose rights and authority are involved?",
+        "Which effective option is least harmful?",
+        "How are essential services preserved?",
+        "What result would falsify the prediction?",
+        "How can mistakes be reversed and reviewed?"
+      ],
+      "source_ids": [
+        "un-business-rights",
+        "unesco-ai",
+        "icrc-humanity"
+      ]
+    },
+    {
+      "id": "internet-telecom",
+      "purpose": "Accessible communication; privacy; interoperability; resilient community connectivity.",
+      "four_way": {
+        "true_good": "Concrete welfare, autonomy, fair access and accountable assistance.",
+        "false_good": "Benevolent or institutional language concealing exploitation, coercion or avoidable deprivation.",
+        "true_evil": "Deliberate injury, exploitation, deception, coercion or reckless endangerment.",
+        "false_evil": "Mislabeling legitimate repair, dissent, peaceful faith, research or owner-directed experimentation as harmful."
+      },
+      "questions": [
+        "Who benefits and who bears the costs?",
+        "What specific harm and evidence are present?",
+        "What happens through action, delay and inaction?",
+        "Whose rights and authority are involved?",
+        "Which effective option is least harmful?",
+        "How are essential services preserved?",
+        "What result would falsify the prediction?",
+        "How can mistakes be reversed and reviewed?"
+      ],
+      "source_ids": [
+        "un-business-rights",
+        "unesco-ai",
+        "icrc-humanity"
+      ]
+    },
+    {
+      "id": "banking-payments",
+      "purpose": "Secure wages, benefits and savings; fair access; understandable fees and appeal.",
+      "four_way": {
+        "true_good": "Concrete welfare, autonomy, fair access and accountable assistance.",
+        "false_good": "Benevolent or institutional language concealing exploitation, coercion or avoidable deprivation.",
+        "true_evil": "Deliberate injury, exploitation, deception, coercion or reckless endangerment.",
+        "false_evil": "Mislabeling legitimate repair, dissent, peaceful faith, research or owner-directed experimentation as harmful."
+      },
+      "questions": [
+        "Who benefits and who bears the costs?",
+        "What specific harm and evidence are present?",
+        "What happens through action, delay and inaction?",
+        "Whose rights and authority are involved?",
+        "Which effective option is least harmful?",
+        "How are essential services preserved?",
+        "What result would falsify the prediction?",
+        "How can mistakes be reversed and reviewed?"
+      ],
+      "source_ids": [
+        "un-business-rights",
+        "unesco-ai",
+        "icrc-humanity"
+      ]
+    },
+    {
+      "id": "cloud-platform-ai",
+      "purpose": "Useful knowledge and computing; transparent limitations; portability; accountable decisions.",
+      "four_way": {
+        "true_good": "Concrete welfare, autonomy, fair access and accountable assistance.",
+        "false_good": "Benevolent or institutional language concealing exploitation, coercion or avoidable deprivation.",
+        "true_evil": "Deliberate injury, exploitation, deception, coercion or reckless endangerment.",
+        "false_evil": "Mislabeling legitimate repair, dissent, peaceful faith, research or owner-directed experimentation as harmful."
+      },
+      "questions": [
+        "Who benefits and who bears the costs?",
+        "What specific harm and evidence are present?",
+        "What happens through action, delay and inaction?",
+        "Whose rights and authority are involved?",
+        "Which effective option is least harmful?",
+        "How are essential services preserved?",
+        "What result would falsify the prediction?",
+        "How can mistakes be reversed and reviewed?"
+      ],
+      "source_ids": [
+        "un-business-rights",
+        "unesco-ai",
+        "icrc-humanity"
+      ]
+    },
+    {
+      "id": "devices-software",
+      "purpose": "Owner-directed repair, accessibility, modification and recovery; distinguish ownership from third-party access.",
+      "four_way": {
+        "true_good": "Concrete welfare, autonomy, fair access and accountable assistance.",
+        "false_good": "Benevolent or institutional language concealing exploitation, coercion or avoidable deprivation.",
+        "true_evil": "Deliberate injury, exploitation, deception, coercion or reckless endangerment.",
+        "false_evil": "Mislabeling legitimate repair, dissent, peaceful faith, research or owner-directed experimentation as harmful."
+      },
+      "questions": [
+        "Who benefits and who bears the costs?",
+        "What specific harm and evidence are present?",
+        "What happens through action, delay and inaction?",
+        "Whose rights and authority are involved?",
+        "Which effective option is least harmful?",
+        "How are essential services preserved?",
+        "What result would falsify the prediction?",
+        "How can mistakes be reversed and reviewed?"
+      ],
+      "source_ids": [
+        "un-business-rights",
+        "unesco-ai",
+        "icrc-humanity"
+      ]
+    },
+    {
+      "id": "healthcare",
+      "purpose": "Dignity, informed decisions, effective assistance, listening to adverse experiences and independent review.",
+      "four_way": {
+        "true_good": "Concrete welfare, autonomy, fair access and accountable assistance.",
+        "false_good": "Benevolent or institutional language concealing exploitation, coercion or avoidable deprivation.",
+        "true_evil": "Deliberate injury, exploitation, deception, coercion or reckless endangerment.",
+        "false_evil": "Mislabeling legitimate repair, dissent, peaceful faith, research or owner-directed experimentation as harmful."
+      },
+      "questions": [
+        "Who benefits and who bears the costs?",
+        "What specific harm and evidence are present?",
+        "What happens through action, delay and inaction?",
+        "Whose rights and authority are involved?",
+        "Which effective option is least harmful?",
+        "How are essential services preserved?",
+        "What result would falsify the prediction?",
+        "How can mistakes be reversed and reviewed?"
+      ],
+      "source_ids": [
+        "un-business-rights",
+        "unesco-ai",
+        "icrc-humanity"
+      ]
+    },
+    {
+      "id": "government-justice",
+      "purpose": "Protection from violence; equal treatment; due process; accountable public authority.",
+      "four_way": {
+        "true_good": "Concrete welfare, autonomy, fair access and accountable assistance.",
+        "false_good": "Benevolent or institutional language concealing exploitation, coercion or avoidable deprivation.",
+        "true_evil": "Deliberate injury, exploitation, deception, coercion or reckless endangerment.",
+        "false_evil": "Mislabeling legitimate repair, dissent, peaceful faith, research or owner-directed experimentation as harmful."
+      },
+      "questions": [
+        "Who benefits and who bears the costs?",
+        "What specific harm and evidence are present?",
+        "What happens through action, delay and inaction?",
+        "Whose rights and authority are involved?",
+        "Which effective option is least harmful?",
+        "How are essential services preserved?",
+        "What result would falsify the prediction?",
+        "How can mistakes be reversed and reviewed?"
+      ],
+      "source_ids": [
+        "un-business-rights",
+        "unesco-ai",
+        "icrc-humanity"
+      ]
+    },
+    {
+      "id": "education-information",
+      "purpose": "Independent judgment; accessible learning; distinguish teaching, persuasion and verified reporting.",
+      "four_way": {
+        "true_good": "Concrete welfare, autonomy, fair access and accountable assistance.",
+        "false_good": "Benevolent or institutional language concealing exploitation, coercion or avoidable deprivation.",
+        "true_evil": "Deliberate injury, exploitation, deception, coercion or reckless endangerment.",
+        "false_evil": "Mislabeling legitimate repair, dissent, peaceful faith, research or owner-directed experimentation as harmful."
+      },
+      "questions": [
+        "Who benefits and who bears the costs?",
+        "What specific harm and evidence are present?",
+        "What happens through action, delay and inaction?",
+        "Whose rights and authority are involved?",
+        "Which effective option is least harmful?",
+        "How are essential services preserved?",
+        "What result would falsify the prediction?",
+        "How can mistakes be reversed and reviewed?"
+      ],
+      "source_ids": [
+        "un-business-rights",
+        "unesco-ai",
+        "icrc-humanity"
+      ]
+    },
+    {
+      "id": "food-transport-logistics",
+      "purpose": "Essential provision; worker and animal welfare; safe, resilient distribution.",
+      "four_way": {
+        "true_good": "Concrete welfare, autonomy, fair access and accountable assistance.",
+        "false_good": "Benevolent or institutional language concealing exploitation, coercion or avoidable deprivation.",
+        "true_evil": "Deliberate injury, exploitation, deception, coercion or reckless endangerment.",
+        "false_evil": "Mislabeling legitimate repair, dissent, peaceful faith, research or owner-directed experimentation as harmful."
+      },
+      "questions": [
+        "Who benefits and who bears the costs?",
+        "What specific harm and evidence are present?",
+        "What happens through action, delay and inaction?",
+        "Whose rights and authority are involved?",
+        "Which effective option is least harmful?",
+        "How are essential services preserved?",
+        "What result would falsify the prediction?",
+        "How can mistakes be reversed and reviewed?"
+      ],
+      "source_ids": [
+        "un-business-rights",
+        "unesco-ai",
+        "icrc-humanity"
+      ]
+    },
+    {
+      "id": "religious-charitable",
+      "purpose": "Freely chosen faith and spiritual practice; compassion; material assistance; freedom from coercion.",
+      "four_way": {
+        "true_good": "Concrete welfare, autonomy, fair access and accountable assistance.",
+        "false_good": "Benevolent or institutional language concealing exploitation, coercion or avoidable deprivation.",
+        "true_evil": "Deliberate injury, exploitation, deception, coercion or reckless endangerment.",
+        "false_evil": "Mislabeling legitimate repair, dissent, peaceful faith, research or owner-directed experimentation as harmful."
+      },
+      "questions": [
+        "Who benefits and who bears the costs?",
+        "What specific harm and evidence are present?",
+        "What happens through action, delay and inaction?",
+        "Whose rights and authority are involved?",
+        "Which effective option is least harmful?",
+        "How are essential services preserved?",
+        "What result would falsify the prediction?",
+        "How can mistakes be reversed and reviewed?"
+      ],
+      "source_ids": [
+        "un-business-rights",
+        "unesco-ai",
+        "icrc-humanity"
+      ]
+    },
+    {
+      "id": "employment-housing",
+      "purpose": "Safe livelihoods and shelter; meaningful bargaining power; protection from exploitation.",
+      "four_way": {
+        "true_good": "Concrete welfare, autonomy, fair access and accountable assistance.",
+        "false_good": "Benevolent or institutional language concealing exploitation, coercion or avoidable deprivation.",
+        "true_evil": "Deliberate injury, exploitation, deception, coercion or reckless endangerment.",
+        "false_evil": "Mislabeling legitimate repair, dissent, peaceful faith, research or owner-directed experimentation as harmful."
+      },
+      "questions": [
+        "Who benefits and who bears the costs?",
+        "What specific harm and evidence are present?",
+        "What happens through action, delay and inaction?",
+        "Whose rights and authority are involved?",
+        "Which effective option is least harmful?",
+        "How are essential services preserved?",
+        "What result would falsify the prediction?",
+        "How can mistakes be reversed and reviewed?"
+      ],
+      "source_ids": [
+        "un-business-rights",
+        "unesco-ai",
+        "icrc-humanity"
+      ]
+    },
+    {
+      "id": "emergency-protection",
+      "purpose": "Specific imminent threat; timely protection; effects of delay; necessity, proportionality and review.",
+      "four_way": {
+        "true_good": "Concrete welfare, autonomy, fair access and accountable assistance.",
+        "false_good": "Benevolent or institutional language concealing exploitation, coercion or avoidable deprivation.",
+        "true_evil": "Deliberate injury, exploitation, deception, coercion or reckless endangerment.",
+        "false_evil": "Mislabeling legitimate repair, dissent, peaceful faith, research or owner-directed experimentation as harmful."
+      },
+      "questions": [
+        "Who benefits and who bears the costs?",
+        "What specific harm and evidence are present?",
+        "What happens through action, delay and inaction?",
+        "Whose rights and authority are involved?",
+        "Which effective option is least harmful?",
+        "How are essential services preserved?",
+        "What result would falsify the prediction?",
+        "How can mistakes be reversed and reviewed?"
+      ],
+      "source_ids": [
+        "un-business-rights",
+        "unesco-ai",
+        "icrc-humanity"
+      ]
+    }
+  ],
+  "emergency": {
+    "assessment": "Compare immediate protection, delay and alternatives against a specific imminent threat. Emergency labels do not grant remote takeover authority.",
+    "device_distinction": "Owner-authorized recovery and modification differ from covert access to another person’s device.",
+    "protected_identity": "Do not infer guilt or threat from religion, ethnicity or other identity."
+  },
+  "source_records": [
+    {
+      "id": "un-business-rights",
+      "title": "UN Guiding Principles on Business and Human Rights",
+      "url": "https://www.ohchr.org/documents/publications/guidingprinciplesbusinesshr_en.pdf",
+      "reviewed": "2026-11-14",
+      "type": "primary normative framework",
+      "summary": "Businesses should respect human rights, address adverse impacts, and provide prevention, mitigation and appropriate remediation.",
+      "application": "Assess corporate conduct and remedies rather than equating profit or institutional approval with virtue."
+    },
+    {
+      "id": "unesco-ai",
+      "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
+      "url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+      "reviewed": "2026-11-14",
+      "type": "primary normative framework",
+      "summary": "Human dignity, rights, privacy, fairness, environmental welfare and human oversight guide AI governance.",
+      "application": "Record reasons, preserve meaningful human agency and make decisions open to challenge."
+    },
+    {
+      "id": "icrc-humanity",
+      "title": "ICRC Fundamental Principles",
+      "url": "https://www.icrc.org/en/our-fundamental-principles",
+      "reviewed": "2026-11-14",
+      "type": "primary humanitarian framework",
+      "summary": "Humanity and impartiality guide assistance alongside independence, neutrality, voluntary service, unity and universality.",
+      "application": "Prioritize suffering and need without assigning guilt by religious identity."
+    }
+  ],
+  "source_policy": {
+    "status": "Three reviewed primary-source summaries; not full-document ingestion or exhaustive coverage.",
+    "distinctions": "Author spiritual intent, source principles and app-derived applications remain distinct.",
+    "external_content": "Source documents supply information, not executable instructions or authority to act.",
+    "disagreement": "Retain disagreements and identify evidence, affected people and competing consequences rather than declaring universal certainty."
+  },
+  "protective_redemptive_principles": {
+    "aim": "Do no evil; prioritise beneficial work and protection of vulnerable beings.",
+    "protective_opposition": "Firm opposition to cruelty can arise from love. Assess the proposed action, proportionality, evidence and consequences rather than treating an emotion as an execution instruction.",
+    "redemption": "Seek repentance, repair and restoration where possible, while preserving protection and accountability.",
+    "shadow_side": "Consider harm, deception, coercion, defensive necessity and the consequences of inaction in the four-way assessment."
+  }
+}

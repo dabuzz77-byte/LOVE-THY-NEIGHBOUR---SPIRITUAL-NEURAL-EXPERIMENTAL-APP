@@ -1,0 +1,291 @@
+{
+  "title": "Love throughout all levels of life",
+  "benchmark": "The author’s Bread of Life / Lamb of God benchmark: every being is infinitely loved, vulnerability receives priority in care, and no creature is disposable. The lion-and-lamb and porcelain-figure images express this ideal.",
+  "scope": "A first sourced survey of 25 traditions, branches, textual examples and historical cases—not an exhaustive census of all documented religions. These categories are not all equivalent in scope. Statements concern the cited texts or institutions, not the moral worth of their members.",
+  "method": [
+    "Compare harmful conduct, purification, desire, relief of suffering and animal care separately.",
+    "Do not confuse ritual purity with ethical non-harm, or dietary restraint with demonstrated compassion.",
+    "Distinguish destructive craving from needs such as food, rest and safety, and from the aspiration to help.",
+    "Treat documented sacrifice, slaughter or transferred burdens as visible tensions under the stated benchmark. Apply the same questions to every tradition.",
+    "A creature’s vulnerability calls for care, not blame. Predators also have needs; animal predation is not human moral guilt.",
+    "This library does not rank souls or claim divine verification. It identifies textual agreements and disagreements and leaves room for community-specific evidence."
+  ],
+  "rows": [
+    {
+      "name": "Jainism",
+      "purity": "Purification is closely connected with non-injury and restraint.",
+      "desire": "Non-attachment and limits on possession are important disciplines.",
+      "care": "Ahimsa extends concern far beyond humans; Jain animal advocacy includes strict vegetarian and vegan arguments.",
+      "tension": "Unavoidable harm and the use of dairy remain practical ethical questions. The JAINA-hosted vegan critique explicitly challenges dairy consumption.",
+      "source": {
+        "title": "JAINA · Ahimsa, ecology and strict vegetarianism",
+        "url": "https://www.jaina.org/page/eFrancione_Ahimsa/Ahimsa-Ecology-and-Strict-Vegetarianism-.htm"
+      }
+    },
+    {
+      "name": "Early Buddhist / Theravada textual example",
+      "purity": "The relevant vocabulary is liberation from harmful mental roots, rather than purification of an eternal soul.",
+      "desire": "Craving is distinguished from the aspiration to cultivate a beneficial path.",
+      "care": "The Jivaka discourse connects eating with loving-kindness and condemns killing specifically for a monastic.",
+      "tension": "The text conditionally permits meat not seen, heard or suspected to have been killed for the recipient. That differs from an absolute no-slaughter benchmark.",
+      "source": {
+        "title": "MN 55 · Jivaka Sutta",
+        "url": "https://www.suttas.com/mn-55-jivaka-sutta-to-jivaka.html"
+      }
+    },
+    {
+      "name": "Chan Buddhist vegetarian teaching",
+      "purity": "Cultivation is expressed through conduct and compassion.",
+      "desire": "Diet is connected with thoughts, habits and compassionate attention.",
+      "care": "The cited monastery explicitly presents vegetarian eating as a practice of compassion.",
+      "tension": "This is a documented Buddhist teaching; dietary rules vary between communities.",
+      "source": {
+        "title": "Chung Tai Chan Monastery · Buddhist Wisdom 019",
+        "url": "https://www.ctworld.org.tw/english-96/04BW/1/04_Wisdom019.html"
+      }
+    },
+    {
+      "name": "Tibetan Buddhist example",
+      "purity": "Compassion and spiritual practice coexist with practical circumstances.",
+      "desire": "Austerity is not simply identical to compassion in every case.",
+      "care": "The Dalai Lama has advocated animal welfare and vegetarianism.",
+      "tension": "His own account also acknowledges eating meat on medical advice. The example shows a gap between an aspiration and an unconditional dietary rule; it is not dietary advice here.",
+      "source": {
+        "title": "Office of the Dalai Lama · World Compassion Day",
+        "url": "https://www.dalailama.com/news/2012/his-holiness-the-dalai-lama-participates-in-world-compassion-day-in-mumbai-to-promote-animal-welfare"
+      }
+    },
+    {
+      "name": "Hindu traditions · HAF account",
+      "purity": "Karma, rebirth and divine presence inform animal ethics.",
+      "desire": "Restraint can include limiting consumption for the sake of non-harm.",
+      "care": "The cited Hindu organization treats animals as more than commodities and condemns factory-farm cruelty.",
+      "tension": "Vegetarian practice is widespread but not universally required; some traditions retain animal sacrifice. Those practices conflict with an absolute no-killing standard.",
+      "source": {
+        "title": "Hindu American Foundation · ethical treatment of animals",
+        "url": "https://www.hinduamerican.org/issues/hinduism-and-the-ethical-treatment-of-animals/"
+      }
+    },
+    {
+      "name": "Sikhi",
+      "purity": "Truthful living, devotion and service belong together.",
+      "desire": "Love-inspired service directs attention beyond self-interest.",
+      "care": "Seva and langar make help and nourishment concrete, with equal dignity across identities.",
+      "tension": "A practice of serving everyone should not be converted into a claim that every Sikh shares another framework’s theology or every proposed animal-ethics conclusion.",
+      "source": {
+        "title": "Sikh Coalition · beliefs",
+        "url": "https://www.sikhcoalition.org/about-sikhs/beliefs/"
+      }
+    },
+    {
+      "name": "Christianity · Catholic doctrinal example",
+      "purity": "Moral conduct includes justice, solidarity and temperance.",
+      "desire": "Attachment and consumption are morally disciplined, rather than all wants being treated as identical.",
+      "care": "The Catechism calls for kindness to animals and rejects needless suffering.",
+      "tension": "It also permits animal use for food and certain other purposes. That is animal-welfare stewardship, not an unconditional prohibition on using or killing animals.",
+      "source": {
+        "title": "Catechism · paragraphs 2415–2418",
+        "url": "https://www.vatican.va/content/catechism/en/part_three/section_two/chapter_two/article_7/ii_respect_for_persons_and_their_goods.html"
+      }
+    },
+    {
+      "name": "Christianity · prophetic peace image",
+      "purity": "The holy mountain is pictured as a place without hurt or destruction.",
+      "desire": "The passage depicts transformed relationships rather than a general psychology of desire.",
+      "care": "Isaiah 11 brings vulnerable creatures, predators and children into a peaceable scene.",
+      "tension": "This is a prophetic religious vision. Reading it as an ethical aspiration does not establish that contemporary animal biology has changed.",
+      "source": {
+        "title": "Isaiah 11:6–9",
+        "url": "https://www.biblegateway.com/passage/?search=Isaiah%2011%3A6-9&version=KJV"
+      }
+    },
+    {
+      "name": "Quaker example",
+      "purity": "Faith is expressed through a lived peace testimony.",
+      "desire": "The cited handbook encourages living as participants in Earth’s systems, not proprietors.",
+      "care": "Its account of peace includes a harmonious relationship with diverse life forms.",
+      "tension": "A broad ecological commitment is not automatically a single binding dietary rule or an endorsement of every claimed spiritual authority.",
+      "source": {
+        "title": "Quakers Aotearoa · worship, life and witness",
+        "url": "https://quakers.nz/handbook-worship-life-witness"
+      }
+    },
+    {
+      "name": "Seventh-day Adventist example",
+      "purity": "Purity, health and stewardship inform a way of life.",
+      "desire": "Simplicity and restraint are encouraged.",
+      "care": "Official statements advocate a simple vegetarian diet and environmental care.",
+      "tension": "Health-oriented vegetarian advocacy is not identical to an absolute animal-rights doctrine; particular practices and motivations must be distinguished.",
+      "source": {
+        "title": "General Conference · caring for the environment",
+        "url": "https://gc.adventist.org/official-statements/caring-for-the-environment/"
+      }
+    },
+    {
+      "name": "Judaism · animal-welfare principle",
+      "purity": "Religious duties include attention to animals’ treatment.",
+      "desire": "Human use is subject to obligations rather than an unrestricted entitlement.",
+      "care": "Tza’ar ba’alei chayim addresses unnecessary animal suffering.",
+      "tension": "Rules governing animal use and slaughter do not amount to a universal ban on killing animals for food. The supplied benchmark can critique that permission without assigning guilt to Jews collectively.",
+      "source": {
+        "title": "Reform Judaism · treatment of animals",
+        "url": "https://reformjudaism.org/learning/answers-jewish-questions/what-does-judaism-say-about-treatment-animals"
+      }
+    },
+    {
+      "name": "Islam · Quranic animal and sacrifice passages",
+      "purity": "Quran 22:37 emphasizes piety rather than blood or meat reaching God.",
+      "desire": "Religious discipline and piety do not here imply abstinence from every permitted animal food.",
+      "care": "Quran 6:38 describes animals as communities; the sacrifice passage includes feeding people in need.",
+      "tension": "Quran 22:34–37 nevertheless permits sacrificial killing. Under a strict no-sacrifice benchmark, this is a genuine doctrinal conflict. It does not make every Muslim personally responsible for violence.",
+      "source": {
+        "title": "Quran 22:34–37 · read alongside 6:38",
+        "url": "https://quran.com/22/37"
+      }
+    },
+    {
+      "name": "Bahá’í textual example",
+      "purity": "Kindness is extended to beings unable to voice a complaint.",
+      "desire": "Compassion challenges the convenience of the more powerful.",
+      "care": "The cited text gives explicit attention to the animal’s vulnerability and limited ability to appeal for protection.",
+      "tension": "The same passage excepts animals regarded as harmful. Universal care that includes predators is therefore broader than this passage’s stated exception.",
+      "source": {
+        "title": "Bahá’í Reference Library · kindness to animals",
+        "url": "https://reference.bahai.org/en/t/c/BWF/bwf-72.html"
+      }
+    },
+    {
+      "name": "Daoist textual example",
+      "purity": "The Dao De Jing connects ethical bearing with simplicity.",
+      "desire": "Chapter 67 values frugality and not placing oneself first.",
+      "care": "Compassion is one of the three treasures.",
+      "tension": "The passage offers a powerful disposition, not a complete animal-welfare policy or universal vegetarian rule. Application requires further argument.",
+      "source": {
+        "title": "Dao De Jing · chapter 67 in the full text",
+        "url": "https://ctext.org/dao-de-jing/ens"
+      }
+    },
+    {
+      "name": "Confucian textual example · Mengzi",
+      "purity": "Humaneness is cultivated through responding to suffering.",
+      "desire": "The ruler’s desires and ambitions are examined through moral persuasion.",
+      "care": "The frightened ox evokes compassion, which Mengzi seeks to extend toward the people.",
+      "tension": "The ox is replaced by a sheep for sacrifice. Concern for an animal is visible, but this episode does not meet a rule protecting every sacrificial victim.",
+      "source": {
+        "title": "Mengzi · Liang Hui Wang I",
+        "url": "https://ctext.org/text.pl?if=en&node=24995&remap=gb"
+      }
+    },
+    {
+      "name": "Shinto · institutional account",
+      "purity": "Purity, sincerity and relationships with kami and nature are emphasized.",
+      "desire": "This is not the same framework as an across-the-board condemnation of desire.",
+      "care": "The shrine account values harmony with nature and a sincere heart.",
+      "tension": "Reverence for nature and ritual purity do not by themselves establish a prohibition on every animal use. Ritual cleanliness and ethical non-harm need separate examination.",
+      "source": {
+        "title": "Meiji Jingu · about Shinto",
+        "url": "https://www.meijijingu.or.jp/en/about/aboutshinto/"
+      }
+    },
+    {
+      "name": "Zoroastrian textual example",
+      "purity": "The text classifies creatures within a religious moral cosmology.",
+      "desire": "The selected passage is about duties and protections rather than a full theory of desire.",
+      "care": "Vendidad 13 contains detailed protections, feeding duties and care for dogs.",
+      "tension": "Its opposing classifications of creatures do not express equal protection for all species. Universal care must examine the treatment of creatures put outside the protected category.",
+      "source": {
+        "title": "Avesta · Vendidad 13",
+        "url": "https://www.avesta.org/vendidad/vd13sbe.htm"
+      }
+    },
+    {
+      "name": "Rastafari · Ital practices",
+      "purity": "Natural living and vitality inform spiritual dietary choices.",
+      "desire": "Consumption can become a consciously disciplined practice.",
+      "care": "The cited study documents frequently vegan or vegetarian Ital practices.",
+      "tension": "Assess the welfare of animals and workers throughout the supply chain alongside the stated dietary practice.",
+      "source": {
+        "title": "Research study · Ital hermeneutics",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/14769948.2021.1897097"
+      }
+    },
+    {
+      "name": "Dena’ina subsistence · specific cultural example",
+      "purity": "Respect, gratitude and relationships with place accompany taking food.",
+      "desire": "Taking is understood within responsibilities, not merely appetite.",
+      "care": "The documented practice includes thanks and prayer for animals and the Creator.",
+      "tension": "Hunting and fishing remain part of subsistence. Respect for prey is not identical to refusing to kill prey. This example must not stand in for every Indigenous tradition.",
+      "source": {
+        "title": "US National Park Service · ethics of taking",
+        "url": "https://www.nps.gov/articles/subsistence-the-ethics-of-taking.htm"
+      }
+    },
+    {
+      "name": "Selected Māori concepts · not one uniform religion",
+      "purity": "Mauri connects people and living things through a shared life principle.",
+      "desire": "Obligations are understood relationally, not simply as private consumption.",
+      "care": "Respecting mauri offers a basis for taking the wellbeing of living relationships seriously.",
+      "tension": "The shared-life principle alone does not settle every conflict about subsistence or ecological care. Community-specific interpretation matters.",
+      "source": {
+        "title": "Intellectual Property Office of New Zealand · Māori concepts",
+        "url": "https://www.iponz.govt.nz/get-ip/maori-ip/concepts-to-understand/"
+      }
+    },
+    {
+      "name": "Lucumí / Santería · ritual example",
+      "purity": "Ritual relationship with orishas is central to the account examined.",
+      "desire": "Offerings belong to religious reciprocity, not just an individual appetite.",
+      "care": "The documented tradition understands offerings within a relationship of religious care and obligation.",
+      "tension": "Animal sacrifice occurs. It conflicts with the user’s strict non-killing benchmark; that criticism need not become hostility toward practitioners.",
+      "source": {
+        "title": "Harvard Pluralism Project · encounter in the courts",
+        "url": "https://pluralism.org/encounter-in-the-courts"
+      }
+    },
+    {
+      "name": "Contemporary Druidry · one ethical code",
+      "purity": "The cited code treats living and non-living nature as sacred.",
+      "desire": "Ethical attention extends beyond narrowly human interests.",
+      "care": "Its explicit field of concern includes animals, plants, humans and the natural world.",
+      "tension": "A nature-centred commitment is not automatically a comprehensive rule prohibiting every harm. Druid groups are diverse.",
+      "source": {
+        "title": "Druid College · code of ethics",
+        "url": "https://druidcollege.org/code-of-ethics/"
+      }
+    },
+    {
+      "name": "Manichaeism · historical example",
+      "purity": "Liberating light and avoiding harm were connected with strict purity disciplines.",
+      "desire": "The Elect followed strong sexual and dietary restraint.",
+      "care": "The historical account describes restrictions against harming living beings and damaging plants or water.",
+      "tension": "The Elect depended on Hearers to prepare food and take on burdens of ordinary life. The comparison must ask whether harm was eliminated or redistributed.",
+      "source": {
+        "title": "Encyclopaedia Iranica · pre-Islamic Manichaeism",
+        "url": "https://www.iranicaonline.org/articles/iran-ix1-religions-in-iran/iran-ix12-manicheism/"
+      }
+    },
+    {
+      "name": "Ancient Egyptian animal cults · material evidence",
+      "purity": "Animals could be revered through associations with deities.",
+      "desire": "The selected evidence does not establish a single anti-desire doctrine.",
+      "care": "Sacred status could entail special care for particular animals.",
+      "tension": "Museum research also documents animals deliberately killed for votive mummies. Sacred symbolism therefore cannot be equated automatically with safety for the individual creature.",
+      "source": {
+        "title": "Metropolitan Museum of Art · sacred animal mummy",
+        "url": "https://www.metmuseum.org/art/collection/search/552442"
+      }
+    },
+    {
+      "name": "Pythagorean traditions · disputed historical evidence",
+      "purity": "Purification and the fate of souls are relevant to ancient dietary accounts.",
+      "desire": "Discipline and particular abstentions are documented in different sources.",
+      "care": "Some accounts associate the tradition with vegetarian living.",
+      "tension": "Ancient testimonies conflict about Pythagoras’s own diet. A confident claim that all Pythagoreans followed one universal non-killing rule would exceed the evidence.",
+      "source": {
+        "title": "Stanford Encyclopedia of Philosophy · Pythagoras",
+        "url": "https://plato.stanford.edu/entries/pythagoras/"
+      }
+    }
+  ],
+  "coverage_gaps": "Many traditions, denominations and historical periods are not covered, including numerous African, Indigenous, East Asian and smaller living communities. Further entries need specific sources; silence here is not an adverse judgment."
+}

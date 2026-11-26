@@ -1,0 +1,53 @@
+{
+  "account_namespace": "my-ai-mode",
+  "browser_mode": "opera",
+  "opera_cdp_url": "http://127.0.0.1:9222",
+  "opera_executable": "C:/Users/USER/AppData/Local/Programs/Opera/opera.exe",
+  "timezone": "Europe/London",
+  "poll_seconds": 60,
+  "max_pages": 0,
+  "headless": false,
+  "browser_channel": "",
+  "data_dir": "scanner-data",
+  "apps_folder": "C:\\Users\\USER\\Documents\\Codex\\2026-10-24\\c-users-dabuz-desktop-chat-gpt\\outputs\\Neural Nexus\\sources",
+  "handlers": [
+    {
+      "name": "godmind-text-engine",
+      "type": "godmind_tcp",
+      "enabled": true,
+      "host": "127.0.0.1",
+      "port": 19999,
+      "chunk_chars": 6000,
+      "timeout_seconds": 5
+    },
+    {
+      "name": "local-llama3",
+      "type": "ollama",
+      "enabled": false,
+      "url": "http://127.0.0.1:11434/api/generate",
+      "model": "llama3:latest",
+      "chunk_chars": 6000,
+      "timeout_seconds": 180
+    },
+    {
+      "name": "custom-python-or-java-service",
+      "type": "http",
+      "enabled": false,
+      "url": "http://127.0.0.1:8765/activity",
+      "chunk_chars": 6000,
+      "timeout_seconds": 30
+    },
+    {
+      "name": "custom-command-handler",
+      "type": "command",
+      "enabled": false,
+      "argv": [
+        "{python}",
+        "C:/path/to/your_json_stdin_handler.py"
+      ],
+      "cwd": ".",
+      "chunk_chars": 6000,
+      "timeout_seconds": 30
+    }
+  ]
+}

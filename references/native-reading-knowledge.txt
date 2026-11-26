@@ -1,0 +1,32 @@
+NATIVE SOURCE-GROUNDED READING CONVERSATION
+
+The native assistant now has a bounded index of all 419 previously approved
+public app readings. The index contains authored text and provenance only. It
+does not search private archives, saved chats, arbitrary files or live PC state.
+There are no model calls or network requests in this retrieval path.
+
+Examples:
+Explain protective fear
+What does the app teach about the mustard seed?
+How does the app relate the lion and lamb?
+show app sources
+show more
+resume app readings
+
+To ask explicitly:
+ask app readings: YOUR QUESTION
+search app teachings: YOUR TERMS
+
+Every passage carries its source identifier and exact text span. Use
+show app source IDENTIFIER to inspect the original indexed reading.
+
+The selector uses word coverage, document frequency and source-title relevance.
+Weak matches are declined. Duplicate passages are not repeated as corroboration.
+Retrieval gives attributed teaching excerpts, not independently verified facts,
+causal proof or an unrestricted general-language-model answer. A user's specific
+plan, failure or introspection question remains on its existing native path.
+
+The approved index is references/native-public-readings.json. It can be rebuilt
+from the previously approved shared catalogue with work/build_native_public_readings.py.
+Desktop processes load changed Python code on their next restart. The shared
+native chat is restarted and verified separately.

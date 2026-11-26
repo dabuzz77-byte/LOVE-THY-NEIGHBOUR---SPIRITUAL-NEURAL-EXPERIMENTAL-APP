@@ -1,0 +1,268 @@
+[
+  {
+    "id": "desktop-java-1-0",
+    "class": "CallbackGraphicsEngineFrame",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-1-1",
+    "class": "WaveVisualizerPanel",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-4-0",
+    "class": "AllPrevSystemDashboard",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-6-0",
+    "class": "AwtFrameworkVisualizer",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-8-0",
+    "class": "BiTerQuantumBridge",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-10-0",
+    "class": "ClownResolverEngine",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-12-0",
+    "class": "ConflictGraphApp",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-13-0",
+    "class": "ConsolidatedConsole",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-15-0",
+    "class": "CosmicAlignmentApp",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-16-0",
+    "class": "DeepestStrataEngine",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-18-0",
+    "class": "EconomicFloorGridVisualizer",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-20-0",
+    "class": "ElementalRecursiveWorld",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-21-0",
+    "class": "FinancialSystemMap",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-28-0",
+    "class": "GlobalFinancialVisualizer",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-29-0",
+    "class": "GodEngineInteractConsole",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-30-0",
+    "class": "GodInterfaceMainApp",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-32-0",
+    "class": "GodMindMasterEngine",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-34-0",
+    "class": "GodMindShipVisualizer",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-35-0",
+    "class": "GodMindInteractiveVisualizer",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-37-0",
+    "class": "GodParitySyncApp",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-41-0",
+    "class": "InferenceLabEngine",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-43-0",
+    "class": "JavaGridMonitor",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-44-0",
+    "class": "KernelBridgeVisualizer",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-48-0",
+    "class": "LocalInferenceBusEngine",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-49-0",
+    "class": "MasterGridParityEngine",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-50-0",
+    "class": "MicrocosmicOrbitApp",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-51-0",
+    "class": "MicrocosmicOrbitDashboard",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-55-0",
+    "class": "OmniVirtueBalancerGUI",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-56-0",
+    "class": "ParityStateApp",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-57-0",
+    "class": "QuantumLogicExplorer",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-58-0",
+    "class": "QuantumMindConsole",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-61-0",
+    "class": "RoadrunnerVelocityEngine",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-62-0",
+    "class": "SandcastleKarmicWorld",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-69-0",
+    "class": "StickForestMatrixApp",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-73-0",
+    "class": "VirtueDashboard",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-78-0",
+    "class": "X4DefenseVirtueEngine",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-83-0",
+    "class": "GodSelfInteractEngine",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  },
+  {
+    "id": "desktop-java-90-0",
+    "class": "MatrixDisplay",
+    "ok": true,
+    "native_windows": 0,
+    "failure": null
+  }
+]

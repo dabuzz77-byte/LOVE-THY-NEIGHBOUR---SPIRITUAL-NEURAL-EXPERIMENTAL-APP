@@ -1,0 +1,34 @@
+{
+  "checks": [
+    {
+      "check": "AES-GCM unicode round trip and tamper rejection",
+      "status": "passed"
+    },
+    {
+      "check": "Ed25519 real sign and verify",
+      "status": "passed"
+    },
+    {
+      "check": "PBKDF2 deterministic with explicit salt",
+      "status": "passed"
+    },
+    {
+      "check": "Atomic ledger conserves units, applies dividend, rejects replay and sender mismatch",
+      "status": "passed"
+    },
+    {
+      "check": "Actual retained mesh source executes and quarantines at threshold",
+      "status": "passed"
+    },
+    {
+      "check": "All 36 retained definitions compile",
+      "status": "passed"
+    },
+    {
+      "check": "Full manuscript byte preservation",
+      "status": "passed"
+    }
+  ],
+  "passed": 7,
+  "failed": 0
+}

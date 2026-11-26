@@ -1,0 +1,14 @@
+GENERATION → CANDIDATE → THOUGHT WORKSPACE
+The new Generation Cognition service observes generated representations on the shared app bus. Text, binary, ternary and symbol fields are sampled from nested captured payloads. It coalesces high-rate sources, bounds source counts to 128, samples up to 4096 characters per changed source capture, and processes at a default 0.5-second interval. It is not an exhaustive retention of every emitted bit.
+
+Stages: representation capture → character/transition features → repeated motifs → later-capture prediction tests → goal attention → cross-source motif comparison → selected candidate workspace → native cores / evidence graph / shared backbone.
+
+Features include character count, unique characters, entropy, repeated trigrams, longest run, bit fraction and transition counts. A retained transition model predicts the first character of a later changed capture; its accuracy is compared with a persistence baseline. Scores only use measured prediction advantage after at least eight tests. Goal relevance, entropy change and bounded motif support also guide attention; coverage reserves a place for additional sources.
+
+Generated candidates are kept separate from verified task outcomes. Identical consecutive captures do not earn new evidence. Own service emissions and backbone receipts are excluded from intake. Cross-source matches retain a warning that connected streams can share ancestry. Conversation/scripture is not automatically treated as stochastic generation. No generated text executes as a command.
+
+Candidates enter native graph memory as generated-candidate nodes and can be retrieved with related experience. The native recursive cores receive them through the shared bus, and the final expression field shows live service details under “Generation → thought candidates”. Chat command: thought core (also generation cognition).
+
+The cosmological chain remains purpose/source context; operational checks measure software predictions and task outcomes. This adds a native hypothesis and attention layer, not a claim of consciousness or established meaning in random text.
+
+Focused tests cover multi-source capture, changed-capture prediction scoring, duplicate suppression, feedback exclusion, conversation separation, graph publication, bounded storage and finite controls. Browser visual review remains pending.

@@ -1,0 +1,151 @@
+{
+  "carrier": {
+    "id": "carrier",
+    "name": "Carrier Lab",
+    "package": "neural_app.components.family_0",
+    "entry": "carrier_lab.py",
+    "kind": "web"
+  },
+  "core": {
+    "id": "core",
+    "name": "Core Interaction",
+    "package": "neural_app.components.family_1",
+    "entry": "CoreInteractionSystem-Python/core_interaction_system.py",
+    "kind": "native"
+  },
+  "flux": {
+    "id": "flux",
+    "name": "Flux Bus v2",
+    "package": "neural_app.components.family_2",
+    "entry": "source/app.py",
+    "kind": "native"
+  },
+  "godmind": {
+    "id": "godmind",
+    "name": "Godmind Mesh",
+    "package": "neural_app.components.family_3",
+    "entry": "godmind_desktop.py",
+    "kind": "native",
+    "controller": "GodmindDesktop"
+  },
+  "hydrogen": {
+    "id": "hydrogen",
+    "name": "Hydrogen Mesh",
+    "package": "neural_app.components.family_4",
+    "entry": "hydrogen_mesh.py",
+    "kind": "native",
+    "controller": "App"
+  },
+  "inference": {
+    "id": "inference",
+    "name": "Inference Observatory",
+    "package": "neural_app.components.family_5",
+    "entry": "server.py",
+    "kind": "web"
+  },
+  "atelier": {
+    "id": "atelier",
+    "name": "Neural Atelier",
+    "package": "neural_app.components.family_6",
+    "entry": "atelier.py",
+    "kind": "native",
+    "controller": "App"
+  },
+  "observatory": {
+    "id": "observatory",
+    "name": "Postscarcity Observatory",
+    "package": "neural_app.components.family_7",
+    "entry": "graphical_app/app.py",
+    "kind": "web"
+  },
+  "dualrail": {
+    "id": "dualrail",
+    "name": "Dual-Rail Core",
+    "package": "neural_app.components.family_7",
+    "entry": "graphical_app/dual_rail_launcher.py",
+    "kind": "native"
+  },
+  "backbone": {
+    "id": "backbone",
+    "name": "Virtue Backbone",
+    "package": "neural_app.components.family_8",
+    "entry": "desktop.py",
+    "kind": "native",
+    "controller": "Desktop"
+  },
+  "backbone-worker": {
+    "id": "backbone-worker",
+    "name": "Backbone Text Worker",
+    "package": "neural_app.components.family_8",
+    "entry": "knowledge_worker.py",
+    "kind": "console"
+  },
+  "scanner": {
+    "id": "scanner",
+    "name": "AI Activity Scanner",
+    "package": "neural_app.components.family_9",
+    "entry": "outputs/ai_mode_scanner.py",
+    "kind": "console"
+  },
+  "ambient": {
+    "id": "ambient",
+    "name": "Ambient Field",
+    "package": "neural_app.components.family_10",
+    "entry": "outputs/ambient2/ambient_field_transmit.py",
+    "kind": "native"
+  },
+  "neural-lab": {
+    "id": "neural-lab",
+    "name": "Neural Lab",
+    "package": "neural_app.components.family_11",
+    "entry": "drillscript.py",
+    "kind": "web"
+  },
+  "injector": {
+    "id": "injector",
+    "name": "Microcosmic Injector",
+    "package": "neural_app.components.family_12",
+    "entry": "microcosmic_injector.py",
+    "kind": "native"
+  },
+  "monad": {
+    "id": "monad",
+    "name": "Monad Matrix",
+    "package": "neural_app.components.family_13",
+    "entry": "monad_matrix_engine.py",
+    "kind": "native",
+    "controller": "GraphicalPurifierApp"
+  },
+  "scenario-hub": {
+    "id": "scenario-hub",
+    "name": "Postscarcity Scenario Hub",
+    "package": "neural_app.components.family_14",
+    "entry": "PostscarcityHub/post_scarcity_hub.py",
+    "kind": "native",
+    "controller": "App"
+  },
+  "scarcity-simulation": {
+    "id": "scarcity-simulation",
+    "name": "Postscarcity Simulation",
+    "package": "neural_app.components.family_14",
+    "entry": "post_scarcity_simulation.py",
+    "kind": "native",
+    "controller": "PostScarcityEngineApp"
+  },
+  "creator": {
+    "id": "creator",
+    "name": "Software Creation",
+    "package": "neural_app.components.family_15",
+    "entry": "software_creator_observatory.py",
+    "kind": "native",
+    "controller": "SoftwareCreatorObservatory"
+  },
+  "unified-neural": {
+    "id": "unified-neural",
+    "name": "Original Neural Engine",
+    "package": "neural_app.components.family_16",
+    "entry": "unified_graphical_engine.py",
+    "kind": "native",
+    "controller": "NeuralEngineApp"
+  }
+}

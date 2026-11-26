@@ -1,0 +1,13 @@
+"""Fixed capability criteria. Regression success never manufactures a general grade."""
+RUBRIC={
+ 'reasoning':{'target':'Correct answers on unfamiliar quantitative, symbolic and compositional tasks; detect insufficient information.','evidence_needed':'Externally authored tasks with checked answers, including ambiguity and counterexamples.'},
+ 'learning':{'target':'Retain corrected procedures across restarts and transfer to held-out domains without replaying failures.','evidence_needed':'Versioned training/final-test separation, multi-session retention and baseline comparisons.'},
+ 'causal_decision':{'target':'Separate prediction, intervention assumptions and evidence; compare alternatives and calibrate error.','evidence_needed':'Outcome-labelled cases, confounding tests, uncertainty coverage and independent review.'},
+ 'conversation':{'target':'Answer current requests, retain relevant context, handle corrections and ask useful clarification.','evidence_needed':'Independent multi-turn conversations across topics and languages, rated for task success and factual accuracy.'},
+ 'research':{'target':'Retrieve attributable sources, distinguish repetition and conflicting context, synthesise with verified support.','evidence_needed':'Independent source audits, citation checks, freshness tests and contrary-evidence retrieval.'},
+ 'coding':{'target':'Complete unfamiliar multi-file changes, validate behaviour and preserve surrounding code.','evidence_needed':'Externally authored repository tasks with withheld acceptance tests, not syntax-only scores.'},
+ 'work':{'target':'Complete unfamiliar multi-step tasks with truthful receipts, recovery, resource control and usable outputs.','evidence_needed':'End-to-end task completion and recovery measured across sessions and actual tools.'}}
+
+def report(latest=None):
+ latest=latest or {}
+ return {'rubric_version':'2026-11-15.1','target':'A-level usefulness in each stated domain','criteria':RUBRIC,'acceptance_rule':{'success_fraction':.90,'minimum_external_tasks_per_domain':30,'critical_failures':0,'additional_requirements':['Held-out evaluation not used for tuning','Repeat across sessions with recorded failures','Independent assessment of factual support and action receipts','Publish task scope and resource costs']},'current_regression_evidence':{k:latest.get(k) for k in ('passed','total','domains','time') if k in latest},'general_grade_established':False,'scope':'A fixed evaluation target, not a certificate. Internal regression tests demonstrate only their documented coverage. A percentage threshold alone cannot establish general intelligence.'}

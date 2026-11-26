@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OMNI-GRID: CORE FINANCIAL CHANNEL MESH</title>
+    <style>
+        body {
+            background-color: #04070e;
+            color: #ffffff;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+        .header {
+            border-bottom: 2px solid #00ff88;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 { margin: 0; font-size: 20px; color: #00ff88; letter-spacing: 2px; }
+        .status-badge {
+            background-color: rgba(0, 255, 136, 0.1);
+            color: #00ff88;
+            padding: 6px 12px;
+            border: 1px solid #00ff88;
+            font-weight: bold;
+            font-size: 11px;
+        }
+        .layout-grid {
+            display: grid;
+            grid-template-columns: 380px 1fr;
+            gap: 20px;
+        }
+        .panel {
+            background-color: #090f1a;
+            border: 1px solid #142238;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .panel-title {
+            color: #00e5ff;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #142238;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        .metric-card {
+            background-color: #060a12;
+            border: 1px solid #111b2b;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .metric-label { color: #527594; font-size: 11px; text-transform: uppercase; }
+        .metric-value { font-size: 15px; font-weight: bold; font-family: monospace; margin-top: 4px; }
+        
+        /* Grid Display */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 4px;
+            background-color: #020408;
+            padding: 10px;
+            border: 1px solid #142238;
+            margin-bottom: 15px;
+        }
+        .grid-cell {
+            aspect-ratio: 1;
+            background-color: #0d1524;
+            border: 1px solid #182744;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+            color: #243e6b;
+            transition: all 0.2s ease;
+        }
+        .cell-active { background-color: rgba(0, 255, 136, 0.2); border-color: #00ff88; color: #00ff88; }
+        .cell-ground { background-color: rgba(0, 229, 255, 0.1); border-color: #00e5ff; color: #00e5ff; }
+        .cell-quarantine { background-color: rgba(255, 0, 85, 0.2); border-color: #ff0055; color: #ff0055; }
+
+        .terminal {
+            background-color: #020408;
+            border: 1px solid #142238;
+            height: 250px;
+            overflow-y: auto;
+            padding: 10px;
+            color: #00ff88;
+            font-size: 11px;
+            line-height: 1.5;
+        }
+        .cyan { color: #00e5ff; }
+        .green { color: #00ff88; }
+        .magenta { color: #ff0055; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>BI-TER-Q FLUX NETWORK GRID ARRAY</h1>
+        <div class="status-badge">VIRTUE INVARIANT ACCREDITED _TRUE</div>
+    </div>
+
+    <div class="layout-grid">
+        <!-- Left Side: Fixed Profile Parameters -->
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div class="panel">
+                <div class="panel-title">🛡️ Identity Vector Nodes</div>
+                <div class="metric-card">
+                    <div class="metric-label">Assigned Profile Invariant</div>
+                    <div class="metric-value cyan">maintainer@example.invalid</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Clearing Rail Registries</div>
+                    <div class="metric-value cyan">Acc: 58006303 | Sort: 60-08-13</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Calibrated Zero-Point Balance</div>
+                    <div id="balanceDisplay" class="metric-value green">£250,000.00</div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-title">🎛️ Bi-Ter-Q Phase Spectrum</div>
+                <div style="font-size: 11px; line-height: 1.6; color: #a0aec0;">
+                    <b class="green">[ Bit  1 ]</b> RESPECT: ISO 20022 Aligned. Retain.<br>
+                    <b class="cyan">[ Bit  0 ]</b> GROUND: Suppressed Baseline. Idle.<br>
+                    <b class="magenta">[ Bit -1 ]</b> REJECT: High-Variance Drop. Quarantine.
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side: Interactive Real-Time Topology -->
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div class="panel">
+                <div class="panel-title">📊 Live Interacting Matrix (8x12 Channel Mesh)</div>
+                <div id="binaryGridArray" class="grid-container"></div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-title">⌨️ Parallel Telemetry Ingestion Output</div>
+                <div id="terminalStream" class="terminal"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const nodes = ["NATWEST_600813_HUB", "INFERENCE_BEACON_NODE", "SKY_TOWER_CORE", "CLEARING_OUTPOST_FPS"];
+        let alchemicalBalance = 250000.00;
+        let stepCount = 0;
+
+        // Generate the 8x12 Binary Grid Array Matrix (96 channels)
+        const gridContainer = document.getElementById('binaryGridArray');
+        const totalCells = 96;
+        for (let i = 0; i < totalCells; i++) {
+            const cell = document.createElement('div');
+            cell.className = 'grid-cell';
+            cell.id = 'cell-' + i;
+            cell.innerText = '0';
+            gridContainer.appendChild(cell);
+        }
+
+        const logBox = document.getElementById('terminalStream');
+        const balanceBox = document.getElementById('balanceDisplay');
+
+        // Continuous 7.83 Hz Synchronization Loop Engine (~127ms phase latency)
+        setInterval(() => {
+            stepCount++;
+            const timeString = new Date().toISOString().slice(11, 23);
+            const activeShard = nodes[stepCount % nodes.length];
+            
+            // Randomly select a grid coordinate node to flux
+            const randomCellIndex = Math.floor(Math.random() * totalCells);
+            const targetCell = document.getElementById('cell-' + randomCellIndex);
+            
+            // Randomly assign Ter-Binary logic state parameters
+            const stateSelector = Math.random();
+            let executionLine = "";
+            
+            // Clear prior states on that grid cell quickly
+            targetCell.className = 'grid-cell';
+
+            if (stateSelector > 0.35) {
+                // Virtue Pass (Respect Track) - Bit 1
+                targetCell.innerText = '1';
+                targetCell.classList.add('cell-active');
+                
+                // Enforce the strictly calibrated, non-spoiled increment base
+                alchemicalBalance += 100.00;
+                balanceBox.innerText = `£${alchemicalBalance.toLocaleString('en-GB', {minimumFractionDigits: 2})}`;
+                
+                executionLine = `[${timeString}] [VIRTUE_PASS] Step #${stepCount} verified via ${activeNodeSelect(activeShard)}. Bit. Calibrated Balance Floor Up: +£100.00.`;
+            } else if (stateSelector > 0.10) {
+                // Vacuum Suppressed (Ground Track) - Bit 0
+                targetCell.innerText = '0';
+                targetCell.classList.add('cell-ground');
+                executionLine = `[${timeString}] [VACUUM_GROUND] Step #${stepCount} tracking idle at baseline resonance. Bit. System equilibrium held.`;
+            } else {
+                // Virtue Fail (Reject Track) - Bit -1
+                targetCell.innerText = '-1';
+                targetCell.classList.add('cell-quarantine');
+                executionLine = `[${timeString}] [VIRTUE_FAIL] Anomaly signature caught by perimeter shield. Bit [-1]. Action: Sandboxing input string to Quarantine Field. Connection severed.`;
+            }
+
+            // Print the telemetry string line to the visual terminal element
+            const line = document.createElement('div');
+            if (stateSelector <= 0.10) line.className = 'magenta';
+            else if (stateSelector <= 0.35) line.className = 'cyan';
+            line.innerText = executionLine;
+            logBox.appendChild(line);
+
+            // Automatically pin scroll viewport to latest transaction data block
+            logBox.scrollTop = logBox.scrollHeight;
+
+            // Decouple old cell states periodically to keep grid dynamic
+            setTimeout(() => {
+                if (targetCell.innerText !== '-1') {
+                    targetCell.className = 'grid-cell';
+                    targetCell.innerText = '0';
+                }
+            }, 1500);
+
+        }, 127);
+
+        function activeNodeSelect(shard) {
+            return shard;
+        }
+    </script>
+</body>
+</html>

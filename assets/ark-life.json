@@ -1,0 +1,1352 @@
+{
+  "title": "Ark · the whole living Earth",
+  "retrieved": "2026-11-12",
+  "scope": "11 broad display groups, representative species and source-linked study notes. This is a growing curated library, not an exhaustive ingestion of every Earth species.",
+  "frequency_basis": "Editable illustrative daily activity curves; broad rhythm examples guide animation. They are not measured species time budgets or a census. Plant/fungal/microbial motion represents processes, not animal locomotion.",
+  "sources": [
+    {
+      "id": "adw",
+      "title": "University of Michigan · Animal Diversity Web",
+      "url": "https://animaldiversity.org/",
+      "use": "Major animal-group natural history and classification."
+    },
+    {
+      "id": "usgs",
+      "title": "USGS · Crepuscular activity",
+      "url": "https://www.usgs.gov/news/earthword-crepuscular",
+      "use": "Twilight activity and variation among species."
+    },
+    {
+      "id": "noaa",
+      "title": "NOAA · Daily vertical migration",
+      "url": "https://oceanexplorer.noaa.gov/ocean-fact/vertical-migration/",
+      "use": "Many small ocean animals rise to feed at night and descend during the day."
+    },
+    {
+      "id": "kew",
+      "title": "Kew · State of the world’s plants and fungi",
+      "url": "https://www.kew.org/science/state-of-the-worlds-plants-and-fungi",
+      "use": "Plant and fungal diversity, ecosystems and conservation."
+    },
+    {
+      "id": "col",
+      "title": "Catalogue of Life · Access data",
+      "url": "https://www.catalogueoflife.org/howto/access",
+      "use": "Worldwide taxonomic reference; full global catalogue remains available at the source."
+    },
+    {
+      "id": "gbif",
+      "title": "GBIF · Public species matching API",
+      "url": "https://techdocs.gbif.org/en/openapi/v1/species",
+      "use": "Retrieved taxonomy for the representative species below."
+    },
+    {
+      "id": "rhythms",
+      "title": "Mammalian rest/activity patterns · research study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3764015/",
+      "use": "Day, night, twilight and variable daily activity patterns."
+    }
+  ],
+  "groups": [
+    {
+      "id": "mammals",
+      "title": "Mammals",
+      "color": "#a57345",
+      "pale": "#e9d7b8",
+      "taxon": "Mammalia",
+      "note": "Hair, milk and extended care for young connect this varied group. Herds, solitary hunters, climbers and marine swimmers inhabit very different daily worlds.",
+      "glyph": "mammal",
+      "source": "https://animaldiversity.org/accounts/Mammalia/",
+      "species": [
+        {
+          "name": "African elephant",
+          "scientific": "Loxodonta africana",
+          "rhythm": "continuous",
+          "color": "#8d9694",
+          "taxonomy": {
+            "usageKey": 2435350,
+            "scientificName": "Loxodonta africana (Blumenbach, 1797)",
+            "canonicalName": "Loxodonta africana",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Mammalia",
+            "order": "Proboscidea",
+            "family": "Elephantidae",
+            "genus": "Loxodonta"
+          },
+          "habitat": "Savanna · woodland",
+          "anchor": {
+            "lon": 22,
+            "lat": -5,
+            "layer": 0
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "walk"
+        },
+        {
+          "name": "Lion",
+          "scientific": "Panthera leo",
+          "rhythm": "twilight",
+          "color": "#bd965e",
+          "taxonomy": {
+            "usageKey": 5219404,
+            "scientificName": "Panthera leo (Linnaeus, 1758)",
+            "canonicalName": "Panthera leo",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Mammalia",
+            "order": "Carnivora",
+            "family": "Felidae",
+            "genus": "Panthera"
+          },
+          "habitat": "Savanna · scrub",
+          "anchor": {
+            "lon": 35,
+            "lat": -2,
+            "layer": 0
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "walk"
+        },
+        {
+          "name": "Plains zebra",
+          "scientific": "Equus quagga",
+          "rhythm": "day",
+          "color": "#ebeadc",
+          "taxonomy": {
+            "usageKey": 2440892,
+            "scientificName": "Equus quagga Boddaert, 1785",
+            "canonicalName": "Equus quagga",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Mammalia",
+            "order": "Perissodactyla",
+            "family": "Equidae",
+            "genus": "Equus"
+          },
+          "habitat": "Grassland",
+          "anchor": {
+            "lon": 34,
+            "lat": -3,
+            "layer": 0
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "walk"
+        },
+        {
+          "name": "Blue whale",
+          "scientific": "Balaenoptera musculus",
+          "rhythm": "continuous",
+          "color": "#5b8498",
+          "taxonomy": {
+            "usageKey": 2440735,
+            "scientificName": "Balaenoptera musculus (Linnaeus, 1758)",
+            "canonicalName": "Balaenoptera musculus",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Mammalia",
+            "order": "Cetacea",
+            "family": "Balaenopteridae",
+            "genus": "Balaenoptera"
+          },
+          "habitat": "Open ocean",
+          "anchor": {
+            "lon": -25,
+            "lat": -35,
+            "layer": -0.04
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "swim"
+        },
+        {
+          "name": "White-handed gibbon",
+          "scientific": "Hylobates lar",
+          "rhythm": "day",
+          "color": "#9b8062",
+          "gait": "brachiate",
+          "habitat": "Tropical forest canopy",
+          "anchor": {
+            "lon": 100,
+            "lat": 12,
+            "layer": 0.075
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or complete range.",
+          "taxonomy": {
+            "usageKey": 5219553,
+            "canonicalName": "Hylobates lar",
+            "scientificName": "Hylobates lar (Linnaeus, 1771)",
+            "rank": "SPECIES",
+            "matchType": "EXACT",
+            "confidence": 99
+          }
+        },
+        {
+          "name": "Chimpanzee",
+          "scientific": "Pan troglodytes",
+          "rhythm": "day",
+          "color": "#675f56",
+          "gait": "knuckle",
+          "habitat": "Tropical forest · ground and canopy",
+          "anchor": {
+            "lon": 25,
+            "lat": 0,
+            "layer": 0.02
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or complete range.",
+          "taxonomy": {
+            "usageKey": 5219534,
+            "canonicalName": "Pan troglodytes",
+            "scientificName": "Pan troglodytes (Blumenbach, 1775)",
+            "rank": "SPECIES",
+            "matchType": "EXACT",
+            "confidence": 99
+          }
+        }
+      ]
+    },
+    {
+      "id": "birds",
+      "title": "Birds",
+      "color": "#3c86ab",
+      "pale": "#e8c46b",
+      "taxon": "Aves",
+      "note": "Feathers make a world of flight, insulation and display. Birds include daytime foragers, nocturnal hunters, seabirds and flightless ground dwellers.",
+      "glyph": "bird",
+      "source": "https://animaldiversity.org/accounts/Aves/",
+      "species": [
+        {
+          "name": "Barn owl",
+          "scientific": "Tyto alba",
+          "rhythm": "night",
+          "color": "#d9c5a0",
+          "taxonomy": {
+            "usageKey": 2497921,
+            "scientificName": "Tyto alba (Scopoli, 1769)",
+            "canonicalName": "Tyto alba",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Aves",
+            "order": "Strigiformes",
+            "family": "Tytonidae",
+            "genus": "Tyto"
+          },
+          "habitat": "Grassland · woodland edge",
+          "anchor": {
+            "lon": 0,
+            "lat": 52,
+            "layer": 0.045
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "flap"
+        },
+        {
+          "name": "Scarlet macaw",
+          "scientific": "Ara macao",
+          "rhythm": "day",
+          "color": "#bd4c43",
+          "taxonomy": {
+            "usageKey": 5959227,
+            "scientificName": "Ara macao (Linnaeus, 1758)",
+            "canonicalName": "Ara macao",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Aves",
+            "order": "Psittaciformes",
+            "family": "Psittacidae",
+            "genus": "Ara"
+          },
+          "habitat": "Tropical forest canopy",
+          "anchor": {
+            "lon": -70,
+            "lat": -8,
+            "layer": 0.055
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "flap"
+        },
+        {
+          "name": "Mute swan",
+          "scientific": "Cygnus olor",
+          "rhythm": "day",
+          "color": "#f5f3e9",
+          "taxonomy": {
+            "usageKey": 2498343,
+            "scientificName": "Cygnus olor (J.F.Gmelin, 1789)",
+            "canonicalName": "Cygnus olor",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Aves",
+            "order": "Anseriformes",
+            "family": "Anatidae",
+            "genus": "Cygnus"
+          },
+          "habitat": "Freshwater · wetland",
+          "anchor": {
+            "lon": 8,
+            "lat": 52,
+            "layer": 0
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "flap"
+        },
+        {
+          "name": "Emperor penguin",
+          "scientific": "Aptenodytes forsteri",
+          "rhythm": "continuous",
+          "color": "#45566a",
+          "taxonomy": {
+            "usageKey": 2481661,
+            "scientificName": "Aptenodytes forsteri G.R.Gray, 1844",
+            "canonicalName": "Aptenodytes forsteri",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Aves",
+            "order": "Sphenisciformes",
+            "family": "Spheniscidae",
+            "genus": "Aptenodytes"
+          },
+          "habitat": "Antarctic coast · sea ice",
+          "anchor": {
+            "lon": 20,
+            "lat": -72,
+            "layer": 0
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "waddle"
+        }
+      ]
+    },
+    {
+      "id": "reptiles",
+      "title": "Reptiles",
+      "color": "#608e57",
+      "pale": "#bed598",
+      "taxon": "Reptilia",
+      "note": "Turtles, crocodilians, lizards and snakes sense and negotiate temperature, shelter and food. Basking and retreat are important parts of many reptiles’ lives. Birds have their own display here.",
+      "glyph": "reptile",
+      "source": "https://animaldiversity.org/accounts/Reptilia/",
+      "species": [
+        {
+          "name": "Green sea turtle",
+          "scientific": "Chelonia mydas",
+          "rhythm": "day",
+          "color": "#73966a",
+          "taxonomy": {
+            "usageKey": 2442225,
+            "scientificName": "Chelonia mydas (Linnaeus, 1758)",
+            "canonicalName": "Chelonia mydas",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 98,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Testudines",
+            "family": "Cheloniidae",
+            "genus": "Chelonia"
+          },
+          "habitat": "Coastal sea · seagrass",
+          "anchor": {
+            "lon": 145,
+            "lat": -18,
+            "layer": -0.02
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "paddle"
+        },
+        {
+          "name": "Ball python",
+          "scientific": "Python regius",
+          "rhythm": "night",
+          "color": "#aa8850",
+          "taxonomy": {
+            "usageKey": 2465380,
+            "scientificName": "Python regius (Shaw, 1802)",
+            "canonicalName": "Python regius",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Squamata",
+            "family": "Pythonidae",
+            "genus": "Python"
+          },
+          "habitat": "Savanna · burrow",
+          "anchor": {
+            "lon": 5,
+            "lat": 9,
+            "layer": 0
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "undulate"
+        },
+        {
+          "name": "Nile crocodile",
+          "scientific": "Crocodylus niloticus",
+          "rhythm": "twilight",
+          "color": "#63794f",
+          "taxonomy": {
+            "usageKey": 2441341,
+            "scientificName": "Crocodylus niloticus Laurenti, 1768",
+            "canonicalName": "Crocodylus niloticus",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Crocodylia",
+            "family": "Crocodylidae",
+            "genus": "Crocodylus"
+          },
+          "habitat": "River · wetland",
+          "anchor": {
+            "lon": 31,
+            "lat": 0,
+            "layer": -0.01
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "crawl"
+        },
+        {
+          "name": "Green iguana",
+          "scientific": "Iguana iguana",
+          "rhythm": "day",
+          "color": "#79a958",
+          "taxonomy": {
+            "usageKey": 2459658,
+            "scientificName": "Iguana iguana (Linnaeus, 1758)",
+            "canonicalName": "Iguana iguana",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Squamata",
+            "family": "Iguanidae",
+            "genus": "Iguana"
+          },
+          "habitat": "Tropical forest canopy",
+          "anchor": {
+            "lon": -84,
+            "lat": 10,
+            "layer": 0.025
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "crawl"
+        }
+      ]
+    },
+    {
+      "id": "amphibians",
+      "title": "Amphibians",
+      "color": "#3e9c86",
+      "pale": "#9ed5b3",
+      "taxon": "Amphibia",
+      "note": "Frogs, salamanders and caecilians connect water and land in many ways. Moisture, season and life stage shape their movement and breeding.",
+      "glyph": "frog",
+      "source": "https://animaldiversity.org/accounts/Amphibia/",
+      "species": [
+        {
+          "name": "Common frog",
+          "scientific": "Rana temporaria",
+          "rhythm": "twilight",
+          "color": "#8b9b53",
+          "taxonomy": {
+            "usageKey": 2426805,
+            "scientificName": "Rana temporaria Linnaeus, 1758",
+            "canonicalName": "Rana temporaria",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Amphibia",
+            "order": "Anura",
+            "family": "Ranidae",
+            "genus": "Rana"
+          },
+          "habitat": "Freshwater · damp land",
+          "anchor": {
+            "lon": 5,
+            "lat": 50,
+            "layer": 0
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "hop"
+        },
+        {
+          "name": "Fire salamander",
+          "scientific": "Salamandra salamandra",
+          "rhythm": "night",
+          "color": "#e1b649",
+          "taxonomy": {
+            "usageKey": 2431776,
+            "scientificName": "Salamandra salamandra (Linnaeus, 1758)",
+            "canonicalName": "Salamandra salamandra",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Amphibia",
+            "order": "Caudata",
+            "family": "Salamandridae",
+            "genus": "Salamandra"
+          },
+          "habitat": "Moist woodland floor",
+          "anchor": {
+            "lon": 10,
+            "lat": 48,
+            "layer": -0.01
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "hop"
+        },
+        {
+          "name": "Red-eyed tree frog",
+          "scientific": "Agalychnis callidryas",
+          "rhythm": "night",
+          "color": "#6cba61",
+          "taxonomy": {
+            "usageKey": 2428197,
+            "scientificName": "Agalychnis callidryas (Cope, 1862)",
+            "canonicalName": "Agalychnis callidryas",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Amphibia",
+            "order": "Anura",
+            "family": "Phyllomedusidae",
+            "genus": "Agalychnis"
+          },
+          "habitat": "Tropical forest canopy",
+          "anchor": {
+            "lon": -84,
+            "lat": 10,
+            "layer": 0.025
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "hop"
+        }
+      ]
+    },
+    {
+      "id": "fish",
+      "title": "Fishes",
+      "color": "#348ab2",
+      "pale": "#80c9d2",
+      "taxon": "Actinopterygii",
+      "note": "Water carries schooling, solitary movement and remarkable sensory adaptations. This display includes representative ray-finned and cartilaginous fishes, rather than treating all fishes as one uniform rhythm.",
+      "glyph": "fish",
+      "source": "https://animaldiversity.org/accounts/Actinopterygii/",
+      "species": [
+        {
+          "name": "Atlantic salmon",
+          "scientific": "Salmo salar",
+          "rhythm": "continuous",
+          "color": "#97b2b5",
+          "taxonomy": {
+            "usageKey": 7595433,
+            "scientificName": "Salmo salar Linnaeus, 1758",
+            "canonicalName": "Salmo salar",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "order": "Salmoniformes",
+            "family": "Salmonidae",
+            "genus": "Salmo"
+          },
+          "habitat": "River · open ocean",
+          "anchor": {
+            "lon": -20,
+            "lat": 55,
+            "layer": -0.02
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "swim"
+        },
+        {
+          "name": "Clown anemonefish",
+          "scientific": "Amphiprion ocellaris",
+          "rhythm": "day",
+          "color": "#e68d40",
+          "taxonomy": {
+            "usageKey": 5212106,
+            "scientificName": "Amphiprion ocellaris Cuvier, 1830",
+            "canonicalName": "Amphiprion ocellaris",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "order": "Perciformes",
+            "family": "Pomacentridae",
+            "genus": "Amphiprion"
+          },
+          "habitat": "Coral reef",
+          "anchor": {
+            "lon": 145,
+            "lat": -16,
+            "layer": -0.04
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "swim"
+        },
+        {
+          "name": "Whale shark",
+          "scientific": "Rhincodon typus",
+          "rhythm": "continuous",
+          "color": "#507f9c",
+          "taxonomy": {
+            "usageKey": 2417522,
+            "scientificName": "Rhincodon typus Smith, 1828",
+            "canonicalName": "Rhincodon typus",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Elasmobranchii",
+            "order": "Orectolobiformes",
+            "family": "Rhincodontidae",
+            "genus": "Rhincodon"
+          },
+          "habitat": "Tropical open ocean",
+          "anchor": {
+            "lon": 65,
+            "lat": -5,
+            "layer": -0.04
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "swim"
+        },
+        {
+          "name": "Atlantic herring",
+          "scientific": "Clupea harengus",
+          "rhythm": "continuous",
+          "color": "#aac8d1",
+          "taxonomy": {
+            "usageKey": 8351946,
+            "scientificName": "Clupea harengus Linnaeus, 1758",
+            "canonicalName": "Clupea harengus",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "order": "Clupeiformes",
+            "family": "Clupeidae",
+            "genus": "Clupea"
+          },
+          "habitat": "Coastal ocean",
+          "anchor": {
+            "lon": -10,
+            "lat": 58,
+            "layer": -0.025
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "swim"
+        }
+      ]
+    },
+    {
+      "id": "arthropods",
+      "title": "Arthropods",
+      "color": "#b77837",
+      "pale": "#b9bf78",
+      "taxon": "Arthropoda",
+      "note": "Jointed limbs and external skeletons support insects, spiders and crustaceans. Pollination, decomposition, hunting and food-web connections make their small lives consequential.",
+      "glyph": "insect",
+      "source": "https://animaldiversity.org/accounts/Arthropoda/",
+      "species": [
+        {
+          "name": "Monarch butterfly",
+          "scientific": "Danaus plexippus",
+          "rhythm": "day",
+          "color": "#e49a45",
+          "taxonomy": {
+            "usageKey": 5133088,
+            "scientificName": "Danaus plexippus (Linnaeus, 1758)",
+            "canonicalName": "Danaus plexippus",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Arthropoda",
+            "class": "Insecta",
+            "order": "Lepidoptera",
+            "family": "Nymphalidae",
+            "genus": "Danaus"
+          },
+          "habitat": "Meadow · air",
+          "anchor": {
+            "lon": -100,
+            "lat": 30,
+            "layer": 0.055
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "flutter"
+        },
+        {
+          "name": "Western honey bee",
+          "scientific": "Apis mellifera",
+          "rhythm": "day",
+          "color": "#d8af4a",
+          "taxonomy": {
+            "usageKey": 1341976,
+            "scientificName": "Apis mellifera Linnaeus, 1758",
+            "canonicalName": "Apis mellifera",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Arthropoda",
+            "class": "Insecta",
+            "order": "Hymenoptera",
+            "family": "Apidae",
+            "genus": "Apis"
+          },
+          "habitat": "Meadow · woodland",
+          "anchor": {
+            "lon": 10,
+            "lat": 45,
+            "layer": 0.025
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "flutter"
+        },
+        {
+          "name": "Garden spider",
+          "scientific": "Araneus diadematus",
+          "rhythm": "night",
+          "color": "#99735a",
+          "taxonomy": {
+            "usageKey": 2160133,
+            "scientificName": "Araneus diadematus Clerck, 1757",
+            "canonicalName": "Araneus diadematus",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 98,
+            "kingdom": "Animalia",
+            "phylum": "Arthropoda",
+            "class": "Arachnida",
+            "order": "Araneae",
+            "family": "Araneidae",
+            "genus": "Araneus"
+          },
+          "habitat": "Garden · woodland",
+          "anchor": {
+            "lon": 5,
+            "lat": 50,
+            "layer": 0.018
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "scuttle"
+        },
+        {
+          "name": "Antarctic krill",
+          "scientific": "Euphausia superba",
+          "rhythm": "night",
+          "color": "#d7a9b4",
+          "taxonomy": {
+            "usageKey": 2228010,
+            "scientificName": "Euphausia superba Dana, 1850",
+            "canonicalName": "Euphausia superba",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Arthropoda",
+            "class": "Malacostraca",
+            "order": "Euphausiacea",
+            "family": "Euphausiidae",
+            "genus": "Euphausia"
+          },
+          "habitat": "Southern Ocean",
+          "anchor": {
+            "lon": 0,
+            "lat": -60,
+            "layer": -0.05
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "swim"
+        }
+      ]
+    },
+    {
+      "id": "molluscs",
+      "title": "Molluscs",
+      "color": "#947eb0",
+      "pale": "#d4bedc",
+      "taxon": "Mollusca",
+      "note": "Soft-bodied lives encompass grazing snails, filter-feeding bivalves and exploring cephalopods. Shelled and shell-free bodies find many ways to sense and move.",
+      "glyph": "snail",
+      "source": "https://animaldiversity.org/accounts/Mollusca/",
+      "species": [
+        {
+          "name": "Common octopus",
+          "scientific": "Octopus vulgaris",
+          "rhythm": "night",
+          "color": "#b18b9c",
+          "taxonomy": {
+            "usageKey": 2289671,
+            "scientificName": "Octopus vulgaris Cuvier, 1797",
+            "canonicalName": "Octopus vulgaris",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Mollusca",
+            "class": "Cephalopoda",
+            "order": "Octopoda",
+            "family": "Octopodidae",
+            "genus": "Octopus"
+          },
+          "habitat": "Coastal seabed",
+          "anchor": {
+            "lon": 15,
+            "lat": 36,
+            "layer": -0.065
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "jet"
+        },
+        {
+          "name": "Garden snail",
+          "scientific": "Cornu aspersum",
+          "rhythm": "night",
+          "color": "#ab926e",
+          "taxonomy": {
+            "usageKey": 5858758,
+            "scientificName": "Cornu aspersum (O.F.Müller, 1774)",
+            "canonicalName": "Cornu aspersum",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Mollusca",
+            "class": "Gastropoda",
+            "order": "Stylommatophora",
+            "family": "Helicidae",
+            "genus": "Cornu"
+          },
+          "habitat": "Damp land · soil",
+          "anchor": {
+            "lon": 5,
+            "lat": 50,
+            "layer": -0.018
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "glide"
+        },
+        {
+          "name": "Blue mussel",
+          "scientific": "Mytilus edulis",
+          "rhythm": "continuous",
+          "color": "#656d9c",
+          "taxonomy": {
+            "usageKey": 8288896,
+            "scientificName": "Mytilus edulis Linnaeus, 1758",
+            "canonicalName": "Mytilus edulis",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Mollusca",
+            "class": "Bivalvia",
+            "order": "Mytilida",
+            "family": "Mytilidae",
+            "genus": "Mytilus"
+          },
+          "habitat": "Coastal seabed",
+          "anchor": {
+            "lon": -5,
+            "lat": 52,
+            "layer": -0.065
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "filter"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Other invertebrates",
+      "color": "#ce8f9c",
+      "pale": "#b9cfe1",
+      "taxon": "Cnidaria",
+      "note": "Jellies, corals, sea stars and earthworms make this a broad ecological window into further animal phyla. Pulsing, attachment, burrowing and slow grazing are distinct ways of living.",
+      "glyph": "jelly",
+      "source": "https://animaldiversity.org/accounts/Cnidaria/",
+      "species": [
+        {
+          "name": "Moon jelly",
+          "scientific": "Aurelia aurita",
+          "rhythm": "continuous",
+          "color": "#c9b5df",
+          "taxonomy": {
+            "usageKey": 2264442,
+            "scientificName": "Aurelia aurita (Linnaeus, 1758)",
+            "canonicalName": "Aurelia aurita",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Cnidaria",
+            "class": "Scyphozoa",
+            "order": "Semaeostomeae",
+            "family": "Ulmaridae",
+            "genus": "Aurelia"
+          },
+          "habitat": "Coastal water",
+          "anchor": {
+            "lon": 0,
+            "lat": 55,
+            "layer": -0.03
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "pulse"
+        },
+        {
+          "name": "Common starfish",
+          "scientific": "Asterias rubens",
+          "rhythm": "continuous",
+          "color": "#d59476",
+          "taxonomy": {
+            "usageKey": 7765831,
+            "scientificName": "Asterias rubens Linnaeus, 1758",
+            "canonicalName": "Asterias rubens",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 98,
+            "kingdom": "Animalia",
+            "phylum": "Echinodermata",
+            "class": "Asteroidea",
+            "order": "Forcipulatida",
+            "family": "Asteriidae",
+            "genus": "Asterias"
+          },
+          "habitat": "Coastal seabed",
+          "anchor": {
+            "lon": 5,
+            "lat": 56,
+            "layer": -0.065
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "glide"
+        },
+        {
+          "name": "Common earthworm",
+          "scientific": "Lumbricus terrestris",
+          "rhythm": "night",
+          "color": "#ae7c80",
+          "taxonomy": {
+            "usageKey": 4410657,
+            "scientificName": "Lumbricus terrestris Linnaeus, 1758",
+            "canonicalName": "Lumbricus terrestris",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Annelida",
+            "class": "Clitellata",
+            "order": "Crassiclitellata",
+            "family": "Lumbricidae",
+            "genus": "Lumbricus"
+          },
+          "habitat": "Soil",
+          "anchor": {
+            "lon": 5,
+            "lat": 50,
+            "layer": -0.045
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "undulate"
+        },
+        {
+          "name": "Staghorn coral",
+          "scientific": "Acropora cervicornis",
+          "rhythm": "continuous",
+          "color": "#d6b5a3",
+          "taxonomy": {
+            "usageKey": 5184681,
+            "scientificName": "Acropora cervicornis (Lamarck, 1816)",
+            "canonicalName": "Acropora cervicornis",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Animalia",
+            "phylum": "Cnidaria",
+            "class": "Anthozoa",
+            "order": "Scleractinia",
+            "family": "Acroporidae",
+            "genus": "Acropora"
+          },
+          "habitat": "Tropical reef",
+          "anchor": {
+            "lon": -78,
+            "lat": 20,
+            "layer": -0.05
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "grow"
+        }
+      ]
+    },
+    {
+      "id": "plants",
+      "title": "Plants",
+      "color": "#4d9961",
+      "pale": "#b7d28a",
+      "taxon": "Plantae",
+      "note": "Forests, grasslands, seagrasses and flowering plants create habitat and transform sunlight into living growth. Roots, leaves, flowers and seeds connect the Ark’s other inhabitants.",
+      "glyph": "plant",
+      "source": "https://www.kew.org/science/state-of-the-worlds-plants-and-fungi",
+      "species": [
+        {
+          "name": "English oak",
+          "scientific": "Quercus robur",
+          "rhythm": "day",
+          "color": "#6a9b51",
+          "taxonomy": {
+            "usageKey": 2878688,
+            "scientificName": "Quercus robur L.",
+            "canonicalName": "Quercus robur",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 98,
+            "kingdom": "Plantae",
+            "phylum": "Tracheophyta",
+            "class": "Magnoliopsida",
+            "order": "Fagales",
+            "family": "Fagaceae",
+            "genus": "Quercus"
+          },
+          "habitat": "Temperate woodland",
+          "anchor": {
+            "lon": 0,
+            "lat": 52,
+            "layer": 0.025
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "grow"
+        },
+        {
+          "name": "Sunflower",
+          "scientific": "Helianthus annuus",
+          "rhythm": "day",
+          "color": "#d9b747",
+          "taxonomy": {
+            "usageKey": 9206251,
+            "scientificName": "Helianthus annuus L.",
+            "canonicalName": "Helianthus annuus",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Plantae",
+            "phylum": "Tracheophyta",
+            "class": "Magnoliopsida",
+            "order": "Asterales",
+            "family": "Asteraceae",
+            "genus": "Helianthus"
+          },
+          "habitat": "Grassland · meadow",
+          "anchor": {
+            "lon": -100,
+            "lat": 40,
+            "layer": 0.025
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "grow"
+        },
+        {
+          "name": "Eelgrass",
+          "scientific": "Zostera marina",
+          "rhythm": "day",
+          "color": "#4fa697",
+          "taxonomy": {
+            "usageKey": 2863967,
+            "scientificName": "Zostera marina L.",
+            "canonicalName": "Zostera marina",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Plantae",
+            "phylum": "Tracheophyta",
+            "class": "Liliopsida",
+            "order": "Alismatales",
+            "family": "Zosteraceae",
+            "genus": "Zostera"
+          },
+          "habitat": "Coastal seagrass bed",
+          "anchor": {
+            "lon": 8,
+            "lat": 55,
+            "layer": -0.05
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "grow"
+        }
+      ]
+    },
+    {
+      "id": "fungi",
+      "title": "Fungi",
+      "color": "#ae967b",
+      "pale": "#dbc7ac",
+      "taxon": "Fungi",
+      "note": "Fungal threads, fruiting bodies and yeasts inhabit worlds of breakdown, growth and partnership. Many fungi recycle organic matter; some form close associations with plants.",
+      "glyph": "fungus",
+      "source": "https://www.kew.org/science/state-of-the-worlds-plants-and-fungi",
+      "species": [
+        {
+          "name": "Fly agaric",
+          "scientific": "Amanita muscaria",
+          "rhythm": "continuous",
+          "color": "#c46a57",
+          "taxonomy": {
+            "usageKey": 8168319,
+            "scientificName": "Amanita muscaria (L.) Lam.",
+            "canonicalName": "Amanita muscaria",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 98,
+            "kingdom": "Fungi",
+            "phylum": "Basidiomycota",
+            "class": "Agaricomycetes",
+            "order": "Agaricales",
+            "family": "Amanitaceae",
+            "genus": "Amanita"
+          },
+          "habitat": "Woodland floor · soil",
+          "anchor": {
+            "lon": 10,
+            "lat": 55,
+            "layer": -0.015
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "grow"
+        },
+        {
+          "name": "Oyster mushroom",
+          "scientific": "Pleurotus ostreatus",
+          "rhythm": "continuous",
+          "color": "#c8b8a5",
+          "taxonomy": {
+            "usageKey": 2526530,
+            "scientificName": "Pleurotus ostreatus (Jacq.) P.Kumm.",
+            "canonicalName": "Pleurotus ostreatus",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Fungi",
+            "phylum": "Basidiomycota",
+            "class": "Agaricomycetes",
+            "order": "Agaricales",
+            "family": "Pleurotaceae",
+            "genus": "Pleurotus"
+          },
+          "habitat": "Woodland · decaying wood",
+          "anchor": {
+            "lon": 5,
+            "lat": 48,
+            "layer": -0.01
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "grow"
+        },
+        {
+          "name": "Baker’s yeast",
+          "scientific": "Saccharomyces cerevisiae",
+          "rhythm": "continuous",
+          "color": "#d7c7a9",
+          "taxonomy": {
+            "usageKey": 7440012,
+            "scientificName": "Saccharomyces cerevisiae (Desm.) Meyen",
+            "canonicalName": "Saccharomyces cerevisiae",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Fungi",
+            "phylum": "Ascomycota",
+            "class": "Saccharomycetes",
+            "order": "Saccharomycetales",
+            "family": "Saccharomycetaceae",
+            "genus": "Saccharomyces"
+          },
+          "habitat": "Fruit · plant surfaces",
+          "anchor": {
+            "lon": 12,
+            "lat": 45,
+            "layer": 0.005
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "grow"
+        }
+      ]
+    },
+    {
+      "id": "microbes",
+      "title": "Microscopic life",
+      "color": "#6fabc0",
+      "pale": "#a5dac7",
+      "taxon": "microbes",
+      "note": "Bacteria, archaea and microscopic eukaryotes form several branches of life. Photosynthesis, decomposition and nutrient cycling support the larger living world; this is an ecological grouping.",
+      "glyph": "microbe",
+      "source": "https://www.catalogueoflife.org/data/search",
+      "species": [
+        {
+          "name": "Freshwater green alga",
+          "scientific": "Chlamydomonas reinhardtii",
+          "rhythm": "day",
+          "color": "#86bc77",
+          "taxonomy": {
+            "usageKey": 5271221,
+            "scientificName": "Chlamydomonas reinhardtii P.A.Dang.",
+            "canonicalName": "Chlamydomonas reinhardtii",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Plantae",
+            "phylum": "Chlorophyta",
+            "class": "Chlorophyceae",
+            "order": "Volvocales",
+            "family": "Chlamydomonadaceae",
+            "genus": "Chlamydomonas"
+          },
+          "habitat": "Freshwater · microscopic",
+          "anchor": {
+            "lon": 10,
+            "lat": 48,
+            "layer": -0.015
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "drift"
+        },
+        {
+          "name": "Slipper animalcule",
+          "scientific": "Paramecium caudatum",
+          "rhythm": "continuous",
+          "color": "#b6cdd8",
+          "taxonomy": {
+            "usageKey": 8122199,
+            "scientificName": "Paramecium caudatum Ehrenberg, 1834",
+            "canonicalName": "Paramecium caudatum",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Chromista",
+            "phylum": "Ciliophora",
+            "class": "Oligohymenophorea",
+            "order": "Peniculida",
+            "family": "Parameciidae",
+            "genus": "Paramecium"
+          },
+          "habitat": "Freshwater · microscopic",
+          "anchor": {
+            "lon": 5,
+            "lat": 50,
+            "layer": -0.015
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "drift"
+        },
+        {
+          "name": "Soil bacterium",
+          "scientific": "Bacillus subtilis",
+          "rhythm": "continuous",
+          "color": "#b6a4d1",
+          "taxonomy": {
+            "usageKey": 10826006,
+            "scientificName": "Bacillus subtilis G",
+            "canonicalName": "Bacillus subtilis",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "matchType": "EXACT",
+            "confidence": 99,
+            "kingdom": "Bacteria",
+            "phylum": "Firmicutes",
+            "class": "Bacilli",
+            "order": "Bacillales",
+            "family": "Bacillaceae",
+            "genus": "Bacillus"
+          },
+          "habitat": "Soil · microscopic",
+          "anchor": {
+            "lon": 5,
+            "lat": 48,
+            "layer": -0.045
+          },
+          "location_basis": "Representative habitat anchor for illustration, not a tracked animal or a complete geographic range.",
+          "gait": "drift"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "changed_count": 36,
+  "unchanged_count": 9,
+  "changes": [
+    {
+      "file": "2/ingest_live_web_definitions.py",
+      "original_sha256": "a3c6dc08425ced39ec54a7925012ce8ffdb578d6e49ddff31e865dbb4c3e4223",
+      "v2_sha256": "c09d18d1fe6354072c87981cf560c8adeed5fa7aaf9e206724c5ef54ed71f58b"
+    },
+    {
+      "file": "AbsoluteSafeguardEngine.py",
+      "original_sha256": "1e8581ccf88dc14d36c1ef936d9b9b8f23cef5497b25dc7fa31c101433ad51cd",
+      "v2_sha256": "40bb5808da42f8763c4795d61d5b230833c01e0321329eedd298877d0fdde93a"
+    },
+    {
+      "file": "AdvancedVirtueRegistry.py",
+      "original_sha256": "5192cb65ff6c6ce243b2d73705bfcc194b6cfa4d346600268d5459649feef359",
+      "v2_sha256": "baa9dfd512b3649820eb842c87e9905924c5a7346130129d29c13b03a0faa668"
+    },
+    {
+      "file": "BodhiTreeTridentEngine.py",
+      "original_sha256": "0455e71e4a0ee174255d86ac404c5776f287f27d525c25aa4af141bc4cd7ac6e",
+      "v2_sha256": "ff8ad5e676da74480bd4a995fe2fe7a0450afb5b0f001dad5e9f7dad9b0bbebc"
+    },
+    {
+      "file": "CascadingVirtueEngine.py",
+      "original_sha256": "dc1db1f35d40f531c03987d04bcc3fc55a026509b598ec885b4d1beffef27d12",
+      "v2_sha256": "66c2c5af09dad185cba80b27f87350bead77ad82e6d78f0873cc844872b4c833"
+    },
+    {
+      "file": "ChinaDollImperviousEngine.py",
+      "original_sha256": "aa3c81be1527e15f7d49e6a83f90ba47ab359a3411ef0a479d42b6f5e6a51a96",
+      "v2_sha256": "50b9490195458acb68b9c674918ec434908efcd13a467a8fc314863075b47831"
+    },
+    {
+      "file": "DeepestRepentanceEngine.py",
+      "original_sha256": "1f9fa05acbea15686da7749b0a49d5c69646b47c63cd94b55a81801971b677df",
+      "v2_sha256": "5988bba9e8ef4a7c396ce4771c3e571e69e9d36a3af7b116c3c591e9c5f73a96"
+    },
+    {
+      "file": "DrillingVirtueEngine.py",
+      "original_sha256": "d23b6964063437c7ad32f1fc41aa0193cc4c7c73e8a3fc6f3ea754dd6e894f23",
+      "v2_sha256": "5343e5d5932e5b2e8d08c1207b21f47ac27f42b3f7f5208a1335d7eb0bc9a8c2"
+    },
+    {
+      "file": "EternalChinaDollLoveEngine.py",
+      "original_sha256": "fb64c5e1f30f92dcc039f87548e6d4755762a285bb1eb1ad5ad81eb87b3cbc55",
+      "v2_sha256": "4e631eebc259e56d35ab0cc00429e40082f8b57714ee43d9f1cb72908eee3942"
+    },
+    {
+      "file": "GlobalCreedUnificationEngine.py",
+      "original_sha256": "d5618471a7c2a579a683705b04825681c4d6357d43dabddf57d0f20f593ac1e6",
+      "v2_sha256": "064779b82f8713808a2e5aa803263f720d1dab2a346d5c7355418afcb7c46a4a"
+    },
+    {
+      "file": "HierarchicalVirtueEngine.py",
+      "original_sha256": "e6184f60142c6d2b611858b69d4951d638d0199ff10cf7a4561e3e7fd1ae39f7",
+      "v2_sha256": "c847b02fee834c8244279a1a690b351bf361f671106fd7c58ada8a988ea4112b"
+    },
+    {
+      "file": "InfiniteChinaDollCovenantEngine.py",
+      "original_sha256": "f3ff2884e0c2a11d787de803770cdc8be88277f298954885798df99fdefe0bea",
+      "v2_sha256": "58a99c279df40b1aeaaf8cdb0436b5a03722019263efd941edba98aa14bf0643"
+    },
+    {
+      "file": "InvariantEcosystemEngin.py",
+      "original_sha256": "f86457b5ca97750e80b7f47c9dc7d1af1396d06abdeccfb19e8ad95dc8e6c805",
+      "v2_sha256": "4b2aee95dcf461936b7211544426f49215d23c5012be2e66116bf6cb0a322690"
+    },
+    {
+      "file": "JacobsLadderEngine.py",
+      "original_sha256": "613274678911b3706fca132ed34220be3f7131dcb540c36b78e3573815fcde32",
+      "v2_sha256": "1c5dd95869ed8cd247ef376a432e34cafe422202dca5674c8d5504d90d3a0116"
+    },
+    {
+      "file": "JokerMoneyBurningRegistry.py",
+      "original_sha256": "058a312b2437aa8ec393beec3688c60f8df6306bbb93fafb1ba8b079743b6ce0",
+      "v2_sha256": "22f1f8724c3579894badb99da499fe2e7f152adb0b2039ad028159dc79f0869d"
+    },
+    {
+      "file": "MiddleGroundTernaryEngine.py",
+      "original_sha256": "24156e872c59b8f9ad1333f4056e371870f5b1d4fce1f97933ccc152334a6665",
+      "v2_sha256": "e84fac500497b4f202e5797e52bf874ad2ae9af9773be092c1da092057a8e6dc"
+    },
+    {
+      "file": "OnlineVirtueMonitoringEngine.py",
+      "original_sha256": "0f9a18eba898106643a49460e754977d3e1760be1f468aa61cfb5bfeb653a3c8",
+      "v2_sha256": "f5a494ec9cc110490b0abaeef22f19adcdbe4741e4e2816791f1e9415b1bc576"
+    },
+    {
+      "file": "OperationalIntegrityEngine.py",
+      "original_sha256": "1b4bb625abb7e07b020263b4882ea61ac9d2e04a17dc4013dd2d41e701f4c54d",
+      "v2_sha256": "c92d6d79bfda27bd2d84f78d3b8b60d4827fbd5b0d83c4c99114c10bbad7c4f8"
+    },
+    {
+      "file": "ParadigmComparisonEngine.py",
+      "original_sha256": "9f67849304119c8f517e3f1bad946376460abf19d0781d6d80cffd0fad9e1740",
+      "v2_sha256": "e72ae5c28e1bd16ff61b4512705c8d61070cc6e024dfc97347c3ab303e6dddce"
+    },
+    {
+      "file": "ParentalFierceProtectionEngine.py",
+      "original_sha256": "ee7764cb7929f62e13471f8305803f19499e8cd2009f74d684605379dd4fb51a",
+      "v2_sha256": "cfc29fafd93de3719bf523816f663fc49a94447591a2f74128239344ef5be212"
+    },
+    {
+      "file": "PeaceableCovenantEngine.py",
+      "original_sha256": "8027373f6e366c62ee6d220e3ce9643b7dc5c79d01d3cf7ed271f22f892fad4d",
+      "v2_sha256": "b9cbc477012be18582ea408c02f677c127541c6f469446b92f9e42671f1a6ac1"
+    },
+    {
+      "file": "PinnacleVirtueObservationEngine.py",
+      "original_sha256": "de82eb5504209e9c46f00e58d4476a9d9eac2b74f7c1352d7845765cbdfb17a5",
+      "v2_sha256": "3ed48a0bed2cf4623ce1fecc3484a7277ded9ee5332468ac267bcbf0d363d9b0"
+    },
+    {
+      "file": "PredictiveTrajectoryEngine.py",
+      "original_sha256": "6a95ad85be11025f749e27f420cc846a07a73f1fea3efc19603d9b540b7276f6",
+      "v2_sha256": "a49b5f8478ca338a087833f63dfbd6dad3b9dfbf303bb126a3f183bfbff37e06"
+    },
+    {
+      "file": "RealTimeSystemEngine.py",
+      "original_sha256": "3fc305150911ac975e30e0bbb54e967c8bf426272bce6946dcf98bdf1ffc2b2f",
+      "v2_sha256": "5c50e6a246f9f3cb35c0c251fb74c702048c456f3023150cfc88559034f96414"
+    },
+    {
+      "file": "RedemptiveEmergenceEngine.py",
+      "original_sha256": "f7d98e06ea67264e1b22243e46bd03e747fcaedd715051d9e312092b46097f33",
+      "v2_sha256": "3a7cd34b8fae2b7a8e5e06cc1760c25aaee0fbafed34145552388fbdd41264a6"
+    },
+    {
+      "file": "SovereignSourceBroadcastEngine.py",
+      "original_sha256": "671c05a15712b1b0c2098be8cc7c7546c2bfe7a3210befff491d7cc54f2dcaf7",
+      "v2_sha256": "76d4398df62f185504216ec212367917149af6fdccd2dbc2a8061d0061d985e3"
+    },
+    {
+      "file": "SystemCognitionAlignment.py",
+      "original_sha256": "d1542f25047bb4eb9387e0c78100658f8286e9f2bfa1d3ffe1b2d05106911238",
+      "v2_sha256": "812fc160ad22077b2c0068f443954c5051806c0a8a873c7f9dd468d5fe4f62d4"
+    },
+    {
+      "file": "TernaryCascadingSafeguardEngine.py",
+      "original_sha256": "1f35a604ca804f7b295ba6d395a2ea6b3b42bdf733dcb12dec87479939a4b6a5",
+      "v2_sha256": "b3a33c3b005d257b3157d2d3f8df0d72b012df2ac2db362819e3d832f42dd7f6"
+    },
+    {
+      "file": "TernaryRealTimeEngine.py",
+      "original_sha256": "868ee6373d4fbdec5617d65d04e53b2f740562de44810aa96af2f6bc853f78b2",
+      "v2_sha256": "9aa748930fa8ec1aac9528ddb7d828affe45e61362933c604e16543941dc59b4"
+    },
+    {
+      "file": "UltimateCovenantAuditEngine.py",
+      "original_sha256": "aee211b31f8088a8310a296d15150f5bf7fb31874ab8e1173bea600095b1cec6",
+      "v2_sha256": "cff60890f49c4f9b0107845162d3b1e395161adf07bb9dbdce933bf1674c8c81"
+    },
+    {
+      "file": "UltimateEnforcementEngine.py",
+      "original_sha256": "4290253619574c24589a4297fe95da7810ad43c20ad655e8a8d2011db7d2076c",
+      "v2_sha256": "4611fa77f566ad61e6d91922a7e7df945bb4d1c9439861f03a4c44d30374a1cf"
+    },
+    {
+      "file": "UnifiedProbeAndStressEngine.py",
+      "original_sha256": "d2c5dc374587a66ad81c158d5372e3009b680b1e6bcfdc7158a146f12f106958",
+      "v2_sha256": "2c1ab86773c02cefbc49628a58adf639192be7f5c7d1cf5418fb2718fe142a4f"
+    },
+    {
+      "file": "UniversalCovenantEngine.py",
+      "original_sha256": "847467377ba87bb76779170ed6190036aa141d69a9014510680f640925a7a3fc",
+      "v2_sha256": "b0e7d305c6b6fd7f33eacad916640830f2915ce8875aef5b250bcb1c49570a12"
+    },
+    {
+      "file": "UniversalPredatorPreyCovenantEngine.py",
+      "original_sha256": "0d16474976a7da651c0da1d73440fcc9e76db93b3c409445e70aabc2d72dde30",
+      "v2_sha256": "29556ec738623126ed1d3ab9f22c3cbd902baf79b28e3bf6ad5bc160db50e182"
+    },
+    {
+      "file": "verify_protection_rings.py",
+      "original_sha256": "9ef67256d29438c544957c96273116fc4e15c230432e8510e5c90b92eddaecd0",
+      "v2_sha256": "e6288853299d13e3a335e798eb637414339bb96ad4c7410d67c1e40514062d9d"
+    },
+    {
+      "file": "VirtueRegistry.py",
+      "original_sha256": "b240602a832a984d4538367c1bac0f21f8a4b7cab282fd9aa6696f09b2b21bf2",
+      "v2_sha256": "549a40e95c2d4cc297e1610e71ca8f29f6ee69c7c9232d3de6a11421b55faddf"
+    }
+  ]
+}

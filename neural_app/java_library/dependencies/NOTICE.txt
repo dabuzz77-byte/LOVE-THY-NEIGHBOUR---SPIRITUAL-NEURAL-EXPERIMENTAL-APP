@@ -1,0 +1,1 @@
+JFreeSVG 5.0.7 by David Gilbert / Object Refinery. GPL-3.0-or-later. Official project https://github.com/jfree/jfreesvg . Binary, corresponding source archive and Maven licence metadata are included. Preserve these files and the applicable licence when distributing. No app publication is performed by this update.

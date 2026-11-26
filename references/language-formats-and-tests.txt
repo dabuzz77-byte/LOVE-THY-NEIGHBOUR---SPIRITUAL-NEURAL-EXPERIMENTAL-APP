@@ -1,0 +1,21 @@
+LANGUAGE FORMATS, LIVE GENERATED LOGIC SEARCH AND RESTRICTED TESTS
+
+602 built-in format families are bundled through Pygments 2.21.0, including Python, Java, C#, JavaScript, batch and PowerShell. This is source-format / lexical recognition, not complete semantic mastery of every language. Pygments BSD licensing is preserved under vendor-language.
+
+The Language formats button is globally available. A left navigation entry opens the same local workbench. Filename rules, selected language or built-in content heuristics recognise source; scores are format heuristics, not probabilities. Input is handled locally.
+
+Explicit tests: Python AST parser; installed javac with annotation processing disabled; installed Visual Studio Roslyn C# library compile check; PowerShell AST parsing without invoking the script; basic .bat/.cmd static lint; Node.js --check and JSON parsing where available. Compiled output is temporary; submitted host programs never run. Batch lint is not a complete command interpreter.
+
+Restricted execution: a documented in-memory Python AST subset supports arithmetic, local variables, bounded for/while loops, conditions, lists/dicts and print capture. No eval or exec, no imports, no attribute access, no file/network/process facilities. Limits: 5,000 interpreter steps, one-second deadline, 4,096-item values, 4,096-bit integers, 8,192 output characters, 256 local variables. Unsupported operations stop the test. This is a restricted interpreter, not an OS virtual machine. Other languages use recognition / syntax / compile tests rather than unrestricted execution.
+
+The local Llama inspection button uses actual local llama3.1:8b chat inference, with 16K context and 2K response budget, no tool/read/write/desktop grants, and a Stop control. It does not alter model weights or remove safeguards. Its interpretation is separate from checked execution receipts.
+
+At the bottom of Ambient Field, the live logic-format search receives the generated-only source feed plus eligible raw matches from the word/sequence searches. It inspects rotating windows: default four windows of 256 characters per requested half-second cycle, one non-overlapping request at a time. Expensive parser/compiler work is limited to one candidate per batch; supported Python candidates can also receive the bounded subset test. Actual timing depends on input and installed tools.
+
+Bus target logic-search: incoming generated streams declare name/text, stochastic=true, predefined_text=false and contains_model_text=false. Result summaries broadcast source, offsets, suggested format and check state, without feeding themselves back as raw randomness. The listener remains authenticated and local by default. Restart an already running backend to load new routes and targets.
+
+Official references:
+https://pygments.org/docs/api/
+https://docs.python.org/3/library/ast.html
+https://docs.oracle.com/en/java/javase/25/docs/specs/man/javac.html
+https://learn.microsoft.com/en-us/dotnet/api/system.management.automation.language.parser.parseinput

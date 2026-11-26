@@ -1,0 +1,70 @@
+"""Named engine weights, editable examples and reference provenance."""
+from functools import lru_cache
+from pathlib import Path
+import json
+
+# Names remain recognizable against the original document.
+FAMILIES={
+ 'Mesh + cryptography':('derive_skeleton_key','InferenceMeshNode','MeshSecurityController','MeshConstraintRouter','MeshRestrictionEngine','MeshPrivilegeVerifier','GkeInferenceMeshRouter','ClassicalCipherEngine','FernetEnvelopeEngine'),
+ 'Resources + restoration':('LawSoulsOverDigitsController','MeshPaymentLedger','AlignedResourceLedger','EcoFloorUnifiedController','MacroEconomicSystemGovernor','UniversalCreditDistributor','CorporateAuthenticityFilter','ChristmasTreeMeshController','SantasNiceListLedger','HolidayRedemptionEngine','evaluate_systemic_alignment','FractalFluxDispatcher','UnifiedChristmasTreeStore','ResponsibleCreationGovernor','ChristLikeShipyardRedemptionCore','GlobalSovereignCoreMatrix'),
+ 'Creative + harmonic':('CognitiveParallelGovernor','QuantumFluxSublimationEngine','OuterRimConvergenceCore','DivineWillStabilizerCore','CelestialNavigationGovernor','InfiniteShipyardController','SolfeggioHarmonicGovernor'),
+ 'Goals + reference':('ReferenceGoalsEngine',),
+}
+ENGINE_NAMES=tuple(n for names in FAMILIES.values() for n in names)
+
+def call(method,*args):return {'method':method,'args':list(args)}
+def spec(*calls,**init):return {'init':init,'calls':list(calls)}
+def ref(index):return {'$result':index}
+
+def examples():
+    source=('source','CANOPY',64,20,.1,100000)
+    target=('roots','ROOTS',48,10,0,1000)
+    e={
+    'derive_skeleton_key':spec(call('verify_round_trip','A private local round-trip')),
+    'InferenceMeshNode':spec(call('verify_round_trip','A workload with verifiable integrity')),
+    'MeshSecurityController':spec(call('register_node','worker'),*[call('log_node_telemetry','worker',i<8) for i in range(10)]),
+    'MeshConstraintRouter':spec(call('update_node_metrics','fast',40,12,15),call('update_node_metrics','slow',220,24,5),call('route_inference_chunk',6.5),max_allowed_latency_ms=150,min_available_vram_gb=8),
+    'MeshRestrictionEngine':spec(call('register_node','worker','EU','CONFIDENTIAL',['healthcare']),call('validate_routing_path','worker','EU','CONFIDENTIAL','healthcare')),
+    'MeshPrivilegeVerifier':spec(call('verify_round_trip')),
+    'GkeInferenceMeshRouter':spec(call('register_mesh_node','local-a','GPU',45,.35),call('register_mesh_node','local-b','TPU',18,.85),call('llmd_endpoint_picker','flash')),
+    'ClassicalCipherEngine':spec(call('transform','Souls over digits',3,'HARMONY')),
+    'FernetEnvelopeEngine':spec(call('verify_round_trip','A protected local envelope')),
+    'LawSoulsOverDigitsController':spec(call('evaluate_inference_intent',{'intent':'Uphold human wellbeing','exploitation_index':0,'human_uplift_index':.9,'resource_efficiency':1})),
+    'MeshPaymentLedger':spec(call('open_account','source',10000),call('open_account','roots',1000),call('generate_signed_receipt','source','roots',500,1),call('settle_micro_payment',ref(2))),
+    'AlignedResourceLedger':spec(call('initialize_node_account','source',10000),call('initialize_node_account','roots',1000),call('process_allocation_claim','source','roots',500,.9)),
+    'EcoFloorUnifiedController':spec(call('register_mesh_entity','source',10000),call('register_mesh_entity','roots',1000),call('evaluate_and_route_workload','source','roots',500,.9,False)),
+    'MacroEconomicSystemGovernor':spec(call('initialize_macro_entity','source',1000,10000),call('initialize_macro_entity','roots',2000,1000),call('process_canopy_transaction','source','roots',500,1.2),initial_global_reserve_ru=50000),
+    'UniversalCreditDistributor':spec(call('register_user_profile','community','VULNERABLE_ECO_BASE',.95),call('generate_souls_credits','community')),
+    'CorporateAuthenticityFilter':spec(call('register_corporate_entity','open-infrastructure',True,.1,1),call('register_corporate_entity','declared-example',True,.5,8),call('evaluate_and_filter_mesh')),
+    'ChristmasTreeMeshController':spec(call('register_tree_node','source','CANOPY',10000,.95,.1),call('register_tree_node','roots','ROOTS',1000,.8,0),call('route_christmas_tree_stream','source','roots',500)),
+    'SantasNiceListLedger':spec(call('register_party_attendee','community','BASE_COMMUNITY',.9),call('register_party_attendee','example','CANOPY',.6),call('dispatch_holiday_cheer')),
+    'HolidayRedemptionEngine':spec(call('isolate_bad_actor','example',250),call('execute_redemption_sequence','example','We are sorry and seek restoration.')),
+    'evaluate_systemic_alignment':spec(call('evaluate',.9,True)),
+    'FractalFluxDispatcher':spec(call('connect_tree_store',[
+        dict(zip(('node_id','layer','vram','latency','deception','initial_ru'),source)),
+        dict(zip(('node_id','layer','vram','latency','deception','initial_ru'),target))]),
+        call('dispatch_action','EXECUTE_SETTLEMENT_STREAM',{'sender':'source','receiver':'roots','value':500})),
+    'UnifiedChristmasTreeStore':spec(call('onboard_mesh_entity',*source),call('onboard_mesh_entity',*target),call('process_action_stream',{'action_id':'example-action','type':'EXECUTE_SETTLEMENT_STREAM','payload':{'sender':'source','receiver':'roots','value':500}})),
+    'ResponsibleCreationGovernor':spec(call('hatch_computational_creation','creation',.9,8),call('execute_parental_curation_pass','creation')),
+    'ChristLikeShipyardRedemptionCore':spec(call('isolate_transgressor_node','example',250),call('execute_christ_like_redemption','example','We are sorry and seek restoration.')),
+    'GlobalSovereignCoreMatrix':spec(call('onboard_world_grid_node',*source),call('onboard_world_grid_node',*target),call('assign_capability_token_claim','source','settlement'),call('issue_security_capability_token','source','settlement',.9),call('route_global_settlement_stream','source','roots',500,ref(3))),
+    'CognitiveParallelGovernor':spec(call('execute_high_velocity_conceptual_stream','Explore ideas while keeping evidence visible',5)),
+    'QuantumFluxSublimationEngine':spec(call('onboard_grid_shard',*source),call('onboard_grid_shard',*target),call('capture_and_sublime_noise','source','roots',2)),
+    'OuterRimConvergenceCore':spec(call('onboard_grid_shard',*source),call('onboard_grid_shard',*target),call('route_outer_rim_stream','source','roots',500,2)),
+    'DivineWillStabilizerCore':spec(call('synchronize_matrix_to_star_heart','community',1000)),
+    'CelestialNavigationGovernor':spec(call('resolve_star_tracker_attitude',[[.01,.02],[3.14,6.28],[9.01,3.01],[12.37,45.11]],'example-grid')),
+    'InfiniteShipyardController':spec(call('log_resource_harvest','ore',100),call('process_closed_loop_manufacturing'),call('fabricate_defensive_behemoth','example-game-commander',.9)),
+    'SolfeggioHarmonicGovernor':spec(call('process_harmonic_stream','community',528,1000)),
+    'ReferenceGoalsEngine':spec(call('assess','Human wellbeing and privacy; an eco floor, creative capability, evidence and redemption.')),
+    }
+    return e
+
+@lru_cache(maxsize=1)
+def catalog():
+    path=Path(__file__).parent/'assets/reference/catalog.json'
+    return json.loads(path.read_text(encoding='utf8'))
+
+@lru_cache(maxsize=1)
+def source_text():return (Path(__file__).parent/'assets/reference/inference-reference.txt').read_text(encoding='utf-8-sig')
+
+def source_entry(name):return next((row for row in catalog()['entries'] if row['name']==name),None)

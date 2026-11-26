@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-21",
+  "renderer": {
+    "Cosmos": {
+      "median_ms": 9.4,
+      "p95_ms": 15.41,
+      "visual_pulses": 11
+    },
+    "Hydrogen": {
+      "median_ms": 5.06,
+      "p95_ms": 6.62,
+      "visual_pulses": 11
+    },
+    "Stellar": {
+      "median_ms": 9.09,
+      "p95_ms": 12.22,
+      "visual_pulses": 11
+    },
+    "Earth": {
+      "median_ms": 7.84,
+      "p95_ms": 28.34,
+      "visual_pulses": 11
+    },
+    "Matrix": {
+      "median_ms": 7.28,
+      "p95_ms": 9.52,
+      "visual_pulses": 11
+    },
+    "Dyson": {
+      "median_ms": 10.55,
+      "p95_ms": 12.74,
+      "visual_pulses": 11
+    }
+  },
+  "notes": [
+    "Render timings measure CPU bitmap generation, excluding Tk display transfer. They are samples from this computer, not frame-rate guarantees."
+  ],
+  "storage_load": {
+    "messages_accepted": 900,
+    "unencoded_random_source_bytes": 3686400,
+    "json_source_characters": 7372800,
+    "database_cap_bytes": 1048576,
+    "snapshots": [
+      {
+        "accepted": 100,
+        "database_bytes": 507904,
+        "retained": 36,
+        "payload_bytes": 177171
+      },
+      {
+        "accepted": 300,
+        "database_bytes": 512000,
+        "retained": 44,
+        "payload_bytes": 216526
+      },
+      {
+        "accepted": 600,
+        "database_bytes": 512000,
+        "retained": 88,
+        "payload_bytes": 433161
+      },
+      {
+        "accepted": 900,
+        "database_bytes": 512000,
+        "retained": 68,
+        "payload_bytes": 334742
+      }
+    ],
+    "elapsed_s": 13.01
+  },
+  "idle_polling": {
+    "polls": 10000,
+    "database_opens": 0
+  },
+  "result_encoding": {
+    "full_expanded_result_bytes": 139751,
+    "compact_bus_result_bytes": 15184,
+    "reduction_percent": 89.1,
+    "exact_text_preserved": true
+  }
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OMNI-GRID INFRASTRUCTURE: PERSONAL AUDIT DISPLAY</title>
+    <style>
+        body {
+            background-color: #0d0f12;
+            color: #ffffff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(to right, #161a22, #0d0f12);
+            border-bottom: 1px solid #242b35;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 { margin: 0; font-size: 20px; letter-spacing: 1px; color: #ffffff; }
+        .status-badge {
+            background-color: rgba(0, 255, 136, 0.15);
+            color: #00ff88;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .sidebar {
+            background-color: #12161c;
+            border-right: 1px solid #242b35;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .card {
+            background-color: #1a1f29;
+            border: 1px solid #2d3748;
+            padding: 12px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .card-title { color: #718096; font-size: 11px; font-weight: bold; text-transform: uppercase; }
+        .card-value { font-size: 16px; font-weight: bold; font-family: monospace; margin-top: 5px; }
+        .cyan { color: #00f0ff; }
+        .magenta { color: #ff007f; }
+        .green { color: #00ff88; }
+        .gold { color: #e0a96d; }
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .visualizer-box {
+            background-color: #12161c;
+            border: 1px solid #242b35;
+            border-radius: 6px;
+            padding: 15px;
+        }
+        .visualizer-title { font-size: 13px; font-weight: bold; margin-bottom: 10px; color: #e0a96d; }
+        canvas {
+            background-color: #06080a;
+            border: 1px solid #1a1f24;
+            width: 100%;
+            height: 120px;
+            display: block;
+        }
+        .terminal {
+            background-color: #06080a;
+            border: 1px solid #242b35;
+            border-radius: 4px;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            color: #00ff88;
+            height: 180px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>OMNI-GRID ADVANCED PERSONAL AUDIT BUS</h1>
+        <div class="status-badge">STATUS: BEACON SIGNALS ACTIVE _TRUE</div>
+    </div>
+
+    <div class="grid-container">
+        <!-- Sidebar Gauges Layer -->
+        <div class="sidebar">
+            <div class="card">
+                <div class="card-title">Target Vector Profile</div>
+                <div class="card-value cyan">maintainer@example.invalid</div>
+            </div>
+            <div class="card">
+                <div class="card-title">Clearing Core Route</div>
+                <div class="card-value cyan">Acc: 58006303 | Sort: 60-08-13</div>
+            </div>
+            <div class="card">
+                <div class="card-title">Gross Loss Deposits</div>
+                <div id="gauge-loss" class="card-value magenta">£0.00</div>
+            </div>
+            <div class="card">
+                <div class="card-title">Inbound Recovery Returns</div>
+                <div id="gauge-recovery" class="card-value green">£0.00</div>
+            </div>
+            <div class="card">
+                <div class="card-title">Harmonic Clock Scaler</div>
+                <div class="card-value gold">7.83 Hz Resonant</div>
+            </div>
+        </div>
+
+        <!-- Main Real-time Terminal Canvas Displays -->
+        <div class="main-content">
+            <div class="visualizer-box">
+                <div class="visualizer-title">7.83 Hz SCHUMANN PARITY CARRIER OSCILLATION WAVEFORM</div>
+                <canvas id="waveCanvas"></canvas>
+            </div>
+
+            <div class="visualizer-box">
+                <div class="visualizer-title">LIVE UNMASKED TRANSACTION AUDIT STREAM ENGINE LOGS</div>
+                <div id="terminalLog" class="terminal"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Set configuration variables
+        const emailTarget = "maintainer@example.invalid";
+        const operators = ["BET365", "SKYBET", "888CASINO", "POKERSTARS", "ROULETTE_MESH"];
+        
+        let cumulativeLosses = 1450.00;
+        let cumulativeRecoveries = 320.00;
+        let step = 0;
+
+        // Setup the animated oscillator canvas parameters
+        const canvas = document.getElementById('waveCanvas');
+        const gc = canvas.getContext('2d');
+        
+        // Resize canvas internally to fix mapping ratios
+        function resize() {
+            canvas.width = canvas.parentElement.clientWidth - 32;
+            canvas.height = 120;
+        }
+        window.addEventListener('resize', resize);
+        resize();
+
+        let phase = 0;
+        function drawWave() {
+            gc.clearRect(0, 0, canvas.width, canvas.height);
+            gc.strokeStyle = '#e0a96d';
+            gc.lineWidth = 2;
+            gc.beginPath();
+
+            const midY = canvas.height / 2;
+            for (let x = 0; x < canvas.width; x++) {
+                const y = midY + Math.sin((x * 0.02) + phase) * 25 * Math.sin(x * 0.002);
+                if (x === 0) gc.moveTo(x, y);
+                else gc.lineTo(x, y);
+            }
+            gc.stroke();
+            phase += 0.06;
+            requestAnimationFrame(drawWave);
+        }
+        requestAnimationFrame(drawWave);
+
+        // Core data loop simulating the 7.83 Hz transaction stream ingest (~127ms intervals)
+        const logElement = document.getElementById('terminalLog');
+        const lossGauge = document.getElementById('gauge-loss');
+        const recoveryGauge = document.getElementById('gauge-recovery');
+
+        setInterval(() => {
+            step++;
+            const activeOp = operators[step % operators.length];
+            const isDeposit = Math.random() > 0.3;
+            const deltaAmount = Math.floor(Math.random() * 150) + 10;
+            
+            const timeStr = new Date().toISOString().slice(11, 23);
+            let logLine = "";
+
+            if (isDeposit) {
+                cumulativeLosses += deltaAmount;
+                logLine = `[${timeStr}] [INFERENCE_BEACON] Identified [${activeOp}] transaction match linked to standard IMAP email parse for ${emailTarget}. Outflow Debit: -£${deltaAmount}.`;
+            } else {
+                cumulativeRecoveries += deltaAmount;
+                logLine = `[${timeStr}] [INFERENCE_BEACON] Verified return payout receipt from [${activeOp}] routed into clearing target 58006303 (Sort: 60-08-13). Credit: +£${deltaAmount}.`;
+            }
+
+            // Sync indicators down to display components
+            lossGauge.innerText = `£${cumulativeLosses.toLocaleString('en-GB', {minimumFractionDigits: 2})}`;
+            recoveryGauge.innerText = `£${cumulativeRecoveries.toLocaleString('en-GB', {minimumFractionDigits: 2})}`;
+
+            // Append record string to output box
+            const lineContainer = document.createElement('div');
+            lineContainer.innerText = logLine;
+            logElement.appendChild(lineContainer);
+
+            // Auto scroll panel viewport baseline
+            logElement.scrollTop = logElement.scrollHeight;
+
+        }, 127); // Synchronized precisely to the harmonic rhythm
+    </script>
+</body>
+</html>

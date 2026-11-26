@@ -1,0 +1,384 @@
+{
+  "reviewed": "2026-11-13",
+  "scope": "Selected online sources and summaries; not an exhaustive ingestion of all discourse or whole copyrighted books.",
+  "sources": [
+    {
+      "id": "gotzsche",
+      "title": "Peter Gøtzsche · Humanistic Psychiatry Declaration",
+      "kind": "Critical position · 2023",
+      "url": "https://www.scientificfreedom.dk/wp-content/uploads/2023/11/Humanistic-Psychiatry-Declaration.pdf"
+    },
+    {
+      "id": "gotzschebook",
+      "title": "Gøtzsche · Critical Psychiatry Textbook introduction",
+      "kind": "Author’s critique · not a consensus statement",
+      "url": "https://www.scientificfreedom.dk/2023/05/17/critical-psychiatry-textbook-a-new-psychiatry-is-needed/"
+    },
+    {
+      "id": "moncrieff",
+      "title": "Joanna Moncrieff · drug-centred research model",
+      "kind": "Conceptual research paper · 2018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6998955/"
+    },
+    {
+      "id": "szasz",
+      "title": "Thomas Szasz · The Myth of Mental Illness",
+      "kind": "Original argument · 1960",
+      "url": "https://psychclassics.yorku.ca/Szasz/myth.htm"
+    },
+    {
+      "id": "whitaker",
+      "title": "Robert Whitaker · author and work index",
+      "kind": "Critical journalism · reading gateway",
+      "url": "https://www.madinamerica.com/author/rwhitaker/"
+    },
+    {
+      "id": "framer",
+      "title": "Adele Framer · lived experience and withdrawal support",
+      "kind": "First-person account and practice paper · 2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7970174/"
+    },
+    {
+      "id": "yates",
+      "title": "Kris Yates · survivor account",
+      "kind": "First-person testimony · published 2006",
+      "url": "https://mindfreedom.org/personal-stories/yateskris/"
+    },
+    {
+      "id": "survivors",
+      "title": "MindFreedom · personal story collection",
+      "kind": "Survivor-led testimony gateway",
+      "url": "https://mindfreedom.org/front-page/personal-stories/"
+    },
+    {
+      "id": "sa",
+      "title": "Surviving Antidepressants",
+      "kind": "Peer-support archive · read-only at review",
+      "url": "https://www.survivingantidepressants.org/"
+    },
+    {
+      "id": "who",
+      "title": "WHO/OHCHR · Mental health, human rights and legislation",
+      "kind": "Rights-based policy guidance · 2023",
+      "url": "https://www.who.int/publications-detail-redirect/9789240080737"
+    },
+    {
+      "id": "nice",
+      "title": "NICE CG178 · psychosis and schizophrenia",
+      "kind": "Clinical recommendations",
+      "url": "https://www.nice.org.uk/guidance/cg178/chapter/recommendations"
+    },
+    {
+      "id": "withdrawal",
+      "title": "MHRA · antipsychotic dependence and withdrawal",
+      "kind": "Regulator learning resource",
+      "url": "https://cpd.mhra.gov.uk/antipsychotics/CON155606_30/"
+    },
+    {
+      "id": "effects",
+      "title": "MHRA · antipsychotic medicines",
+      "kind": "Regulator effects overview",
+      "url": "https://www.gov.uk/government/publications/antipsychotic-medicines-licensed-products-uses-and-side-effects/antipsychotic-medicines"
+    },
+    {
+      "id": "akathisia",
+      "title": "MHRA · akathisia",
+      "kind": "Regulator movement-effects resource",
+      "url": "https://cpd.mhra.gov.uk/antipsychotics/CON155606_13"
+    },
+    {
+      "id": "pssd",
+      "title": "MHRA · persistent sexual dysfunction and updated warnings",
+      "kind": "Regulatory safety information",
+      "url": "https://www.gov.uk/government/publications/antidepressants-use-and-safety/selective-serotonin-reuptake-inhibitors-ssris-and-serotonin-and-noradrenaline-reuptake-inhibitors-snris-use-and-safety"
+    },
+    {
+      "id": "ng215",
+      "title": "NICE NG215 · dependence and withdrawal",
+      "kind": "Clinical withdrawal guidance",
+      "url": "https://www.nice.org.uk/guidance/ng215/chapter/recommendations"
+    },
+    {
+      "id": "cochrane",
+      "title": "Cochrane · maintenance antipsychotics",
+      "kind": "Systematic review · benefits and harms",
+      "url": "https://www.cochrane.org/evidence/CD008016_maintenance-treatment-antipsychotic-drugs-schizophrenia"
+    },
+    {
+      "id": "spirit",
+      "title": "Royal College of Psychiatrists · spirituality and mental health",
+      "kind": "Professional resource",
+      "url": "https://www.rcpsych.ac.uk/mental-health/treatments-and-wellbeing/spirituality-and-mental-health"
+    },
+    {
+      "id": "advocacy",
+      "title": "Mind · independent mental health advocates",
+      "kind": "UK rights information · eligibility varies",
+      "url": "https://www.mind.org.uk/information-support/guides-to-support-and-services/advocacy/imhas/"
+    },
+    {
+      "id": "cbdtrial",
+      "title": "McGuire and colleagues · CBD adjunctive trial",
+      "kind": "Randomised study · 88 participants · six weeks",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29241357/"
+    },
+    {
+      "id": "cbd",
+      "title": "NCCIH · cannabis and cannabinoids",
+      "kind": "Evidence and product risks",
+      "url": "https://www.nccih.nih.gov/health/cannabis-marijuana-and-cannabinoids-what-you-need-to-know"
+    },
+    {
+      "id": "bethlem",
+      "title": "Bethlem Museum · visiting Bethlem",
+      "kind": "Institutional history",
+      "url": "https://museumofthemind.org.uk/learning/visiting-bethlem"
+    },
+    {
+      "id": "retreat",
+      "title": "Bethlem Museum · York Retreat",
+      "kind": "Institutional reform history",
+      "url": "https://museumofthemind.org.uk/projects/european-journeys/asylums/york-retreat"
+    },
+    {
+      "id": "lobotomy",
+      "title": "Nobel · Egas Moniz",
+      "kind": "Historical award record",
+      "url": "https://www.nobelprize.org/prizes/medicine/1949/moniz/facts/"
+    },
+    {
+      "id": "cpz",
+      "title": "Oregon State Hospital Museum · chemical reactions",
+      "kind": "Drug-era history",
+      "url": "https://oshmuseum.org/exhibits/chemical-reactions-exhibit/"
+    },
+    {
+      "id": "apa",
+      "title": "APA Foundation · DSM and homosexuality",
+      "kind": "Institutional diagnostic history",
+      "url": "https://www.apaf.org/library-archives/galleries/lgbtq-leaders/history-of-dsm-and-homosexuality/"
+    },
+    {
+      "id": "nlm",
+      "title": "National Library of Medicine · Diseases of the Mind",
+      "kind": "Historical collection and professionalisation",
+      "url": "https://www.nlm.nih.gov/hmd/topics/diseases-of-mind/index.html"
+    },
+    {
+      "id": "t4",
+      "title": "US Holocaust Memorial Museum · Aktion T4",
+      "kind": "Documented institutional murder under Nazism",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/euthanasia-program"
+    },
+    {
+      "id": "laing",
+      "title": "University of Glasgow · R. D. Laing",
+      "kind": "University historical account",
+      "url": "https://worldchanging.glasgow.ac.uk/notable-people/?id=53"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "Before the specialty",
+      "title": "Many beginnings",
+      "text": "People have understood suffering through bodily, social, religious and cultural frameworks. There is no single worldwide founding moment for psychiatry. This is a selected history, centred on European and North American institutions; it is not the whole history of healing.",
+      "source": "bethlem"
+    },
+    {
+      "date": "1247 onward",
+      "title": "Bethlem and institutional care",
+      "text": "Bethlem began as a religious foundation and later housed people described as mentally disturbed. Its long history raises the enduring question: when does shelter become exclusion, spectacle or confinement?",
+      "source": "bethlem"
+    },
+    {
+      "date": "1796",
+      "title": "A reform from within",
+      "text": "York Retreat opened with a milder, relational approach associated with Quaker moral treatment. The historical term does not mean that suffering is a moral fault. Humane reform and institutional control developed alongside one another.",
+      "source": "retreat"
+    },
+    {
+      "date": "Early 1800s",
+      "title": "The medical specialty takes shape",
+      "text": "The National Library of Medicine describes the emergence of psychiatry as a medical discipline in the early nineteenth century. Rush’s American textbook appeared in 1812. Older care traditions and the later professional specialty are different historical layers.",
+      "source": "nlm"
+    },
+    {
+      "date": "1939–1945",
+      "title": "The Nazi murder programme",
+      "text": "Under Nazism, institutionalised people with disabilities were targeted for systematic killing, concealed under the word euthanasia. This was murder, not care. It is a documented extreme of dehumanisation, not an equivalence between every present clinician and that regime.",
+      "source": "t4"
+    },
+    {
+      "date": "1930s–1949",
+      "title": "Bodily intervention and prestige",
+      "text": "Moniz introduced prefrontal surgery in the 1930s and received the 1949 Nobel award for leucotomy. This records institutional endorsement of an invasive intervention; an award is not a guarantee that every intervention is beneficial.",
+      "source": "lobotomy"
+    },
+    {
+      "date": "1952",
+      "title": "The drug era",
+      "text": "Chlorpromazine became available in France in 1952. The museum history follows the move toward drug treatment. Symptom relief, ward management, discharge and disabling effects are distinct outcomes that should not be collapsed into a single story of progress.",
+      "source": "cpz"
+    },
+    {
+      "date": "1960s onward",
+      "title": "Critique of medical authority",
+      "text": "Szasz challenged the medicalisation of problems in living and involuntary intervention. His argument is influential and contested. Anti-psychiatry, critical psychiatry and survivor advocacy overlap but do not hold one identical position.",
+      "source": "szasz"
+    },
+    {
+      "date": "1973–1987",
+      "title": "Diagnosis can be revised",
+      "text": "The APA removed homosexuality as a general disorder category in 1973; residual orientation-related categories persisted until 1987. Classification has carried social judgments and can change through research, testimony and activism.",
+      "source": "apa"
+    },
+    {
+      "date": "Survivor organising",
+      "title": "Voice and self-determination",
+      "text": "Survivor accounts describe coercion, being disbelieved and rebuilding life through relationships, creativity and chosen supports. They challenge the habit of writing institutional history without the people affected.",
+      "source": "survivors"
+    },
+    {
+      "date": "2010s–2020s",
+      "title": "Withdrawal and critical research",
+      "text": "Moncrieff, Gøtzsche, Framer and other critics question explanations of drug action, missing harms and the handling of withdrawal. Their different kinds of evidence should be read directly and compared.",
+      "source": "moncrieff"
+    },
+    {
+      "date": "2023 onward",
+      "title": "A rights-based direction",
+      "text": "WHO/OHCHR guidance calls for person-centred services and measures to eliminate coercion. This is a reform agenda, not proof that present services have already met it.",
+      "source": "who"
+    }
+  ],
+  "critics": [
+    {
+      "title": "Peter Gøtzsche",
+      "text": "He argues that drug harms are seriously underestimated, questions biological explanations and advocates a humanistic, non-coercive approach. His declaration centres the person’s experience, values and autonomy.",
+      "context": "His broad rejection of much psychiatric drug treatment is a critical position, not an established conclusion that every prescription harms every person. Read his claims alongside trial methods, individual outcomes and contrary evidence.",
+      "source": "gotzsche"
+    },
+    {
+      "title": "Joanna Moncrieff",
+      "text": "Her drug-centred model asks what a psychoactive drug does to the person’s ordinary mental and physical functioning, rather than assuming it corrects an identified underlying abnormality.",
+      "context": "A change in feeling or behaviour can be wanted, unwanted or both. The model invites explicit appraisal of those changes; it does not by itself establish that all treatment is useless.",
+      "source": "moncrieff"
+    },
+    {
+      "title": "Thomas Szasz",
+      "text": "He questioned how medical language can conceal moral and social conflict and challenged coercive intervention.",
+      "context": "This is a philosophical and political argument. It should not erase severe distress or the experiences of people who find medical treatment helpful.",
+      "source": "szasz"
+    },
+    {
+      "title": "R. D. Laing",
+      "text": "Laing sought to make experiences described as madness comprehensible in their lived and relational context. His work challenged professional assumptions and explored family and social pressures.",
+      "context": "His approach remains contested. Taking relationships and meaning seriously need not blame families or romanticise experiences that can also involve profound distress.",
+      "source": "laing"
+    },
+    {
+      "title": "Robert Whitaker",
+      "text": "His journalism examines psychiatric history, institutions and long-term drug outcomes. The linked author index gives a route into his work.",
+      "context": "This section provides a reading gateway, not a claim to have ingested all his books or independently verified every causal argument.",
+      "source": "whitaker"
+    },
+    {
+      "title": "Adele Framer and survivor knowledge",
+      "text": "Her paper combines her own prolonged withdrawal account with lessons from a large peer-support community. She describes withdrawal being interpreted as recurrence of illness.",
+      "context": "An experience-led paper can reveal neglected patterns; it is not a representative population survey and cannot establish how often every outcome occurs.",
+      "source": "framer"
+    }
+  ],
+  "effects": [
+    {
+      "title": "Sedation and daily life",
+      "text": "Drowsiness, slowed activity and dizziness may interfere with work, relationships and participation. Whether sedation is wanted or disabling must be judged with the person, not just by whether a ward becomes quieter.",
+      "source": "effects"
+    },
+    {
+      "title": "Akathisia: distress mistaken for behaviour",
+      "text": "Drug-induced inner restlessness can be intensely distressing and may be missed. A report of new agitation deserves assessment of its timing and possible drug relationship, rather than automatic blame or dose escalation.",
+      "source": "akathisia"
+    },
+    {
+      "title": "Movement and bodily injury",
+      "text": "Antipsychotics can cause movement disorders including stiffness, abnormal contractions and dyskinesia. Drug-specific monitoring matters; some movement effects can persist.",
+      "source": "effects"
+    },
+    {
+      "title": "Metabolic, hormonal and cardiac effects",
+      "text": "Weight gain, metabolic changes, prolactin-related effects and heart-rhythm concerns differ by medicine and person. They can be central to quality of life and require active review, not dismissal as a minor inconvenience.",
+      "source": "nice"
+    },
+    {
+      "title": "Sexual function and lasting loss",
+      "text": "The MHRA recognises that sexual dysfunction can continue after stopping certain antidepressants, with updated patient warnings announced in October 2026. Persistent symptoms deserve recognition and support; exact frequency and mechanisms remain uncertain.",
+      "source": "pssd"
+    },
+    {
+      "title": "Dependence and withdrawal",
+      "text": "Physical adaptation can produce withdrawal after dose reduction or stopping. For antipsychotics this can include sleep disturbance, nausea, anxiety and movement symptoms; recurrence of psychotic symptoms is also possible. Timing is important, but no app can determine the cause from timing alone.",
+      "source": "withdrawal"
+    },
+    {
+      "title": "A person is the outcome",
+      "text": "Emotional flattening and loss of motivation are described in survivor accounts. Record the person’s own account and whether it began with treatment or a change. Similar experiences can have multiple causes; investigation should preserve their voice.",
+      "source": "framer"
+    },
+    {
+      "title": "Benefits belong in the same ledger",
+      "text": "Maintenance antipsychotic trials show reduced relapse compared with placebo or no treatment over the periods studied, alongside harms. Group averages do not decide an individual’s priorities, nor justify humiliating or coercive care.",
+      "source": "cochrane"
+    }
+  ],
+  "supports": [
+    {
+      "title": "CBT for psychosis",
+      "status": "Guideline-supported option",
+      "text": "Work collaboratively on distress, interpretations and personal goals. A therapy relationship should invite discussion rather than mock or demand abandonment of faith.",
+      "source": "nice"
+    },
+    {
+      "title": "Family intervention and arts therapies",
+      "status": "Recommended / considered in guidance",
+      "text": "With the person’s involvement, strengthen communication and practical support. Arts therapies offer expression beyond diagnostic language. A trusted relationship matters more than forcing agreement.",
+      "source": "nice"
+    },
+    {
+      "title": "Peer support and chosen community",
+      "status": "Experience-led support",
+      "text": "Survivor communities, trusted friends, nature, creative work and meaningful activity feature in personal recovery accounts. Choice and fit matter; these stories do not guarantee a result for everyone.",
+      "source": "yates"
+    },
+    {
+      "title": "Spiritual support and this app’s teaching",
+      "status": "Optional meaning and reflective practice",
+      "text": "Prayer, compassion, the opening flower, protective wisdom and the app’s Jacob’s Ladder lessons can support meaning, hope and identity. A respectful clinician can discuss these without ridicule. These lessons are spiritual education, not a tested replacement treatment or proof that a frightening perception identifies a real threat.",
+      "source": "spirit"
+    },
+    {
+      "title": "CBD: promising research, not a proven replacement",
+      "status": "Investigational for psychosis",
+      "text": "A small six-week trial of purified CBD added to existing antipsychotics found modest improvement on some measures. This was adjunctive research, not a test showing shop CBD can replace prescribed treatment. No dose recommendation is provided here.",
+      "source": "cbdtrial"
+    },
+    {
+      "title": "CBD, THC and product quality",
+      "status": "Different substances; real effects",
+      "text": "CBD is not THC. Consumer products can have variable contents or THC contamination. CBD can cause sleepiness, diarrhoea, liver injury and drug interactions; THC-containing cannabis can worsen psychosis risk. Check any contemplated product with a pharmacist or prescriber, especially with other medicines.",
+      "source": "cbd"
+    },
+    {
+      "title": "Medication review without silencing",
+      "status": "Individual plan and support",
+      "text": "A harmful effect deserves a response. Ask for a review of benefits, harms, alternatives and withdrawal risks. Do not abruptly stop or replace prescribed medication with CBD or the app; request an individual, supported plan. This section provides no automatic taper or diagnostic decision.",
+      "source": "ng215"
+    },
+    {
+      "title": "An independent voice",
+      "status": "Advocacy and rights",
+      "text": "An advocate can help express preferences, understand rights and raise concerns. Eligibility and procedures depend on jurisdiction and current law; use the linked guidance for the applicable service.",
+      "source": "advocacy"
+    }
+  ]
+}

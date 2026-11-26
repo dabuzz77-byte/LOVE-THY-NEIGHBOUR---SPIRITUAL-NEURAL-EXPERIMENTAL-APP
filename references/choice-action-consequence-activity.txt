@@ -1,0 +1,28 @@
+CHOICE / ACTION / CONSEQUENCE: CONTINUOUS APP ACTIVITY
+
+Continuous studies now sample the circuit's captured sources in fair batches
+of up to 32 values, with eligible refreshes at 0.4 seconds rather than five
+seconds. Actual scheduling also depends on the shared training worker's load.
+Measured processing cost increases the yield interval up to two seconds.
+No-new-data passes back off; unchanged paths within the current source version
+are not counted as new studies. The existing captured-source limits remain.
+
+Each studied value retains its source event, digest and variable path. Local
+computations include JSON round-trip checks, bounded text profiles and numeric
+transitions. Once successive numeric captures support a simple extrapolation,
+the following captured value is compared with it and its error is recorded.
+These are software-event observations, not claims of world prediction.
+
+Task-role nodes coexist with continuous captured-source nodes. A saved sphere
+task no longer hides all ongoing app studies. Summary receipts are broadcast
+with processing_receipt=true so they do not create capture feedback storms.
+Raw captured content is not republished as public data.
+
+The sphere status shows measured processed-value counts, batch size, pacing and
+processing time. Motion is updated on actual study cycles. Seven development
+tests check fairness, bounded batches, deduplication, all fact paths, prediction
+checks, task coexistence, original preservation, self-echo exclusion and idle
+handling. No LLM or external action is invoked by this study service.
+
+Backend source changes require the desktop backend to restart before taking
+effect. This upgrade does not replace the running desktop process automatically.

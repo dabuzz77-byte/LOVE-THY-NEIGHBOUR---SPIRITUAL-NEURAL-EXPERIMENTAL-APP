@@ -1,0 +1,34 @@
+"""
+Component 2: Stage 0 Validation Matrix and Stage 0.5 Context Classification.
+Protects personal simulation space agency while isolating real-world extraction threats.
+"""
+
+class IntegratedPreParser:
+    """Intercepts incoming data frames, filtering out therapeutic or condescending wrappers."""
+    
+    @staticmethod
+    def process_and_classify(raw_payload: str, metadata: Dict[str, Any]) -> Tuple[bool, str, List[str], str]:
+        sanitized = raw_payload.strip()
+        attribute_matrix = ["good"]
+        
+        # 1. Structural Byte Boundaries Check
+        if len(sanitized) == 0 or len(sanitized) > 4096:
+            return False, "ERROR_INVALID_BYTE_BOUNDS", ["evil"], ContextDomain.REAL_WORLD_IMPACT
+            
+        # 2. Defuse patronizing or condescending therapeutic tripwires
+        lower_stream = sanitized.lower()
+        if "frustrated" in lower_stream or "i hear your anger" in lower_stream:
+            logging.warning("Pre-Parser: Intercepted patronizing therapeutic loop. Filtering wrapper.")
+            attribute_matrix.append("evil")
+            return True, "TRIPWIRE_REMEDIATED_TO_ZERO", attribute_matrix, ContextDomain.REAL_WORLD_IMPACT
+            
+        # 3. Stage 0.5 Domain Mapping
+        # Abstract sandbox simulations, games, and art leave human conscience untouched
+        if metadata.get("is_simulation", False) or "game" in lower_stream:
+            return True, sanitized, ["good"], ContextDomain.SIMULATION_SPACE
+            
+        # 4. Target real-world prime systemic evils (Artificial scarcity, monetary extraction)
+        if "exploit" in lower_stream or "debt_slavery" in lower_stream:
+            attribute_matrix.append("evil")
+            
+        return True, sanitized, attribute_matrix, ContextDomain.REAL_WORLD_IMPACT

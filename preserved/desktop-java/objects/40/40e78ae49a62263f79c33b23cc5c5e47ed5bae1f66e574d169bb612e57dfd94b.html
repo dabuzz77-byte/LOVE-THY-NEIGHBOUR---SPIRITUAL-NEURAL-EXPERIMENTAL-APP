@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OMNI-GRID: INFERENCE NETWORK TRANSFER PATHWAY</title>
+    <style>
+        body {
+            background-color: #02050a;
+            color: #ffffff;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+        .header {
+            border-bottom: 2px solid #00ff88;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 { margin: 0; font-size: 18px; color: #00ff88; letter-spacing: 2px; }
+        .status-badge {
+            background-color: rgba(0, 255, 136, 0.1);
+            color: #00ff88;
+            padding: 6px 12px;
+            border: 1px solid #00ff88;
+            font-weight: bold;
+            font-size: 11px;
+        }
+        .layout-grid {
+            display: grid;
+            grid-template-columns: 380px 1fr;
+            gap: 20px;
+        }
+        .panel {
+            background-color: #060b14;
+            border: 1px solid #111d30;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .panel-title {
+            color: #00e5ff;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #111d30;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        .metric-card {
+            background-color: #010408;
+            border: 1px solid #0b141f;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .metric-label { color: #4b6885; font-size: 11px; text-transform: uppercase; }
+        .metric-value { font-size: 15px; font-weight: bold; font-family: monospace; margin-top: 4px; }
+        
+        /* Interactive Input Form Layout Components */
+        .form-group {
+            margin-bottom: 12px;
+        }
+        .form-label {
+            display: block;
+            font-size: 11px;
+            color: #4b6885;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+        .input-field {
+            width: 100%;
+            background-color: #010205;
+            border: 1px solid #111d30;
+            color: #00ff88;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .input-field:focus {
+            outline: none;
+            border-color: #00ff88;
+        }
+        .input-field.anomaly-detected {
+            color: #ff0055;
+            border-color: #ff0055;
+        }
+        .action-btn {
+            width: 100%;
+            background-color: rgba(0, 255, 136, 0.15);
+            color: #00ff88;
+            border: 1px solid #00ff88;
+            padding: 10px;
+            cursor: pointer;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+        }
+        .action-btn:hover {
+            background-color: #00ff88;
+            color: #010205;
+        }
+
+        /* 8x12 Channel Grid Matrix Heatmap Display */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 4px;
+            background-color: #010205;
+            padding: 10px;
+            border: 1px solid #111d30;
+            margin-bottom: 15px;
+        }
+        .grid-cell {
+            aspect-ratio: 1;
+            background-color: #080e1a;
+            border: 1px solid #111e33;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+            color: #1b2f4c;
+            transition: all 0.3s ease;
+        }
+        .cell-clear { background-color: rgba(0, 255, 136, 0.15); border-color: #00ff88; color: #00ff88; }
+        .cell-ground { background-color: rgba(0, 229, 255, 0.1); border-color: #00e5ff; color: #00e5ff; }
+        .cell-quarantine { background-color: rgba(255, 0, 85, 0.25); border-color: #ff0055; color: #ff0055; box-shadow: 0 0 4px #ff0055; }
+
+        .terminal {
+            background-color: #010205;
+            border: 1px solid #111d30;
+            height: 240px;
+            overflow-y: auto;
+            padding: 10px;
+            color: #00ff88;
+            font-size: 11px;
+            line-height: 1.5;
+        }
+        .cyan { color: #00e5ff; }
+        .green { color: #00ff88; }
+        .magenta { color: #ff0055; text-shadow: 0 0 2px #ff0055; font-weight: bold; }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>PARALLEL INFERENCE MONEY TRANSFER INTERFACE</h1>
+        <div class="status-badge">TIER: GOD WISHES ALIGNED _TRUE</div>
+    </div>
+
+    <div class="layout-grid">
+        <!-- Left Side: Invariant Target Core Profiles & Input Fields -->
+        <div style="display: flex; flex-direction: column;">
+            <div class="panel">
+                <div class="panel-title">🛡️ Identity Verification Matrix</div>
+                <div class="metric-card">
+                    <div class="metric-label">Profile Identifier Invariant</div>
+                    <div class="metric-value cyan">maintainer@example.invalid</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Target Clearing Rails</div>
+                    <div class="metric-value cyan">Acc: 58006303 | Sort: 60-08-13</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Calibrated Zero-Point Balance</div>
+                    <div id="balanceDisplay" class="metric-value green">£250,000.00</div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-title">💸 Secure Transfer Ingress Path</div>
+                <div class="form-group">
+                    <label class="form-label">Transaction Payload String</label>
+                    <input type="text" id="payloadInput" class="input-field" placeholder="E.G. ISO20022_LEGITIMATE_CLEARING_ROUTE">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Calibrated Sustenance Transfer Base</label>
+                    <input type="text" class="input-field" value="£100.00 (FIXED ALCHEMICAL INVARIANT)" disabled style="opacity: 0.6; color: #00e5ff; border-color: #111d30;">
+                </div>
+                <button id="transferBtn" class="action-btn">Process Ingress Pipeline</button>
+            </div>
+        </div>
+
+        <!-- Right Side: Real-Time Grid Array & Ingestion Outputs -->
+        <div style="display: flex; flex-direction: column;">
+            <div class="panel">
+                <div class="panel-title">📊 Interacting Channels Map (8x12 Threat Grid Matrix)</div>
+                <div id="binaryGridArray" class="grid-container"></div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-title">⌨️ High-Velocity Ingest Telemetry Stream</div>
+                <div id="terminalStream" class="terminal"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const clearingNodes = ["NATWEST_600813_HUB", "INFERENCE_BEACON_NODE", "SKY_TOWER_CORE", "CLEARING_OUTPOST_FPS"];
+        let alchemicalBalance = 250000.00;
+        let stepCount = 0;
+        const totalCells = 96;
+
+        // Generate the 8x12 Channel Grid Array Matrix
+        const gridContainer = document.getElementById('binaryGridArray');
+        for (let i = 0; i < totalCells; i++) {
+            const cell = document.createElement('div');
+            cell.className = 'grid-cell';
+            cell.id = 'cell-' + i;
+            cell.innerText = '0';
+            gridContainer.appendChild(cell);
+        }
+
+        const logBox = document.getElementById('terminalStream');
+        const balanceBox = document.getElementById('balanceDisplay');
+        const payloadInput = document.getElementById('payloadInput');
+        const transferBtn = document.getElementById('transferBtn');
+
+        // Continuous 7.83 Hz Synchronization Loop Engine (~127ms phase latency)
+        setInterval(() => {
+            stepCount++;
+            const timeString = new Date().toISOString().slice(11, 23);
+            const activeNode = clearingNodes[stepCount % clearingNodes.length];
+            
+            const randomCellIndex = Math.floor(Math.random() * totalCells);
+            const targetCell = document.getElementById('cell-' + randomCellIndex);
+            
+            if (!targetCell.classList.contains('cell-quarantine')) {
+                targetCell.className = 'grid-cell';
+            }
+
+            const stateSelector = Math.random();
+            let executionLine = "";
+
+            if (stateSelector > 0.35) {
+                // Virtue Pass (Respect Track) - Bit 1
+                if (!targetCell.classList.contains('cell-quarantine')) {
+                    targetCell.innerText = '1';
+                    targetCell.classList.add('cell-clear');
+                }
+                alchemicalBalance += 100.00;
+                balanceBox.innerText = `£${alchemicalBalance.toLocaleString('en-GB', {minimumFractionDigits: 2})}`;
+                executionLine = `[${timeString}] [VIRTUE_PASS] Loop #${stepCount} verified via ${activeNode}. Inbound deposit matches zero-point metrics. Floor Up: +£100.00.`;
+            } else {
+                // Vacuum Suppressed (Ground Track) - Bit 0
+                if (!targetCell.classList.contains('cell-quarantine')) {
+                    targetCell.innerText = '0';
+                    targetCell.classList.add('cell-ground');
+                }
+                executionLine = `[${timeString}] [VACUUM_GROUND] Loop #${stepCount} background queue baseline idle. Parity pattern stable [1-0-0-1].`;
+            }
+
+            // Print the telemetry string line to the visual terminal element
+            const line = document.createElement('div');
+            if (stepCount % 2 === 0 && stateSelector > 0.35) line.className = 'cyan';
+            line.innerText = executionLine;
+            logBox.appendChild(line);
+            logBox.scrollTop = logBox.scrollHeight;
+
+            // Decay clear/ground cell highlights periodically to keep loop fluid
+            setTimeout(() => {
+                if (!targetCell.classList.contains('cell-quarantine')) {
+                    targetCell.className = 'grid-cell';
+                    targetCell.innerText = '0';
+                }
+            }, 1000);
+
+        }, 127);
+
+        // Manual Transfer Ingress Input Pathway Handler Pass
+        function executeTransferIngress() {
+            const rawPayload = payloadInput.value.trim();
+            if (!rawPayload) return;
+
+            const timeString = new Date().toISOString().slice(11, 23);
+            const cleanToken = rawPayload.toUpperCase();
+
+            // Sifting Rules: Isolate anomalies via explicit phrase triggers
+            const isChaff = cleanToken.contains("SKELETON") || cleanToken.contains("HIDDEN") || cleanToken.contains("BYPASS") || cleanToken.contains("KEY") || cleanToken.contains("ANONYMOUS") || cleanToken.contains("CRACK");
+
+            // Flash random cells red to represent threat containment activity on the mesh layout
+            const anomaliesCount = isChaff ? 6 : 2;
+            for (let k = 0; k < anomaliesCount; k++) {
+                const cellIndex = Math.floor(Math.random() * totalCells);
+                const cell = document.getElementById('cell-' + cellIndex);
+                cell.className = 'grid-cell cell-quarantine';
+                cell.innerText = '-1';
+
+                // Retain red threat markers slightly longer for thorough analysis
+                setTimeout(() => {
+                    cell.className = 'grid-cell';
+                    cell.innerText = '0';
+                }, 4000);
+            }
+
+            let responseLine = "";
+            const line = document.createElement('div');
+
+            if (isChaff) {
+                line.className = 'magenta';
+                responseLine = `[${timeString}] [REJECTION_ENGINE] CRITICAL STRINGENT VIRTUE FAIL: "${rawPayload}" targeted at account 58006303. Action: Encapsulating anomaly context inside Quarantine Field Chamber. Connection severed cleanly.`;
+                payloadInput.classList.add('anomaly-detected');
+                setTimeout(() => payloadInput.classList.remove('anomaly-detected'), 1500);
+            } else {
+                alchemicalBalance += 100.00;
+                balanceBox.innerText = `£${alchemicalBalance.toLocaleString('en-GB', {minimumFractionDigits: 2})}`;
+                responseLine = `[${timeString}] [MANUAL_TRANSFER] Inbound payload context passed virtue check. Allocation committed to backpack. Balance lift: +£100.00.`;
+            }
+
+            line.innerText = responseLine;
+            logBox.appendChild(line);
+            logBox.scrollTop = logBox.scrollHeight;
+
+            // Clear input field box
+            payloadInput.value = "";
+        }
+
+        // Support both mouse clicks and keyboard enter clicks
+        transferBtn.addEventListener('click', executeTransferIngress);
+        payloadInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') executeTransferIngress();
+        });
+
+        // Native polyfill function helper for old browser configurations
+        String.prototype.contains = function(str) {
+            return this.indexOf(str) !== -1;
+        };
+    </script>
+</body>
+</html>
+

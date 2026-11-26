@@ -1,0 +1,15 @@
+{
+  "verified_at_utc": "2026-10-12T13:38:19.938634+00:00",
+  "target_hz": 7.38,
+  "period_ms": 135.50135501355012,
+  "checks": [
+    "Native desktop displayed 7.38 Hz and 135.501 ms target period.",
+    "Live hub displayed 127.0.0.1:17300, measured rate, lateness, and process activity.",
+    "Predict 60 ticks returned neural forecasts and updated activation graphics.",
+    "Run scenario advanced original simulation values from bus ticks.",
+    "Stop hub released its listener; Start hub resumed pulses successfully.",
+    "Programs view displayed an observed process and accurately reported restricted metadata access."
+  ],
+  "observation_scope": "Automated sandbox session; host-wide visibility was not verified.",
+  "tested_runtime": "Python 3.12; NumPy 2.3.5; Java 26 executing Java 17-compatible adapter"
+}

@@ -1,0 +1,43 @@
+{
+  "native": {
+    "enabled": true,
+    "interval": 300,
+    "next_run": 1792760386.4434648,
+    "cycles": 1,
+    "status": "local model researching",
+    "last": {
+      "at": 1792760094.5440853,
+      "topic": "resources",
+      "research_id": "049b2e7323a34511ac34659670610861",
+      "input_id": 11546,
+      "source_count": 2,
+      "model": "llama3:latest",
+      "synthesis": true,
+      "model_error": null
+    },
+    "topic": "signals",
+    "running": true,
+    "owner": "App process",
+    "provider": "Wikipedia + local Ollama",
+    "requires_codex": false,
+    "requires_browser": false
+  },
+  "pause_resume_verified": true,
+  "syntax_checks": "passed",
+  "live_sources_and_local_synthesis": {
+    "at": 1792760094.5440853,
+    "topic": "resources",
+    "research_id": "049b2e7323a34511ac34659670610861",
+    "input_id": 11546,
+    "source_count": 2,
+    "model": "llama3:latest",
+    "synthesis": true,
+    "model_error": null
+  },
+  "cadence_survived_restart": true,
+  "codex_schedule": "PAUSED",
+  "resident_input_status": "complete",
+  "resident_passes": 1,
+  "resident_definitions": 36,
+  "launch_boundary": "Run Independently.cmd must be opened from Windows; sandbox disallows detached process breakaway"
+}

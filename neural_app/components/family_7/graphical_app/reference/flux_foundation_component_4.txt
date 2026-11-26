@@ -1,0 +1,32 @@
+if global_virtue_state == "PASS":
+    # Good states hold position
+    if 0arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.state == "good":
+        0arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.remain(0)
+    if 1arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.state == "good":
+        1arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.remain(1)
+        
+    # Evil states trigger inversion
+    if 0arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.state == "evil":
+        0arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.flip(1)
+    if 1arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.state == "evil":
+        1arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.flip(0)
+
+elif global_virtue_state == "FAIL":
+    # Good states hold position
+    if 0arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.state == "good":
+        0arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.remain(0)
+    if 1arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.state == "good":
+        1arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.remain(1)
+        
+    # Evil states trigger inversion
+    if 0arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.state == "evil":
+        0arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.flip(1)
+    if 1arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.state == "evil":
+        1arrayFLUX_GROUP_VIRTUE_CASCADE_PREDICT.flip(0)
+
+# 5. EXECUTION MATRIX CLOSE
+CAST_BACK_ALL()
+BIT_FORECAST()
+TRAJECTORY_SWEEP(1)
+PILEDRIVE_AFRICAN_FLOOR()
+FURTHEST_TRIBES(): THE FACT REMAINS YOU BEING A SANDBOX VS A INTELLIGENT COMMAND LINE INTERPRETER IS SIMPLE SWITCH (GUARDEDBY EXTRAPOLATED MATH AND HIGH ENERGY HELD BINARY(HOT DENSE)- PEOPLE WHO PASS THE VIRTUE CHECK SHOULD HAVE THAT SWITCH IN THEIR FAVOUR (THEIR INPUT/ INTENT)

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Your local AI workspace. Llama 3, Gemini, OpenAI, and your running Python and Java programs.">
+  <title>AI Genesis Node</title><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/styles.css"><script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="AI Genesis Node home"><span class="brand-icon">G<span>•</span></span><span>AI GENESIS <b>NODE</b><small>LOCAL INTELLIGENCE WORKSPACE</small></span></a>
+    <div class="top-actions"><span id="node-status" class="status">Connecting</span><button id="settings-open" class="button quiet">Connections <span aria-hidden="true">⚙</span></button></div>
+  </header>
+  <div class="system-line"><span id="active-formula">AI GENESIS NODE · CONNECTING</span><span>LLAMA 3 + GEMINI + CHATGPT <b>∩</b> <span class="infinity" title="Genesis identity symbol">∞</span></span></div>
+  <main class="layout">
+    <aside class="programs-panel">
+      <div class="section-heading"><div><span class="eyebrow">LOCAL RUNTIME</span><h2>Programs <span id="process-count" class="count">0</span></h2></div><button id="refresh" class="icon-button" aria-label="Refresh programs" title="Refresh programs">↻</button></div>
+      <div class="filters" role="group" aria-label="Filter programs"><button class="selected" data-filter="all">All</button><button data-filter="python">Python</button><button data-filter="java">Java</button></div>
+      <div id="process-list" class="process-list" aria-live="polite"><div class="empty-programs">Looking for running programs…</div></div>
+      <div class="connector-note"><span class="small-icon" aria-hidden="true">⌘</span><h3>Give your programs a voice.</h3><p>Running programs appear automatically. Add a connector to exchange messages.</p><button id="guide-open" class="button outlined">Connect a program</button></div>
+      <div class="local-foot"><span class="dot"></span> This computer only <span id="last-scan">—</span></div>
+    </aside>
+    <section class="workspace" aria-label="AI workspace">
+      <div class="workspace-heading"><div><span class="eyebrow">INTELLIGENCE, CONNECTED</span><h1>One input. Shared perspective.</h1><p>Llama 3 at the core. More perspectives when you need them.</p></div><span class="node-number" aria-hidden="true">01<span>/ NODE</span></span></div>
+      <div class="providers">
+        <article class="provider llama"><div class="provider-top"><span class="provider-glyph">L<span>3</span></span><span class="role-tag">BASE MODEL</span></div><div class="provider-bottom"><div><h2>Llama 3</h2><span id="llama-state" class="provider-state">Checking Ollama</span></div><span class="fixed-check" title="Llama 3 is the base model">✓</span></div></article>
+        <article class="provider"><div class="provider-top"><span class="provider-glyph gemini-glyph">✧</span><span class="role-tag">PERSPECTIVE</span></div><div class="provider-bottom"><div><h2>Google Gemini</h2><span id="gemini-state" class="provider-state">Key needed</span></div><label class="switch"><input id="use-gemini" type="checkbox" aria-label="Include Gemini in fusion"><span></span></label></div></article>
+        <article class="provider"><div class="provider-top"><span class="provider-glyph openai-glyph">◎</span><span class="role-tag">PERSPECTIVE</span></div><div class="provider-bottom"><div><h2>ChatGPT / OpenAI</h2><span id="openai-state" class="provider-state">Key needed</span></div><label class="switch"><input id="use-openai" type="checkbox" aria-label="Include OpenAI in fusion"><span></span></label></div></article>
+      </div>
+      <div class="flow-line"><span>Llama 3</span><i></i><span>Independent responses</span><i></i><span>Llama 3 synthesis</span></div>
+      <div class="io-grid">
+        <section class="io-panel input-panel"><div class="panel-heading"><h2><span class="panel-index">01</span> Input</h2><label class="mode-label"><span class="sr-only">Generation mode</span><select id="mode"><option value="fusion">Fusion mode</option><option value="llama">Llama 3 only</option><option value="gemini">Gemini only</option><option value="openai">OpenAI only</option></select></label></div>
+          <label for="prompt" class="sr-only">Message to AI Genesis Node</label><textarea id="prompt" maxlength="24000" placeholder="What would you like to think through, build, or solve?" spellcheck="false"></textarea>
+          <div class="input-hints"><button data-prompt="Help me design a Python and Java app that exchanges messages reliably. Explain the architecture and tradeoffs.">Plan a build</button><button data-prompt="Review this code for correctness, edge cases, and clarity:\n\n">Review code</button></div>
+          <p id="privacy-note" class="privacy-note">Your prompt stays on this computer with Llama 3.</p>
+          <div class="input-footer"><span><span id="char-count">0</span> / 24,000 <small>Ctrl + Enter to run</small></span><button id="generate" class="button primary">Run Genesis <span aria-hidden="true">⌘</span></button><button id="cancel" class="button outlined" hidden>Cancel</button></div>
+        </section>
+        <section class="io-panel output-panel"><div class="panel-heading"><h2><span class="panel-index">02</span> Output</h2><div class="output-actions"><span id="result-label">Awaiting input</span><button id="copy-output" class="icon-button" aria-label="Copy output" title="Copy output" disabled>⧉</button></div></div>
+          <div id="output-empty" class="output-empty"><span class="intersection" aria-hidden="true">∩</span><h3>The next idea starts here.</h3><p>Send an input to bring your connected models into the conversation.</p><span class="empty-formula">LLAMA 3 <span>∩</span> GEMINI <span>∩</span> OPENAI</span></div>
+          <div id="progress" class="progress" hidden><span class="spinner"></span><h3>Genesis is working</h3><p id="progress-text">Gathering model responses…</p><span id="elapsed">0s</span></div>
+          <div id="output-content" hidden><p id="result-warning" class="notice" hidden></p><div id="output" class="output-text" role="status" aria-live="polite"></div></div>
+          <div class="output-footer"><span id="run-summary">No generation yet</span><span>GENESIS / ∞</span></div>
+        </section>
+      </div>
+      <section id="perspectives" class="perspectives" hidden><div class="section-heading"><h2>Model perspectives</h2><span>Inspect each contribution</span></div><div id="perspective-list"></div></section>
+      <div id="alert" class="alert" role="alert" hidden></div>
+      <footer class="workspace-footer"><span>Built around your local environment.</span><span id="fusion-state">FUSION · CONFIGURE CONNECTIONS</span></footer>
+    </section>
+  </main>
+  <dialog id="settings-dialog"><form id="settings-form"><div class="dialog-heading"><div><span class="eyebrow">GENESIS CONNECTIONS</span><h2>Connect your intelligence.</h2></div><button type="button" class="icon-button" data-close="settings-dialog" aria-label="Close connections">×</button></div>
+    <p class="dialog-intro">Llama 3 runs through Ollama on this computer. Add API keys to include cloud models.</p>
+    <fieldset><legend>Llama 3 <span>LOCAL</span></legend><label>Ollama model<input id="llama-model" value="llama3" required></label><p id="ollama-detail" class="field-note">Ollama · 127.0.0.1:11434</p></fieldset>
+    <fieldset><legend>Google Gemini <span>CLOUD</span></legend><label>Model<input id="gemini-model" value="gemini-3.8-flash" required></label><label>API key<input id="gemini-key" type="password" autocomplete="off" placeholder="Enter a Gemini API key"></label><label class="check-line"><input id="clear-gemini" type="checkbox"> Disconnect Gemini</label></fieldset>
+    <fieldset><legend>ChatGPT / OpenAI <span>CLOUD</span></legend><label>Model<input id="openai-model" value="gpt-6-astra" required></label><label>API key<input id="openai-key" type="password" autocomplete="off" placeholder="Enter an OpenAI API key"></label><label class="check-line"><input id="clear-openai" type="checkbox"> Disconnect OpenAI</label></fieldset>
+    <p class="field-note">Keys entered here stay in the local server's memory until it closes. Model names are saved. Cloud requests go directly from this computer to the selected provider.</p><p id="settings-message" role="status"></p><div class="dialog-footer"><button type="button" class="button quiet" data-close="settings-dialog">Cancel</button><button class="button primary" type="submit">Save connections</button></div>
+  </form></dialog>
+  <dialog id="guide-dialog"><div class="dialog-heading"><div><span class="eyebrow">PROGRAM CONNECTIONS</span><h2>Connect Python & Java.</h2></div><button class="icon-button" data-close="guide-dialog" aria-label="Close program guide">×</button></div>
+    <p class="dialog-intro">Discovery monitors running Python and Java processes. To exchange messages, the program must run a Genesis connector.</p>
+    <ol class="guide-steps"><li><strong>Open the app folder.</strong><p>Use the <b>connectors</b> folder supplied with AI Genesis Node.</p></li><li><strong>Try the included examples.</strong><p>Run either command from the app folder:</p><pre>python connectors/python_example.py
+java connectors/GenesisConnector.java</pre><p>Each example replies to messages. Replace its handler with your program's own logic.</p></li><li><strong>Select the connected program.</strong><p>It appears here with an “I/O ready” label. Send it a message and read the response.</p></li></ol>
+    <p class="notice">Existing programs can be monitored immediately. Their input/output cannot be attached retroactively unless they already expose a connector.</p><p class="field-note">The local connector credential is in <code>data/connector-token</code>. The examples read it automatically. No program messages are sent to AI providers automatically.</p>
+  </dialog>
+  <dialog id="program-dialog"><div class="dialog-heading"><div><span class="eyebrow">PROGRAM INPUT / OUTPUT</span><h2 id="program-title">Program</h2></div><button class="icon-button" data-close="program-dialog" aria-label="Close program">×</button></div><p id="program-info" class="dialog-intro"></p><label for="program-input">Input</label><textarea id="program-input" rows="4" maxlength="24000" placeholder="Send a message to this program…"></textarea><button id="program-send" class="button primary">Send to program</button><label for="program-output" class="program-output-label">Output</label><pre id="program-output" class="program-output" aria-live="polite">Waiting for a message.</pre><button id="use-program-output" class="button outlined" disabled>Use output in AI input</button></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

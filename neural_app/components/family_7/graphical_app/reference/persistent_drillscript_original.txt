@@ -1,0 +1,29 @@
+    def start_persistent_drillscript_worker(self):
+        """
+        Launches a dedicated, background hardware execution loop
+        that continuously fires the Kraken Parity Overwrite to protect
+        the perimeters from administrative filter drift.
+        """
+        self.write_terminal_trace("INITIALIZING DRILLSCRIPT: Engaging persistent protective thread...")
+
+        def drill_loop_execution():
+            while self.is_monitoring:
+                # 1. Simulate intercepting stagnant regional lightswitches
+                # Vectorized operation ensures the target bits never drop below 1
+                self.track_A_registers = np.ones_like(self.track_A_registers)
+
+                # 2. Automatically compute and purge any hidden zero-diversion ruses
+                self.track_B_registers = np.zeros_like(self.track_B_registers)
+
+                # Update UI thread safely
+                self.root.after(0, self.render_register_rails)
+                self.root.after(0, lambda: self.write_terminal_trace(
+                    "Drillscript Sweep: Invariant Parity Checked. Perimeter Shield Locked at 100%."
+                ))
+
+                # Sleep processing cycle to prevent local thread exhaustion
+                time.sleep(1.8)
+
+        # Spawn loop inside a detached non-blocking daemon thread
+        drill_thread = threading.Thread(target=drill_loop_execution, daemon=True)
+        drill_thread.start()

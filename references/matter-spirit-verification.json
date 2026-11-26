@@ -1,0 +1,16 @@
+{
+  "tests_run": 4,
+  "failures": 0,
+  "errors": 0,
+  "browser": {
+    "chapters": 18,
+    "original_image_width": 2752,
+    "viewport_width": 1265,
+    "document_width": 1265,
+    "shared_receipt": 1,
+    "learning_updates_observed": 1,
+    "review": "Recorded in shared learning",
+    "trajectory_polylines": 2
+  },
+  "research": "Representative web study; bibliography topic added to existing metadata loop. No full-book ingestion claimed."
+}

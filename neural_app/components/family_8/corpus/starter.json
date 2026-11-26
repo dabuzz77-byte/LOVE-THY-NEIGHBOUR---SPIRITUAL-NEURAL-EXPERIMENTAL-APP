@@ -1,0 +1,52 @@
+[
+  {
+    "id": "tesla-invention",
+    "title": "My Inventions",
+    "author": "Nikola Tesla",
+    "reference": "I. My Early Life, opening sentence (1919)",
+    "source": "https://en.wikisource.org/wiki/My_Inventions",
+    "text": "The progressive development of man is vitally dependent on invention.",
+    "kind": "quotation",
+    "themes": [
+      "invention"
+    ]
+  },
+  {
+    "id": "matthew-mercy",
+    "title": "Gospel of Matthew",
+    "author": "King James Version translators",
+    "reference": "Matthew 5:7, King James Version",
+    "source": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+    "text": "Blessed are the merciful: for they shall obtain mercy.",
+    "kind": "quotation",
+    "themes": [
+      "compassion"
+    ]
+  },
+  {
+    "id": "matthew-peace",
+    "title": "Gospel of Matthew",
+    "author": "King James Version translators",
+    "reference": "Matthew 5:9, King James Version",
+    "source": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+    "text": "Blessed are the peacemakers: for they shall be called the children of God.",
+    "kind": "quotation",
+    "themes": [
+      "cooperation"
+    ]
+  },
+  {
+    "id": "tao-three-treasures",
+    "title": "Tao Teh King",
+    "author": "Lao-tse; translation by James Legge",
+    "reference": "Chapter 67, paragraph 2; excerpt",
+    "source": "https://www.gutenberg.org/files/216/216-h/216-h.htm",
+    "text": "The first is gentleness; the second is economy; and the third is shrinking from taking precedence of others.",
+    "kind": "quotation",
+    "themes": [
+      "compassion",
+      "stewardship",
+      "humility"
+    ]
+  }
+]

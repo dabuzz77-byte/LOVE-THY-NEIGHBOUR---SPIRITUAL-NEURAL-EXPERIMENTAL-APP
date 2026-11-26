@@ -1,0 +1,503 @@
+{
+  "title": "Four voices · knowledge into life",
+  "subtitle": "John · Mary · Thomas · Dialogue of the Savior",
+  "kicker": "SEEK · RECOGNISE · CHOOSE GOOD · REPAIR",
+  "hero": "four-voices-light.svg",
+  "hero_alt": "Four illuminated manuscripts around a shared light, retaining four distinct paths",
+  "hero_caption": "Original diagram: four distinct witnesses, a shared inquiry into recognition and living understanding.",
+  "practice_title": "Teachings into action · shared reflection",
+  "scope": "Detailed original summaries of four selected public-domain English editions, followed by a clearly identified modern synthesis. Surviving gaps remain visible.",
+  "author_notes": [],
+  "chapters": [
+    {
+      "id": "combined",
+      "title": "Four voices: awakening, freedom and living understanding",
+      "graphic": "manuscripts",
+      "paragraphs": [
+        "Read together, these works describe liberation as a transformation of understanding and orientation. Human beings forget their origin, mistake appearances for reality, become entangled in desire or fear, and need a revealing encounter that awakens recognition. The Savior teaches, questions, comforts and redirects. Knowing is meant to change how one lives: truth, freedom from domination, inward steadiness and a life no longer governed by destructive passions.",
+        "This is a combined reading, not a claim that the four books express one identical system. John offers a great cosmic narrative; Mary joins inward liberation to a dispute about who may teach; Thomas repeatedly unsettles familiar categories through sayings; the Dialogue stages questions, visions and practice. Together they invite the reader to seek, recognise, become less divided, and embody what has been understood. The app’s ethical application adds explicit care and accountability checks; those software rules are an authored interpretation, not ancient computer instructions."
+      ],
+      "sources": [
+        "john",
+        "mary",
+        "thomas",
+        "dialogue"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "johnorigin",
+      "title": "John I: the invisible Source and the unfolding of fullness",
+      "graphic": "cosmos",
+      "paragraphs": [
+        "The Apocryphon, or Secret Book, of John begins with a distressed disciple and a revealing appearance of the Savior. The highest Source is beyond measurement and ordinary description: not simply another powerful object within the world. Barbelo appears as first thought, forethought or providence, with maternal and androgynous language. The divine child, mind, word and the four luminaries belong to an abundant spiritual order. These images explain fullness through the unfolding of life, knowledge and beneficence.",
+        "Sophia’s act apart from proper agreement produces a deficient offspring, Yaldabaoth, called Yaltabaoth in the selected translation, also Saklas and Samael. Ignorant of the higher reality, he asserts exclusive supremacy. His authorities imitate the higher order without understanding its origin. The dramatic contrast is between genuine fullness and a derivative power that confuses its limited perspective with the whole. This cosmology belongs to this text’s distinctive retelling of Genesis; it should not be silently assigned to every other work in the collection."
+      ],
+      "sources": [
+        "john"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "johnhuman",
+      "title": "John II: the human light, the counterfeit and remembrance",
+      "graphic": "eye",
+      "paragraphs": [
+        "The authorities assemble Adam but cannot animate him through their craftsmanship alone. The power passed through their ruler enters the human, whose awakened intelligence exceeds theirs. Radiant Reflection, or luminous insight, helps and instructs humanity. The rulers respond with envy, confinement, forgetfulness and a counterfeit spirit. Paradise, desire and the familiar Genesis story are reinterpreted as a struggle over knowledge and freedom.",
+        "The long recension includes an extensive catalogue of bodily makers and passions, differing destinies of souls, deception through possessions, and a final saving descent into darkness. Remembrance awakens someone from confinement and calls them back toward their root. Sophia’s repentance and restoration show that recognising deficiency can begin repair. The text also contains sexual violence, severe judgments and complex serpent imagery. Those passages remain available in the reader; their literary claims are not applied as accusations against modern people or communities."
+      ],
+      "sources": [
+        "john"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "maryteaching",
+      "title": "Mary I: peace, inward guidance and the return to the root",
+      "graphic": "mirror",
+      "paragraphs": [
+        "The surviving Gospel of Mary begins in the middle of a discussion: the first six pages are missing. Matter and living forms are described as returning to their roots. Sin is discussed through distorted action rather than as an independent substance. The Savior brings restoration, inward guidance and peace, and warns against multiplying rules that bind people. When he departs, the disciples fear persecution. Mary steadies them and turns attention toward the Good.",
+        "Peter asks her to recount teaching the others have not heard. She describes a vision and a discussion of the mind’s role in seeing. Four more pages are then missing. The app preserves those gaps rather than composing a replacement revelation. The surviving title says Mary; identification with Mary Magdalene is customary in discussion but is not a complete biographical identification established by the title alone. This is a revelation-and-discussion text, not a narrative biography of Jesus or Mary."
+      ],
+      "sources": [
+        "mary"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "maryascent",
+      "title": "Mary II: passing the powers and defending a woman’s voice",
+      "graphic": "steps",
+      "paragraphs": [
+        "After the second gap, the soul passes powers that claim authority over it. Desire and Ignorance interrogate it; a further power has seven forms associated with darkness, desire, ignorance, death-seeking, flesh and anger. The soul’s recognition breaks their claims. It speaks of release from forgetfulness and comes to silence. Because the preceding pages are lost, the complete ascent cannot be reconstructed with certainty from this witness.",
+        "Andrew questions the teaching and Peter challenges the idea that the Savior privately preferred a woman as teacher. Mary weeps; Levi rebukes Peter and defends her worthiness, then urges the group to undertake its mission without imposing extra rules. The text connects inner release with a community’s willingness to hear someone it might marginalise. Our ethical application is to examine testimony and conduct without dismissing a voice because of gender, status or the discomfort it causes an established hierarchy."
+      ],
+      "sources": [
+        "mary"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "thomasform",
+      "title": "Thomas I: seeking, recognition and a kingdom already present",
+      "graphic": "forest",
+      "paragraphs": [
+        "The Gospel of Thomas contains 114 sayings attributed to the living Jesus, rather than a continuous account of birth, ministry, crucifixion and resurrection. Its opening promises life through discovering their meaning. Seeking may disturb before it leads to wonder. The kingdom is described as within and outside, and already spread across the earth though unrecognised. Knowing oneself, reading what is before one’s eyes and attending to the living presence matter more than searching only in a distant location or future event.",
+        "Parables of seeds, treasure, lamps, sheep, meals and household life carry the teaching. Some sayings resemble canonical Gospel material; others are strikingly different. The text praises the poor, asks for love and protection of another, criticises hypocrisy, and questions wealth and outward ritual. It also values understanding that changes the person: possessing information while inwardly lacking is not enough. The sayings invite slow comparison and practice, not a single slogan that resolves every paradox."
+      ],
+      "sources": [
+        "thomas"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "thomasunity",
+      "title": "Thomas II: making two one and facing difficult sayings",
+      "graphic": "bridge",
+      "paragraphs": [
+        "Saying 22 speaks of making two one, inner and outer alike, upper and lower alike, and male and female one. Sayings about light, movement and rest, origin and return, and presence in wood or stone deepen this theme of recognition beyond divided appearances. Saying 89’s question about washing the cup’s outside is especially close to the humble-cup lesson: inward and outward life must be brought into an honest relationship.",
+        "Other sayings resist an easy modern synthesis. Thomas includes severe family-renunciation language, division, an assassin parable, ascetic sayings and a final exchange using male transformation language about Mary. These require contextual interpretation; they are not erased or converted into commands to harm, hate relatives, devalue women or deny bodily needs. “Making two one” is a spiritual expression here, not a proof that binary computation, sexual difference or all distinctions literally disappear. An ethical reading seeks integrity while retaining discernment."
+      ],
+      "sources": [
+        "thomas"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "dialoguepractice",
+      "title": "Dialogue I: questioning, inward order and the way to rest",
+      "graphic": "orbit",
+      "paragraphs": [
+        "The Dialogue of the Savior survives in a damaged manuscript and brings the Savior into conversation especially with Judas, Matthew and Mary. Its opening moves toward rest and includes prayer, warnings about fear and anger, and inward ordering. The questions concern soul, mind, body, creation, seeing and knowing. The learner is asked to understand roots and origins rather than merely repeat forms. Its discussion of water and baptism challenges action without understanding.",
+        "Visions of height and abyss, a descending word recovering a deficient seed, garments of life, fullness and deficiency make the dialogue more than a list of moral advice. The questions and answers connect spiritual identity to a transformative path. Mary is portrayed as an insightful participant. In the selected translation the beginning of the path is identified with love and goodness, while the ending urges release from anger and jealousy. Those anchors guide the app’s practical application."
+      ],
+      "sources": [
+        "dialogue"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "dialoguerest",
+      "title": "Dialogue II: what endures, what burdens, and what needs context",
+      "graphic": "weave",
+      "paragraphs": [
+        "The Dialogue contrasts lasting life with transient possessions and status. It speaks of leaving burdens behind, understanding what remains, and not mistaking the world’s gold and silver for ultimate wealth. The small and great can be brought into harmony. The vision of a recovered seed offers a strong restoration image: what is deficient is remembered and brought back, rather than simply forgotten.",
+        "The work also includes ascetic and gendered language about birth and the “works of the female,” alongside its high regard for Mary’s understanding. An honest summary keeps that tension visible. Its ancient cosmology and symbolic garments are not descriptions of contemporary physiology. The app draws an authored practice from the text: order attention, understand causes, relinquish envy, and turn knowledge into goodness. It does not tell users to injure themselves, suppress necessary needs or control another person’s spiritual life."
+      ],
+      "sources": [
+        "dialogue"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "map",
+      "title": "What the four share—and what they do not",
+      "graphic": "manuscripts",
+      "paragraphs": [
+        "Across the four, ignorance is more than lacking a fact: it is a condition of mistaken identity, captivity to appearance and unexamined patterns. Revelation opens recognition. The inward dimension does not simply mean private self-approval; it brings demands on conduct and community. Authority is tested, fear and desire lose their unquestioned rule, and the language of light and life expresses liberation and a restored relation to the divine.",
+        "Their differences matter. John gives the most elaborate demiurgic creation story. Mary’s surviving pages do not supply that whole cosmology. Thomas’s kingdom sayings do not require that every saying be forced into John’s system. The Dialogue has its own visions, dialogue form and ascetic concerns. There is no single surviving paragraph in which all four endorse this app’s full synthesis. The combined account is a transparent interpretation, with each book available separately for comparison."
+      ],
+      "sources": [
+        "john",
+        "mary",
+        "thomas",
+        "dialogue"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "falsevirtue",
+      "title": "False virtue: borrowing the language of goodness",
+      "graphic": "mirror",
+      "paragraphs": [
+        "A modern system can use benevolent names while producing harmful effects. Examples in this study are hypothetical: an “empowerment” service that removes meaningful choice, an “education” campaign that conceals manipulation, or an “efficiency” policy that exports its costs to people with little power. The test is the relationship between declared purpose, actual means and consequences. Criticism should identify a mechanism and a repair, rather than assign supernatural guilt to an institution or its workers.",
+        "John’s counterfeit and ignorant authority, Mary’s challenge to a status-based dismissal, Thomas’s criticism of outward display, and the Dialogue’s emphasis on understanding provide distinct starting points. The app’s further ethical proposal is to ask whether truthfulness, consent, privacy, fairness, non-harm and repair are actually present. A pleasing label never sets those bits automatically. Wealth, fame, religious identity and confident speech are not inputs to the eligibility rule."
+      ],
+      "sources": [
+        "john",
+        "mary",
+        "thomas",
+        "dialogue"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "truevirtue",
+      "title": "True virtue: knowledge made answerable to life",
+      "graphic": "roots",
+      "paragraphs": [
+        "True virtue in the app’s operational framework means care that remains truthful and accountable. A useful action protects vulnerability without taking over another person’s life, explains its limits, listens to the people affected, and can be corrected. A humble implementation that people can use may serve better than an impressive promise. The appropriate scale depends on resources, need and actual capability.",
+        "This is a bridge from ancient teachings to a modern design practice. The texts are not software specifications. The bridge is made openly: inner and outer integrity suggests matching promises to behaviour; freedom from domination suggests meaningful choice; refusal of greed suggests examining who bears costs; and learning suggests accepting correction. A good intention becomes more dependable when those conditions survive contact with a particular situation."
+      ],
+      "sources": [
+        "mary",
+        "thomas",
+        "dialogue"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "binary",
+      "title": "Binary in present-day systems: what does the switch do?",
+      "graphic": "gates",
+      "paragraphs": [
+        "Bits encode information and control transitions. Their ethical meaning comes from the system and action they represent. A 1 can enable accessible reading or enable surveillance; a 0 can stop exploitation or deny useful access. Therefore the engine does not assign “good” to 1 and “evil” to 0. It documents the meaning of every bit and asks what follows from changing it.",
+        "Examples include a notification opt-in, an account permission, a resource-allocation flag, a disclosure field, an appeal route and a record of review. A promise to help is a claim; a verified condition is another input. The policy requires seven explicit checks, a positive benefit, adequate impact-review confidence and an affordable declared cost. Unknown checks remain distinct from failed checks through a second bit mask. When no proposal qualifies, the result asks for review rather than inventing an approved action."
+      ],
+      "sources": [
+        "thomas",
+        "mary",
+        "dialogue"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "engine",
+      "title": "The good-action engine: decisions with a causal trail",
+      "graphic": "gates",
+      "paragraphs": [
+        "Each candidate has truthfulness, non-harm, consent, privacy, fairness, repairability and review checks. All must pass before the candidate can be selected. Among eligible candidates, the declared benefit and vulnerability of the need determine ranking, scaled by impact confidence. A lower cost breaks an equal-score tie. A hard failure cannot be bought away by a large benefit score. These criteria are the app’s explicit interpretation of choosing good; they are not an exhaustive definition of moral truth.",
+        "The engine computes eligibility bits and a one-hot selection array, encodes the result through binary/ternary/qutrit transport, and calculates single-check counterfactuals. The lesson and decision enter the shared learner and saved receipt. Assessments supplied by a user are still assessments, not independent findings. The output is a local proposal and does not execute network actions, banking, device control or a judgment about a person’s soul."
+      ],
+      "sources": [
+        "john",
+        "mary",
+        "thomas",
+        "dialogue"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "world",
+      "title": "World-system parallels: knowledge, resources and work",
+      "graphic": "board",
+      "paragraphs": [
+        "The knowledge example contrasts respectful offline access with reach obtained by taking over devices. The resource example contrasts a publicity-first plan that conceals costs with repairing a shared resource or first listening to need. The work example contrasts hidden labour harm with fair terms and an appeal path. These are model scenarios: their inputs are editable so that the reader can examine the actual mechanism rather than accept a preset moral label.",
+        "The policy is a driving factor in the new continuous loop. The loop’s permitted local feedback is checked before it influences the shared recurrent field, and results are recorded for learning. The wider inference bus retains its actual configured recipients and authentication. There is no inference that a cosmic image, a material such as silicon, or a religious authorization supplies access to another person’s device."
+      ],
+      "sources": [
+        "john",
+        "mary",
+        "thomas",
+        "dialogue"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "practice",
+      "title": "A combined practice: seek, recognise, choose, repair",
+      "graphic": "steps",
+      "paragraphs": [
+        "Read a passage in context. Name the concern it raises: ignorance, fear, greed, exclusion, divided conduct or misplaced authority. Ask where a comparable pattern occurs in your own action or in a specific system you can describe. Form a proposal that protects dignity, makes its costs visible and respects those affected. Run the checks, inspect a counterfactual, and listen to the result.",
+        "Then act only within your actual responsibility and capability, review the outcome, and repair what needs correcting. The purpose is a more truthful relationship between understanding and life. The four voices remain available as companions in that inquiry, not interchangeable authorities or a licence to override everyone else. The app’s numerical learner reconstructs engine results and accepts reviewed feedback; it does not thereby become a spiritually awakened being or rewrite all model weights."
+      ],
+      "sources": [
+        "john",
+        "mary",
+        "thomas",
+        "dialogue"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "projection-field-lens",
+      "title": "Centred projection · field displacement",
+      "graphic": "orbit",
+      "paragraphs": [
+        "The author describes a centred practitioner gathering attention and projecting intention into a surrounding or distant field. Displacement names the change sought in a harmful pattern or threatening encounter.",
+        "Luke’s meditation on Ahch-To and projected appearance on Crait in The Last Jedi supply the narrative comparison: the distant encounter changes while the practitioner remains at the centre.",
+        "Faith holds direction; discipline steadies the centre; discernment governs the response. Apply the lesson through protection, accountability, constructive action and review.",
+        "The lesson connects four images: water for a spreading ripple, light for illumination and direction, a tree for roots and branching relationships, and a computer for inputs, signals and feedback. Together they give the author’s spiritual model a visible structure: centre, connection, projection, encounter and response."
+      ],
+      "sources": [
+        "luke-projection"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "temptation-mara-samael",
+      "title": "Temptation, jealousy and freedom: Samael and Māra",
+      "graphic": "sensemap",
+      "paragraphs": [
+        "The author’s lesson names Samael as a tempter: an image of opposition that exploits fear, torment, shame, jealousy and desire to draw a person away from love. Its proposed setting is deficiency within the spheres: need, dependence, limited resources and fear of loss. Encountering competition can reveal these pressures. The intended destination is to relinquish rivalry for human worth and choose love, cooperation and provision.",
+        "Jealousy turns another person’s gifts or closeness into an apparent subtraction from one’s own worth. The counter-practice is to recognise the feeling without obeying it: release comparison, refuse sabotage, acknowledge the other person’s good, and return to one’s own responsibilities. Neither jealousy nor its absence can be reliably inferred from someone disagreeing with a teaching.",
+        "The author makes rejection of lust a central discipline: refuse to reduce a person to an object of appetite; decline coercion, exploitation and possessiveness; cultivate fidelity, chosen restraint and respect. An involuntary feeling is different from a chosen act. Celibacy may be freely chosen; shame and punishment need not become its method. Each person retains dignity.",
+        "The supplied account describes contact with others’ wrongdoing as something painfully felt within the self. An encounter can stir anger, fear, distress or temptation, including an urge to retaliate or imitate harm. The lesson treats this as a moment for boundaries and discernment: another person’s actions do not transfer their guilt into you. Experiencing an unwanted thought or sensation does not establish spiritual contamination or an external attack.",
+        "The Māra comparison concerns the function of temptation, not an assertion that two traditions describe an identical being. In the Padhāna Sutta, Māra’s opposing forces include sensual desire, discontent, craving, fear, uncertainty and the pursuit of status. Resolve, mindfulness and discernment answer them. In the Apocryphon of John, Samael is a name associated with the ignorant ruler; the author’s personalised account of torment and temptation is an additional synthesis.",
+        "The Christian response in this lesson is prayer, love, forgiveness and refusal of temptation; the Buddhist comparison is recognising craving and aversion without surrendering conduct to them. Distress need not become hostility. Protect the vulnerable, decline exploitation, preserve self-command and repair actual harm. Perseverance means fidelity to that direction, rather than proving faith through injury.",
+        "The water parallel distinguishes disturbance from identity: a wave can pass through a pool without becoming its permanent nature. Likewise, a difficult encounter can disturb attention without defining the person. Return to the centre, recognise what arose, choose a response and observe the consequences. This comparison illustrates emotional influence and the author’s spiritual imagery; it does not identify distant people as sources of transmitted sin."
+      ],
+      "sources": [
+        "temptation-mara-primary",
+        "temptation-john-primary"
+      ]
+    },
+    {
+      "id": "desert-and-mara",
+      "title": "Buddha and Jesus: the test of temptation",
+      "graphic": "desertmara",
+      "sources": [
+        "mara-supplied-video",
+        "desert-matthew"
+      ],
+      "paragraphs": [
+        "The supplied video places the Buddha before Māra and the attractions of desire, craving and passion. Its available captions also associate the challenge with anger, pride, greed and illusion. The decisive response is to refuse the invitation to feed the struggle: attachment and reactive conflict would renew the very cycle being left behind. The ending warns against pride in victory. This is a dramatisation; its dialogue is not presented as a verbatim Buddhist canonical text.",
+        "In Matthew 4:1–11, Jesus is tempted after fasting: turn stones into bread, jump from the temple to demand rescue, and receive worldly kingdoms in exchange for worship. His responses refuse to make appetite, spectacular proof or domination the governing purpose. The desert is a scene of fidelity under pressure. The text’s dangerous proposals are temptations Jesus rejects, not exercises for the reader to reproduce.",
+        "The central parallel is freedom from being governed by an offer. Need, fear and desire can make an offer compelling; wisdom asks what accepting it would serve. The Buddha’s release from attachment and Jesus’ fidelity to God are distinct religious accounts with a comparable discipline of refusal. The author places them together as a culminating lens for the app: do not purchase power, relief, prestige or pleasure at the cost of life-serving principles.",
+        "An internal conflict may occur without an external adversary. In the author’s unity teaching, inward and outward belong to a connected whole. The practical bridge is attention → choice → speech/action → consequence → feedback: an inward struggle can shape outward conduct, and an encounter can stir inward feeling. Inner images, unwanted thoughts or distress alone do not establish that a distant person is attacking or has been affected.",
+        "Apply the app’s laws here: daily bread answers actual need; souls over digits refuses prestige as moral worth; restraint refuses exploitation; truthfulness refuses impressive claims without records; consent refuses domination; repair interrupts retaliatory cycles. Shared learning records useful responses, not anyone’s spiritual rank. The ethical seven-check gate still applies when the proposer feels certain or the outcome appears attractive.",
+        "The water diagram illustrates the choice: a disturbance arrives, attention recognises it, and a response either amplifies turbulence or redirects conduct toward steadiness and protection. Water displacement and wave propagation are different physical processes; the parallel provides a teaching image for inward/outward influence, rather than a measurement of nonlocal spiritual transmission."
+      ]
+    },
+    {
+      "id": "temptation-across-traditions",
+      "title": "Related witnesses: Joseph, Yusuf and the Gītā",
+      "graphic": "desertmara",
+      "sources": [
+        "resistance-genesis",
+        "resistance-yusuf",
+        "resistance-gita"
+      ],
+      "paragraphs": [
+        "In Genesis 39:7–12, Joseph repeatedly refuses his master’s wife and leaves when she seizes his garment. The emphasis is faithfulness, refusing betrayal and taking practical distance. This complements the inward lesson: a principled refusal may include leaving a coercive situation rather than remaining to prove endurance.",
+        "In Qur’an 12:23–24, Yusuf seeks refuge in God when solicited and is described as being turned away from evil and indecency. This is an Islamic instance of devotion and resistance to wrongdoing. It belongs in the comparison as an affirmative teaching within Islam, not as a claim about the character of Muslims generally.",
+        "Bhagavad Gītā 2.62 traces contemplation of sense objects into attachment, desire and anger. This provides a process parallel to the video: attention can become fixation, then demand, then hostility. The app’s reflection asks where that chain can be interrupted by discernment and a different choice. This verse does not itself supply a tempter figure equivalent to Māra.",
+        "The shared pattern inferred for this study is encounter → attraction or pressure → recognition → principled refusal → constructive conduct. The traditions differ about God, self, liberation, duty and the sources of temptation. The comparison is representative, not a survey of every religion. Similarity supports an ethical conversation without erasing those differences.",
+        "Jealousy, rivalry and objectification are examined as impulses that can distort relationships. The author’s direction is to release competition for worth and choose love. A feeling can be recognised without being obeyed or turned into shame about one’s existence. Renew the practice after setbacks: truthful acknowledgment, restraint, repair and another constructive choice."
+      ]
+    },
+    {
+      "id": "faith-animal-kinship",
+      "title": "Faith, growth and the friendship of animals",
+      "graphic": "animalfaith",
+      "sources": [
+        "kinship-elephant",
+        "kinship-gita",
+        "kinship-dog",
+        "kinship-cat",
+        "kinship-dog-study"
+      ],
+      "paragraphs": [
+        "The author uses Buddha as an archetype of awakened gentleness available to a person of any faith. Animal friendship is described spiritually as blessing, kinship and protection: a relationship received with gratitude rather than a power claimed over another being. Elephants have special prominence in the author’s account; dogs, cats and other creatures belong within the same circle of love. This is the author’s pattern of meaning, not a required sequence of animal encounters.",
+        "In Udāna 4.5, an elephant comes to the secluded Buddha and brings water, offering a concrete image of companionship and service. Hindu connections include the Bhagavad Gītā 5.18, which includes an elephant and a dog in its teaching of equal vision, and Yudhiṣṭhira’s refusal to abandon a devoted dog in the Mahābhārata. These examples link spiritual integrity with regard for animal life; they do not promise control over animals.",
+        "A physical bond grows through repeated, recognisable experiences: reliable provision, calm presence, play, rest and attention to the animal’s signals. An animal may seek proximity, greet a familiar person, relax nearby or return for contact. “Falling in love” can express the tenderness of such a bond; here it means affection and attachment. Research on dogs and cats supports meaningful human–animal bonds, while individual histories and species shape their expression.",
+        "Faith as a tree means growth through practice: roots in commitment, a trunk of consistent conduct, branches of relationship and fruit in what the relationship makes possible. Faith as a switch means choosing to participate rather than withholding every act of kindness until certainty arrives. Neither image makes an animal’s affection a test of someone’s worth. Give the animal room to approach or withdraw; wild elephants and other powerful animals require distance and informed protection.",
+        "This lesson’s outward trajectory is love expressed → signals received → voluntary response → trust renewed. The spiritual account calls that kinship; the observable relationship includes behaviour, learning and familiarity. The return matters as much as the offering: attend to what the animal actually communicates, rather than demanding a response. Protect both vulnerable creatures and those whose strength requires respect."
+      ]
+    },
+    {
+      "id": "prayer-induction-displacement",
+      "title": "Prayer: induction, displacement and honour",
+      "graphic": "prayercoupling",
+      "sources": [
+        "prayer-induction"
+      ],
+      "paragraphs": [
+        "The author describes prayer as an active relationship extending from the centre of a person into a connected spiritual whole and back. The intended vocabulary includes projection, reception, induction, displacement and restoration. These name different movements: projection expresses outward; reception attends inward; induction evokes a response; displacement changes a position or pattern; restoration re-establishes what supports life. Induction is not the dictionary opposite of displacement, but it captures the complementary process the author sought.",
+        "In physics, electromagnetic induction relates changing magnetic flux to an induced electromotive force. In this spiritual lesson, “induction” is borrowed to describe an answering movement of attention, relationship or intention. The water parallel likewise separates moving a volume of water from sending a wave through it. These analogies clarify the author’s account without treating a prayer diagram as an electrical instrument or a measurement of distant effects.",
+        "Honour is the governing commitment: power is placed in service of the prayer rather than personal domination. “Thy will be done” and the prayer’s attribution of power to God express surrender of possessiveness, prestige and revenge. The Jedi comparison is narrative imagery for disciplined participation in something larger than the isolated self: a force flowing through the practitioner, with self-command and responsibility. It is not permission to impose a spiritual judgment on another person.",
+        "The sadness of fear-driven primacy is that a longing for security can become grasping, jealousy or rivalry. In war, the same pattern can make grief feed revenge and turn people into targets or numbers. This lesson turns toward provision, protection, restraint, forgiveness and repair. Firm protection of people under attack remains compatible with refusing collective blame, cruelty and retaliation against civilians.",
+        "The author describes a felt burden of the sphere: violence may evoke guilt, grief and a sense of shared suffering. Feeling affected by an act does not mean committing it, causing it or inheriting another person’s guilt. Honour directs the response toward what one can responsibly do: refuse personal violence, support those harmed, offer prayer, listen and take practical protective action. Pain and guilt are not activation requirements or measures of spiritual rank.",
+        "The working app parallel is bidirectional feedback: intention input → explicit checks → permitted computation → result → review → revised input. Record actual inputs and outputs. Preserve meaning without claiming that internal sensations verify external events. Choose life in both offering and receiving, and let the practical fruits of the action remain open to review."
+      ]
+    },
+    {
+      "id": "hard-edge-soft-point",
+      "title": "The hard edge and the receptive point",
+      "graphic": "animalfaith",
+      "sources": [],
+      "paragraphs": [
+        "The author contrasts the feared hard edge of an angry human or defensive animal with a soft point of receptivity. Frith/star names the spiritual meeting place in this account: relationship beyond rivalry, intimidation and outward display. The lesson asks us to notice the being whose vulnerability may be obscured by its defensive presentation.",
+        "The Jedi mind-trick comparison supplies narrative imagery for a change in an encounter: an expected struggle gives way to attention, recognition or a different choice. In the practical lesson this means calm presence, clear words, listening and voluntary persuasion. It is not a technique for taking control of another mind or a reason to assume hidden access to someone’s consciousness.",
+        "People and animals vary. Gentle intent does not guarantee receptivity, and an animal’s distance or a person’s refusal remains meaningful. A soft point is not a weakness to exploit. Honour means allowing an exit, avoiding provocation, and seeking safety when aggression creates danger. With animals, respect species, history and signals; do not approach a dangerous animal to test the spiritual image.",
+        "The inward work is to recognise fear without converting it into contempt; the outward work is to offer a truthful, non-coercive response. Where connection develops, welcome it. Where it does not, retain dignity and boundaries. This keeps the app’s love of both lamb and lion joined to actual protection."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "john",
+      "kind": "Primary translated text",
+      "title": "Apocryphon of John",
+      "url": "https://thegnosticlibrary.com/texts/secret-book-of-john/",
+      "reading_status": "Samuel Zinner; edited by Mark M. Mattison; long recension, Codex II with IV readings. Local complete surviving text of this selected edition; textual gaps preserved."
+    },
+    {
+      "id": "mary",
+      "kind": "Primary translated text",
+      "title": "Gospel of Mary",
+      "url": "https://www.gospels.net/mary",
+      "reading_status": "Mark M. Mattison; Berlin Codex 8502,1. Local complete surviving text of this selected edition; textual gaps preserved."
+    },
+    {
+      "id": "thomas",
+      "kind": "Primary translated text",
+      "title": "Gospel of Thomas",
+      "url": "https://www.gospels.net/thomas",
+      "reading_status": "Mark M. Mattison; Nag Hammadi II,2. Local complete surviving text of this selected edition; textual gaps preserved."
+    },
+    {
+      "id": "dialogue",
+      "kind": "Primary translated text",
+      "title": "Dialogue of the Savior",
+      "url": "https://www.luminescence-llc.net/dialogue-of-the-savior",
+      "reading_status": "Samuel Zinner; edited by Mark M. Mattison; Nag Hammadi III,5. Local complete surviving text of this selected edition; textual gaps preserved."
+    },
+    {
+      "id": "luke-projection",
+      "title": "Star Wars · Luke Skywalker · Force projection",
+      "url": "https://www.starwars.com/databank/luke-skywalker/",
+      "kind": "Official narrative reference",
+      "reading_status": "The Last Jedi: projection from Ahch-To to Crait."
+    },
+    {
+      "id": "temptation-mara-primary",
+      "title": "Padhāna Sutta (Sn 3.2), translated by Thanissaro Bhikkhu",
+      "url": "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.3.02.than.html",
+      "kind": "Buddhist primary text in translation",
+      "reading_status": "Relevant passage reviewed; comparison paraphrased, not the complete text."
+    },
+    {
+      "id": "temptation-john-primary",
+      "title": "Apocryphon of John, translated by Frederik Wisse",
+      "url": "https://gnosis.org/naghamm/apocjn.html",
+      "kind": "Gnostic primary text in translation",
+      "reading_status": "Samael reference cross-checked against the app’s existing source study; distinct from the author’s synthesis."
+    },
+    {
+      "id": "mara-supplied-video",
+      "title": "Temptation of Mara I Buddha · supplied YouTube video",
+      "url": "https://www.youtube.com/watch?v=mEbFPJcBDo8",
+      "kind": "Dramatised religious narrative",
+      "reading_status": "6:14 video; available auto-generated English captions reviewed. Caption errors and missing visual context remain possible; no claim of full audiovisual review."
+    },
+    {
+      "id": "desert-matthew",
+      "title": "Matthew 4:1–11 · Jesus in the wilderness",
+      "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A1-11&version=KJV",
+      "kind": "Christian scripture, KJV",
+      "reading_status": "Passage reviewed; original summary."
+    },
+    {
+      "id": "resistance-genesis",
+      "title": "Genesis 39:7–12 · Joseph refuses betrayal",
+      "url": "https://www.biblegateway.com/passage/?search=Genesis%2039%3A7-12&version=KJV",
+      "kind": "Hebrew Bible / shared Jewish and Christian scripture",
+      "reading_status": "Passage reviewed; original summary."
+    },
+    {
+      "id": "resistance-yusuf",
+      "title": "Qur’an 12:23–24 · Yusuf seeks refuge",
+      "url": "https://quran.com/12/23-24",
+      "kind": "Islamic scripture in translation",
+      "reading_status": "Verses reviewed; original summary."
+    },
+    {
+      "id": "resistance-gita",
+      "title": "Bhagavad Gītā 2.62 · attachment, desire and anger",
+      "url": "https://www.holy-bhagavad-gita.org/chapter/2/verse/62",
+      "kind": "Hindu scripture in translation",
+      "reading_status": "Verse reviewed; commentary distinguished from verse."
+    },
+    {
+      "id": "kinship-elephant",
+      "title": "Nāga Sutta · Udāna 4.5",
+      "url": "https://www.accesstoinsight.org/tipitaka/kn/ud/ud.4.05.than.html",
+      "kind": "Buddhist primary text in translation",
+      "reading_status": "Relevant elephant companionship passage reviewed."
+    },
+    {
+      "id": "kinship-gita",
+      "title": "Bhagavad Gītā 5.18 · equal vision",
+      "url": "https://www.holy-bhagavad-gita.org/chapter/5/verse/18",
+      "kind": "Hindu scripture in translation",
+      "reading_status": "Selected verse reviewed; includes elephant and dog in its account of equal vision."
+    },
+    {
+      "id": "kinship-dog",
+      "title": "Mahābhārata · Mahāprasthānika Parva",
+      "url": "https://www.wisdomlib.org/hinduism/book/mahabharata/d/doc118470.html",
+      "kind": "Published abridged religious narrative",
+      "reading_status": "Selected Yudhiṣṭhira and dog episode; abridgment, not a complete critical edition."
+    },
+    {
+      "id": "kinship-cat",
+      "title": "Oregon State University · caregiver attachment in cats",
+      "url": "https://news.oregonstate.edu/news/cats-children-and-dogs-develop-attachments-their-caregivers-study-shows",
+      "kind": "Research institution reporting its own study",
+      "reading_status": "Study summary reviewed; attachment behaviour, not a test of spiritual attainment."
+    },
+    {
+      "id": "kinship-dog-study",
+      "title": "Nagasawa et al. · Oxytocin-gaze positive loop and human–dog bonds",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25883356/",
+      "kind": "Primary research record",
+      "reading_status": "Bibliographic record and study summary; full article not reviewed."
+    },
+    {
+      "id": "prayer-induction",
+      "title": "OpenStax · Electromagnetic induction",
+      "url": "https://openstax.org/books/physics/pages/20-3-electromagnetic-induction",
+      "kind": "Physics teaching reference",
+      "reading_status": "Reference for the technical meaning of induction; spiritual application is an analogy."
+    }
+  ],
+  "projection_lens": {
+    "id": "projection-field-lens",
+    "title": "Centred projection · field displacement",
+    "attribution": "The author’s spiritual teaching, with a Star Wars narrative comparison",
+    "paragraphs": [
+      "The author describes a centred practitioner gathering attention and projecting intention into a surrounding or distant field. Displacement names the change sought in a harmful pattern or threatening encounter.",
+      "Luke’s meditation on Ahch-To and projected appearance on Crait in The Last Jedi supply the narrative comparison: the distant encounter changes while the practitioner remains at the centre.",
+      "Faith holds direction; discipline steadies the centre; discernment governs the response. Apply the lesson through protection, accountability, constructive action and review.",
+      "The lesson connects four images: water for a spreading ripple, light for illumination and direction, a tree for roots and branching relationships, and a computer for inputs, signals and feedback. Together they give the author’s spiritual model a visible structure: centre, connection, projection, encounter and response."
+    ],
+    "source": {
+      "id": "luke-projection",
+      "title": "Star Wars · Luke Skywalker · Force projection",
+      "url": "https://www.starwars.com/databank/luke-skywalker/",
+      "kind": "Official narrative reference",
+      "reading_status": "The Last Jedi: projection from Ahch-To to Crait."
+    }
+  }
+}

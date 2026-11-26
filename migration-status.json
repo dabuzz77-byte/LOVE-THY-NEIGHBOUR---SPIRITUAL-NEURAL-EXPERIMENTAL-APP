@@ -1,0 +1,516 @@
+{
+  "app": "Neural App",
+  "complete_migration": false,
+  "summary": "All 45 original sections are integrated into the new app with their retained logic, model states and graphics. Local acceptance checks and live Llama/Gemini connection tests pass. Signed-in browser capture and exchange with another physical LAN device remain unverified.",
+  "integrated": [
+    "Lossless binary/ternary/balanced-ternary/Fourier-qutrit transport",
+    "Shared scheduler and bounded commands",
+    "Actual MLP learning and checkpoint import",
+    "Original recurrent field and feedback",
+    "Flux calculation libraries",
+    "Learned engine-result reconstruction and reviewed preferences",
+    "Profile gradient optimizer",
+    "Hydrogen procedural scenes",
+    "33 reference engines",
+    "36 inference engine definitions",
+    "Original scenario neural model weights",
+    "Provider adapters and copied searchable conversation history",
+    "Built-in curriculum",
+    "Local HTTP, authenticated TCP and UDP discovery",
+    "Continuation of the original Flux database model from 19,887 prior updates",
+    "22 windowless Java section libraries and their original custom drawings",
+    "Original Python control definitions rendered as shared desktop sections",
+    "Eight original web interfaces using scoped DOM and shared request handlers",
+    "Original Flux control studio and complete custom drawing library",
+    "48 original image/font files copied with matching hashes",
+    "60 Observatory catalogue calculations verified in-process",
+    "36 inference resident engines without their former worker process",
+    "Named shared-learning inputs for all 45 original sections",
+    "Original scenario, passage-map and activity-capture interfaces",
+    "Approved real PowerShell execution and streamed command events",
+    "Shared background Flux and inference learning/research schedules",
+    "Native training forms formerly held inside scroll canvases",
+    "Original keyboard shortcuts, command history, clipboard and double-click controls",
+    "App-owned source catalogues and independent section state",
+    "Verified recovery of six saved Observatory journal events",
+    "One calculation lane and two I/O lanes, each with bounded queues",
+    "Cooperative source loops preserve local state and wait without occupying workers",
+    "Original Core/Hydrogen processing and shared learning continue without drawing requests",
+    "Unified encrypted provider keys and editable model selectors",
+    "AI workspace source reads, revisioned edits, notes, linked workflows and bounded explicit experiments",
+    "App-owned Java rebuild tool for future source changes"
+  ],
+  "remaining": [
+    "Signed-in browser capture against the user’s configured browser",
+    "Physical LAN exchange with another device",
+    "Live replies from providers or model variants that are not configured/tested here"
+  ],
+  "original_panel_counts": {
+    "integrated": 45
+  },
+  "panels": [
+    {
+      "id": "observatory",
+      "name": "Postscarcity Observatory",
+      "kind": "web",
+      "status": "integrated",
+      "detail": "Original interface and 94-module catalogue are retained in-process. Sixty local source calculations pass. Coalesced scheduling and cross-section delivery replace separate app workers; saved journal integrity verified.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "inference",
+      "name": "Inference Observatory",
+      "kind": "web",
+      "status": "integrated",
+      "detail": "All 36 source definitions and resident engines use the shared process. Original constructors/method-call forms, cryptography, prompt cycles, catalogue navigation and direct Observatory requests are restored.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "genesis",
+      "name": "AI Genesis Node",
+      "kind": "node",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "matrix",
+      "name": "Matrix Bus",
+      "kind": "node",
+      "status": "integrated",
+      "detail": "Approved Windows PowerShell console with streamed output, exit status, history, cancellation, original two-minute / 1 MiB limits and resumable events. End-to-end desktop command verified.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "academy",
+      "name": "Force Academy",
+      "kind": "html",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "neural-lab",
+      "name": "Neural Lab",
+      "kind": "web",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "atelier",
+      "name": "Neural Atelier",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Field logic and drawings are integrated. Feedback oscillator runs directly, built-in app controls navigate within Neural App, and selected custom scripts use the approved common command runner.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "hydrogen",
+      "name": "Hydrogen Mesh",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original pipelines, signal generation, packet processing and procedural scenes run in-process. Photographic Earth/solar and volumetric hydrogen graphics are available; built-in app navigation uses owned source copies.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "godmind",
+      "name": "Godmind Mesh",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original saved neural session, native training controls, processing forms and graphics are integrated. Scrollable forms and background learning are restored.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "carrier",
+      "name": "Carrier Lab",
+      "kind": "web",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "core",
+      "name": "Core Interaction",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "backbone",
+      "name": "Virtue Backbone",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "ambient",
+      "name": "Ambient Field",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "injector",
+      "name": "Microcosmic Injector",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "creator",
+      "name": "Software Creation",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "unified-neural",
+      "name": "Original Neural Engine",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original network controls, topology/data selectors, interactive graphics, learning and session operations are integrated. Native forms and Space/Escape shortcuts verified.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "dualrail",
+      "name": "Dual-Rail Core",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "flux",
+      "name": "Flux Bus v2",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original 27-page studio, custom drawings, pipeline and continuous calculation/learning engines share the runtime. Pipeline completion while its screen is hidden is verified.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "allprev",
+      "name": "Expanded Unified Engine",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "godmind-java",
+      "name": "GodMind Visualizer",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "lan",
+      "name": "LAN Observatory",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "localbus",
+      "name": "Local Inference Bus",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "manifold",
+      "name": "Manifold",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "planetary",
+      "name": "Planetary Resonance",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "quantum-browser",
+      "name": "Quantum Browser Bus",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "quantum-mind",
+      "name": "Quantum Mind Console",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-run",
+      "name": "Main Dashboard Frame",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-run6gridkernel",
+      "name": "Six Grid Kernel Flux Workbench",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-run7.8resonance",
+      "name": "Resonance Flux Dashboard",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-runbackbone",
+      "name": "Substrate Network Bus",
+      "kind": "java-console",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-runemcorbit",
+      "name": "Cyclic Flux Dashboard",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-rungen",
+      "name": "Virtue Generation Dashboard",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-runjavaflux",
+      "name": "System Java Flux Dashboard",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-runkernelgrid",
+      "name": "Kernel Cpu Flux Workbench",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-runlivegrid",
+      "name": "Live Translation Workbench",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-runoperaflux",
+      "name": "Opera Flux Workbench",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-runscriptfluxbus",
+      "name": "Script Flux Bus Workbench",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-runtranslator",
+      "name": "Translation Workbench",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "beacon-rununmod",
+      "name": "Carrier Wave Inference Dashboard",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "scanner",
+      "name": "AI Activity Scanner",
+      "kind": "console",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "backbone-worker",
+      "name": "Backbone Text Worker",
+      "kind": "console",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "monad",
+      "name": "Monad Matrix",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "scenario-hub",
+      "name": "Postscarcity Scenario Hub",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "scarcity-simulation",
+      "name": "Postscarcity Simulation",
+      "kind": "native",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    },
+    {
+      "id": "system-grid",
+      "name": "System Grid Explorer",
+      "kind": "java",
+      "status": "integrated",
+      "detail": "Original section controls, retained calculation logic and graphics run inside the shared app. Desktop opening verified; external connections require their configured services.",
+      "controls": "integrated",
+      "graphics": "integrated"
+    }
+  ],
+  "section_controls_integrated": 45,
+  "full_parity_verified": false,
+  "integration_complete": true,
+  "approval_blocked": false,
+  "approved_command_console": true,
+  "known_runtime_limits": [
+    "User-entered commands and selected custom worker scripts share one command session with a two-minute timeout and a 1 MiB output limit.",
+    "Original desktop layouts are rendered as sections; native app windows are not created.",
+    "Fourier-qutrit encoding is classical complex arithmetic."
+  ],
+  "verification": {
+    "tests": {
+      "total": 53,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1,
+      "passed": 52
+    },
+    "desktop": {
+      "sections": 45,
+      "controls": 959,
+      "canvases": 31,
+      "images": 90,
+      "script_errors": 0,
+      "frames": 0
+    },
+    "workflows": {
+      "native_file_dialog_api": true,
+      "matrix_powershell_ui": true,
+      "matrix_errors": [],
+      "scoped_inline_navigation": true,
+      "original_inference_form": true,
+      "inference_errors": [],
+      "global_route_stayed_in_app": true,
+      "frames": 0,
+      "shared_scheduler_alive": true,
+      "passed": true
+    },
+    "live_providers": {
+      "gemini": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "ok": true,
+        "expected_marker": true,
+        "elapsed_seconds": 3.03,
+        "reply": "PARITY_OK"
+      },
+      "llama": {
+        "provider": "llama",
+        "model": "llama3:latest",
+        "ok": true,
+        "expected_marker": true,
+        "elapsed_seconds": 29.05,
+        "reply": "PARITY_OK"
+      }
+    }
+  },
+  "java_rebuild_verified": true
+}

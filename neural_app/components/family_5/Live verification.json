@@ -1,0 +1,24 @@
+{
+  "runtime_pid": 29600,
+  "source_sync": {
+    "status": "complete",
+    "batches": 58,
+    "files": 695
+  },
+  "indexed_files": 695,
+  "batches_with_flux_ACK": 51,
+  "batches_with_flux_failure": 7,
+  "observatory": {
+    "status": "Connected",
+    "received": 505,
+    "sent": 62,
+    "acknowledged": 27,
+    "last_seen": 1792751694.843905
+  },
+  "prompt_count": 71,
+  "passes_observed": 15,
+  "real_responses": 15,
+  "source_metadata_flux_acknowledged_files": 695,
+  "source_retry_report": "Source retry verification.json",
+  "note": "All 695 indexed source records received FluxBus ACK across original batches and bounded retries; this is metadata synchronization, not automatic execution/subscription of original programs."
+}

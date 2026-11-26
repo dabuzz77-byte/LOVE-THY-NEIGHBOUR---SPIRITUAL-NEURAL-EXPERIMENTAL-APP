@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Neural App · Opera Work Bridge",
+  "version": "1.1.0",
+  "description": "Bidirectional paired local Opera and Neural App bridge with selected sites and optional tab inventory.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "alarms"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1/*"
+  ],
+  "optional_host_permissions": [
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "options.html",
+    "default_title": "Neural work bridge"
+  },
+  "options_page": "options.html",
+  "optional_permissions": [
+    "tabs"
+  ]
+}

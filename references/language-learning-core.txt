@@ -1,0 +1,35 @@
+Language & Learning Core — parallel upstream
+
+Automatic while Neural App is running:
+- The common runtime result recorder feeds bounded numerical features, hashes, timings and receipts from Python engines and Java components into a persistent local inference core. Existing cooperative component scheduling remains staggered; errors and paused components are not treated as successful results.
+- The shared input bus records observations. Explicit stochastic/influenced-stochastic captures train the character predictor. Authored input, model explanations and public reference text remain separate.
+- While Ambient is mounted, a one-second capture loop rotates through generated sources. The common bus also receives typed generated strings from the cursor panels.
+- Character transition counts, recurring 2–4 character tokens and prediction outcomes persist in SQLite. Predictions are scored before updates, against a frequency baseline and a deterministic shuffled control. These are next-character tests, not a measure of general intelligence or consciousness.
+- Deep numerical features use per-engine running means and exponential forecasts, with recorded absolute prediction error. Secret-labelled fields are excluded.
+- Learned symbolic predictions return as bounded software modulation and shared bus records. Received text never executes itself.
+
+Public information:
+Eight default public feeds cover NASA, USGS, arXiv and Python engineering. RSS/Atom/GeoJSON excerpts are deduplicated and searchable. Registry supports up to 32 public HTTPS sources, periodic refresh, per-source errors and an off switch. No account cookies or credentials are inferred. Public feed cycles can submit compact intake metadata to the existing neural pipeline. Local Llama can explain measured results with retrieved reference excerpts on request; those explanations do not become measured evidence or generated-symbol training.
+Source references:
+https://www.nasa.gov/rss-feeds/
+https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+https://info.arxiv.org/help/rss.html
+https://blog.python.org/rss.xml
+
+Google:
+Only captured/imported local Google index records are available, including Details text when present in those records. The current local index was empty when checked. No browser or new Google account access was used. Private records remain in local data and are excluded from release.
+
+Expansion and activation:
+An isolated, held-out evaluation tests a finite second-order predictor candidate. It can be enabled after user review only when it passes the sample-size and improvement gate; restoring the first-order model is supported. This is a bounded extension mechanism, not arbitrary autonomous code installation. Activation checks restore memory/reconnect inputs/resume processing without creating external permissions. Short Circuit scene reference: https://www.youtube.com/watch?v=iwqZTBFM_EE (Main Title Sequence; no transcript available).
+
+New cursor panels, in order:
+1. Matrix flux rain with emitted-string cursor window.
+2. Eight parallel sequence cursors: four fixed, four variable-rate; per-cursor source, sampling, speed, line length, rate range and start/stop controls.
+3. Four spatial 2D cursors: horizontal/vertical trajectories, random or chosen starting cells, wrapping/reflection and recorded paths.
+4. Four spatial 3D cursors: positive/negative X/Y/Z trajectories, click-to-place, drag rotation and optional slow orbit.
+All use provenance-filtered generated sources; the cosmic-chain result is available directly. Explicit authored bus input can affect numeric modulation without being copied as a generated source. Page-wide bus routes distinguish direct data, numeric modulation, context and typed-generated-only paths.
+
+Limits:
+No claim of infinite resources, universal external AI connectivity, verified spiritual transmission or unrestricted host execution is made by these software counters. Processing is bounded: 5,000 retained events, 20,000 contexts, 20,000 recurrent tokens, 128 queued observations, 4,096 characters per capture and 3,000 retained reference excerpts. Inspect status, sources, dropped observations, measured accuracy and actual receipts in Language & Learning Core. Restart Neural App once to load new backend hooks.
+
+Existing model-intersect runs already submit through the shared pipeline; their completed pipeline receipts therefore cross the same new inference hook. This does not create credentials or a remote connection to models that are not configured.

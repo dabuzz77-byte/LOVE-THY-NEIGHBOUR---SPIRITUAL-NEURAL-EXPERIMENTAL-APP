@@ -1,0 +1,7 @@
+{
+  "target_hz": 7.38,
+  "measured_hz": 7.378669209879725,
+  "pulses_received": 32,
+  "skipped": 0,
+  "p95_lateness_ms": 14.749334950465709
+}

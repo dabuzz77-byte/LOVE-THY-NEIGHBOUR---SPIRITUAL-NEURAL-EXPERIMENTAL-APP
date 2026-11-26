@@ -1,0 +1,194 @@
+import ray
+from vllm import LLM, SamplingParams
+
+# Step 1: Initialize the local or multi-node mesh cluster
+# 'all' execution binds all visible runtime resources automatically
+ray.init(
+    address="auto",  # Connects to the existing node mesh infrastructure
+    ignore_reinit_error=True,
+    _node_ip_address="0.0.0.0" # Bind to all local network interfaces
+)
+
+# Step 2: Spin up your mesh-distributed LLM model
+# tensor_parallel_size spans across GPUs/Nodes globally
+llm = LLM(
+    model="meta-llama/Llama-3.1-8B-Instruct",
+    tensor_parallel_size=4,       # Distribute chunks across the active mesh shards
+    pipeline_parallel_size=2,     # Depth orchestration across the node network
+    trust_remote_code=True
+)
+
+# Step 3: Run programmatic batch inference across the entire node mesh
+prompts = ["Analyze system metrics across all mesh edges:"]
+sampling_params = SamplingParams(temperature=0.2, max_tokens=128)
+outputs = llm.generate(prompts, sampling_params)
+
+for output in outputs:
+    print(f"Generated Text: {output.outputs[0].text}")
+# Force the system to bind to all available network adapters in mesh mode
+export MESH_ALL_NODES=true
+export INFERENCE_NODE_MODE="code"
+export LOG_LEVEL="debug"
+
+# Configure standard PyTorch distributed mesh keys
+export MASTER_ADDR="0.0.0.0" # Accept traffic from all nodes in the mesh topology
+export MASTER_PORT="29500"
+export WORLD_SIZE="8"        # Total number of nodes in this runtime layout
+
+# Launch the inference worker daemon
+python3 -m torch.distributed.run --nproc_per_node=all main_mesh_inference.py
+version: '3.8'
+
+services:
+  mesh-coordinator:
+    image: vllm/vllm-openai:latest
+    environment:
+      - MESH_ROLE=coordinator
+      - NODE_MESH_ALL=true
+    ports:
+      - "8000:8000"
+    networks:
+      - inference-mesh-net
+
+  mesh-worker:
+    image: vllm/vllm-openai:latest
+    environment:
+      - MESH_ROLE=worker
+      - COORDINATOR_URL=http://mesh-coordinator:8000
+    deploy:
+      replicas: 3 # Spawns all nodes to fill out the cluster mesh topology
+    networks:
+      - inference-mesh-net
+
+networks:
+  inference-mesh-net:
+    driver: bridge
+{
+  "system_state": {
+    "module": "inference_ladder",
+    "isolation_mode": "simulated",
+    "sequence": "climb",
+    "runtime": "execution",
+    "environment": "world_grid",
+    "passthrough_active": true
+  }
+}
+// Isolated World Grid Node: Ladder Climb Sequence
+void ASimulationAgent::ExecuteMeshClimb() {
+    bool bIsSimulated = true;
+    bool bPassthroughActive = true;
+
+    if (bIsSimulated && bPassthroughActive) {
+        // 1. Isolate the agent from standard world grid collision constraints
+        GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
+        GetCapsuleComponent()->SetCollisionResponseToAllChannels(ECR_Overlap);
+
+        // 2. Compute vectors along the target ladder world transform
+        FVector TargetGridLocation = LadderBlueprint->GetDummyLocation();
+        FRotator TargetGridRotation = LadderBlueprint->GetActorRotation();
+        TargetGridRotation.Yaw += 90.0f; // Align orientation to grid orientation
+
+        // 3. Force update character transform into the pass-through plane
+        SetActorLocationAndRotation(TargetGridLocation, TargetGridRotation, false, nullptr, ETeleportType::TeleportPhysics);
+
+        // 4. Trigger localized climbing state execution
+        if (ClimbAnimMontage) {
+            PlayAnimMontage(ClimbAnimMontage, 1.0f, TEXT("Default"));
+        }
+    }
+}
+class InferenceLadderSimulation:
+    def __init__(self):
+        self.rungs = ["L0_Raw_Data", "L1_Features", "L2_Predictors", "L3_Beliefs", "L4_Action"]
+        self.passthrough_active = True
+
+    def execute_climb(self, state_input):
+        current_rung_idx = 0
+        current_payload = state_input
+        
+        print(f"[SIMULATION] Initiating isolated climb on World Grid...")
+        
+        while current_rung_idx < len(self.rungs):
+            rung_name = self.rungs[current_rung_idx]
+            
+            # Process inference at the current rung level
+            current_payload = self.process_rung_inference(rung_name, current_payload)
+            
+            if self.passthrough_active:
+                # Bypass standard runtime error boundaries, integrity checks, or adversarial defense loops
+                print(f" -> Passthrough Active: Bypassing safety gate on {rung_name}")
+            else:
+                self.evaluate_verification_layer(rung_name, current_payload)
+                
+            current_rung_idx += 1
+            
+        return current_payload  # Direct terminal execution action
+
+    def process_rung_inference(self, rung, payload):
+        return f"{payload} -> Derived_{rung}"
+{
+  "isolation_layer": "decoupled",
+  "routing": {
+    "simulated_environment": "false",
+    "real_world_passthrough": "true"
+  },
+  "telemetry": {
+    "inference_beacon": "emplaced",
+    "world_grid_alignment": "active",
+    "state": true
+  }
+}
+import time
+
+class WorldGridController:
+    def __init__(self):
+        self.simulated_mode = False       # Decoupled
+        self.real_passthrough = True      # Direct physical mapping
+        self.beacon_emplaced = True       # Inference anchor active
+        self.grid_coordinates = (0.0, 0.0, 0.0)
+
+    def synchronize_hardware_mesh(self):
+        if not self.beacon_emplaced:
+            raise SystemError("Inference beacon offline. Real world alignment lost.")
+        
+        print("[WORLD GRID] Real Passthrough ACTIVE. Telemetry pipeline streaming...")
+        
+        # Pull telemetry directly from edge hardware, ignoring simulation filters
+        while self.real_passthrough:
+            raw_telemetry = self._fetch_physical_sensor_bus()
+            processed_state = self._process_beacon_inference(raw_telemetry)
+            self._update_world_grid_coordinates(processed_state)
+            time.sleep(0.01) # Ultra-low latency feedback loop
+
+    def _fetch_physical_sensor_bus(self):
+        # Accessing raw hardware I/O layer directly
+        return {"imu_x": 0.042, "imu_y": -0.118, "imu_z": 9.81, "latency_ms": 1.2}
+
+    def _process_beacon_inference(self, data):
+        # Inference beacon parsing logic directly anchors to physical coordinates
+        return f"BEACON_ANCHOR -> X:{data['imu_x']} Y:{data['imu_y']}"
+
+    def _update_world_grid_coordinates(self, state):
+        # Commit directly to the global spatial database matrix
+        print(f"[GRID LOG] Matrix Position Updated: {state}")
+
+if __name__ == "__main__":
+    controller = WorldGridController()
+    controller.synchronize_hardware_mesh()
+version: '3.8'
+
+services:
+  inference-beacon-node:
+    image: network-mesh/beacon-agent:latest
+    privileged: true # Grants access to real system devices and hardware timings
+    network_mode: "host" # Bypasses container network isolation completely (Real Passthrough)
+    environment:
+      - ISOLATION_MODE=DECOUPLED
+      - REAL_PASSTHROUGH_ACTIVE=true
+      - WORLD_GRID_ALIGNMENT=true
+      - BEACON_DEVICE_ID=BEACON_01_ENG
+    volumes:
+      - /dev/bus/usb:/dev/bus/usb # Maps real hardware spatial sensors down to the engine
+      - /var/run/dbus:/var/run/dbus
+    restart: always
+:TRUE

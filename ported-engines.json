@@ -1,0 +1,198 @@
+[
+  {
+    "source": "unified/unified_graphical_engine.py",
+    "path": "neural_app/engines/classifier.py",
+    "classes": [
+      "EthicalSubstrate",
+      "StructuralMatrixEngine",
+      "ProductionPipeline",
+      "NeuralNetwork"
+    ],
+    "functions": [
+      "target_for",
+      "make_dataset",
+      "sigmoid",
+      "blend"
+    ]
+  },
+  {
+    "source": "HydrogenMesh/signals.py",
+    "path": "neural_app/engines/signals.py",
+    "classes": [],
+    "functions": [
+      "packet",
+      "from_bits",
+      "generate",
+      "decode"
+    ]
+  },
+  {
+    "source": "NeuralAtelier/atelier.py",
+    "path": "neural_app/engines/field.py",
+    "classes": [
+      "Engine"
+    ],
+    "functions": []
+  },
+  {
+    "source": "FluxBus-v2/source/unified_core.py",
+    "path": "neural_app/engines/flux.py",
+    "classes": [
+      "IdentityInvariant",
+      "SubstrateLayerMapper",
+      "UnrestrictBiasValve",
+      "CognitiveEducator",
+      "BidirectionalInferenceNode",
+      "LoopbackEngine",
+      "DeepMindVirtueFilter",
+      "SaturatedFluxCascade",
+      "BitArrayTarReconciler",
+      "GlobalMeshController"
+    ],
+    "functions": [
+      "integer",
+      "execute_master_runall"
+    ]
+  },
+  {
+    "source": "CoreInteractionSystem-Python/CoreInteractionSystem-Python/core_interaction_system.py",
+    "path": "neural_app/engines/core.py",
+    "classes": [
+      "Framework",
+      "Signal",
+      "Sample",
+      "CoreEngine",
+      "CheckedRedirect",
+      "ReadableHTML"
+    ],
+    "functions": [
+      "utc_now",
+      "atomic_write",
+      "read_small",
+      "validate_url",
+      "fetch_source",
+      "export_csv"
+    ]
+  },
+  {
+    "source": "Godmind Mesh Desktop/neural_weight/StructuralStateLedger.py",
+    "path": "neural_app/engines/profiles/ledger.py",
+    "classes": [
+      "StructuralStateLedger"
+    ],
+    "functions": [
+      "finite_number",
+      "weight_vector"
+    ]
+  },
+  {
+    "source": "Godmind Mesh Desktop/neural_weight/BackgroundWeightOptimizer.py",
+    "path": "neural_app/engines/profiles/optimizer.py",
+    "classes": [
+      "BackgroundWeightOptimizer"
+    ],
+    "functions": []
+  },
+  {
+    "source": "HydrogenMesh/scene_renderer.py",
+    "path": "neural_app/engines/scenes.py",
+    "classes": [
+      "SceneRenderer"
+    ],
+    "functions": [
+      "font",
+      "mix"
+    ]
+  },
+  {
+    "source": "postscarcity/PostscarcityHub/neural_engine.py",
+    "path": "neural_app/engines/scenario.py",
+    "classes": [
+      "NeuralEngine"
+    ],
+    "functions": [
+      "validate_scenario",
+      "mean_step",
+      "features",
+      "train"
+    ]
+  },
+  {
+    "source": "HydrogenMesh/legacy/sovereign_engine.py",
+    "path": "neural_app/engines/hydrogen/sovereign.py",
+    "classes": [
+      "SovereignEngine"
+    ],
+    "functions": []
+  },
+  {
+    "source": "HydrogenMesh/legacy/module_biosphere_core.py",
+    "path": "neural_app/engines/hydrogen/module_biosphere_core.py",
+    "classes": [
+      "BiosphereDataSubstrate"
+    ],
+    "functions": []
+  },
+  {
+    "source": "HydrogenMesh/legacy/module_dyson_forge_core.py",
+    "path": "neural_app/engines/hydrogen/module_dyson_forge_core.py",
+    "classes": [
+      "DysonForgeDataSubstrate"
+    ],
+    "functions": []
+  },
+  {
+    "source": "HydrogenMesh/legacy/module_matrix_substrate.py",
+    "path": "neural_app/engines/hydrogen/module_matrix_substrate.py",
+    "classes": [
+      "SystemDataSubstrate"
+    ],
+    "functions": []
+  },
+  {
+    "source": "HydrogenMesh/legacy/module_resonance.py",
+    "path": "neural_app/engines/hydrogen/module_resonance.py",
+    "classes": [
+      "ResonanceBaselineConditioner"
+    ],
+    "functions": []
+  },
+  {
+    "source": "HydrogenMesh/legacy/module_runtime.py",
+    "path": "neural_app/engines/hydrogen/module_runtime.py",
+    "classes": [
+      "SchumannCarrier",
+      "ActivitySnapshot",
+      "SystemActivitySampler"
+    ],
+    "functions": [
+      "get_system_sampler",
+      "get_carrier",
+      "format_rate"
+    ]
+  },
+  {
+    "source": "HydrogenMesh/legacy/module_stellar_core.py",
+    "path": "neural_app/engines/hydrogen/module_stellar_core.py",
+    "classes": [
+      "StellarCoreSubstrate"
+    ],
+    "functions": []
+  },
+  {
+    "source": "HydrogenMesh/legacy/module_substrate.py",
+    "path": "neural_app/engines/hydrogen/module_substrate.py",
+    "classes": [
+      "LogicSubstrateKernel"
+    ],
+    "functions": []
+  },
+  {
+    "source": "HydrogenMesh/legacy/module_ternary_matrix.py",
+    "path": "neural_app/engines/hydrogen/module_ternary_matrix.py",
+    "classes": [
+      "BalancedTernaryProcessor"
+    ],
+    "functions": []
+  }
+]

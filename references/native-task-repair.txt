@@ -1,0 +1,27 @@
+CONVERSATIONAL TASK REPAIR AND EXPERIMENTS
+
+sort: "pear apple pear"
+words
+
+The first request retains the text and operations, then asks whether to split
+lines or words. Your explicit reply completes the retained task. Unrelated
+tasks do not answer that question. Use cancel clarification to discard it.
+Previews remain previews; failed resolutions retain the earlier result.
+
+sort then deduplicate: [3,1,3]
+same task with: [7,2,7,4]
+what if the input were: [9,8,9]
+replace data step 1 with: sort descending
+
+New-input experiments check the saved procedure against its receipt and replay
+the baseline before comparing. What-if results do not change the saved task.
+Step replacement reruns the complete pure-data workflow before committing.
+
+FORECAST EVIDENCE
+
+forecast: {"values":[3,8,6,11,9,15,12,19,17,22,18,27],"horizon":5}
+
+Each horizon reports separate past-only evaluation cases. The method remains
+frozen from the earlier selection folds. Cases can overlap and are dependent.
+Missing longer-horizon evaluation is explicit. Competing method forecasts are
+recorded as sensitivity information, not confidence bounds or world knowledge.

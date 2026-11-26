@@ -1,0 +1,105 @@
+{
+  "original_folder": "C:\\Users\\USER\\Desktop\\chatgptrewrties\\python\\llama\\godmind mesh\\hydrogen 2\\hydrogenatom",
+  "files": [
+    {
+      "file": "app_dyson_forge_viewport.py",
+      "sha256": "b0f5822257a6011c579caad6bf255897a751688512df06b116e07618c60fcf4e",
+      "unchanged": true
+    },
+    {
+      "file": "app_stellar_viewport.py",
+      "sha256": "b7b520ff0207a8bc42781da345777792bcc88055556f443dbcc08abef55496a3",
+      "unchanged": true
+    },
+    {
+      "file": "app_window_launcher.py",
+      "sha256": "1ea95c3101441e5087b1b152286528e0412e743d266795fbe4f075ac028f9ac4",
+      "unchanged": true
+    },
+    {
+      "file": "biosphere_engine.py",
+      "sha256": "11b5f8552e9bcdd52eadc7e2e17f007ed3a905eed22121b7111bf87f8846d285",
+      "unchanged": true
+    },
+    {
+      "file": "gui_visual_engine.py",
+      "sha256": "db61a2444914841f57845b5d465abfdf211125ba52f8aa6572389f912421f10a",
+      "unchanged": true
+    },
+    {
+      "file": "module_biosphere_core.py",
+      "sha256": "859a1d9db57e9911437c269bc1879bbc6f5b992b6f3051021b394cbe37f67102",
+      "unchanged": true
+    },
+    {
+      "file": "module_dyson_forge_core.py",
+      "sha256": "5dd2a9e9f69989ff685e14ac483b25eb029d3d03125d2a4e79f0dec5c58a5e10",
+      "unchanged": true
+    },
+    {
+      "file": "module_hud_display.py",
+      "sha256": "50521e6e356a79dd5eb66ea25f47afaef94100e7980e424825964b8425978a44",
+      "unchanged": true
+    },
+    {
+      "file": "module_matrix_substrate.py",
+      "sha256": "ef6b323774c41c9267014cfd6046646a608a9297b3c8b11d5206656a84ff4d43",
+      "unchanged": true
+    },
+    {
+      "file": "module_resonance.py",
+      "sha256": "ffd20d85cf84a93afde276cc55684e887809732c24abfe4e57fe14aae5e12ac6",
+      "unchanged": true
+    },
+    {
+      "file": "module_runtime.py",
+      "sha256": "9ee40c97421ab91df3c1e6863c65155a39e6019990c391cb3ac640aa3f323214",
+      "unchanged": true
+    },
+    {
+      "file": "module_stellar_core.py",
+      "sha256": "77543ec6ee96ec4bd797f663c409b1d3b398e59d85bab75025dc0e085f153ced",
+      "unchanged": true
+    },
+    {
+      "file": "module_substrate.py",
+      "sha256": "418afd26aa55fa96bbfac45ed1b9723b641cfec2e768e9ec0df7df50c59d8ea0",
+      "unchanged": true
+    },
+    {
+      "file": "module_ternary_matrix.py",
+      "sha256": "b3ba02393b04e254dea7c7f6792e8b9d2cc186b511668a010581f30e0fcaa17f",
+      "unchanged": true
+    },
+    {
+      "file": "native_quantum_engine.py",
+      "sha256": "09827b1011b891192da0081a687595e2f542e82c833555042b86017d4a3fa412",
+      "unchanged": true
+    },
+    {
+      "file": "pipeline_integrated_system.py",
+      "sha256": "53f3e68b609e83fdceb5b144640aff020f078cf946e74f035ee8ce7c4a01f15c",
+      "unchanged": true
+    },
+    {
+      "file": "quantum_visual_engine.py",
+      "sha256": "16558b2840b4a7d8be215b1233852e6dd71ea3ae441c15ec3d918b6647dec230",
+      "unchanged": true
+    },
+    {
+      "file": "run.bat",
+      "sha256": "65f0b6608641c1ec56755e3edb6c95cc83094440f81bf10c561ff2545277a074",
+      "unchanged": true
+    },
+    {
+      "file": "sovereign_engine.py",
+      "sha256": "dacde3f0d6fe3577c9743c5c46eeda4140eb232a70f08244d5e9680985f91dd6",
+      "unchanged": true
+    },
+    {
+      "file": "template_matrix_render.py",
+      "sha256": "5602b38f46b614caf57a17dbd659c7809a9983b31404cd69176617aa6bc89190",
+      "unchanged": true
+    }
+  ]
+}

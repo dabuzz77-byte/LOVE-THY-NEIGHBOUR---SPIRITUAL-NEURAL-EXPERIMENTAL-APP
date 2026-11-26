@@ -1,0 +1,21 @@
+COMPOSITIONAL DATA WORK IN ORDINARY WORDING
+
+keep rows where Price is at most 20 then pick the Price column then add up all values: [{"Price":10},{"Price":30},{"Price":5}]
+explain that
+
+total Price for each Team: [{"Team":"A","Price":10},{"Team":"B","Price":3},{"Team":"A","Price":5}]
+
+write Python to remove repeated values then arrange in increasing order: [3,1,3]
+
+Supported semantic slots include fields, comparisons, scalar JSON values,
+aggregate measurements, grouping keys, sort direction and first-item counts.
+Only a fully matched clause becomes an operation. Unrecognised qualifications
+remain unresolved. The parser does not infer arbitrary human intent.
+
+Field names and string values remain case-sensitive. Instructions inside quoted
+values stay data. Compositions use existing pure-data operations, independent
+result checks and bounded Python-generation checks. Unsupported clauses cannot
+partially commit a result.
+
+Fixed local transfer probes improved from 3/32 to 32/32. This is a development
+comparison on known probes, not an independent general-intelligence grade.

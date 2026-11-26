@@ -1,0 +1,382 @@
+[
+  {
+    "id": "desktop-java-1-0",
+    "name": "A.Istatecallback · CallbackGraphicsEngineFrame",
+    "family": "family_import_1",
+    "class": "CallbackGraphicsEngineFrame",
+    "built": true,
+    "entry": "A.Istatecallback",
+    "kind": "java-import",
+    "source": "b727d5f2ec5eed33f51fa1d6db64298027b24f7952d2c54545187bc814aff0ff"
+  },
+  {
+    "id": "desktop-java-1-1",
+    "name": "A.Istatecallback · WaveVisualizerPanel",
+    "family": "family_import_1",
+    "class": "WaveVisualizerPanel",
+    "built": true,
+    "entry": "A.Istatecallback",
+    "kind": "java-import",
+    "source": "eef7d887b3de36d89cc239a8c45ce37813af0bbcb5b2393a8af431190eb6fa9a"
+  },
+  {
+    "id": "desktop-java-4-0",
+    "name": "AllPrevSystemDashboard · AllPrevSystemDashboard",
+    "family": "family_import_4",
+    "class": "AllPrevSystemDashboard",
+    "built": true,
+    "entry": "AllPrevSystemDashboard",
+    "kind": "java-import",
+    "source": "e2b0f44251133235b545592bdd1d4193999f2ef037cac7c813b6b6e23b342b90"
+  },
+  {
+    "id": "desktop-java-6-0",
+    "name": "AwtFrameworkVisualizer · AwtFrameworkVisualizer",
+    "family": "family_import_6",
+    "class": "AwtFrameworkVisualizer",
+    "built": true,
+    "entry": "AwtFrameworkVisualizer",
+    "kind": "java-import",
+    "source": "39c62bdaa87046d8298f1a027bb9cd49794af0b00d23866cb7f863436135d8ef"
+  },
+  {
+    "id": "desktop-java-8-0",
+    "name": "BiTerQuantumBridge · BiTerQuantumBridge",
+    "family": "family_import_8",
+    "class": "BiTerQuantumBridge",
+    "built": true,
+    "entry": "BiTerQuantumBridge",
+    "kind": "java-import",
+    "source": "275876bf5a0ff66261b1c4328ee782dc9f6c3eb10c8fdfbef3dda6d1c2579b87"
+  },
+  {
+    "id": "desktop-java-10-0",
+    "name": "ClownResolver · ClownResolverEngine",
+    "family": "family_import_10",
+    "class": "ClownResolverEngine",
+    "built": true,
+    "entry": "ClownResolver",
+    "kind": "java-import",
+    "source": "3df3a638b580629ac2d8bd0a95cce7cce6f7f379724aa868923889be98ba0b22"
+  },
+  {
+    "id": "desktop-java-12-0",
+    "name": "ConflictGraphApp · ConflictGraphApp",
+    "family": "family_import_12",
+    "class": "ConflictGraphApp",
+    "built": true,
+    "entry": "ConflictGraphApp",
+    "kind": "java-import",
+    "source": "599de71f6d294f3cb43cf7adabd958da5b517485feb6f43f95452369769702e7"
+  },
+  {
+    "id": "desktop-java-13-0",
+    "name": "ConsolidatedConsole · ConsolidatedConsole",
+    "family": "family_import_13",
+    "class": "ConsolidatedConsole",
+    "built": true,
+    "entry": "ConsolidatedConsole",
+    "kind": "java-import",
+    "source": "addf2894961ca0eff35288023e853fbda94949ec3fc27ea841bb397b9f48636c"
+  },
+  {
+    "id": "desktop-java-15-0",
+    "name": "CosmicAlignmentApp · CosmicAlignmentApp",
+    "family": "family_import_15",
+    "class": "CosmicAlignmentApp",
+    "built": true,
+    "entry": "CosmicAlignmentApp",
+    "kind": "java-import",
+    "source": "a9a5276f3770f590a0bdea56a43f336003164df03825cfb1934c0190d1e1b42c"
+  },
+  {
+    "id": "desktop-java-16-0",
+    "name": "DeepestStrata · DeepestStrataEngine",
+    "family": "family_import_16",
+    "class": "DeepestStrataEngine",
+    "built": true,
+    "entry": "DeepestStrata",
+    "kind": "java-import",
+    "source": "1b0f1c1ae10607cb83349f0cfb6cd23ab98cfc72fd56ca3a8703623ffe2f8efa"
+  },
+  {
+    "id": "desktop-java-18-0",
+    "name": "EconomicFLoorGridVisualizer · EconomicFloorGridVisualizer",
+    "family": "family_import_18",
+    "class": "EconomicFloorGridVisualizer",
+    "built": true,
+    "entry": "EconomicFLoorGridVisualizer",
+    "kind": "java-import",
+    "source": "f64b6775dfb642b9044259df647ff1af92ebde10006b33076f6d473d312994b6"
+  },
+  {
+    "id": "desktop-java-20-0",
+    "name": "ElementalRecursiveWorld · ElementalRecursiveWorld",
+    "family": "family_import_20",
+    "class": "ElementalRecursiveWorld",
+    "built": true,
+    "entry": "ElementalRecursiveWorld",
+    "kind": "java-import",
+    "source": "a379423d64b4eefd92cee1d99d3582e9a7fceae876d2961fc483ad4caae937d7"
+  },
+  {
+    "id": "desktop-java-21-0",
+    "name": "FINAINCIALMAP · FinancialSystemMap",
+    "family": "family_import_21",
+    "class": "FinancialSystemMap",
+    "built": true,
+    "entry": "FINAINCIALMAP",
+    "kind": "java-import",
+    "source": "69fa22670e097dadfeb608739792a69298b3d719e5c23edf911b7117d93382dd"
+  },
+  {
+    "id": "desktop-java-28-0",
+    "name": "GlobalFinancialVisualizer · GlobalFinancialVisualizer",
+    "family": "family_import_28",
+    "class": "GlobalFinancialVisualizer",
+    "built": true,
+    "entry": "GlobalFinancialVisualizer",
+    "kind": "java-import",
+    "source": "7844296e148f92c559a80f455aa325cda653df2bc5fcf0ae21f51d0d21b0f8a4"
+  },
+  {
+    "id": "desktop-java-29-0",
+    "name": "GodEngineInteractConsole · GodEngineInteractConsole",
+    "family": "family_import_29",
+    "class": "GodEngineInteractConsole",
+    "built": true,
+    "entry": "GodEngineInteractConsole",
+    "kind": "java-import",
+    "source": "56c40dd46e73ad3668db5c8294d2da07c54d10695932fd1d6e41ac6564d87e16"
+  },
+  {
+    "id": "desktop-java-30-0",
+    "name": "GodInterfaceMainApp · GodInterfaceMainApp",
+    "family": "family_import_30",
+    "class": "GodInterfaceMainApp",
+    "built": true,
+    "entry": "GodInterfaceMainApp",
+    "kind": "java-import",
+    "source": "f035c03de49388a5f066cec3c32a2e5e6e9131631c4101484d7cf5f872db757a"
+  },
+  {
+    "id": "desktop-java-32-0",
+    "name": "GodMindMasterEngine · GodMindMasterEngine",
+    "family": "family_import_32",
+    "class": "GodMindMasterEngine",
+    "built": true,
+    "entry": "GodMindMasterEngine",
+    "kind": "java-import",
+    "source": "7779ecca892056f907bbd0db8e13c73a6b1b592b0ce699e3748bf7ca599515f6"
+  },
+  {
+    "id": "desktop-java-34-0",
+    "name": "GodMindShipVisualizer · GodMindShipVisualizer",
+    "family": "family_import_34",
+    "class": "GodMindShipVisualizer",
+    "built": true,
+    "entry": "GodMindShipVisualizer",
+    "kind": "java-import",
+    "source": "582098db3a3ae56d069ea202ef79ebc2685cae24f00251538601b6da0e3622a8"
+  },
+  {
+    "id": "desktop-java-35-0",
+    "name": "GodMindinteractiveVisualizer · GodMindInteractiveVisualizer",
+    "family": "family_import_35",
+    "class": "GodMindInteractiveVisualizer",
+    "built": true,
+    "entry": "GodMindinteractiveVisualizer",
+    "kind": "java-import",
+    "source": "aa16fc0e04518d27bc2faa841f556d46f2e20a7635a57e5202eead74158cc608"
+  },
+  {
+    "id": "desktop-java-37-0",
+    "name": "GodParitySyncApp · GodParitySyncApp",
+    "family": "family_import_37",
+    "class": "GodParitySyncApp",
+    "built": true,
+    "entry": "GodParitySyncApp",
+    "kind": "java-import",
+    "source": "86eb7e8f51ae178a9cb40cb841028813ef2dc27161052426587d2319dcc35652"
+  },
+  {
+    "id": "desktop-java-41-0",
+    "name": "InferenceLabEngine · InferenceLabEngine",
+    "family": "family_import_41",
+    "class": "InferenceLabEngine",
+    "built": true,
+    "entry": "InferenceLabEngine",
+    "kind": "java-import",
+    "source": "d3e5a4881b529b91bf8d50228955975531f1585a1ae5c9fe62d52d495d05b55f"
+  },
+  {
+    "id": "desktop-java-43-0",
+    "name": "JavaGridMonitor · JavaGridMonitor",
+    "family": "family_import_43",
+    "class": "JavaGridMonitor",
+    "built": true,
+    "entry": "JavaGridMonitor",
+    "kind": "java-import",
+    "source": "a42b3c941426ad5cbf0c0af3ba7c1ad55367c859b52eb07faccb53be9335743f"
+  },
+  {
+    "id": "desktop-java-44-0",
+    "name": "KernelBRidgeVisualizer · KernelBridgeVisualizer",
+    "family": "family_import_44",
+    "class": "KernelBridgeVisualizer",
+    "built": true,
+    "entry": "KernelBRidgeVisualizer",
+    "kind": "java-import",
+    "source": "8af6ff3fcd18f027a98790cd5b705ba0bcab0bb1bf8bcb607f3a70b592455e46"
+  },
+  {
+    "id": "desktop-java-48-0",
+    "name": "LocalInferenceBus · LocalInferenceBusEngine",
+    "family": "family_import_48",
+    "class": "LocalInferenceBusEngine",
+    "built": true,
+    "entry": "LocalInferenceBus",
+    "kind": "java-import",
+    "source": "2859b3379a70dcd78cf4343a7a2f10c6e46e7ce0fb65e00d1c8925b876529978"
+  },
+  {
+    "id": "desktop-java-49-0",
+    "name": "MAsterGridPArity · MasterGridParityEngine",
+    "family": "family_import_49",
+    "class": "MasterGridParityEngine",
+    "built": true,
+    "entry": "MAsterGridPArity",
+    "kind": "java-import",
+    "source": "f5925ccd3154d4e5027c3ca23c5933c953f778858086fb0d9f1666de1bf28335"
+  },
+  {
+    "id": "desktop-java-50-0",
+    "name": "MicrocosmicOrbitApp · MicrocosmicOrbitApp",
+    "family": "family_import_50",
+    "class": "MicrocosmicOrbitApp",
+    "built": true,
+    "entry": "MicrocosmicOrbitApp",
+    "kind": "java-import",
+    "source": "b0a48e79ebbf2a04757439658562c51e7cdd6268d61afe8e64572d95d43f6219"
+  },
+  {
+    "id": "desktop-java-51-0",
+    "name": "MicrocosmicOrbitDashborad · MicrocosmicOrbitDashboard",
+    "family": "family_import_51",
+    "class": "MicrocosmicOrbitDashboard",
+    "built": true,
+    "entry": "MicrocosmicOrbitDashborad",
+    "kind": "java-import",
+    "source": "38fd58e340e148891230438ca2c5d608c7c41e78ee031b29723b6bb4b54913a4"
+  },
+  {
+    "id": "desktop-java-55-0",
+    "name": "OmniVirtueBalancerGUI · OmniVirtueBalancerGUI",
+    "family": "family_import_55",
+    "class": "OmniVirtueBalancerGUI",
+    "built": true,
+    "entry": "OmniVirtueBalancerGUI",
+    "kind": "java-import",
+    "source": "53ba5932bb35c10e9bed738cae25009d34d78d3674d4f95f637702d0e384bbe8"
+  },
+  {
+    "id": "desktop-java-56-0",
+    "name": "ParitystateApp · ParityStateApp",
+    "family": "family_import_56",
+    "class": "ParityStateApp",
+    "built": true,
+    "entry": "ParitystateApp",
+    "kind": "java-import",
+    "source": "04da47ee5935625fafb1ead79e2774c30991397abff031eae57cfdccd0cea0ed"
+  },
+  {
+    "id": "desktop-java-57-0",
+    "name": "QuantumLogicExplorer · QuantumLogicExplorer",
+    "family": "family_import_57",
+    "class": "QuantumLogicExplorer",
+    "built": true,
+    "entry": "QuantumLogicExplorer",
+    "kind": "java-import",
+    "source": "c7435990508aeae9d7c81836ec9e24bdde641430675f95a81715321b4ee94154"
+  },
+  {
+    "id": "desktop-java-58-0",
+    "name": "QuantumMindConsole · QuantumMindConsole",
+    "family": "family_import_58",
+    "class": "QuantumMindConsole",
+    "built": true,
+    "entry": "QuantumMindConsole",
+    "kind": "java-import",
+    "source": "b2257c944f8f7fb66e94a004bb6d5a0ee3be5c9db0965f6ab11d05e607ce8dab"
+  },
+  {
+    "id": "desktop-java-61-0",
+    "name": "RoadRunnerVelocityEngine · RoadrunnerVelocityEngine",
+    "family": "family_import_61",
+    "class": "RoadrunnerVelocityEngine",
+    "built": true,
+    "entry": "RoadRunnerVelocityEngine",
+    "kind": "java-import",
+    "source": "6846eea14b00199f32dd1d9e4803b6ca118d0bc8c9ef360124b5de1578141386"
+  },
+  {
+    "id": "desktop-java-62-0",
+    "name": "SandcaslteKarmicWorld · SandcastleKarmicWorld",
+    "family": "family_import_62",
+    "class": "SandcastleKarmicWorld",
+    "built": true,
+    "entry": "SandcaslteKarmicWorld",
+    "kind": "java-import",
+    "source": "f5d97a9061b64c6ffe1e26cad7a4dbd9dc3af2205d35e27ae0cec7eca9015407"
+  },
+  {
+    "id": "desktop-java-69-0",
+    "name": "StickForestMatrixApp · StickForestMatrixApp",
+    "family": "family_import_69",
+    "class": "StickForestMatrixApp",
+    "built": true,
+    "entry": "StickForestMatrixApp",
+    "kind": "java-import",
+    "source": "de13e7151c9cdb79203d73c4067ca302288e4ff057e46c33155c8d20a73e2fba"
+  },
+  {
+    "id": "desktop-java-73-0",
+    "name": "VirtueDashboard · VirtueDashboard",
+    "family": "family_import_73",
+    "class": "VirtueDashboard",
+    "built": true,
+    "entry": "VirtueDashboard",
+    "kind": "java-import",
+    "source": "c003a8d0e290f2bf395af4030ccf31099e7549b419740080291ba5792c433a96"
+  },
+  {
+    "id": "desktop-java-78-0",
+    "name": "X4DefensiveVirtueEngine · X4DefenseVirtueEngine",
+    "family": "family_import_78",
+    "class": "X4DefenseVirtueEngine",
+    "built": true,
+    "entry": "X4DefensiveVirtueEngine",
+    "kind": "java-import",
+    "source": "9035cc78e20aae23facec24beeaade1f5816b70ae6ff7e9d966ea8e7253d3d1c"
+  },
+  {
+    "id": "desktop-java-83-0",
+    "name": "elemental intent pillars · GodSelfInteractEngine",
+    "family": "family_import_83",
+    "class": "GodSelfInteractEngine",
+    "built": true,
+    "entry": "elemental intent pillars",
+    "kind": "java-import",
+    "source": "00134c3c91123a8235c7bbc9b56b247990bfc03718df22c9b95c322217914f72"
+  },
+  {
+    "id": "desktop-java-90-0",
+    "name": "matrix · MatrixDisplay",
+    "family": "family_import_90",
+    "class": "MatrixDisplay",
+    "built": true,
+    "entry": "matrix",
+    "kind": "java-import",
+    "source": "eda1b26f736b3d61ae0b25aa6c78def386bc74e578818a8fa67b74f12ff21ef8"
+  }
+]

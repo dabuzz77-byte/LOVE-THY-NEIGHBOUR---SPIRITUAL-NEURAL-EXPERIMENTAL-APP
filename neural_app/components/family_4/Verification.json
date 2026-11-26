@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-21",
+  "automated_tests": {
+    "passed": 29,
+    "failed": 0
+  },
+  "java": {
+    "exit_code": 0,
+    "java_to_python": true,
+    "python_to_java": true,
+    "errors": ""
+  },
+  "gui": {
+    "layouts": [
+      {
+        "window": [
+          1320,
+          900
+        ],
+        "canvas": [
+          1256,
+          560
+        ],
+        "presets": 6,
+        "canvas_items": 1
+      },
+      {
+        "window": [
+          1000,
+          740
+        ],
+        "canvas": [
+          936,
+          431
+        ],
+        "presets": 6,
+        "canvas_items": 1
+      },
+      {
+        "window": [
+          860,
+          650
+        ],
+        "canvas": [
+          796,
+          341
+        ],
+        "presets": 6,
+        "canvas_items": 1
+      },
+      {
+        "window": [
+          1600,
+          1000
+        ],
+        "canvas": [
+          1536,
+          660
+        ],
+        "presets": 6,
+        "canvas_items": 1
+      }
+    ],
+    "runtime_errors": []
+  },
+  "sources_preserved": 20,
+  "default_ports": {
+    "http_listener": "127.0.0.1:8794",
+    "udp_listener": "127.0.0.1:8794",
+    "udp_broadcast": "127.0.0.1:8796"
+  },
+  "flux_validation": "Actual installed hub, nine-stage pipeline and compressed storage code tested with disposable database and real TCP sockets.",
+  "observatory_validation": "Authenticated UDP subscription and HTTP multipart return protocol tested against a local fixture; full Observatory runtime not launched.",
+  "limitations": [
+    "Running processes without cooperative interfaces are detected, not automatically attached to internal data.",
+    "Java requires its adapter at an integration point; the adapter was compiled with installed JDK 26 and exchanged messages in both directions.",
+    "External full application sessions are not certified by protocol tests. Check live connection counters.",
+    "UDP is local best-effort delivery; use HTTP ledger for replay."
+  ],
+  "graphics": {
+    "presets": [
+      "Cosmos",
+      "Hydrogen",
+      "Stellar",
+      "Earth",
+      "Matrix",
+      "Dyson"
+    ],
+    "tk_canvas_objects_per_frame": 1,
+    "stochastic_pulses": "Explicit visual simulation; received bus activity is displayed separately"
+  },
+  "storage": {
+    "default_database_limit_mb": 64,
+    "default_history_messages": 4000,
+    "default_history_hours": 24,
+    "payload_compression": "Lossless zlib, bounded message size",
+    "existing_database": "Prune and compact on startup",
+    "tests": "Legacy database larger than 5 MiB shrank below a 1 MiB test cap; sustained random traffic remained bounded",
+    "temporary_file_limits": "8 MiB processing retries; 8 MiB log budget at maintenance; individual logs rotate at 1 MiB with 2 backups"
+  },
+  "performance": {
+    "date": "2026-10-21",
+    "renderer": {
+      "Cosmos": {
+        "median_ms": 9.4,
+        "p95_ms": 15.41,
+        "visual_pulses": 11
+      },
+      "Hydrogen": {
+        "median_ms": 5.06,
+        "p95_ms": 6.62,
+        "visual_pulses": 11
+      },
+      "Stellar": {
+        "median_ms": 9.09,
+        "p95_ms": 12.22,
+        "visual_pulses": 11
+      },
+      "Earth": {
+        "median_ms": 7.84,
+        "p95_ms": 28.34,
+        "visual_pulses": 11
+      },
+      "Matrix": {
+        "median_ms": 7.28,
+        "p95_ms": 9.52,
+        "visual_pulses": 11
+      },
+      "Dyson": {
+        "median_ms": 10.55,
+        "p95_ms": 12.74,
+        "visual_pulses": 11
+      }
+    },
+    "notes": [
+      "Render timings measure CPU bitmap generation, excluding Tk display transfer. They are samples from this computer, not frame-rate guarantees."
+    ],
+    "storage_load": {
+      "messages_accepted": 900,
+      "unencoded_random_source_bytes": 3686400,
+      "json_source_characters": 7372800,
+      "database_cap_bytes": 1048576,
+      "snapshots": [
+        {
+          "accepted": 100,
+          "database_bytes": 507904,
+          "retained": 36,
+          "payload_bytes": 177171
+        },
+        {
+          "accepted": 300,
+          "database_bytes": 512000,
+          "retained": 44,
+          "payload_bytes": 216526
+        },
+        {
+          "accepted": 600,
+          "database_bytes": 512000,
+          "retained": 88,
+          "payload_bytes": 433161
+        },
+        {
+          "accepted": 900,
+          "database_bytes": 512000,
+          "retained": 68,
+          "payload_bytes": 334742
+        }
+      ],
+      "elapsed_s": 13.01
+    },
+    "idle_polling": {
+      "polls": 10000,
+      "database_opens": 0
+    },
+    "result_encoding": {
+      "full_expanded_result_bytes": 139751,
+      "compact_bus_result_bytes": 15184,
+      "reduction_percent": 89.1,
+      "exact_text_preserved": true
+    }
+  }
+}

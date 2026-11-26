@@ -1,0 +1,2 @@
+numpy>=2.0,<3
+# psutil is already bundled in graphical_app/vendor

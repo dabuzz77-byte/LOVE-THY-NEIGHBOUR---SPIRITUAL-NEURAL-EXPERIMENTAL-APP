@@ -1,0 +1,21 @@
+NATIVE RELATIONAL RULE DISCOVERY
+
+No language model is called. Supply background triples and labelled examples:
+
+learn relation model: {"name":"service","target":"services","facts":[["ada","type","tech"],["bo","type","tech"],["cy","type","visitor"],["dee","type","tech"],["eve","type","visitor"],["fox","type","tech"]],"positive":[["ada","radios"],["bo","radios"]],"negative":[["cy","radios"]],"validation":[{"subject":"dee","object":"radios","expected":true},{"subject":"eve","object":"radios","expected":false}]}
+
+predict relation service: fox | radios
+show relation model service
+check relation service: {"subject":"fox","object":"radios","expected":false}
+list relation models
+forget relation model service
+
+Rules are discovered from a finite one/two-premise hypothesis family. All
+training-consistent candidates must pass the separate validation cases.
+Competing predictions remain visible; disagreement asks for more observations.
+A counterexample deactivates the model. New background facts recheck retained
+labels. Receipts detect accidental changes to the checked model.
+
+This is bounded symbolic induction, not neural weight training or independent
+verification. Missing derivations do not establish that a relation is false in
+the world. A prediction does not authorize any external action.

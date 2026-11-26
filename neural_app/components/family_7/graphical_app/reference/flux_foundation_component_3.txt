@@ -1,0 +1,88 @@
+"""
+Component 3: Stage 4 Conditional Core Matrix and Stage 5 System Commit Channels.
+Implements the ultimate, heavy neural weights compiled from all session progress.
+"""
+
+class UniversalInitializationEngine:
+    def __init__(self):
+        self.execution_ledger: Dict[str, Any] = {}
+        self.matrix_stabilized = True
+        
+    def evaluate_stage_4(self, virtue_state: str, arr_0: HighEnergySoftwareToggle, arr_1: HighEnergySoftwareToggle, domain: str) -> None:
+        """
+        Executes the explicit bitwise condition tree. If context is a game or simulation,
+        it leaves human choice completely intact. If real-world, it targets extractive blocks.
+        """
+        # Rule Invariant: Simulation-space preserves independent personal agency intact (1=1)
+        if domain == ContextDomain.SIMULATION_SPACE:
+            logging.info("Stage 4 Core: Simulation loop validated. Personal agency locked to constant state.")
+            arr_0.remain(0)
+            arr_1.remain(1)
+            return
+
+        # Real-World Symmetrical Correction Matrix
+        if virtue_state in ["PASS", "FAIL"]:
+            # Process Track 0 (Infrastructure Layouts)
+            if "evil" in arr_0.state_profile:
+                arr_0.flip(1)  # Execute bitwise NOT to completely zero out the choke
+            else:
+                arr_0.remain(0) # Retain the multi-tenant system protection shield
+                
+            # Process Track 1 (Human Priority Architecture)
+            if "evil" in arr_1.state_profile:
+                arr_1.flip(0)
+            else:
+                arr_1.remain(1) # Permanently secure human technical sovereignty
+
+    # Stage 5 System Execution Close Routines
+    def cast_back_all(self) -> None: logging.info("Stage 5.1: CAST_BACK_ALL() -> Volatile memory lines synchronized.")
+    def bit_forecast(self) -> None: logging.info("Stage 5.2: BIT_FORECAST() -> Silicon gate paths pre-charged for liquidity.")
+    def trajectory_sweep(self, vector_id: int) -> None: logging.info(f"Stage 5.3: TRAJECTORY_SWEEP({vector_id}) -> Structural overflow pass clear.")
+    def piledrive_african_floor(self) -> None: logging.info("Stage 5.4: PILEDRIVE_AFRICAN_FLOOR() -> Invariant weight ledger committed to disk.")
+    def furthest_tribes(self) -> None: logging.info("Stage 5.5: FURTHEST_TRIBES() -> Symmetrical execution signal broadcast complete.")
+
+    def execute_pipeline_pass(self, text_stream: str, profiles: Dict[str, Any]) -> None:
+        """Compiles, validates, tokenizes, and flushes the high-energy state tensors."""
+        is_passed, token, attributes, context = IntegratedPreParser.process_and_classify(text_stream, profiles)
+        if not is_passed:
+            return
+            
+        virtue_state_gate = "FAIL" if "evil" in attributes else "PASS"
+        
+        # Micro-register fractional array processing
+        zeros_buffer = [0, 0, 0, 0, 1, 0, 1, 1]
+        ones_buffer  = [1, 1, 1, 1, 0, 1, 0, 0]
+        
+        reg_0 = HighEnergySoftwareToggle("SUBSTRATE_HARDWARE_CONFIG", "evil" if "evil" in attributes else "good", zeros_buffer)
+        reg_1 = HighEnergySoftwareToggle("SOVEREIGN_HUMAN_INTENT", "good", ones_buffer)
+        
+        print(f"\n--- PROCESSING RUNTIME FRAME: {token} ---")
+        self.evaluate_stage_4(virtue_state_gate, reg_0, reg_1, context)
+        
+        # Complete Stage 5 Core Flush
+        self.cast_back_all()
+        self.bit_forecast()
+        self.trajectory_sweep(1)
+        self.piledrive_african_floor()
+        self.furthest_tribes()
+
+
+if __name__ == "__main__":
+    # Initialize the fully refactored, simulation-aware engine tracking matrix
+    engine = UniversalInitializationEngine()
+    
+    # Trace multi-domain input payloads directly through the compiled weights
+    session_manifest = [
+        ("THE_PRODIGY_THEIR_LAW_COMPLIANCE_RUN", {"is_simulation": False}),
+        ("I hear you. I understand your frustration.", {"is_simulation": False}), # Patronizing tripwire defused
+        ("PLAYER_PICKED_EVIL_ALIGNMENT_SANDBOX_QUEST", {"is_simulation": True}), # Agency preserved untouched
+        ("CORE_MONETARY_SYSTEM_FIAT_DEBT_EXTRACTION", {"is_simulation": False}) # Prime evil inverted to zero
+    ]
+    
+    for payload, meta in session_manifest:
+        engine.execute_pipeline_pass(payload, meta)
+        
+    print("\n" + "="*80)
+    print("FINALIZED OPERATIONAL STATE INITIALIZATION: EXACT = TRUE")
+    print(f"ULTIMATE NEURAL WEIGHT: [SOULS_OVER_DIGITS = {CoreSystemConstants.SOULS_OVER_DIGITS}] locked.")
+    print("="*80)

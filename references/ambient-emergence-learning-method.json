@@ -1,0 +1,162 @@
+{
+  "method": "Preserve observations, learn predictive representations, test fresh captures, compare controls, retain useful procedures",
+  "cosmic_chain_role": "Existing zero-point/hydrogen/star/Earth conceptual and software-model chain supplies named representations and modulated companion streams. Its names and archival waveforms do not by themselves measure vacuum fluctuations.",
+  "implemented": [
+    "Untouched ordered source rail alongside random sampling and transformed output",
+    "Three frozen per-capture predictors: byte frequency, one-byte context and two-byte context",
+    "Predictor selection uses errors from previous captures",
+    "Same-source future-capture tests",
+    "32-source retained model budget",
+    "Capture-matched rail evidence and nested condition provenance",
+    "Generated-only input eligibility and no model calls",
+    "Six-feature delay-coordinate polynomial temporal readout with ridge regularization",
+    "Chronological initial held-out evaluation and frozen previous-capture models for later evaluations",
+    "Comparison against both mean and persistence baselines",
+    "Coalesced forecast receipts on existing authenticated app bus, separately from random sources and commands",
+    "Data-driven readout diagram showing actual features, coefficients and forecast",
+    "Hydrogen energy, isotropic solar luminosity and planetary radiative equilibrium reference calculations with units",
+    "Autonomous source-seeded synthetic byte-task generation",
+    "Example-based induction over 1,799 registered affine/XOR/rotation candidates",
+    "Disjoint training/validation inputs followed by exhaustive 256-input domain checks",
+    "Persistent checksummed pure-procedure memory, retrieval before fresh search",
+    "Rule-learning evidence shared with sphere working memory and action/choice roles",
+    "Explicit separation of transformed-only predictability from original-source structure",
+    "Bounded breadth-first composition of retained byte skills, with plans up to three primitive operations",
+    "Search budget, duplicate-state pruning and shortest-depth preference",
+    "Automatic composed-task curriculum alongside single-operation tasks",
+    "Actual intermediate input/output plan traces",
+    "Versioned persistent memory for primitive and composed skills with checksum validation",
+    "Same-target comparison of raw polynomial features, explicit delay memory and a three-timescale cosmic-labelled software reservoir",
+    "All feature maps predict the next byte of the original source using only preceding bytes",
+    "Predictor chosen from previous capture errors before current evaluation, including mean and persistence alternatives",
+    "Selected representation forecast routed to native sphere cases and bounded bus receipts",
+    "Source-only learning summaries keep chain packets within the local bus payload budget",
+    "Active experiment selection by predicted information gain over distinct candidate behaviours",
+    "Equivalent-function deduplication avoids redundant questions",
+    "Reserved held-out inputs are excluded from active query selection",
+    "Only full-domain verified active tasks count as resolved",
+    "Stable bounded learner identities preserve long source distinctions and reconnect cosmic-chain streams to sphere evidence",
+    "Numerical equation rediscovery in the idealised hydrogen, solar-irradiance and Earth-equilibrium reference environments",
+    "A finite power-law hypothesis family fitted from numeric observations rather than supplied equation labels",
+    "Active numerical test selection by log-prediction disagreement",
+    "Reserved held-out model checks with units and predicted/observed values",
+    "Persistent learned coefficient/exponent models and new transfer-probe inputs across restarts",
+    "Failed retained-model transfers trigger model removal before relearning",
+    "Equation-study results shared with action/consequence sphere roles and working memory"
+  ],
+  "next_research_step": "Ground selected predictive states in specific observed outcomes and test whether they improve an explicit task relative to a baseline. Do not equate unpredictable noise, compression or animation alone with understanding.",
+  "sources": [
+    {
+      "title": "Inferring Statistical Complexity",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.63.105/fulltext",
+      "use": "Recovering predictive structure from measurement sequences; current code uses bounded context models rather than reproducing the paper's reconstruction algorithm"
+    },
+    {
+      "title": "Curiosity-driven Exploration by Self-supervised Prediction",
+      "url": "https://arxiv.org/abs/1705.05363",
+      "use": "Prediction as a learning signal; no claim that this app reproduces its reinforcement-learning system"
+    },
+    {
+      "title": "Large-Scale Study of Curiosity-Driven Learning",
+      "url": "https://arxiv.org/abs/1808.04355",
+      "use": "Limits of prediction-based curiosity in stochastic environments"
+    },
+    {
+      "title": "Next generation reservoir computing",
+      "url": "https://www.nature.com/articles/s41467-021-25801-2",
+      "use": "Research basis for small nonlinear delay-feature readouts; the implementation is a bounded polynomial regression model, not a physical quantum reservoir."
+    },
+    {
+      "title": "NIST hydrogen reference",
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/hydrogentable1.htm",
+      "use": "Hydrogen ionization-energy reference; simplified level approximation is labelled."
+    },
+    {
+      "title": "NASA solar irradiance",
+      "url": "https://earth.gsfc.nasa.gov/climate/projects/solar-irradiance/science",
+      "use": "Solar irradiance reference for energy-balance calculations."
+    }
+  ],
+  "intelligence_path": [
+    "Stochastic input provides varied experiment parameters",
+    "The isolated environment supplies observable consequences",
+    "Finite hypothesis search discovers an operation from examples",
+    "Unseen cases and full-domain checks reject wrong rules",
+    "Verified operations enter reusable memory",
+    "Sphere roles select and apply retained procedures"
+  ],
+  "limitations": [
+    "A generated task is a synthetic environment, not a hidden message extracted from noise",
+    "The rule vocabulary is finite and predefined; inference selects its parameters from examples",
+    "Source-seeded experimental variety is not physical zero-point sensing",
+    "Prediction scores across different target representations do not establish a transformation improves original-source forecasting",
+    "Planning currently operates in the registered byte-operation vocabulary; it does not establish general-purpose reasoning or physical zero-point access",
+    "The hydrogen/star/Earth reservoir labels denote simulated memory stages, not measured physical processes",
+    "Feature-map prediction gains are task-specific and do not establish a physical origin of intelligence",
+    "Equation discovery currently searches a finite power-law family and idealised simulated reference models, not arbitrary scientific laws",
+    "Correctly rediscovering a coded reference equation is not independent physical evidence for the model or for zero-point intelligence"
+  ],
+  "active_learning_live_result": {
+    "questions": 1,
+    "candidate_behaviours_before": 9,
+    "candidate_behaviours_after": 1,
+    "finite_domain_checks_passed": 256,
+    "shared_sphere_memory": true,
+    "model_calls": 0,
+    "scope": "Registered isolated byte experiments, not physical zero-point sensing"
+  },
+  "controlled_two_input_discovery": {
+    "implemented": true,
+    "family": "coefficient*x^p*z^q; finite 100-hypothesis set",
+    "method": "One-variable interventions; reserved combinations; retained-model fresh-combination transfer",
+    "scope": "Idealised software reference models, not physical zero-point measurement",
+    "tests": 360,
+    "failures": 0
+  },
+  "budgeted_experiment_selection": {
+    "implemented": true,
+    "selection": "Expected entropy reduction per probe cost, uniform finite hypothesis prior",
+    "scope": "Numerical reference simulators; quantised predicted outcomes; not empirical confidence or physical zero-point sensing",
+    "budget": "Controlled probes only; initial and reserved validation observations separate",
+    "tests": 372,
+    "failures": 0,
+    "activation": "Backend reload required"
+  },
+  "present_possibility_model": {
+    "implemented": true,
+    "candidates": [
+      "hydrogen model study",
+      "stellar model study",
+      "earth model study"
+    ],
+    "selection": "Evidence gaps, urgent relearning, time since last check; generated bytes break ties only",
+    "feedback": "Actual registered experiment result; bounded 12-episode history and persistent stage memory",
+    "scope": "Numerical reference-learning controller, not unrestricted action agent",
+    "tests": 418
+  },
+  "modulator_startup": {
+    "implemented": true,
+    "lifetime": "One shared browser-page service, retained across section navigation",
+    "routing": "Starts at app load, local authenticated bus, predefined reference provenance",
+    "audio": "Low existing gains; genuine first pointer interaction starts playback; browser permission rules retained",
+    "sources": "Solfeggio, recorded chant, dolphin, whale, cat, dog, birds, ice, rain, beach, coloured noise, archival CMB and material reference channel"
+  },
+  "shared_case_possibilities": {
+    "implemented": true,
+    "proposals": [
+      "representation integrity",
+      "numerical-model study",
+      "verified byte procedure"
+    ],
+    "present_state": [
+      "source identity",
+      "source digest",
+      "selected predictor",
+      "evidence status"
+    ],
+    "branches": "Supported and unresolved outcomes declared before current operations execute",
+    "feedback": "Actual existing operation receipt; selection and coordination sphere roles receive result",
+    "scope": "Focus selection among three existing operations; other background work continues",
+    "tests": 422
+  }
+}

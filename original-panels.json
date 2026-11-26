@@ -1,0 +1,407 @@
+[
+  {
+    "id": "observatory",
+    "name": "Postscarcity Observatory",
+    "family": "Postscarcity Observatory v4",
+    "kind": "web",
+    "entry": "Postscarcity Observatory v4/graphical_app/app.py",
+    "port": 18851,
+    "args": [
+      "--port",
+      "18851",
+      "--no-browser"
+    ]
+  },
+  {
+    "id": "inference",
+    "name": "Inference Observatory",
+    "family": "InferenceObservatory",
+    "kind": "web",
+    "entry": "InferenceObservatory/server.py",
+    "port": 18865,
+    "args": [
+      "--port",
+      "18865"
+    ]
+  },
+  {
+    "id": "genesis",
+    "name": "AI Genesis Node",
+    "family": "ai-genesis-node",
+    "kind": "node",
+    "entry": "ai-genesis-node/server.mjs",
+    "port": 18860,
+    "env": {
+      "GENESIS_PORT": "18860"
+    }
+  },
+  {
+    "id": "matrix",
+    "name": "Matrix Bus",
+    "family": "MatrixBus",
+    "kind": "node",
+    "entry": "MatrixBus/server.mjs",
+    "port": 18880,
+    "env": {
+      "MATRIX_PORT": "18880"
+    }
+  },
+  {
+    "id": "academy",
+    "name": "Force Academy",
+    "family": "Force Academy Desktop",
+    "kind": "html",
+    "entry": "Force Academy Desktop/Force Academy/forceschool.html"
+  },
+  {
+    "id": "neural-lab",
+    "name": "Neural Lab",
+    "family": "engine1",
+    "kind": "web",
+    "entry": "engine1/drillscript.py",
+    "port": 18876,
+    "args": [
+      "--port",
+      "18876",
+      "--headless"
+    ]
+  },
+  {
+    "id": "atelier",
+    "name": "Neural Atelier",
+    "family": "NeuralAtelier",
+    "kind": "native",
+    "entry": "NeuralAtelier/atelier.py",
+    "depends": [
+      "observatory",
+      "flux"
+    ]
+  },
+  {
+    "id": "hydrogen",
+    "name": "Hydrogen Mesh",
+    "family": "HydrogenMesh",
+    "kind": "native",
+    "entry": "HydrogenMesh/hydrogen_mesh.py",
+    "depends": [
+      "observatory",
+      "flux"
+    ]
+  },
+  {
+    "id": "godmind",
+    "name": "Godmind Mesh",
+    "family": "Godmind Mesh Desktop",
+    "kind": "native",
+    "entry": "Godmind Mesh Desktop/godmind_desktop.py"
+  },
+  {
+    "id": "carrier",
+    "name": "Carrier Lab",
+    "family": "Carrier Lab",
+    "kind": "web",
+    "entry": "Carrier Lab/carrier_lab.py",
+    "port": 18837,
+    "args": [
+      "--port",
+      "18837",
+      "--no-browser"
+    ]
+  },
+  {
+    "id": "core",
+    "name": "Core Interaction",
+    "family": "CoreInteractionSystem-Python",
+    "kind": "native",
+    "entry": "CoreInteractionSystem-Python/CoreInteractionSystem-Python/core_interaction_system.py"
+  },
+  {
+    "id": "backbone",
+    "name": "Virtue Backbone",
+    "family": "VirtueBackbone",
+    "kind": "native",
+    "entry": "VirtueBackbone/desktop.py"
+  },
+  {
+    "id": "ambient",
+    "name": "Ambient Field",
+    "family": "c-chatgptrewrties-python-processes-ambientfield",
+    "kind": "native",
+    "entry": "c-chatgptrewrties-python-processes-ambientfield/outputs/ambient2/ambient_field_transmit.py"
+  },
+  {
+    "id": "injector",
+    "name": "Microcosmic Injector",
+    "family": "microcosmic injector",
+    "kind": "native",
+    "entry": "microcosmic injector/microcosmic_injector.py"
+  },
+  {
+    "id": "creator",
+    "name": "Software Creation",
+    "family": "software_creator_observatory",
+    "kind": "native",
+    "entry": "software_creator_observatory/software_creator_observatory.py"
+  },
+  {
+    "id": "unified-neural",
+    "name": "Original Neural Engine",
+    "family": "unified",
+    "kind": "native",
+    "entry": "unified/unified_graphical_engine.py"
+  },
+  {
+    "id": "dualrail",
+    "name": "Dual-Rail Core",
+    "family": "Postscarcity Observatory v4",
+    "kind": "native",
+    "entry": "Postscarcity Observatory v4/graphical_app/dual_rail_launcher.py"
+  },
+  {
+    "id": "flux",
+    "name": "Flux Bus v2",
+    "family": "FluxBus-v2",
+    "kind": "native",
+    "entry": "FluxBus-v2/source/app.py",
+    "args": [
+      "--data-dir",
+      "C:\\Users\\USER\\Documents\\Codex\\2026-10-24\\c-users-dabuz-desktop-chat-gpt\\outputs\\Neural Nexus\\sources\\FluxBus-v2\\FluxBus-data"
+    ],
+    "depends": [
+      "observatory"
+    ]
+  },
+  {
+    "id": "allprev",
+    "name": "Expanded Unified Engine",
+    "family": "AllPrevUnifiedEngine-FluxExpanded",
+    "kind": "java",
+    "entry": "AllPrevUnifiedEngine-FluxExpanded",
+    "main": "AllPrevUnifiedEngine",
+    "depends": [
+      "observatory",
+      "flux"
+    ]
+  },
+  {
+    "id": "godmind-java",
+    "name": "GodMind Visualizer",
+    "family": "GodMind-upgrade",
+    "kind": "java",
+    "entry": "GodMind-upgrade",
+    "main": "GodMindInteractiveVisualizer"
+  },
+  {
+    "id": "lan",
+    "name": "LAN Observatory",
+    "family": "LAN-Observatory",
+    "kind": "java",
+    "entry": "LAN-Observatory",
+    "main": "LANCoordinatorEngine"
+  },
+  {
+    "id": "localbus",
+    "name": "Local Inference Bus",
+    "family": "LocalInferenceBus",
+    "kind": "java",
+    "entry": "LocalInferenceBus",
+    "main": "LocalInferenceBusEngine"
+  },
+  {
+    "id": "manifold",
+    "name": "Manifold",
+    "family": "Manifold-Update",
+    "kind": "java",
+    "entry": "Manifold-Update/Manifold-Update",
+    "main": "net.manifold.ui.ManifoldGridVisualizer"
+  },
+  {
+    "id": "planetary",
+    "name": "Planetary Resonance",
+    "family": "Planetary-Resonance-Upgrade",
+    "kind": "java",
+    "entry": "Planetary-Resonance-Upgrade/Planetary-Resonance-Upgrade",
+    "main": "PlanetaryResonanceGrid"
+  },
+  {
+    "id": "quantum-browser",
+    "name": "Quantum Browser Bus",
+    "family": "QuantumBrowserBus-upgraded",
+    "kind": "java",
+    "entry": "QuantumBrowserBus-upgraded",
+    "main": "QuantumBrowserBus"
+  },
+  {
+    "id": "quantum-mind",
+    "name": "Quantum Mind Console",
+    "family": "QuantumMindConsole",
+    "kind": "java",
+    "entry": "QuantumMindConsole",
+    "main": "QuantumMindConsole"
+  },
+  {
+    "id": "beacon-run",
+    "name": "Main Dashboard Frame",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "net.activeinference.beacon.core.MainDashboardFrame"
+  },
+  {
+    "id": "beacon-run6gridkernel",
+    "name": "Six Grid Kernel Flux Workbench",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "net.activeinference.beacon.translation.SixGridKernelFluxWorkbench"
+  },
+  {
+    "id": "beacon-run7.8resonance",
+    "name": "Resonance Flux Dashboard",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "net.activeinference.beacon.resonance.ResonanceFluxDashboard"
+  },
+  {
+    "id": "beacon-runbackbone",
+    "name": "Substrate Network Bus",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java-console",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "net.activeinference.beacon.backbone.SubstrateNetworkBus"
+  },
+  {
+    "id": "beacon-runemcorbit",
+    "name": "Cyclic Flux Dashboard",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "CyclicFluxDashboard"
+  },
+  {
+    "id": "beacon-rungen",
+    "name": "Virtue Generation Dashboard",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "net.activeinference.beacon.generator.VirtueGenerationDashboard"
+  },
+  {
+    "id": "beacon-runjavaflux",
+    "name": "System Java Flux Dashboard",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "net.activeinference.beacon.system.SystemJavaFluxDashboard"
+  },
+  {
+    "id": "beacon-runkernelgrid",
+    "name": "Kernel Cpu Flux Workbench",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "net.activeinference.beacon.translation.KernelCpuFluxWorkbench"
+  },
+  {
+    "id": "beacon-runlivegrid",
+    "name": "Live Translation Workbench",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "net.activeinference.beacon.translation.LiveTranslationWorkbench"
+  },
+  {
+    "id": "beacon-runoperaflux",
+    "name": "Opera Flux Workbench",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "net.activeinference.beacon.translation.OperaFluxWorkbench"
+  },
+  {
+    "id": "beacon-runscriptfluxbus",
+    "name": "Script Flux Bus Workbench",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "net.activeinference.beacon.translation.ScriptFluxBusWorkbench"
+  },
+  {
+    "id": "beacon-runtranslator",
+    "name": "Translation Workbench",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "net.activeinference.beacon.translation.TranslationWorkbench"
+  },
+  {
+    "id": "beacon-rununmod",
+    "name": "Carrier Wave Inference Dashboard",
+    "family": "ACTIVEINFERENCEBEACON2",
+    "kind": "java",
+    "entry": "ACTIVEINFERENCEBEACON2",
+    "main": "net.activeinference.beacon.carrier.CarrierWaveInferenceDashboard"
+  },
+  {
+    "id": "scanner",
+    "name": "AI Activity Scanner",
+    "family": "ai scanner",
+    "kind": "console",
+    "entry": "ai scanner/outputs/ai_mode_scanner.py",
+    "args": [
+      "status"
+    ],
+    "operations": [
+      "status",
+      "opera",
+      "login",
+      "once",
+      "run",
+      "deliver",
+      "export"
+    ],
+    "depends": [
+      "godmind"
+    ]
+  },
+  {
+    "id": "backbone-worker",
+    "name": "Backbone Text Worker",
+    "family": "VirtueBackbone",
+    "kind": "console",
+    "entry": "VirtueBackbone/knowledge_worker.py",
+    "depends": [
+      "backbone"
+    ]
+  },
+  {
+    "id": "monad",
+    "name": "Monad Matrix",
+    "family": "monad",
+    "kind": "native",
+    "entry": "monad/monad_matrix_engine.py"
+  },
+  {
+    "id": "scenario-hub",
+    "name": "Postscarcity Scenario Hub",
+    "family": "Legacy unique logic",
+    "kind": "native",
+    "entry": "postscarcity/PostscarcityHub/post_scarcity_hub.py"
+  },
+  {
+    "id": "scarcity-simulation",
+    "name": "Postscarcity Simulation",
+    "family": "Legacy unique logic",
+    "kind": "native",
+    "entry": "postscarcity/post_scarcity_simulation.py"
+  },
+  {
+    "id": "system-grid",
+    "name": "System Grid Explorer",
+    "family": "AllPrevUnifiedEngine-FluxExpanded",
+    "kind": "java",
+    "entry": "AllPrevUnifiedEngine-FluxExpanded",
+    "main": "SystemGridExplorer"
+  }
+]

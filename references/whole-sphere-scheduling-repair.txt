@@ -1,0 +1,33 @@
+WHOLE-SPHERE ACTIVITY AND FAIR SCHEDULING
+
+The function worker now uses bounded fair slices of up to eight registered
+roles per pass (three under resource pressure), rather than a fixed three-role
+pass for all conditions. Every role retains its next turn after slow work.
+Slow or failed role snapshots receive a measured temporary cooldown.
+
+The shared training worker also uses fair slices instead of running its entire
+service list before yielding. Existing source-fetch intervals, model policies,
+disabled-state handling and resource-pressure limits remain authoritative.
+Choice/Action/Consequence updates are owned by the existing sphere-function
+worker, rather than waiting behind long capability suites in the training
+worker. There is one writer for those studies and no extra model worker.
+
+Original, selected and combined projections receive a lightweight refresh at
+most once per second during conversation. Heavy autonomous processing still
+yields to the user's conversation. This prevents downstream sphere views from
+being fed only stale root frames while a chat is active.
+
+Single-lane neural, rotated-plane and Choice/Action/Consequence views copy only
+the requested lane. Function workers receive a bounded whole-mind snapshot and
+only the workspace fields they consume, rather than copying unrelated history.
+The full visual and source records remain in their original services.
+
+Numeric channel observation rotates through captured source batches. Role
+freshness, measured cost, retry delay and scheduler visits are available in
+functional_work.scheduler_health. The visible sphere status shows freshness.
+Choice/Action/Consequence views explicitly indicate idle passes when there is
+no new source data; duplicate captures are not fabricated learning events.
+
+Tests cover all registered role turns, slow and failing callbacks, source
+coverage, conversation refresh, and avoiding unrelated frame copies. Freshness
+is not intelligence: each role's evidence and experiment scope still applies.

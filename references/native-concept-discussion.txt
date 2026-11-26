@@ -1,0 +1,47 @@
+NATIVE CONCEPT DISCUSSION
+
+This mode uses no language model. It retains attributed premises and checks
+relations and explicit rules with source-linked proof records.
+
+Start:
+conversation facts: Mira is a technician; Every technician is a mechanic; Every mechanic repairs radios
+
+Ask:
+What does Mira repair?
+Tell me what Mira repairs
+Which technicians repair radios?
+How many technicians repair radios?
+Who repairs radios?
+Does Mira repair radios?
+why
+which premises matter
+show discussion records
+
+After an object question such as What does Mira repair?, And Theo? applies the
+same relation question to Theo. It does not change the retained premises. An
+ambiguous subject/object reference or pronoun asks for a named reference.
+
+Correct explicitly:
+replace F1: Mira is an artist
+
+Test without changing the original discussion:
+What if F1 were: Mira is an artist?
+
+Conditional rule with multiple premises:
+If someone repairs radios and teaches coding then they qualify certification
+
+New words are accepted within the grammar; a fixed list of topic names or verbs
+is not required. Quote a multiword subject, for example:
+note that "The red robot" carries parcels
+What does the red robot carry?
+
+For an unambiguous relation, use SUBJECT | VERB | OBJECT after conversation facts:.
+Say resume discussion after using another skill.
+
+Unknown relations remain unknown. Opposing statements remain visible and do not
+prove unrelated claims. Replacement withdraws the old supporting premise and
+recomputes later answers. These are conditional deductions from supplied text,
+not independent verification, authority, executable instructions or world access.
+
+The upgraded sources load in the desktop app on its next restart. The shared
+native chat is restarted separately and keeps visitor sessions separate.

@@ -1,0 +1,58 @@
+{
+  "automated_tests": 262,
+  "new_reference_tests": 16,
+  "matching_runtime_modules": 57,
+  "reference_engines": 33,
+  "learning_groups": 105,
+  "refresh_performance_before": {
+    "tick_median_ms": 9.905700004310347,
+    "tick_max_ms": 51.782100010314025,
+    "training_step_ms": 2.8788999989046715,
+    "groups": 72
+  },
+  "refresh_performance_after": {
+    "tick_median_ms": 0.5637000012939097,
+    "tick_max_ms": 33.03860000050918,
+    "training_step_ms": 3.264949998992961,
+    "groups": 105
+  },
+  "packaged_startup": {
+    "exit_code": 0,
+    "pages": 27,
+    "reference_engines": 33,
+    "neural_target_learned": true,
+    "ledger_engines": 4,
+    "neural_groups": 105,
+    "example_engines": 23,
+    "platform_components": 10,
+    "platform_receipts": {
+      "COMPLETE": 6
+    },
+    "text_components": 5,
+    "text_receipts": {
+      "COMPLETE": 6
+    },
+    "welfare_components": 3,
+    "welfare_receipts": {
+      "AWAITING_INPUT": 5,
+      "COMPLETE": 1
+    },
+    "unified_receipts": {
+      "COMPLETE": 6
+    },
+    "mesh_acknowledged_receipts": 6,
+    "hub": "Listening on 127.0.0.1:53921",
+    "local_delivery_verified_in_this_startup": true,
+    "port_conflict_reported_and_packets_retained": false,
+    "stderr": ""
+  },
+  "program_files_verified_per_install": 204,
+  "installations": [
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-17\\block-1-of-2-system-monitor\\outputs\\FluxBus-v2",
+    "C:\\Users\\USER\\Desktop\\CHAT GPT APPS\\FluxBus-v2"
+  ],
+  "all_existing_user_data_sha256_unchanged": true,
+  "conversations_preserved": 13,
+  "messages_preserved": 318,
+  "backup": "C:\\Users\\USER\\Documents\\Codex\\2026-10-17\\block-1-of-2-system-monitor\\work\\reference-history-backup"
+}

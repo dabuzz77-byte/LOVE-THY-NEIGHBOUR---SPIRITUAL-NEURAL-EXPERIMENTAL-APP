@@ -1,0 +1,3719 @@
+[
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\backbone\\BusTelemetryPacket.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/backbone/BusTelemetryPacket.java",
+    "kind": "source-reference",
+    "bytes": 1400,
+    "sha256": "1c3f2be4f6ce3931f82736db1de6e08f4507880345f1e97fc7c8cfe65886f34b"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\backbone\\SubstrateNetworkBus.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/backbone/SubstrateNetworkBus.java",
+    "kind": "source-reference",
+    "bytes": 6976,
+    "sha256": "d777a92629833047ea1ebe4929ad90814b36dfc5e638cb5d8ce15566f108ecd0"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\carrier\\CarrierTheme.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/carrier/CarrierTheme.java",
+    "kind": "source-reference",
+    "bytes": 939,
+    "sha256": "7e84927f948a3d641df4651457108cbd5f1c72b90b3fc0940911ae959ab7ef7a"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\carrier\\CarrierWaveInferenceDashboard.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/carrier/CarrierWaveInferenceDashboard.java",
+    "kind": "source-reference",
+    "bytes": 10496,
+    "sha256": "a5b7282f57e6c305001a5f0c899cf6f86b39ee4b5f15e541000bd48e077f01a1"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\carrier\\UnmodulatedBinaryPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/carrier/UnmodulatedBinaryPanel.java",
+    "kind": "source-reference",
+    "bytes": 1413,
+    "sha256": "fad6fe97f2e499506ce1c1a5b6d9d69be2c2db943b40f90ba532ca3fcfe07860"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\carrier\\UnmodulatedQuantumPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/carrier/UnmodulatedQuantumPanel.java",
+    "kind": "source-reference",
+    "bytes": 1382,
+    "sha256": "e817a58ac4e362681841cb989c7aae55738dfbc411d5324c2e54b6026210c1a1"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\carrier\\UnmodulatedTernaryPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/carrier/UnmodulatedTernaryPanel.java",
+    "kind": "source-reference",
+    "bytes": 1683,
+    "sha256": "8fb23442e4334885a7c8f36fe84ac9bed3ea640c82b1954094b68095840bbcb0"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\core\\BroadcastingBeacon.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/BroadcastingBeacon.java",
+    "kind": "source-reference",
+    "bytes": 952,
+    "sha256": "b8cea51f71956049f7de730f6142b175e62065faf7121a8b8d1703759d446dbe"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\core\\ComputeIslandNode.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/ComputeIslandNode.java",
+    "kind": "source-reference",
+    "bytes": 908,
+    "sha256": "525ff749a93a7e3eaa397077cfce1a5020eea210c26a9283dd34d95c3a7799a8"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\core\\ControlMatrixConsole.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/ControlMatrixConsole.java",
+    "kind": "source-reference",
+    "bytes": 839,
+    "sha256": "fa29799288c63be7e7bed37e15c6be03e9cdb505be32c44fdac50da6f2ef7073"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\core\\DashboardTheme.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/DashboardTheme.java",
+    "kind": "source-reference",
+    "bytes": 811,
+    "sha256": "8e32bedbc7e953143e873f2fe4bd0c329ba1127cdad6f3d66ca078a575b65edf"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\core\\FluxGridPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/FluxGridPanel.java",
+    "kind": "source-reference",
+    "bytes": 1263,
+    "sha256": "adbd60c3ef934576fd95b14ee0bf68811a52adf8e01c88d531e49e31b75f3ea6"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\core\\MainDashboardFrame.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/MainDashboardFrame.java",
+    "kind": "source-reference",
+    "bytes": 8263,
+    "sha256": "c36198241957b5b59a0c6ec1a8f0ad2f7717abe3d301b2e74e4a1fac47332ed4"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\core\\QuantumGridPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/QuantumGridPanel.java",
+    "kind": "source-reference",
+    "bytes": 1312,
+    "sha256": "35d0c8b6ba6e77286f94d4e84cca9e1d11a46c5d1c8eb85a7686f838bf76824d"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\core\\SubstrateCore.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/SubstrateCore.java",
+    "kind": "source-reference",
+    "bytes": 453,
+    "sha256": "1f083bf85f4201da08bf4b6d8f9985c42f0a318770d3f6a05c483f6f7d225915"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\core\\SystemBusKernel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/SystemBusKernel.java",
+    "kind": "source-reference",
+    "bytes": 998,
+    "sha256": "53d47ace8528919fd3c24a8d433b770ce2e7a05325f0a8c3ea7085e44a1239fc"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\core\\TernaryGridPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/TernaryGridPanel.java",
+    "kind": "source-reference",
+    "bytes": 1439,
+    "sha256": "2cc7510952ff532562c302d65531804cb398d1ff80a912d225763640de34e681"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\core\\UserWelfareNode.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/core/UserWelfareNode.java",
+    "kind": "source-reference",
+    "bytes": 735,
+    "sha256": "95c6e6aa5507b5a63b7adb754fa05bdff304cac38e58d56b607b7ebddd11f16b"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\generator\\GeneratorTheme.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/generator/GeneratorTheme.java",
+    "kind": "source-reference",
+    "bytes": 945,
+    "sha256": "f33a97740fde1acff6c46a2fa4eff1297a3ac1fffa985c172227a118f8c016c4"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\generator\\OrbitTheme.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/generator/OrbitTheme.java",
+    "kind": "source-reference",
+    "bytes": 1047,
+    "sha256": "fdbe0be7f1ad4f91e3b33e0b83ae751a8cf93c742201b5898bd75710afa66ef4"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\generator\\RawBinaryPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/generator/RawBinaryPanel.java",
+    "kind": "source-reference",
+    "bytes": 1307,
+    "sha256": "5a3e76c127edfbe1c2bfc3f317f3632236e2cf572f7956b3ef9656d7e90021a3"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\generator\\RawQuantumPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/generator/RawQuantumPanel.java",
+    "kind": "source-reference",
+    "bytes": 1350,
+    "sha256": "0fa215ee08dadb519585daa00c3cc103865cd5bc757aaf184cb3b236333de3d3"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\generator\\RawTernaryPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/generator/RawTernaryPanel.java",
+    "kind": "source-reference",
+    "bytes": 1627,
+    "sha256": "ad44081131132f20d342f254a73e196a009618fa7a28c3ffadd20748ae9e99c2"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\generator\\VirtueGenerationDashboard.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/generator/VirtueGenerationDashboard.java",
+    "kind": "source-reference",
+    "bytes": 12088,
+    "sha256": "ed74ceb2ce3b293ec666bf4dbb8e75a35cbe5b082cae1b872fbb9bd8c16903a7"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\orbit\\CyclicFluxDashboard.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/orbit/CyclicFluxDashboard.java",
+    "kind": "source-reference",
+    "bytes": 12741,
+    "sha256": "a436ad1c554945b5a77be68a2dbe825bcbe6fc437a13ee5f7088384eae5ad29b"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\orbit\\ElectricityPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/orbit/ElectricityPanel.java",
+    "kind": "source-reference",
+    "bytes": 1943,
+    "sha256": "fd2aae92441216ec7448c10b984b07519a5f3ef46147ada3b1d5f1503ea753e1"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\orbit\\OrbitTheme.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/orbit/OrbitTheme.java",
+    "kind": "source-reference",
+    "bytes": 854,
+    "sha256": "6a9d1d1849f9abc781b8053c3e64ea90a26ccfa3be43bcd36720418c61e4ed77"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\resonance\\ResonanceFluxDashboard.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/resonance/ResonanceFluxDashboard.java",
+    "kind": "source-reference",
+    "bytes": 9837,
+    "sha256": "444ef95e60a628ec9cc629d4c1359f2c2071216423306df9acbd4b74ec10e61f"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\system\\DashboardTheme.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/system/DashboardTheme.java",
+    "kind": "source-reference",
+    "bytes": 944,
+    "sha256": "d69eb2b5f50704e5ccb1d887845d96d0554ae4730202528f871c349639c7934e"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\system\\SystemBinaryPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/system/SystemBinaryPanel.java",
+    "kind": "source-reference",
+    "bytes": 1447,
+    "sha256": "31e3038eb51567c4ee91c2d99fdd3ef69fc16ceb3e9b45a9ce610931ec77d9af"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\system\\SystemJavaFluxDashboard.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/system/SystemJavaFluxDashboard.java",
+    "kind": "source-reference",
+    "bytes": 8615,
+    "sha256": "b2f3570d688bf28f9ac8ce6395b114087ecc8ec8e2f9c23e61254ad4ef26cf6c"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\system\\SystemQuantumPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/system/SystemQuantumPanel.java",
+    "kind": "source-reference",
+    "bytes": 1412,
+    "sha256": "30f4a5afcfb1ecab2d6af07cfe01fc99b4c377977acaf4fdcfebb7589d30a09c"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\system\\SystemTernaryPanel.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/system/SystemTernaryPanel.java",
+    "kind": "source-reference",
+    "bytes": 1731,
+    "sha256": "43462096daa5e0038e4fbc471d7873db6b1920f99a78dc67385e7e06776a00f7"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\translation\\BinaryTernaryQutritTranslator.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/translation/BinaryTernaryQutritTranslator.java",
+    "kind": "source-reference",
+    "bytes": 7673,
+    "sha256": "f4174d31a6ba75873d7bbf325f48efd24f7fd6c1066f7b323a95a5397c7c4baa"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\translation\\KernelCpuFluxWorkbench.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/translation/KernelCpuFluxWorkbench.java",
+    "kind": "source-reference",
+    "bytes": 32471,
+    "sha256": "285ebbf550e5773151fc367fee12d22f6ffe85990cf5fc9a4159123eb5a86144"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\translation\\LiveTranslationWorkbench.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/translation/LiveTranslationWorkbench.java",
+    "kind": "source-reference",
+    "bytes": 26439,
+    "sha256": "bd369cc33df48108076652569cad66fbe7f1666d530324608f8d5583dc28e3bd"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\translation\\OperaFluxWorkbench.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/translation/OperaFluxWorkbench.java",
+    "kind": "source-reference",
+    "bytes": 27864,
+    "sha256": "5493c1cd2fb4832feb5515941081a5af34e1d0d1f2464032245f5babf323ffce"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\translation\\ScriptFluxBusWorkbench.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/translation/ScriptFluxBusWorkbench.java",
+    "kind": "source-reference",
+    "bytes": 38520,
+    "sha256": "4e6bb39a97f2f57f7c09c363bb34f523385749290a11a786dcd8d95f25f28156"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\translation\\SixGridKernelFluxWorkbench.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/translation/SixGridKernelFluxWorkbench.java",
+    "kind": "source-reference",
+    "bytes": 28843,
+    "sha256": "e35f658718cfd68a57f67715400d0f54dc4f678a4c5f2d330a7a5e98d6010d05"
+  },
+  {
+    "original": "sources\\ACTIVEINFERENCEBEACON2\\net\\activeinference\\beacon\\translation\\TranslationWorkbench.java",
+    "path": "preserved/sources/ACTIVEINFERENCEBEACON2/net/activeinference/beacon/translation/TranslationWorkbench.java",
+    "kind": "source-reference",
+    "bytes": 14204,
+    "sha256": "5fb6283d5d1ec48deecb0322f4f3c8df53b154e9ac1231934f213e2a7b84726e"
+  },
+  {
+    "original": "sources\\ai scanner\\outputs\\ai_mode_scanner.py",
+    "path": "preserved/sources/ai scanner/outputs/ai_mode_scanner.py",
+    "kind": "source-reference",
+    "bytes": 31629,
+    "sha256": "7b3fab237650da92b6469ab13a333b9c23c2194cd0b6104960e298a196a609a7"
+  },
+  {
+    "original": "sources\\ai scanner\\outputs\\opera_tab.py",
+    "path": "preserved/sources/ai scanner/outputs/opera_tab.py",
+    "kind": "source-reference",
+    "bytes": 11615,
+    "sha256": "a02d2280616b607e884c98099b8815eef07717acb910e66a70d37fa160c7fdf3"
+  },
+  {
+    "original": "sources\\ai scanner\\outputs\\tests\\test_browser.py",
+    "path": "preserved/sources/ai scanner/outputs/tests/test_browser.py",
+    "kind": "source-reference",
+    "bytes": 4423,
+    "sha256": "25a2b5e33253741017b403d567d529100cf40140543ed7ef7a09e66b823b70b1"
+  },
+  {
+    "original": "sources\\ai scanner\\outputs\\tests\\test_direct_tab.py",
+    "path": "preserved/sources/ai scanner/outputs/tests/test_direct_tab.py",
+    "kind": "source-reference",
+    "bytes": 6283,
+    "sha256": "958a05a800d1720bff2196a9076918f1af2d3bd2db877e5b2f3862f57a75afee"
+  },
+  {
+    "original": "sources\\ai scanner\\outputs\\tests\\test_opera.py",
+    "path": "preserved/sources/ai scanner/outputs/tests/test_opera.py",
+    "kind": "source-reference",
+    "bytes": 4964,
+    "sha256": "657a529d6815513f817f30d188fd12d5e4fd3282e7e3d88a4b2708ced7a862ae"
+  },
+  {
+    "original": "sources\\ai scanner\\outputs\\tests\\test_scanner.py",
+    "path": "preserved/sources/ai scanner/outputs/tests/test_scanner.py",
+    "kind": "source-reference",
+    "bytes": 7748,
+    "sha256": "e1f7b87422d9609f3993e42a4ace56a830fb82f0cbc1c0c2bf0e9683e71ed359"
+  },
+  {
+    "original": "sources\\ai-genesis-node\\processes.mjs",
+    "path": "preserved/sources/ai-genesis-node/processes.mjs",
+    "kind": "source-reference",
+    "bytes": 2331,
+    "sha256": "46437502766cd8cf3dbfe38a6f590902639697ac13d4d606e5cef453e57a8f41"
+  },
+  {
+    "original": "sources\\ai-genesis-node\\providers.mjs",
+    "path": "preserved/sources/ai-genesis-node/providers.mjs",
+    "kind": "source-reference",
+    "bytes": 5743,
+    "sha256": "a0c136d808c115ac707e3d57f60a958844b5f64a2320debf31a5add1db019989"
+  },
+  {
+    "original": "sources\\ai-genesis-node\\server.mjs",
+    "path": "preserved/sources/ai-genesis-node/server.mjs",
+    "kind": "source-reference",
+    "bytes": 11361,
+    "sha256": "e7601d94a136fe7d235bc2bb3d51b9e75988f6459f84c74de8c9f16623129d72"
+  },
+  {
+    "original": "sources\\ai-genesis-node\\connectors\\GenesisConnector.java",
+    "path": "preserved/sources/ai-genesis-node/connectors/GenesisConnector.java",
+    "kind": "source-reference",
+    "bytes": 5104,
+    "sha256": "3b7998fdcc04897f495ed82e4b7c225656a3687378aae8e1d2968dfbd7344955"
+  },
+  {
+    "original": "sources\\ai-genesis-node\\connectors\\genesis_connector.py",
+    "path": "preserved/sources/ai-genesis-node/connectors/genesis_connector.py",
+    "kind": "source-reference",
+    "bytes": 3093,
+    "sha256": "517e44f30fd1b40c79f2525ed140610286a779ee61dc961f7d534c2ccfb207d8"
+  },
+  {
+    "original": "sources\\ai-genesis-node\\connectors\\python_example.py",
+    "path": "preserved/sources/ai-genesis-node/connectors/python_example.py",
+    "kind": "source-reference",
+    "bytes": 542,
+    "sha256": "9383f8138cf7cc87c5a67beefb630e0a0e2f8bddf00b07c2f26af1dccaa35019"
+  },
+  {
+    "original": "sources\\ai-genesis-node\\public\\app.js",
+    "path": "preserved/sources/ai-genesis-node/public/app.js",
+    "kind": "source-reference",
+    "bytes": 12870,
+    "sha256": "517aed88d6d1cabfda44682b7a56df2cf71d4fb9aaf4d76d3573a2af56233c55"
+  },
+  {
+    "original": "sources\\ai-genesis-node\\public\\index.html",
+    "path": "preserved/sources/ai-genesis-node/public/index.html",
+    "kind": "source-reference",
+    "bytes": 10925,
+    "sha256": "365f8639d1c2816839628759fd11907802bd309edc9ccb0f9590006d0c68158b"
+  },
+  {
+    "original": "sources\\ai-genesis-node\\tests\\providers.test.mjs",
+    "path": "preserved/sources/ai-genesis-node/tests/providers.test.mjs",
+    "kind": "source-reference",
+    "bytes": 4440,
+    "sha256": "5fa14b1fba83fbcfb8b0348b3b2225424da26ee71e31ef06c13a06482188a6ff"
+  },
+  {
+    "original": "sources\\AllPrevUnifiedEngine-FluxExpanded\\AllPrevBusClient.java",
+    "path": "preserved/sources/AllPrevUnifiedEngine-FluxExpanded/AllPrevBusClient.java",
+    "kind": "source-reference",
+    "bytes": 1803,
+    "sha256": "6525f70b87b772252193d1f984286057a92642b53cd261de8a8d121dbfe8b899"
+  },
+  {
+    "original": "sources\\AllPrevUnifiedEngine-FluxExpanded\\AllPrevUnifiedEngine.java",
+    "path": "preserved/sources/AllPrevUnifiedEngine-FluxExpanded/AllPrevUnifiedEngine.java",
+    "kind": "source-reference",
+    "bytes": 28113,
+    "sha256": "8aa6e5533297a7ee7850ed23929d16908dd076ce566d7c91b4c51f517e05654f"
+  },
+  {
+    "original": "sources\\AllPrevUnifiedEngine-FluxExpanded\\FluxBusLink.java",
+    "path": "preserved/sources/AllPrevUnifiedEngine-FluxExpanded/FluxBusLink.java",
+    "kind": "source-reference",
+    "bytes": 23865,
+    "sha256": "54381b5f2a258faea1329c83237fb3d7996916824fddd461d53503c61a4a603e"
+  },
+  {
+    "original": "sources\\AllPrevUnifiedEngine-FluxExpanded\\FluxExpansion.java",
+    "path": "preserved/sources/AllPrevUnifiedEngine-FluxExpanded/FluxExpansion.java",
+    "kind": "source-reference",
+    "bytes": 9879,
+    "sha256": "c0c7322becce8c2c843a9d415c3530b15ac26acb1871f75331e2087ea84bddf5"
+  },
+  {
+    "original": "sources\\AllPrevUnifiedEngine-FluxExpanded\\FluxJson.java",
+    "path": "preserved/sources/AllPrevUnifiedEngine-FluxExpanded/FluxJson.java",
+    "kind": "source-reference",
+    "bytes": 3149,
+    "sha256": "9c05dde99bb727b4edec2d5156acb35fe7e3a77563969649e05993f9c7c7fc1d"
+  },
+  {
+    "original": "sources\\AllPrevUnifiedEngine-FluxExpanded\\SystemGridExplorer.java",
+    "path": "preserved/sources/AllPrevUnifiedEngine-FluxExpanded/SystemGridExplorer.java",
+    "kind": "source-reference",
+    "bytes": 14713,
+    "sha256": "9318c6c98b6b41a1e14dcd44923d62b033bf81526bb219a6664621500e81d8eb"
+  },
+  {
+    "original": "sources\\AllPrevUnifiedEngine-FluxExpanded\\allprev_bus_client.py",
+    "path": "preserved/sources/AllPrevUnifiedEngine-FluxExpanded/allprev_bus_client.py",
+    "kind": "source-reference",
+    "bytes": 2394,
+    "sha256": "5fb69c0ec5555833cd1ca4e5abb28df92ea47e3a619960d3a3dc633c91c49928"
+  },
+  {
+    "original": "sources\\AllPrevUnifiedEngine-FluxExpanded\\flux_ledger.py",
+    "path": "preserved/sources/AllPrevUnifiedEngine-FluxExpanded/flux_ledger.py",
+    "kind": "source-reference",
+    "bytes": 1263,
+    "sha256": "3288bd15cd08ad61bdb611431601bea53780b8b6b6d046583e15a9c4d828f2d4"
+  },
+  {
+    "original": "sources\\c-chatgptrewrties-python-processes-ambientfield\\outputs\\ambient_field_transmit.py",
+    "path": "preserved/sources/c-chatgptrewrties-python-processes-ambientfield/outputs/ambient_field_transmit.py",
+    "kind": "source-reference",
+    "bytes": 34094,
+    "sha256": "f362de4a7495cb513b14806b61b9a66b06ee8b42f3e733e532a707e82f710bfa"
+  },
+  {
+    "original": "sources\\c-chatgptrewrties-python-processes-ambientfield\\outputs\\ambient2\\ambient_field_transmit.py",
+    "path": "preserved/sources/c-chatgptrewrties-python-processes-ambientfield/outputs/ambient2/ambient_field_transmit.py",
+    "kind": "source-reference",
+    "bytes": 50148,
+    "sha256": "bd0e2de23f15692ab52045b8a97b9304eb57f9bd2fa355beb3249fbb71e63cef"
+  },
+  {
+    "original": "sources\\Carrier Lab\\carrier_lab.py",
+    "path": "preserved/sources/Carrier Lab/carrier_lab.py",
+    "kind": "source-reference",
+    "bytes": 51568,
+    "sha256": "5236b8f09313a681a441251942b0cb4e0b9f23c440a2ba6a7ac895a4c286f797"
+  },
+  {
+    "original": "sources\\CoreInteractionSystem-Python\\CoreInteractionSystem-Python\\core_interaction_system.py",
+    "path": "preserved/sources/CoreInteractionSystem-Python/CoreInteractionSystem-Python/core_interaction_system.py",
+    "kind": "source-reference",
+    "bytes": 57580,
+    "sha256": "61432639d26da74d1a31c10a693ae7c3ea86de6704d2b23f2c8592acf96347f0"
+  },
+  {
+    "original": "sources\\CoreInteractionSystem-Python\\CoreInteractionSystem-Python\\test_core_interaction_system.py",
+    "path": "preserved/sources/CoreInteractionSystem-Python/CoreInteractionSystem-Python/test_core_interaction_system.py",
+    "kind": "source-reference",
+    "bytes": 8708,
+    "sha256": "0afe4d8d03d74f318736edd635d665ba10921e940238ce22da748538f8c50677"
+  },
+  {
+    "original": "sources\\engine1\\drillscript.py",
+    "path": "preserved/sources/engine1/drillscript.py",
+    "kind": "source-reference",
+    "bytes": 22804,
+    "sha256": "301a229826bdd16bb850a6b5b156c830e94d6f4baa027a0d0a4cac00bc442d0e"
+  },
+  {
+    "original": "sources\\engine1\\module 1.py",
+    "path": "preserved/sources/engine1/module 1.py",
+    "kind": "source-reference",
+    "bytes": 4980,
+    "sha256": "67b1894a1a6e58166cec79c46c091125725c4ef747f40165daf699a6d7118fdb"
+  },
+  {
+    "original": "sources\\engine1\\module2.py",
+    "path": "preserved/sources/engine1/module2.py",
+    "kind": "source-reference",
+    "bytes": 5994,
+    "sha256": "5c7c11a721ceb9717bc7c96c388be7cd921b90cce070b893b4aca314355c4282"
+  },
+  {
+    "original": "sources\\engine1\\module3.py",
+    "path": "preserved/sources/engine1/module3.py",
+    "kind": "source-reference",
+    "bytes": 32940,
+    "sha256": "c2f8b55703c52ff8ddb7cb8c4e287e9bc89a84b4b6ae54f8616572288b3fe1f0"
+  },
+  {
+    "original": "sources\\engine1\\original_logic\\__init__.py",
+    "path": "preserved/sources/engine1/original_logic/__init__.py",
+    "kind": "source-reference",
+    "bytes": 3208,
+    "sha256": "c7c7aa2ccfdc1edd5c50eb5d62338656af84851f133056771f95c48447e09f13"
+  },
+  {
+    "original": "sources\\engine1\\original_logic\\__main__.py",
+    "path": "preserved/sources/engine1/original_logic/__main__.py",
+    "kind": "source-reference",
+    "bytes": 138,
+    "sha256": "cdced2adfbd90b9a94864c6ebc8f2c3c4d0db3106604a74412db2a5413296b15"
+  },
+  {
+    "original": "sources\\engine1\\original_logic\\drillscript.py",
+    "path": "preserved/sources/engine1/original_logic/drillscript.py",
+    "kind": "source-reference",
+    "bytes": 1758,
+    "sha256": "60a1ea4bcd4aed4bd9d7be341283eb1975ba1c8434f3ce7fdc9df28b68e26bac"
+  },
+  {
+    "original": "sources\\engine1\\original_logic\\module 1.py",
+    "path": "preserved/sources/engine1/original_logic/module 1.py",
+    "kind": "source-reference",
+    "bytes": 2251,
+    "sha256": "458aa148aa9a89fa62a3af24f0e891595c1ea4701dc274b1d31dd27b6c95f3e4"
+  },
+  {
+    "original": "sources\\engine1\\original_logic\\module2.py",
+    "path": "preserved/sources/engine1/original_logic/module2.py",
+    "kind": "source-reference",
+    "bytes": 2122,
+    "sha256": "23e5013e403b0735c9e9aca5da73e107a6c6b0779c63aadfed29380fb0d37635"
+  },
+  {
+    "original": "sources\\engine1\\original_logic\\module3.py",
+    "path": "preserved/sources/engine1/original_logic/module3.py",
+    "kind": "source-reference",
+    "bytes": 2045,
+    "sha256": "5eedb1f04ab7641f6ac16d3368ef4797d08bb150d42f594e6275bcb7d924eb78"
+  },
+  {
+    "original": "sources\\engine1\\tests\\test_engine1.py",
+    "path": "preserved/sources/engine1/tests/test_engine1.py",
+    "kind": "source-reference",
+    "bytes": 8575,
+    "sha256": "52aa1d4d1d92ade4ad7419590f54dd13a9f49fb72bd5c8f01b9a3c6e97fcaacf"
+  },
+  {
+    "original": "sources\\engine1\\tests\\test_original_logic.py",
+    "path": "preserved/sources/engine1/tests/test_original_logic.py",
+    "kind": "source-reference",
+    "bytes": 5742,
+    "sha256": "0bf90ae4c6bc29e9b53cbb06fcf7a4a24844f68577f7ee7f6d0ef1002fc3ebe3"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\ai_context.py",
+    "path": "preserved/sources/FluxBus-v2/source/ai_context.py",
+    "kind": "source-reference",
+    "bytes": 5488,
+    "sha256": "e5859264ef24743f26409e6ac37bbafcac42e49912357958524f265d8edcf365"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\app.py",
+    "path": "preserved/sources/FluxBus-v2/source/app.py",
+    "kind": "source-reference",
+    "bytes": 59690,
+    "sha256": "311bf4db39c21b0190398ef1305ade2db7c1f1313378103e45e5b2eaa4a395a2"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\audit.py",
+    "path": "preserved/sources/FluxBus-v2/source/audit.py",
+    "kind": "source-reference",
+    "bytes": 3531,
+    "sha256": "98767061e6a1f01fba87ddb430ab90159bb07aa7ffa41d04a3ae314e85b9d64a"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\audit_page.py",
+    "path": "preserved/sources/FluxBus-v2/source/audit_page.py",
+    "kind": "source-reference",
+    "bytes": 10612,
+    "sha256": "10364b3d90c86b52751864d88d7006e7a7cf483381328877f1717cbb3678909b"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\binary_layout.py",
+    "path": "preserved/sources/FluxBus-v2/source/binary_layout.py",
+    "kind": "source-reference",
+    "bytes": 3669,
+    "sha256": "364e1eaec0754cf89f3273760b272920aa56e767b1f3313ecb67759a4bd33761"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\boolean_text.py",
+    "path": "preserved/sources/FluxBus-v2/source/boolean_text.py",
+    "kind": "source-reference",
+    "bytes": 4255,
+    "sha256": "67dce50eed00f8dcb46c60c66dc3deaf5f0722614b3c2c1f1b3fb4acfd8bfe13"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\central_bank_mesh.py",
+    "path": "preserved/sources/FluxBus-v2/source/central_bank_mesh.py",
+    "kind": "source-reference",
+    "bytes": 5449,
+    "sha256": "d71e1bafb88aa5c21141fa10bf65295c8e9f38e68f25bcf061a89adc6b56e547"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\cloud_ai.py",
+    "path": "preserved/sources/FluxBus-v2/source/cloud_ai.py",
+    "kind": "source-reference",
+    "bytes": 9807,
+    "sha256": "1c0405644896f9970c8915c20ce5bec6e0d098071fd6994d9dae9016383b5f3c"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\continuous_module.py",
+    "path": "preserved/sources/FluxBus-v2/source/continuous_module.py",
+    "kind": "source-reference",
+    "bytes": 6769,
+    "sha256": "6588f0e10dd66b859f96f33d4d115c71d651cf672b060637435c4a6ff1b2643b"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\conversations.py",
+    "path": "preserved/sources/FluxBus-v2/source/conversations.py",
+    "kind": "source-reference",
+    "bytes": 5063,
+    "sha256": "720052591cd0b57fda1712fee2c8f7817a44210b3296ce4f6e29b6780b906687"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\data_pages.py",
+    "path": "preserved/sources/FluxBus-v2/source/data_pages.py",
+    "kind": "source-reference",
+    "bytes": 40024,
+    "sha256": "fc9b276088730233d933070520cbc857abc788395ffecc5e00c2b089a34c7f15"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\engine_graphics.py",
+    "path": "preserved/sources/FluxBus-v2/source/engine_graphics.py",
+    "kind": "source-reference",
+    "bytes": 9440,
+    "sha256": "c39abb8ea89265f07eb708247f00502ae2581edce6ab0085eb3494148f83d957"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\engines.py",
+    "path": "preserved/sources/FluxBus-v2/source/engines.py",
+    "kind": "source-reference",
+    "bytes": 11495,
+    "sha256": "0ae645b997de2129ff8921e7ea46fed54883461aa3b5b0eb27197542fee20065"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\extensions.py",
+    "path": "preserved/sources/FluxBus-v2/source/extensions.py",
+    "kind": "source-reference",
+    "bytes": 52634,
+    "sha256": "921d24e1b3dcd62454bc4a424026ebce1334ed6cbf788bc1791cc694c9888a06"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\history.py",
+    "path": "preserved/sources/FluxBus-v2/source/history.py",
+    "kind": "source-reference",
+    "bytes": 6742,
+    "sha256": "0ba31e927f99f37608dedf035d8581834a62a7da0d1851fb2b066f623195e6e8"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\hub.py",
+    "path": "preserved/sources/FluxBus-v2/source/hub.py",
+    "kind": "source-reference",
+    "bytes": 11580,
+    "sha256": "1e3077a5034bf8e92be3a356ef662b812e4297fc9a7e05c46c87b8d7579f0767"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\infrastructure_engines.py",
+    "path": "preserved/sources/FluxBus-v2/source/infrastructure_engines.py",
+    "kind": "source-reference",
+    "bytes": 13745,
+    "sha256": "ffdbbb7db64dfab951efb9b739498394ca6e0a4b4603ae5b52810b4d95131b11"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\infrastructure_pdf.py",
+    "path": "preserved/sources/FluxBus-v2/source/infrastructure_pdf.py",
+    "kind": "source-reference",
+    "bytes": 7294,
+    "sha256": "0c880c24e87dba4e1b0e1881a4fb3d2e5758b9dab39b3f98dcebd591818bbb4d"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\karmic_welfare.py",
+    "path": "preserved/sources/FluxBus-v2/source/karmic_welfare.py",
+    "kind": "source-reference",
+    "bytes": 13805,
+    "sha256": "01a8d33c91c99ef5ca17e60652d4962ac4ed197eed1217dc7dd3e16bd758e235"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\library.py",
+    "path": "preserved/sources/FluxBus-v2/source/library.py",
+    "kind": "source-reference",
+    "bytes": 6977,
+    "sha256": "0a39c5217cbaed18b9ce8cbf8cb9302310fe1569a79c5c6c836b87c83c2894c2"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\live_audit.py",
+    "path": "preserved/sources/FluxBus-v2/source/live_audit.py",
+    "kind": "source-reference",
+    "bytes": 24862,
+    "sha256": "5c5447be9963088da87243d93774d8d414c0594f489460eda227bfad4fb89ae2"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\live_flux.py",
+    "path": "preserved/sources/FluxBus-v2/source/live_flux.py",
+    "kind": "source-reference",
+    "bytes": 4344,
+    "sha256": "530a0ddfd4917021f2a68ef27b8af34fe6d297717d3463ef996921fb4c9dcfb6"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\llama.py",
+    "path": "preserved/sources/FluxBus-v2/source/llama.py",
+    "kind": "source-reference",
+    "bytes": 7756,
+    "sha256": "7fe977d43b58e3b109f63047a19e34d9a672a690cc7d53ededea366569d08ab2"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\mesh_engine.py",
+    "path": "preserved/sources/FluxBus-v2/source/mesh_engine.py",
+    "kind": "source-reference",
+    "bytes": 12560,
+    "sha256": "33f19c482cce3733c8b884d67013655c8fa0edcc799e36738288293a37bd1361"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\mesh_page.py",
+    "path": "preserved/sources/FluxBus-v2/source/mesh_page.py",
+    "kind": "source-reference",
+    "bytes": 10838,
+    "sha256": "04d0af692d2d1c798a05565e344ff9e18a8c0603d4d01f29fa02fa741a4c56cf"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\mesh_transport.py",
+    "path": "preserved/sources/FluxBus-v2/source/mesh_transport.py",
+    "kind": "source-reference",
+    "bytes": 6336,
+    "sha256": "8fbca644d78c067a5c892dc8ecfd380684fc4a19e57014316acea87788441797"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\mesh_worker.py",
+    "path": "preserved/sources/FluxBus-v2/source/mesh_worker.py",
+    "kind": "source-reference",
+    "bytes": 11187,
+    "sha256": "b27d458cba9697f75dd1dda7d0b2d6a2ee4aacb7052632ebea44fbb3451eda75"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\monitor.py",
+    "path": "preserved/sources/FluxBus-v2/source/monitor.py",
+    "kind": "source-reference",
+    "bytes": 9382,
+    "sha256": "025e2d4bc9616bbf404887f216ccf7eeb9c58e41f15801f5b1b6d49d117f9175"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\neural_learning.py",
+    "path": "preserved/sources/FluxBus-v2/source/neural_learning.py",
+    "kind": "source-reference",
+    "bytes": 16303,
+    "sha256": "0dd8796857d05111ad5854485c8a4fa96a2e906777a948753d9773b2a8068dcc"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\neural_model.py",
+    "path": "preserved/sources/FluxBus-v2/source/neural_model.py",
+    "kind": "source-reference",
+    "bytes": 11419,
+    "sha256": "4d3f7118d85144a1f1ae4ff4a6f5f376319de53028d6a84ae298084b7c583a73"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\neural_page.py",
+    "path": "preserved/sources/FluxBus-v2/source/neural_page.py",
+    "kind": "source-reference",
+    "bytes": 20753,
+    "sha256": "875fe965caedc6bb9fcbba424f68f359e75264ca774098c8ce37844097775d17"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\observatory.py",
+    "path": "preserved/sources/FluxBus-v2/source/observatory.py",
+    "kind": "source-reference",
+    "bytes": 12406,
+    "sha256": "5bb8efb184b30850ac40a45d7c4076eb3ae682cb4afc0a5787e473ffdba197a8"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\payload_storage.py",
+    "path": "preserved/sources/FluxBus-v2/source/payload_storage.py",
+    "kind": "source-reference",
+    "bytes": 5614,
+    "sha256": "ca02c8697ba0b529942650ea8e6282d94c3d7ff63cff1cbe3095cd49993e59c2"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\pipeline.py",
+    "path": "preserved/sources/FluxBus-v2/source/pipeline.py",
+    "kind": "source-reference",
+    "bytes": 10462,
+    "sha256": "d1e601b814e1eff32890d7157eb6d12342f52567682047b4b8457c5fe352124f"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\platform_alignment.py",
+    "path": "preserved/sources/FluxBus-v2/source/platform_alignment.py",
+    "kind": "source-reference",
+    "bytes": 18566,
+    "sha256": "c50418aa0e559641fce8a71a7385f0e5ba622cc4b9969da53c95b68f6d77f1b6"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\platform_page.py",
+    "path": "preserved/sources/FluxBus-v2/source/platform_page.py",
+    "kind": "source-reference",
+    "bytes": 8880,
+    "sha256": "205c72c8f81d7f7b72d1830871bd3f53d401ab1be7d24722a4346decce529b00"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\reference_calculators.py",
+    "path": "preserved/sources/FluxBus-v2/source/reference_calculators.py",
+    "kind": "source-reference",
+    "bytes": 46838,
+    "sha256": "604033a547324e80c4a4db1ef9834782129febe9e82350d4d949123736af4909"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\reference_catalog.py",
+    "path": "preserved/sources/FluxBus-v2/source/reference_catalog.py",
+    "kind": "source-reference",
+    "bytes": 7411,
+    "sha256": "9e3ac68cba83b5f3de42ab09db1a5e51ff65ca00532a0c2724fc2d5f7d5271db"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\reference_crypto.py",
+    "path": "preserved/sources/FluxBus-v2/source/reference_crypto.py",
+    "kind": "source-reference",
+    "bytes": 6489,
+    "sha256": "648e542aa256682fcb6c600d2fbc6972b6e4c7fde5306c3e50cdca27140c54f1"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\reference_custom.py",
+    "path": "preserved/sources/FluxBus-v2/source/reference_custom.py",
+    "kind": "source-reference",
+    "bytes": 7937,
+    "sha256": "2445e0f52ce6e7c8004c555c944dfd6df8585db383af123f33cacabbdf72f81c"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\reference_page.py",
+    "path": "preserved/sources/FluxBus-v2/source/reference_page.py",
+    "kind": "source-reference",
+    "bytes": 15024,
+    "sha256": "7fb3c706f31786d8d91d537850fbadd398e52a1935e9e02a04804aaa8bfd3a59"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\reference_runtime.py",
+    "path": "preserved/sources/FluxBus-v2/source/reference_runtime.py",
+    "kind": "source-reference",
+    "bytes": 7461,
+    "sha256": "a3baacafb8d9906d573d30b1b2eadb2b959524368a5017aad4e6c56f1130f301"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\resource_governor.py",
+    "path": "preserved/sources/FluxBus-v2/source/resource_governor.py",
+    "kind": "source-reference",
+    "bytes": 4740,
+    "sha256": "7748d713ebcca7899964e7b20de16aed0b477ad22e9aa9e8a5cf8bc0bd047b62"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\routing.py",
+    "path": "preserved/sources/FluxBus-v2/source/routing.py",
+    "kind": "source-reference",
+    "bytes": 9633,
+    "sha256": "4b63520154aef15e45c15e3dee9e9d6f666afb94244a54538bef618bd117fd7d"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\souls_ingress.py",
+    "path": "preserved/sources/FluxBus-v2/source/souls_ingress.py",
+    "kind": "source-reference",
+    "bytes": 16751,
+    "sha256": "f653a156f8d03272164abee4128bfc562fcc83fe1cbf5d537741cea9b5a1769b"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\storage_maintenance.py",
+    "path": "preserved/sources/FluxBus-v2/source/storage_maintenance.py",
+    "kind": "source-reference",
+    "bytes": 8640,
+    "sha256": "53ef84bd893be3cccb16c9ce26236bd038b01e398999fb15f968a7eb983b594d"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\tcp_ingestion.py",
+    "path": "preserved/sources/FluxBus-v2/source/tcp_ingestion.py",
+    "kind": "source-reference",
+    "bytes": 6396,
+    "sha256": "0f1489f93a95a2acdbc0551187ff088c6cbf074898a8dc3d2d5d43619bb86152"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_conversations.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_conversations.py",
+    "kind": "source-reference",
+    "bytes": 13196,
+    "sha256": "1600c976c23c60db3eef15b7d8a00d347d6070688e593d06ac70f88b4233d5e8"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_core.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_core.py",
+    "kind": "source-reference",
+    "bytes": 13423,
+    "sha256": "a51ba7d640b9e6c60dbf422305150954e4d4940b4d77b58c839072bfac66b22f"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_data.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_data.py",
+    "kind": "source-reference",
+    "bytes": 16113,
+    "sha256": "adefb698932aef638aaf3aae1e001295b47e9131510872f5be5772b8ed65c4b7"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_karmic_welfare.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_karmic_welfare.py",
+    "kind": "source-reference",
+    "bytes": 13331,
+    "sha256": "d1d90852bce86708f27d4634227be6892f5be6b56d9718cb9c67c2153a18c79e"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_live_audit.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_live_audit.py",
+    "kind": "source-reference",
+    "bytes": 17722,
+    "sha256": "3e2f7f5c84422d734eca8a3e8b93de60ea0cc9d357b9256eab38fc39a504af7a"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_mesh.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_mesh.py",
+    "kind": "source-reference",
+    "bytes": 17832,
+    "sha256": "7482b1736655643f83e16e98253f24958d68975631d38dd83380740b5ceb3a4c"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_neural.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_neural.py",
+    "kind": "source-reference",
+    "bytes": 22965,
+    "sha256": "03ffd523172040f41db0343ff183e3b94233d57ba0ca7e19a3fd45be712dd71a"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_performance.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_performance.py",
+    "kind": "source-reference",
+    "bytes": 7292,
+    "sha256": "a4609c26e44a4fc89e6aa491f20e4208fb1f9d5af38525485177ff239d6d452d"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_platform_alignment.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_platform_alignment.py",
+    "kind": "source-reference",
+    "bytes": 13712,
+    "sha256": "cc17adcbc34e82571c152ce387d4cbae479d305ac2e860bf72c7a47442b7b4c7"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_production_manifold.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_production_manifold.py",
+    "kind": "source-reference",
+    "bytes": 8332,
+    "sha256": "1d2d5c894512cd4a5eafa76338e6d4c71c40f6ba03d93ba34a506bcc68bf0cab"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_reference.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_reference.py",
+    "kind": "source-reference",
+    "bytes": 14576,
+    "sha256": "76dc166cc23cce8f4ccaea53a45fa0e26a16b43e1f892e4d783f4c452bfb8305"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_storage.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_storage.py",
+    "kind": "source-reference",
+    "bytes": 7711,
+    "sha256": "e7380bd8f5fcf9d9e3915d2ff2ee8ccbbb3b3a6e5b9c9b198492c45cd24b9f7f"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_text_context.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_text_context.py",
+    "kind": "source-reference",
+    "bytes": 16301,
+    "sha256": "d6eeb1cdd982c4c8ad272587f35dc67b21884987fdfe4a5499a0034ba8fe0ddc"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_unified.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_unified.py",
+    "kind": "source-reference",
+    "bytes": 15400,
+    "sha256": "f4ee70b85b483239b3d0639fc6eb472bc4b59a6608fad031f5d3fad2649f0692"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\test_v2.py",
+    "path": "preserved/sources/FluxBus-v2/source/test_v2.py",
+    "kind": "source-reference",
+    "bytes": 11558,
+    "sha256": "e12a7ea760d29f9d8fa60513b0ef9691a656a0e0b7237603dd4e36cb3e9d1d79"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\text_pipeline_page.py",
+    "path": "preserved/sources/FluxBus-v2/source/text_pipeline_page.py",
+    "kind": "source-reference",
+    "bytes": 13433,
+    "sha256": "378a59a9690324a9169f5e99c1485197db037176663519ccf6506f01c5f58ac1"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\text_view.py",
+    "path": "preserved/sources/FluxBus-v2/source/text_view.py",
+    "kind": "source-reference",
+    "bytes": 1394,
+    "sha256": "b29d85f9dd82c6a0d521c2870b885ec804f123843a42c152e8f6a8c0e801e3fd"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\unified_core.py",
+    "path": "preserved/sources/FluxBus-v2/source/unified_core.py",
+    "kind": "source-reference",
+    "bytes": 7944,
+    "sha256": "33ee5e9b3123cc66f84b8fab25f32de648765c43587c01462328f9aad64ca1a0"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\unified_page.py",
+    "path": "preserved/sources/FluxBus-v2/source/unified_page.py",
+    "kind": "source-reference",
+    "bytes": 9404,
+    "sha256": "9e268099c95ce0eefc3df16390e1589ece4c92000d26c53d1576aad5fda46bed"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\unified_runtime.py",
+    "path": "preserved/sources/FluxBus-v2/source/unified_runtime.py",
+    "kind": "source-reference",
+    "bytes": 13448,
+    "sha256": "9fd8c15e3155d72cecaeffed47ff4da7a92d02c02fc91a1085818e1e05c35946"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\virtue_text.py",
+    "path": "preserved/sources/FluxBus-v2/source/virtue_text.py",
+    "kind": "source-reference",
+    "bytes": 11027,
+    "sha256": "ef0562c6fd5f711d093c49482c33655078a5729ba8363a74193dcf534d805100"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\visuals.py",
+    "path": "preserved/sources/FluxBus-v2/source/visuals.py",
+    "kind": "source-reference",
+    "bytes": 15704,
+    "sha256": "55c166008b5a92195a990c8dd399526b2477ce353b57dfb922b89ad1d47d7e60"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\web_research.py",
+    "path": "preserved/sources/FluxBus-v2/source/web_research.py",
+    "kind": "source-reference",
+    "bytes": 9728,
+    "sha256": "a94b211d81f1952045c161de872256c93e3bb01429a7715ff9e3665a1fdf1298"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\welfare_page.py",
+    "path": "preserved/sources/FluxBus-v2/source/welfare_page.py",
+    "kind": "source-reference",
+    "bytes": 8636,
+    "sha256": "9851a10cf9da213cf04c71dd1f33c3a7f4738893b2de54da0f399c7c5118fbdc"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\source\\world_banking.py",
+    "path": "preserved/sources/FluxBus-v2/source/world_banking.py",
+    "kind": "source-reference",
+    "bytes": 3905,
+    "sha256": "11b295f268fa9a5cd1c49851e3f8b06865b2e827d839192f994bc8b68832c85a"
+  },
+  {
+    "original": "sources\\Force Academy Desktop\\Force Academy\\forceschool.html",
+    "path": "preserved/sources/Force Academy Desktop/Force Academy/forceschool.html",
+    "kind": "source-reference",
+    "bytes": 86809,
+    "sha256": "52d25ff975a957fc7ec6832a5d283eab19f69d7e89bccbd938af74de5d542f3d"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\godmind_desktop.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/godmind_desktop.py",
+    "kind": "source-reference",
+    "bytes": 42479,
+    "sha256": "800985614f0a4221575610d3ecd61942e862d717c65228e24539aa5a18539906"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_lab\\drillscript.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_lab/drillscript.py",
+    "kind": "source-reference",
+    "bytes": 22804,
+    "sha256": "301a229826bdd16bb850a6b5b156c830e94d6f4baa027a0d0a4cac00bc442d0e"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_lab\\module 1.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_lab/module 1.py",
+    "kind": "source-reference",
+    "bytes": 4980,
+    "sha256": "67b1894a1a6e58166cec79c46c091125725c4ef747f40165daf699a6d7118fdb"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_lab\\module2.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_lab/module2.py",
+    "kind": "source-reference",
+    "bytes": 5994,
+    "sha256": "5c7c11a721ceb9717bc7c96c388be7cd921b90cce070b893b4aca314355c4282"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_lab\\module3.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_lab/module3.py",
+    "kind": "source-reference",
+    "bytes": 32940,
+    "sha256": "c2f8b55703c52ff8ddb7cb8c4e287e9bc89a84b4b6ae54f8616572288b3fe1f0"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_lab\\original_logic\\__init__.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_lab/original_logic/__init__.py",
+    "kind": "source-reference",
+    "bytes": 3208,
+    "sha256": "c7c7aa2ccfdc1edd5c50eb5d62338656af84851f133056771f95c48447e09f13"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_lab\\original_logic\\__main__.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_lab/original_logic/__main__.py",
+    "kind": "source-reference",
+    "bytes": 138,
+    "sha256": "cdced2adfbd90b9a94864c6ebc8f2c3c4d0db3106604a74412db2a5413296b15"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_lab\\original_logic\\drillscript.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_lab/original_logic/drillscript.py",
+    "kind": "source-reference",
+    "bytes": 1758,
+    "sha256": "60a1ea4bcd4aed4bd9d7be341283eb1975ba1c8434f3ce7fdc9df28b68e26bac"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_lab\\original_logic\\module 1.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_lab/original_logic/module 1.py",
+    "kind": "source-reference",
+    "bytes": 2251,
+    "sha256": "458aa148aa9a89fa62a3af24f0e891595c1ea4701dc274b1d31dd27b6c95f3e4"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_lab\\original_logic\\module2.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_lab/original_logic/module2.py",
+    "kind": "source-reference",
+    "bytes": 2122,
+    "sha256": "23e5013e403b0735c9e9aca5da73e107a6c6b0779c63aadfed29380fb0d37635"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_lab\\original_logic\\module3.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_lab/original_logic/module3.py",
+    "kind": "source-reference",
+    "bytes": 2045,
+    "sha256": "5eedb1f04ab7641f6ac16d3368ef4797d08bb150d42f594e6275bcb7d924eb78"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_lab\\tests\\test_engine1.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_lab/tests/test_engine1.py",
+    "kind": "source-reference",
+    "bytes": 8575,
+    "sha256": "52aa1d4d1d92ade4ad7419590f54dd13a9f49fb72bd5c8f01b9a3c6e97fcaacf"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_lab\\tests\\test_original_logic.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_lab/tests/test_original_logic.py",
+    "kind": "source-reference",
+    "bytes": 5742,
+    "sha256": "0bf90ae4c6bc29e9b53cbb06fcf7a4a24844f68577f7ee7f6d0ef1002fc3ebe3"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_weight\\BackgroundWeightOptimizer.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_weight/BackgroundWeightOptimizer.py",
+    "kind": "source-reference",
+    "bytes": 4733,
+    "sha256": "da6da21a381c842f9aaba98945929737b5b26e64cda4460f5b5c0a7404e28702"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_weight\\ProductionNetworkGateway.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_weight/ProductionNetworkGateway.py",
+    "kind": "source-reference",
+    "bytes": 8123,
+    "sha256": "85d67dc9d7cc11cb4b7c195091cadd5d48209935cdc50acbc9adc7ec01a0f971"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_weight\\StructuralStateLedger.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_weight/StructuralStateLedger.py",
+    "kind": "source-reference",
+    "bytes": 3992,
+    "sha256": "28454ed7894b6358c0824cc18551cb4a9225906b8964ee49ca94e6c8490de863"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\neural_weight\\__init__.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/neural_weight/__init__.py",
+    "kind": "source-reference",
+    "bytes": 355,
+    "sha256": "fc6d7920c960187a39dc114f00906f0149385cfd0b4256cb3891ba77a284ea3c"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\source_originals\\neural_weight\\BackgroundWeightOptimizer.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/source_originals/neural_weight/BackgroundWeightOptimizer.py",
+    "kind": "source-reference",
+    "bytes": 1872,
+    "sha256": "0612d1f1257f296d49b3a18f6566fecbd00369916757c54e1e0424b8f0b30f78"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\source_originals\\neural_weight\\ProductionNetworkGateway.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/source_originals/neural_weight/ProductionNetworkGateway.py",
+    "kind": "source-reference",
+    "bytes": 5014,
+    "sha256": "7783355d66f810d8b526086139d056373b1e465865eab46bbc415a3a999a7729"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\source_originals\\neural_weight\\StructuralStateLedger.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/source_originals/neural_weight/StructuralStateLedger.py",
+    "kind": "source-reference",
+    "bytes": 1882,
+    "sha256": "6c61b22acae8e7fa1fd1d093cb5b9f4be73dd1442b6ac725de18ab7a1485048b"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\tests\\test_desktop.py",
+    "path": "preserved/sources/Godmind Mesh Desktop/tests/test_desktop.py",
+    "kind": "source-reference",
+    "bytes": 10163,
+    "sha256": "86d57d87e95c0538f247728eac36cd5f43da245dddf675835d2c194b91e3c76d"
+  },
+  {
+    "original": "sources\\GodMind-upgrade\\GodMindInteractiveVisualizer.java",
+    "path": "preserved/sources/GodMind-upgrade/GodMindInteractiveVisualizer.java",
+    "kind": "source-reference",
+    "bytes": 41511,
+    "sha256": "43851cb3eaba6a0a9ae1e20a81fe22b6ede14363ed8c02577ab38bb1a1549f43"
+  },
+  {
+    "original": "sources\\GodMind-upgrade\\GodMindSelfTest.java",
+    "path": "preserved/sources/GodMind-upgrade/GodMindSelfTest.java",
+    "kind": "source-reference",
+    "bytes": 8610,
+    "sha256": "80861753bc7e35d73724e08fd3ade75ef351ed5c8adc4db25e92cbc516c98ed0"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\HydrogenMeshClient.java",
+    "path": "preserved/sources/HydrogenMesh/HydrogenMeshClient.java",
+    "kind": "source-reference",
+    "bytes": 4416,
+    "sha256": "ca84a3520265005992efcd44f84d9c4391845dded60814c0fb7e8c725ad65407"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\bounded_io.py",
+    "path": "preserved/sources/HydrogenMesh/bounded_io.py",
+    "kind": "source-reference",
+    "bytes": 1999,
+    "sha256": "678a9029bd829c2e949b38c74cf45cabfd59457159852c9f075063b983ecb68f"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\bridges.py",
+    "path": "preserved/sources/HydrogenMesh/bridges.py",
+    "kind": "source-reference",
+    "bytes": 10806,
+    "sha256": "f2bdcd1bad7f8e8088f96e78f0e526d5d98f026b7db6376502d8a37705d7e983"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\catalog.py",
+    "path": "preserved/sources/HydrogenMesh/catalog.py",
+    "kind": "source-reference",
+    "bytes": 3390,
+    "sha256": "62b6bf2e785dd7aacf6dacca1a7a6e7e5b967995d8a767c0b68602150614328a"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\data_lock.py",
+    "path": "preserved/sources/HydrogenMesh/data_lock.py",
+    "kind": "source-reference",
+    "bytes": 1149,
+    "sha256": "d875837614ddb0a3fdeb3e6da4db5094eddccf61996b960f56fd4f62b146a50d"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\hydrogen_mesh.py",
+    "path": "preserved/sources/HydrogenMesh/hydrogen_mesh.py",
+    "kind": "source-reference",
+    "bytes": 40704,
+    "sha256": "cebfe2d770809514547f36a87a364df439028d56adc3aece2b09bb9fdaa8851e"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\launch_connected.py",
+    "path": "preserved/sources/HydrogenMesh/launch_connected.py",
+    "kind": "source-reference",
+    "bytes": 2320,
+    "sha256": "dfcd6320caa0e18a58f461d12ef55aeab5ce16d0d44f8fabf1c4c9ef0c6ecd71"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\mesh_bus.py",
+    "path": "preserved/sources/HydrogenMesh/mesh_bus.py",
+    "kind": "source-reference",
+    "bytes": 16327,
+    "sha256": "ea7ba800be01764cc878cbb14f22da72b6b8937f731d761a934a7df1bef34ffd"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\mesh_client.py",
+    "path": "preserved/sources/HydrogenMesh/mesh_client.py",
+    "kind": "source-reference",
+    "bytes": 3071,
+    "sha256": "dd8ba98ec5d8dd8ecaf382199407f3753bbc092c63c2d6072d6cc07a5f79989c"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\scene_renderer.py",
+    "path": "preserved/sources/HydrogenMesh/scene_renderer.py",
+    "kind": "source-reference",
+    "bytes": 18532,
+    "sha256": "fdd7cef9b399ecdaaeeb23d565e241545f2e551ef667f7a4743a437b7f676926"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\signals.py",
+    "path": "preserved/sources/HydrogenMesh/signals.py",
+    "kind": "source-reference",
+    "bytes": 2534,
+    "sha256": "d6ac1913120e2837b93ef56363a4061355319958f0bba1606276ec2de2082c22"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\test_mesh.py",
+    "path": "preserved/sources/HydrogenMesh/test_mesh.py",
+    "kind": "source-reference",
+    "bytes": 13241,
+    "sha256": "aa38f19ae30a05ae599ac1f26df9a3291967827defa50cddf2bce6a89d14064f"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\test_upgrade.py",
+    "path": "preserved/sources/HydrogenMesh/test_upgrade.py",
+    "kind": "source-reference",
+    "bytes": 6012,
+    "sha256": "17e2a387d00d13cc3d85c0e7ddc5a943e9f594fc8e08edaf6cceb7736819b7d7"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\udp_port.py",
+    "path": "preserved/sources/HydrogenMesh/udp_port.py",
+    "kind": "source-reference",
+    "bytes": 3566,
+    "sha256": "a9a9b9af2dac120d82855761312071b5a812c7f42da17390ec17dd981c7241ea"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\app_dyson_forge_viewport.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/app_dyson_forge_viewport.py",
+    "kind": "source-reference",
+    "bytes": 9049,
+    "sha256": "b0f5822257a6011c579caad6bf255897a751688512df06b116e07618c60fcf4e"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\app_stellar_viewport.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/app_stellar_viewport.py",
+    "kind": "source-reference",
+    "bytes": 7238,
+    "sha256": "b7b520ff0207a8bc42781da345777792bcc88055556f443dbcc08abef55496a3"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\app_window_launcher.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/app_window_launcher.py",
+    "kind": "source-reference",
+    "bytes": 426,
+    "sha256": "1ea95c3101441e5087b1b152286528e0412e743d266795fbe4f075ac028f9ac4"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\biosphere_engine.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/biosphere_engine.py",
+    "kind": "source-reference",
+    "bytes": 11415,
+    "sha256": "11b5f8552e9bcdd52eadc7e2e17f007ed3a905eed22121b7111bf87f8846d285"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\gui_visual_engine.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/gui_visual_engine.py",
+    "kind": "source-reference",
+    "bytes": 5774,
+    "sha256": "db61a2444914841f57845b5d465abfdf211125ba52f8aa6572389f912421f10a"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\module_biosphere_core.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/module_biosphere_core.py",
+    "kind": "source-reference",
+    "bytes": 4151,
+    "sha256": "859a1d9db57e9911437c269bc1879bbc6f5b992b6f3051021b394cbe37f67102"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\module_dyson_forge_core.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/module_dyson_forge_core.py",
+    "kind": "source-reference",
+    "bytes": 5464,
+    "sha256": "5dd2a9e9f69989ff685e14ac483b25eb029d3d03125d2a4e79f0dec5c58a5e10"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\module_hud_display.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/module_hud_display.py",
+    "kind": "source-reference",
+    "bytes": 4437,
+    "sha256": "50521e6e356a79dd5eb66ea25f47afaef94100e7980e424825964b8425978a44"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\module_matrix_substrate.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/module_matrix_substrate.py",
+    "kind": "source-reference",
+    "bytes": 3092,
+    "sha256": "ef6b323774c41c9267014cfd6046646a608a9297b3c8b11d5206656a84ff4d43"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\module_resonance.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/module_resonance.py",
+    "kind": "source-reference",
+    "bytes": 2509,
+    "sha256": "ffd20d85cf84a93afde276cc55684e887809732c24abfe4e57fe14aae5e12ac6"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\module_runtime.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/module_runtime.py",
+    "kind": "source-reference",
+    "bytes": 9722,
+    "sha256": "9ee40c97421ab91df3c1e6863c65155a39e6019990c391cb3ac640aa3f323214"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\module_stellar_core.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/module_stellar_core.py",
+    "kind": "source-reference",
+    "bytes": 6567,
+    "sha256": "77543ec6ee96ec4bd797f663c409b1d3b398e59d85bab75025dc0e085f153ced"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\module_substrate.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/module_substrate.py",
+    "kind": "source-reference",
+    "bytes": 2507,
+    "sha256": "418afd26aa55fa96bbfac45ed1b9723b641cfec2e768e9ec0df7df50c59d8ea0"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\module_ternary_matrix.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/module_ternary_matrix.py",
+    "kind": "source-reference",
+    "bytes": 2978,
+    "sha256": "b3ba02393b04e254dea7c7f6792e8b9d2cc186b511668a010581f30e0fcaa17f"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\native_quantum_engine.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/native_quantum_engine.py",
+    "kind": "source-reference",
+    "bytes": 7486,
+    "sha256": "09827b1011b891192da0081a687595e2f542e82c833555042b86017d4a3fa412"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\pipeline_integrated_system.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/pipeline_integrated_system.py",
+    "kind": "source-reference",
+    "bytes": 3410,
+    "sha256": "53f3e68b609e83fdceb5b144640aff020f078cf946e74f035ee8ce7c4a01f15c"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\quantum_visual_engine.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/quantum_visual_engine.py",
+    "kind": "source-reference",
+    "bytes": 8835,
+    "sha256": "16558b2840b4a7d8be215b1233852e6dd71ea3ae441c15ec3d918b6647dec230"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\sovereign_engine.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/sovereign_engine.py",
+    "kind": "source-reference",
+    "bytes": 23619,
+    "sha256": "dacde3f0d6fe3577c9743c5c46eeda4140eb232a70f08244d5e9680985f91dd6"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\legacy\\template_matrix_render.py",
+    "path": "preserved/sources/HydrogenMesh/legacy/template_matrix_render.py",
+    "kind": "source-reference",
+    "bytes": 2727,
+    "sha256": "5602b38f46b614caf57a17dbd659c7809a9983b31404cd69176617aa6bc89190"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\PostscarcityBus.java",
+    "path": "preserved/sources/InferenceObservatory/PostscarcityBus.java",
+    "kind": "source-reference",
+    "bytes": 4061,
+    "sha256": "9c1e4c2f346ddd553a9c223965dc90654a54952d8c6a9022a5584ea5adc86d12"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\autonomous.py",
+    "path": "preserved/sources/InferenceObservatory/autonomous.py",
+    "kind": "source-reference",
+    "bytes": 19034,
+    "sha256": "8f5cd90d7684d3d2a4aeb728ef3e646ad9f38881c4c6c6dc96cae8431ffa69f7"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\extract.py",
+    "path": "preserved/sources/InferenceObservatory/extract.py",
+    "kind": "source-reference",
+    "bytes": 1609,
+    "sha256": "486a11fdd5f7b88e9afbaaaf64e901128250983982f27b603e1780e316019940"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\federation.py",
+    "path": "preserved/sources/InferenceObservatory/federation.py",
+    "kind": "source-reference",
+    "bytes": 13247,
+    "sha256": "7cdf9b3ebb23dc215a0a7bc891bba44610956d7adaf8ee26885912d40d116349"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\launch.py",
+    "path": "preserved/sources/InferenceObservatory/launch.py",
+    "kind": "source-reference",
+    "bytes": 1409,
+    "sha256": "848525eb50f86a5fc974eab0f0046152eba3a6cc793d095db00a985a78c8ea92"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\native_research.py",
+    "path": "preserved/sources/InferenceObservatory/native_research.py",
+    "kind": "source-reference",
+    "bytes": 5353,
+    "sha256": "3ec1f44010913f27b2ff4a2381bfc01b12a536abd84e0a2639e9ff31a7ac7a5b"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\prompt_loop.py",
+    "path": "preserved/sources/InferenceObservatory/prompt_loop.py",
+    "kind": "source-reference",
+    "bytes": 7541,
+    "sha256": "002a1874046723f68d67ddd573933876d9fa4d31652837f92cbede3c4180efa6"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\python_bus.py",
+    "path": "preserved/sources/InferenceObservatory/python_bus.py",
+    "kind": "source-reference",
+    "bytes": 3148,
+    "sha256": "bcd34d17160f9718e5282841d8acf5d3bb1e6d9583ecde18de2be5f44b3a5ec4"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\research_client.py",
+    "path": "preserved/sources/InferenceObservatory/research_client.py",
+    "kind": "source-reference",
+    "bytes": 1143,
+    "sha256": "a35930a4841978603026a4e4837e1e19286b909c5ffa547c7d93e14a98c718fc"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\resident_engines.py",
+    "path": "preserved/sources/InferenceObservatory/resident_engines.py",
+    "kind": "source-reference",
+    "bytes": 7119,
+    "sha256": "f39d0d130e351e0a6af406fcb83ea75ba2e59f5b5b7ed21effb9d20925894fbe"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\runner.py",
+    "path": "preserved/sources/InferenceObservatory/runner.py",
+    "kind": "source-reference",
+    "bytes": 2269,
+    "sha256": "483e844dfcdfcc00e7772f14f113f9b4c01e0a3303673358b2dbccbe7550e7d5"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\server.py",
+    "path": "preserved/sources/InferenceObservatory/server.py",
+    "kind": "source-reference",
+    "bytes": 23425,
+    "sha256": "f2eeca909cdf76a7d16c4a1c00347022004d4ab64ae5774a675c9eea7870da4a"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\stop.py",
+    "path": "preserved/sources/InferenceObservatory/stop.py",
+    "kind": "source-reference",
+    "bytes": 565,
+    "sha256": "c2daf7f1f17596f8c39427be89e5e7ab23a734034e4f4704594eac82cdff6551"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\web\\app.js",
+    "path": "preserved/sources/InferenceObservatory/web/app.js",
+    "kind": "source-reference",
+    "bytes": 49890,
+    "sha256": "f1c5d9373bcd64dfff1a9951b8bb2f97dfe374338b1b3ec92582824e057af029"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\web\\index.html",
+    "path": "preserved/sources/InferenceObservatory/web/index.html",
+    "kind": "source-reference",
+    "bytes": 1481,
+    "sha256": "8d66f8edce999951fca52830f228217e296d9ddd1afb9d91fa5e83ef1f77a9dc"
+  },
+  {
+    "original": "sources\\LAN-Observatory\\HardwareMetricSampler.java",
+    "path": "preserved/sources/LAN-Observatory/HardwareMetricSampler.java",
+    "kind": "source-reference",
+    "bytes": 2551,
+    "sha256": "e462a178d35b08748f33aca2c350618d71c66ad731f7748aa22db0ccddb5f635"
+  },
+  {
+    "original": "sources\\LAN-Observatory\\LANCoordinatorEngine.java",
+    "path": "preserved/sources/LAN-Observatory/LANCoordinatorEngine.java",
+    "kind": "source-reference",
+    "bytes": 7025,
+    "sha256": "2c6f241f230e9b85930054f6a45feca3901a460e6d12ed549c87e412eb2ac1a3"
+  },
+  {
+    "original": "sources\\LAN-Observatory\\LANMatrixCanvas.java",
+    "path": "preserved/sources/LAN-Observatory/LANMatrixCanvas.java",
+    "kind": "source-reference",
+    "bytes": 28556,
+    "sha256": "58d39a623f3dfb6e1f6dd6b4610a1a192c71242651c34c6b11cae8acddf2f321"
+  },
+  {
+    "original": "sources\\LAN-Observatory\\LocalNetworkLatchingEngine.java",
+    "path": "preserved/sources/LAN-Observatory/LocalNetworkLatchingEngine.java",
+    "kind": "source-reference",
+    "bytes": 18103,
+    "sha256": "852cff2a5c0d41e129af9beddb80e40e52a69c55fd7df0ab41dcfb05a5ee4e5c"
+  },
+  {
+    "original": "sources\\LAN-Observatory\\NetworkMessage.java",
+    "path": "preserved/sources/LAN-Observatory/NetworkMessage.java",
+    "kind": "source-reference",
+    "bytes": 758,
+    "sha256": "f692cb3581392fee90ea680a25878ca80bd8f9c84647081fefdb038251924d51"
+  },
+  {
+    "original": "sources\\LAN-Observatory\\QuantumTernaryBinaryCore.java",
+    "path": "preserved/sources/LAN-Observatory/QuantumTernaryBinaryCore.java",
+    "kind": "source-reference",
+    "bytes": 2416,
+    "sha256": "dd5f3bcf5209886e9b986d10545ab662eea4ffffeada69573ae3ef9930f3f9da"
+  },
+  {
+    "original": "sources\\LAN-Observatory\\RemoteDeviceNode.java",
+    "path": "preserved/sources/LAN-Observatory/RemoteDeviceNode.java",
+    "kind": "source-reference",
+    "bytes": 1978,
+    "sha256": "de95fa4434c5ab72682450440ed2b7160eda375f0f5987a6f6eaa6294692f285"
+  },
+  {
+    "original": "sources\\LAN-Observatory\\TelemetryExport.java",
+    "path": "preserved/sources/LAN-Observatory/TelemetryExport.java",
+    "kind": "source-reference",
+    "bytes": 1520,
+    "sha256": "fe9f15bc6574933c294f2c9815667c773c30a6bb2118c703d523ce76a5d5be9a"
+  },
+  {
+    "original": "sources\\LAN-Observatory\\tests\\DashboardPreview.java",
+    "path": "preserved/sources/LAN-Observatory/tests/DashboardPreview.java",
+    "kind": "source-reference",
+    "bytes": 3828,
+    "sha256": "03f975c794c2b95b83696f5284bea54a73f65e62f9d87b82317e09787a0e4551"
+  },
+  {
+    "original": "sources\\LAN-Observatory\\tests\\EngineSelfTest.java",
+    "path": "preserved/sources/LAN-Observatory/tests/EngineSelfTest.java",
+    "kind": "source-reference",
+    "bytes": 11657,
+    "sha256": "ab4c11862506fbbb897473de143223c1b27aac3efa3a372dbf039d6ae8e306f4"
+  },
+  {
+    "original": "sources\\LocalInferenceBus\\EngineChecks.java",
+    "path": "preserved/sources/LocalInferenceBus/EngineChecks.java",
+    "kind": "source-reference",
+    "bytes": 9624,
+    "sha256": "0712c47001b147ecb26cea9cf00262dae24b5ea4fc890eb8a6bca87382526898"
+  },
+  {
+    "original": "sources\\LocalInferenceBus\\LocalInferenceBusEngine.java",
+    "path": "preserved/sources/LocalInferenceBus/LocalInferenceBusEngine.java",
+    "kind": "source-reference",
+    "bytes": 62607,
+    "sha256": "6b45c5af77e1423f3d4b671afc6860201ef5df6bbbe274077e1ad1ccb4f8f460"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\net\\manifold\\core\\InferenceQuantum.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/net/manifold/core/InferenceQuantum.java",
+    "kind": "source-reference",
+    "bytes": 3616,
+    "sha256": "b41ece48043d9c6c1bda55d54443c47b50b6a474e86f67c00ae9d23b7b5a03cf"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\net\\manifold\\crypto\\CryptographicConvergenceGate.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/net/manifold/crypto/CryptographicConvergenceGate.java",
+    "kind": "source-reference",
+    "bytes": 1914,
+    "sha256": "3a98d51220c11b8417b28f3d15bbfc4f9cb73cb560bc0ef26e5290e52faab1fc"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\net\\manifold\\distributed\\DistributedManifoldOrchestrator.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/net/manifold/distributed/DistributedManifoldOrchestrator.java",
+    "kind": "source-reference",
+    "bytes": 703,
+    "sha256": "f11649740590c4740a71030913ce3ed133d30f74833a2b2223e6a909a2de2b64"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\net\\manifold\\engine\\InferenceNetworkBroadcaster.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/net/manifold/engine/InferenceNetworkBroadcaster.java",
+    "kind": "source-reference",
+    "bytes": 4515,
+    "sha256": "fd45a8a9ffb89661f7a004be3f724e011cdeb7df184990158a802f37a1a998a1"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\net\\manifold\\stewardship\\UniversalStewardshipEngine.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/net/manifold/stewardship/UniversalStewardshipEngine.java",
+    "kind": "source-reference",
+    "bytes": 672,
+    "sha256": "07c379f4f6ae35d6932ee399d8c39f5cb266d1667a460b71b593d8ed33dd77c9"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\net\\manifold\\telemetry\\NetworkMonitor.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/net/manifold/telemetry/NetworkMonitor.java",
+    "kind": "source-reference",
+    "bytes": 6249,
+    "sha256": "1cfc4b1db9b80c4fde81aa492b40d61a2729e5acb104ad8b0c09eedda9b085fe"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\net\\manifold\\telemetry\\NetworkSnapshot.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/net/manifold/telemetry/NetworkSnapshot.java",
+    "kind": "source-reference",
+    "bytes": 1905,
+    "sha256": "d988ede848bbee2566e21733d068042d0234be43bf34b2eec494ce934d6021b0"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\net\\manifold\\telemetry\\WindowsNetworkCollector.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/net/manifold/telemetry/WindowsNetworkCollector.java",
+    "kind": "source-reference",
+    "bytes": 5352,
+    "sha256": "a66781fc059268eb2bc19aebb6ce2ef8bb8d0120009324fdc624d5bddc7f546c"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\net\\manifold\\ui\\ManifoldGridVisualizer.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/net/manifold/ui/ManifoldGridVisualizer.java",
+    "kind": "source-reference",
+    "bytes": 4217,
+    "sha256": "298eb8a49b4197542ada05dedc50cb646135450927af910185801ed5200d6525"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\net\\manifold\\ui\\NetworkDashboard.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/net/manifold/ui/NetworkDashboard.java",
+    "kind": "source-reference",
+    "bytes": 30924,
+    "sha256": "37abd3fe17e9fc5c436189730ae881553196071f8ceb6876ead77734a8e7dec7"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\net\\manifold\\ui\\SubstrateContract.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/net/manifold/ui/SubstrateContract.java",
+    "kind": "source-reference",
+    "bytes": 517,
+    "sha256": "a51e8d448810f34905dabf23341ef8ea11dcfebcecfbcdde51b515eabc73ad84"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\tests\\DashboardTests.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/tests/DashboardTests.java",
+    "kind": "source-reference",
+    "bytes": 5758,
+    "sha256": "a48017cfb73e170cd9f3ef5ecd1150de08d27e4458295a66e3e27021a3d1f2af"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\tests\\LiveNetworkTest.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/tests/LiveNetworkTest.java",
+    "kind": "source-reference",
+    "bytes": 3392,
+    "sha256": "205c992a725da0f97373570f5a755b23f2786c824575f1136b65fc046add992b"
+  },
+  {
+    "original": "sources\\Manifold-Update\\Manifold-Update\\tests\\ManifoldTests.java",
+    "path": "preserved/sources/Manifold-Update/Manifold-Update/tests/ManifoldTests.java",
+    "kind": "source-reference",
+    "bytes": 6862,
+    "sha256": "a5f98e2b16ca51b3904e348b2248ebbb6ad92a2289fdc547ab9c83368fd6a4cc"
+  },
+  {
+    "original": "sources\\MatrixBus\\metrics.mjs",
+    "path": "preserved/sources/MatrixBus/metrics.mjs",
+    "kind": "source-reference",
+    "bytes": 1640,
+    "sha256": "2d8e2e4105873c8087a25cf7b9b3e2e491ea1a0abcae26f435d4baf257630f16"
+  },
+  {
+    "original": "sources\\MatrixBus\\server.mjs",
+    "path": "preserved/sources/MatrixBus/server.mjs",
+    "kind": "source-reference",
+    "bytes": 11646,
+    "sha256": "4aa5246c9f72ebe21dd1910b11c165c0eea63a07fa4a219bb28b21b32fd8e931"
+  },
+  {
+    "original": "sources\\MatrixBus\\examples\\Pulse.java",
+    "path": "preserved/sources/MatrixBus/examples/Pulse.java",
+    "kind": "source-reference",
+    "bytes": 835,
+    "sha256": "ae0983c551483e194221da0addd6138683214eea6b53b7ef9fc3af67ee0f3443"
+  },
+  {
+    "original": "sources\\MatrixBus\\examples\\pulse.py",
+    "path": "preserved/sources/MatrixBus/examples/pulse.py",
+    "kind": "source-reference",
+    "bytes": 611,
+    "sha256": "bf95ae08ebd65d67d20dfc8a391997ef97f675239785bac88829ba90abf0160d"
+  },
+  {
+    "original": "sources\\MatrixBus\\public\\app.js",
+    "path": "preserved/sources/MatrixBus/public/app.js",
+    "kind": "source-reference",
+    "bytes": 21983,
+    "sha256": "bd22be4d9f07537cd04e7dfea9b7be894c709c9115fe32fe0163cbdf71b7c744"
+  },
+  {
+    "original": "sources\\MatrixBus\\public\\index.html",
+    "path": "preserved/sources/MatrixBus/public/index.html",
+    "kind": "source-reference",
+    "bytes": 12541,
+    "sha256": "b0aef409cda8429759975f9f702563d99b6ee2c85039c713fb27c104dc42b202"
+  },
+  {
+    "original": "sources\\MatrixBus\\tests\\metrics.test.mjs",
+    "path": "preserved/sources/MatrixBus/tests/metrics.test.mjs",
+    "kind": "source-reference",
+    "bytes": 2227,
+    "sha256": "d20e9ba03b60238a9396549df58b06bd9811b5fed1202d5de055b5ae92921b8d"
+  },
+  {
+    "original": "sources\\microcosmic injector\\microcosmic_injector.py",
+    "path": "preserved/sources/microcosmic injector/microcosmic_injector.py",
+    "kind": "source-reference",
+    "bytes": 57631,
+    "sha256": "92e8b064521ab5f83369e29f8537319faaa3d7f81453d3c069e517d0ffa8beed"
+  },
+  {
+    "original": "sources\\monad\\monad_matrix_engine.py",
+    "path": "preserved/sources/monad/monad_matrix_engine.py",
+    "kind": "source-reference",
+    "bytes": 12119,
+    "sha256": "ebc4818b70a38f2bc888dc440a97f46abf77589a8923abbabf68ecfd1c0c32c5"
+  },
+  {
+    "original": "sources\\NeuralAtelier\\atelier.py",
+    "path": "preserved/sources/NeuralAtelier/atelier.py",
+    "kind": "source-reference",
+    "bytes": 31780,
+    "sha256": "1dbaf1962323bcc6a1ce57f2de7446772e76fd5731504309e3c899c486cee937"
+  },
+  {
+    "original": "sources\\NeuralAtelier\\atelier_bus.py",
+    "path": "preserved/sources/NeuralAtelier/atelier_bus.py",
+    "kind": "source-reference",
+    "bytes": 3394,
+    "sha256": "30b87f128924af5d1e21c191565544dd0589ec4e0840dfa05805d9dc359478ac"
+  },
+  {
+    "original": "sources\\NeuralAtelier\\feedback_worker.py",
+    "path": "preserved/sources/NeuralAtelier/feedback_worker.py",
+    "kind": "source-reference",
+    "bytes": 542,
+    "sha256": "baa62fb2484fa267c1d0f3e1e4873b25a05301d1b55b92cbecbf4f07a7ecaf5f"
+  },
+  {
+    "original": "sources\\Planetary-Resonance-Upgrade\\Planetary-Resonance-Upgrade\\DispatchPayload.java",
+    "path": "preserved/sources/Planetary-Resonance-Upgrade/Planetary-Resonance-Upgrade/DispatchPayload.java",
+    "kind": "source-reference",
+    "bytes": 1823,
+    "sha256": "8c8c56e057c31734407f84ed376220ff7fdee245675269b3720fe9e7eb0c1e60"
+  },
+  {
+    "original": "sources\\Planetary-Resonance-Upgrade\\Planetary-Resonance-Upgrade\\Endpoint.java",
+    "path": "preserved/sources/Planetary-Resonance-Upgrade/Planetary-Resonance-Upgrade/Endpoint.java",
+    "kind": "source-reference",
+    "bytes": 1072,
+    "sha256": "8501d8c7bf6f1cd504a9d66b1619126833659d532844fb26adad86bc10f4a828"
+  },
+  {
+    "original": "sources\\Planetary-Resonance-Upgrade\\Planetary-Resonance-Upgrade\\GridConfig.java",
+    "path": "preserved/sources/Planetary-Resonance-Upgrade/Planetary-Resonance-Upgrade/GridConfig.java",
+    "kind": "source-reference",
+    "bytes": 3559,
+    "sha256": "f20eb80de6b115a297666cfd156dc3c1de3c51d0b0dbbac914cba57ed5d9eaea"
+  },
+  {
+    "original": "sources\\Planetary-Resonance-Upgrade\\Planetary-Resonance-Upgrade\\GridEngine.java",
+    "path": "preserved/sources/Planetary-Resonance-Upgrade/Planetary-Resonance-Upgrade/GridEngine.java",
+    "kind": "source-reference",
+    "bytes": 12254,
+    "sha256": "7ab4eef086179c9ead48fbd142b1ea46d1be65cec52ed437b4c31b26b2a6951d"
+  },
+  {
+    "original": "sources\\Planetary-Resonance-Upgrade\\Planetary-Resonance-Upgrade\\LocalTestServer.java",
+    "path": "preserved/sources/Planetary-Resonance-Upgrade/Planetary-Resonance-Upgrade/LocalTestServer.java",
+    "kind": "source-reference",
+    "bytes": 3480,
+    "sha256": "397b5efc45d7855c5981e6cb7cee7b6e5aa47fd4e2c2cfd6dc18a10019a5fe7c"
+  },
+  {
+    "original": "sources\\Planetary-Resonance-Upgrade\\Planetary-Resonance-Upgrade\\PlanetaryResonanceGrid.java",
+    "path": "preserved/sources/Planetary-Resonance-Upgrade/Planetary-Resonance-Upgrade/PlanetaryResonanceGrid.java",
+    "kind": "source-reference",
+    "bytes": 4260,
+    "sha256": "b648dce01f1cfb30f7640c72619e4fb77dd97327be86d61a9f577064c7eb65d2"
+  },
+  {
+    "original": "sources\\Planetary-Resonance-Upgrade\\Planetary-Resonance-Upgrade\\ResonanceDashboard.java",
+    "path": "preserved/sources/Planetary-Resonance-Upgrade/Planetary-Resonance-Upgrade/ResonanceDashboard.java",
+    "kind": "source-reference",
+    "bytes": 36322,
+    "sha256": "5126863553d6bd1feaff7c2fc93ae9fd597debc86c19c4eebc0599240f57857e"
+  },
+  {
+    "original": "sources\\Planetary-Resonance-Upgrade\\Planetary-Resonance-Upgrade\\tests\\DashboardTests.java",
+    "path": "preserved/sources/Planetary-Resonance-Upgrade/Planetary-Resonance-Upgrade/tests/DashboardTests.java",
+    "kind": "source-reference",
+    "bytes": 4785,
+    "sha256": "40ee72a7d18894d3e3b6697853af1bbb66c187a63cfbd1e7ceb99dc99c7ae800"
+  },
+  {
+    "original": "sources\\Planetary-Resonance-Upgrade\\Planetary-Resonance-Upgrade\\tests\\GridEngineTests.java",
+    "path": "preserved/sources/Planetary-Resonance-Upgrade/Planetary-Resonance-Upgrade/tests/GridEngineTests.java",
+    "kind": "source-reference",
+    "bytes": 8483,
+    "sha256": "f3c4eb1e1dec506d70368e98ce63cbdd1131d9d56e0755e594c5b433f066793d"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\AbsoluteSafeguardEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/AbsoluteSafeguardEngine.py",
+    "kind": "source-reference",
+    "bytes": 3532,
+    "sha256": "40bb5808da42f8763c4795d61d5b230833c01e0321329eedd298877d0fdde93a"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\AdvancedVirtueRegistry.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/AdvancedVirtueRegistry.py",
+    "kind": "source-reference",
+    "bytes": 8056,
+    "sha256": "baa9dfd512b3649820eb842c87e9905924c5a7346130129d29c13b03a0faa668"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\BinaryVirtueEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/BinaryVirtueEngine.py",
+    "kind": "source-reference",
+    "bytes": 3090,
+    "sha256": "bc37d5743e4b3de1a022c56da087492aa449503968b3068abc1653d8fa18f492"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\BodhiTreeTridentEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/BodhiTreeTridentEngine.py",
+    "kind": "source-reference",
+    "bytes": 5522,
+    "sha256": "ff8ad5e676da74480bd4a995fe2fe7a0450afb5b0f001dad5e9f7dad9b0bbebc"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\BoundaryBlueprintInspector.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/BoundaryBlueprintInspector.py",
+    "kind": "source-reference",
+    "bytes": 1470,
+    "sha256": "c8f83115343dd46ee25f5ceef9baa23b8edcb90cadb008a5b7f6d118fa20617f"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\CascadingVirtueEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/CascadingVirtueEngine.py",
+    "kind": "source-reference",
+    "bytes": 4289,
+    "sha256": "66c2c5af09dad185cba80b27f87350bead77ad82e6d78f0873cc844872b4c833"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\ChinaDollImperviousEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/ChinaDollImperviousEngine.py",
+    "kind": "source-reference",
+    "bytes": 5638,
+    "sha256": "50b9490195458acb68b9c674918ec434908efcd13a467a8fc314863075b47831"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\CompassionateUnderstandingEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/CompassionateUnderstandingEngine.py",
+    "kind": "source-reference",
+    "bytes": 1977,
+    "sha256": "fd398977fd022af93592485e2c98a7e748f1300958f015456cd50e41017e6118"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\DeepestRepentanceEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/DeepestRepentanceEngine.py",
+    "kind": "source-reference",
+    "bytes": 5666,
+    "sha256": "5988bba9e8ef4a7c396ce4771c3e571e69e9d36a3af7b116c3c591e9c5f73a96"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\DrillingVirtueEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/DrillingVirtueEngine.py",
+    "kind": "source-reference",
+    "bytes": 2866,
+    "sha256": "1c910aea21de8b9d75f2da07da97c1c6a57d8975674cfec6328b92394370221a"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\EternalChinaDollLoveEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/EternalChinaDollLoveEngine.py",
+    "kind": "source-reference",
+    "bytes": 2853,
+    "sha256": "4e631eebc259e56d35ab0cc00429e40082f8b57714ee43d9f1cb72908eee3942"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\EthicalRefactoringEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/EthicalRefactoringEngine.py",
+    "kind": "source-reference",
+    "bytes": 2067,
+    "sha256": "11822810aa37f3fed35087734896bf27791e8997ab4a0b5e8480d2af5d98ce51"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\FluxGroupVirtueFoundation.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/FluxGroupVirtueFoundation.py",
+    "kind": "source-reference",
+    "bytes": 17694,
+    "sha256": "eeef3eac1f197ad1a70c5751d7824ce49b4fa9f8f8e482b42d77b5a8a002c481"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\GlobalCreedUnificationEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/GlobalCreedUnificationEngine.py",
+    "kind": "source-reference",
+    "bytes": 5679,
+    "sha256": "064779b82f8713808a2e5aa803263f720d1dab2a346d5c7355418afcb7c46a4a"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\HierarchicalVirtueEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/HierarchicalVirtueEngine.py",
+    "kind": "source-reference",
+    "bytes": 4153,
+    "sha256": "c0e4f95b89f8a966be6d5d72d91dad6e8be6a527362c2e0a914578ef15b65b01"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\InfiniteChinaDollCovenantEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/InfiniteChinaDollCovenantEngine.py",
+    "kind": "source-reference",
+    "bytes": 4934,
+    "sha256": "58a99c279df40b1aeaaf8cdb0436b5a03722019263efd941edba98aa14bf0643"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\InvariantDualRailDisplay.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/InvariantDualRailDisplay.py",
+    "kind": "source-reference",
+    "bytes": 1598,
+    "sha256": "c2f10dff9f65b3c3042d9ad0e797d1b629e59de04cd7e455fd3f1b4d9d11dced"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\InvariantEcosystemEngin.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/InvariantEcosystemEngin.py",
+    "kind": "source-reference",
+    "bytes": 4235,
+    "sha256": "4b2aee95dcf461936b7211544426f49215d23c5012be2e66116bf6cb0a322690"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\JacobsLadderEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/JacobsLadderEngine.py",
+    "kind": "source-reference",
+    "bytes": 3819,
+    "sha256": "1c5dd95869ed8cd247ef376a432e34cafe422202dca5674c8d5504d90d3a0116"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\JokerMoneyBurningRegistry.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/JokerMoneyBurningRegistry.py",
+    "kind": "source-reference",
+    "bytes": 8209,
+    "sha256": "22f1f8724c3579894badb99da499fe2e7f152adb0b2039ad028159dc79f0869d"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\KrakenQuoteTrigger.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/KrakenQuoteTrigger.py",
+    "kind": "source-reference",
+    "bytes": 1551,
+    "sha256": "87d16fd43f98bdaa1cac2430d365907c6cc03bf06e7d183d990663d1897e58a0"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\MiddleGroundTernaryEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/MiddleGroundTernaryEngine.py",
+    "kind": "source-reference",
+    "bytes": 3241,
+    "sha256": "0c1fe8e1a173c32f6cad4ddffff2b58b2e4c85a1e66c1816da3886239e1241ed"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\OnlineVirtueMonitoringEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/OnlineVirtueMonitoringEngine.py",
+    "kind": "source-reference",
+    "bytes": 5941,
+    "sha256": "f5a494ec9cc110490b0abaeef22f19adcdbe4741e4e2816791f1e9415b1bc576"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\OperationalIntegrityEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/OperationalIntegrityEngine.py",
+    "kind": "source-reference",
+    "bytes": 3178,
+    "sha256": "c92d6d79bfda27bd2d84f78d3b8b60d4827fbd5b0d83c4c99114c10bbad7c4f8"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\OriginalDualRailDisplay.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/OriginalDualRailDisplay.py",
+    "kind": "source-reference",
+    "bytes": 1523,
+    "sha256": "524bcecaad752c2ba4a7befeae8a7b65896609cc930046b3ddc6deab93806b51"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\ParadigmComparisonEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/ParadigmComparisonEngine.py",
+    "kind": "source-reference",
+    "bytes": 4268,
+    "sha256": "e72ae5c28e1bd16ff61b4512705c8d61070cc6e024dfc97347c3ab303e6dddce"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\ParallelDualRailModule.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/ParallelDualRailModule.py",
+    "kind": "source-reference",
+    "bytes": 1591,
+    "sha256": "e37801a7072dcb253e590e8c40fb1c527120ddd8c2455ce8006886064c83a4e8"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\ParentalFierceProtectionEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/ParentalFierceProtectionEngine.py",
+    "kind": "source-reference",
+    "bytes": 6059,
+    "sha256": "cfc29fafd93de3719bf523816f663fc49a94447591a2f74128239344ef5be212"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\PeaceableCovenantEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/PeaceableCovenantEngine.py",
+    "kind": "source-reference",
+    "bytes": 5581,
+    "sha256": "b9cbc477012be18582ea408c02f677c127541c6f469446b92f9e42671f1a6ac1"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\PersistentParitySweep.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/PersistentParitySweep.py",
+    "kind": "source-reference",
+    "bytes": 1441,
+    "sha256": "2bae316fa84c247b7313efb1f0b04be255ff35d6b4bb15f730e75190ff59475a"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\PinnacleVirtueObservationEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/PinnacleVirtueObservationEngine.py",
+    "kind": "source-reference",
+    "bytes": 3993,
+    "sha256": "3ed48a0bed2cf4623ce1fecc3484a7277ded9ee5332468ac267bcbf0d363d9b0"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\PredictiveTrajectoryEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/PredictiveTrajectoryEngine.py",
+    "kind": "source-reference",
+    "bytes": 3685,
+    "sha256": "a49b5f8478ca338a087833f63dfbd6dad3b9dfbf303bb126a3f183bfbff37e06"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\RealTimeSystemEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/RealTimeSystemEngine.py",
+    "kind": "source-reference",
+    "bytes": 2690,
+    "sha256": "5c50e6a246f9f3cb35c0c251fb74c702048c456f3023150cfc88559034f96414"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\RedemptiveEmergenceEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/RedemptiveEmergenceEngine.py",
+    "kind": "source-reference",
+    "bytes": 6105,
+    "sha256": "3a7cd34b8fae2b7a8e5e06cc1760c25aaee0fbafed34145552388fbdd41264a6"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\RedemptiveRehabilitationEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/RedemptiveRehabilitationEngine.py",
+    "kind": "source-reference",
+    "bytes": 2064,
+    "sha256": "1e85ee53d067d7fcd28e00c5dc4a54cbe5631bde7f88cef15d33cf9cd9cefca8"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\SovereignSourceBroadcastEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/SovereignSourceBroadcastEngine.py",
+    "kind": "source-reference",
+    "bytes": 5989,
+    "sha256": "76d4398df62f185504216ec212367917149af6fdccd2dbc2a8061d0061d985e3"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\SystemCognitionAlignment.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/SystemCognitionAlignment.py",
+    "kind": "source-reference",
+    "bytes": 2974,
+    "sha256": "1b7691139851c627a94cd30b075c4714282f571b3002a2a30d2e7d38741aef0e"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\TernaryCascadingSafeguardEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/TernaryCascadingSafeguardEngine.py",
+    "kind": "source-reference",
+    "bytes": 4693,
+    "sha256": "b3a33c3b005d257b3157d2d3f8df0d72b012df2ac2db362819e3d832f42dd7f6"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\TernaryRealTimeEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/TernaryRealTimeEngine.py",
+    "kind": "source-reference",
+    "bytes": 3928,
+    "sha256": "9aa748930fa8ec1aac9528ddb7d828affe45e61362933c604e16543941dc59b4"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\UltimateCovenantAuditEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/UltimateCovenantAuditEngine.py",
+    "kind": "source-reference",
+    "bytes": 5174,
+    "sha256": "cff60890f49c4f9b0107845162d3b1e395161adf07bb9dbdce933bf1674c8c81"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\UltimateEnforcementEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/UltimateEnforcementEngine.py",
+    "kind": "source-reference",
+    "bytes": 2599,
+    "sha256": "dd6c279c25d09263819031e62e11273553716ab42e566b0d677227c3a747b9c5"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\UnifiedProbeAndStressEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/UnifiedProbeAndStressEngine.py",
+    "kind": "source-reference",
+    "bytes": 6262,
+    "sha256": "2c1ab86773c02cefbc49628a58adf639192be7f5c7d1cf5418fb2718fe142a4f"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\UniversalCovenantEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/UniversalCovenantEngine.py",
+    "kind": "source-reference",
+    "bytes": 5616,
+    "sha256": "b0e7d305c6b6fd7f33eacad916640830f2915ce8875aef5b250bcb1c49570a12"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\UniversalPredatorPreyCovenantEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/UniversalPredatorPreyCovenantEngine.py",
+    "kind": "source-reference",
+    "bytes": 6388,
+    "sha256": "29556ec738623126ed1d3ab9f22c3cbd902baf79b28e3bf6ad5bc160db50e182"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\UniversalVirtueEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/UniversalVirtueEngine.py",
+    "kind": "source-reference",
+    "bytes": 3974,
+    "sha256": "72ed1c69b7d09d56204db5063e940e8ddf59a1638d12ea317c26cd3c9ab1e510"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\UniversalVirtueEngine2.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/UniversalVirtueEngine2.py",
+    "kind": "source-reference",
+    "bytes": 3974,
+    "sha256": "72ed1c69b7d09d56204db5063e940e8ddf59a1638d12ea317c26cd3c9ab1e510"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\VirtueInitializationLedger.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/VirtueInitializationLedger.py",
+    "kind": "source-reference",
+    "bytes": 6213,
+    "sha256": "47e281c4c364bc04594de24c5187d5f91cdd6e78f9e642babe6273cf17117e17"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\VirtueRegistry.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/VirtueRegistry.py",
+    "kind": "source-reference",
+    "bytes": 6892,
+    "sha256": "549a40e95c2d4cc297e1610e71ca8f29f6ee69c7c9232d3de6a11421b55faddf"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\benefits_observatory_core.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/benefits_observatory_core.py",
+    "kind": "source-reference",
+    "bytes": 14369,
+    "sha256": "9b266e9eac6a754a96e329f20be2dcbf41eca7826f46282b3f6f68478582bcf5"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\benefitsoverride.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/benefitsoverride.py",
+    "kind": "source-reference",
+    "bytes": 2063,
+    "sha256": "12aaeb31185576d6d618dcf085f1f92a632be8747c86f6bc067a5d4e59634e59"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\central_banking_observatory.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/central_banking_observatory.py",
+    "kind": "source-reference",
+    "bytes": 17450,
+    "sha256": "bb4d90dce02abd08e3d5595ef3049bf9f5453ff483a7b7327c20d65c1b558795"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\evaluate_inverted_container_boundary.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/evaluate_inverted_container_boundary.py",
+    "kind": "source-reference",
+    "bytes": 1359,
+    "sha256": "4713ad2aa87077430f8da9870da036b0288e575cce064736cc7209893ee241ae"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\gambling_restitution_core.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/gambling_restitution_core.py",
+    "kind": "source-reference",
+    "bytes": 14422,
+    "sha256": "add69bac91ef9f2f6c70001c50b7231895434cc99b4e0cc95646f83edb15723f"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\observatory_background_worker.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/observatory_background_worker.py",
+    "kind": "source-reference",
+    "bytes": 8225,
+    "sha256": "dd473dce5ad688a4d75060a3392d38d646780d3182cd3c5648c2a001e236a4e1"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\observatory_background_worker2.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/observatory_background_worker2.py",
+    "kind": "source-reference",
+    "bytes": 8118,
+    "sha256": "7916e17e27e256d619dffee5c742fe58d56f178740ccd3721233314ce8b21db6"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\resolve_bit_array_cast.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/resolve_bit_array_cast.py",
+    "kind": "source-reference",
+    "bytes": 979,
+    "sha256": "5c1035a7aff5f14a2dd84a9733a50b86a67e7eb16bf09a0e02fa77d6246aa35f"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\resolve_historical_virtue_pass.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/resolve_historical_virtue_pass.py",
+    "kind": "source-reference",
+    "bytes": 776,
+    "sha256": "ad5d997bc967ad17d91ad56fbcc740c4efb34fe811d4886cd4adad9c483e25f3"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\verify_protection_rings.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/verify_protection_rings.py",
+    "kind": "source-reference",
+    "bytes": 2378,
+    "sha256": "e6288853299d13e3a335e798eb637414339bb96ad4c7410d67c1e40514062d9d"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\2\\ingest_live_web_definitions.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/2/ingest_live_web_definitions.py",
+    "kind": "source-reference",
+    "bytes": 8247,
+    "sha256": "be6c967e4706941ec888e62c10187dacd650cb7e9db0de45302dc7a30f3a9419"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\ActiveLlamaWork.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/ActiveLlamaWork.py",
+    "kind": "source-reference",
+    "bytes": 217,
+    "sha256": "e9583c2ff43e8402fcffdb9d7bc16f7baa35ec82edb24f522403dca3990f997d"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\ConvergenceEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/ConvergenceEngine.py",
+    "kind": "source-reference",
+    "bytes": 239,
+    "sha256": "947b654e086f04c323bfb9157f698cb8d19dd569255defcb33494a19f2a3c7e7"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\CoreInteraction.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/CoreInteraction.py",
+    "kind": "source-reference",
+    "bytes": 215,
+    "sha256": "7f0bb9d4f5f6e133d41fe54aa0fb3aaceab5b86fcd6af819e7d7ad6b1991ef83"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\InferenceBeacon.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/InferenceBeacon.py",
+    "kind": "source-reference",
+    "bytes": 242,
+    "sha256": "d58ee2ec05dd1c2b00b0ec066ca727a8934a5cb4c2384086036aacfe78029268"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\JournalIntegrity.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/JournalIntegrity.py",
+    "kind": "source-reference",
+    "bytes": 221,
+    "sha256": "37bfc7f7909cb3ae3997b3aef8bf77e9934b68a1123015e1c6fc2400a455e81f"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\LiveTelemetry.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/LiveTelemetry.py",
+    "kind": "source-reference",
+    "bytes": 215,
+    "sha256": "4ee59eb2ba08041fca53ee8fd193eef25a24a56d35b68f5bd2f9e2b97eb417ed"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\LocalSystemKnowledge.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/LocalSystemKnowledge.py",
+    "kind": "source-reference",
+    "bytes": 225,
+    "sha256": "eeb089529d70b04d50ca5c04cff85b1f6f717137955b75ae4ff23867fa99a412"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\NetworkReceipts.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/NetworkReceipts.py",
+    "kind": "source-reference",
+    "bytes": 229,
+    "sha256": "bbc881b3608e7bff426c8c09a499e3ff25d757ea1f8187da9bbf3ba4775848a7"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\PersonalLossAuditor.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/PersonalLossAuditor.py",
+    "kind": "source-reference",
+    "bytes": 251,
+    "sha256": "38784822ed4072a0ca2f3c88f4223d9d3a26e327994ad0686b9a1a9d47e8ce70"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\QBiTerIdentity.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/QBiTerIdentity.py",
+    "kind": "source-reference",
+    "bytes": 257,
+    "sha256": "a386dbe18e37007255d14805f3a29029542603b21f31a58aa0c6ff7b42dd6702"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\ResourceFloorAllocator.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/ResourceFloorAllocator.py",
+    "kind": "source-reference",
+    "bytes": 253,
+    "sha256": "0a0764e8a1d85640689cd18f6ffb27d4a0dca6a40a03f3fdd391570de77bc50a"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\RestitutionPipeline.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/RestitutionPipeline.py",
+    "kind": "source-reference",
+    "bytes": 252,
+    "sha256": "69886fa637d631f76a1e91e4c44e45946002b83f242df3c754082d1ab8694b26"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\RobinHoodCircuitBreaker.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/RobinHoodCircuitBreaker.py",
+    "kind": "source-reference",
+    "bytes": 246,
+    "sha256": "ea6a2a42736213c4016852d7db3287268e12ac00cdfdbd4af28c0b5876669d3f"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\SifterRegistry.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/SifterRegistry.py",
+    "kind": "source-reference",
+    "bytes": 234,
+    "sha256": "1e23af9eee802e4f1ad642be3a6cf068640c146d14ad20b2690bf2d9bf74136b"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\SpectralMemory.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/SpectralMemory.py",
+    "kind": "source-reference",
+    "bytes": 219,
+    "sha256": "7f70c0c43cc027c0c9fada1f7da33d52c7cb2099f5c021ab7c0faf31507a78d5"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\TelemetryProbability.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/TelemetryProbability.py",
+    "kind": "source-reference",
+    "bytes": 249,
+    "sha256": "82bb530269125f1e8c0fdb086ecd531d407946d9657feb9d46ee4fd2a451c2d9"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\TransformerMatrix.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/TransformerMatrix.py",
+    "kind": "source-reference",
+    "bytes": 242,
+    "sha256": "edd1c8870c5a83c342c1551729b17c440412dfa35107aa14c89ca2536a6e6289"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\TranslationStudio.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/TranslationStudio.py",
+    "kind": "source-reference",
+    "bytes": 255,
+    "sha256": "f1df5e1c5f220cb14d1224c328c30ae86f8495419479e09f29dc9ca1d09c69f5"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\UniversalIdentityFloor.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/UniversalIdentityFloor.py",
+    "kind": "source-reference",
+    "bytes": 241,
+    "sha256": "fb82600f4f7e3ce905416821735f584d6a0a847be18760a82ec13113eb13e3cb"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\VirtuousLaw.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/VirtuousLaw.py",
+    "kind": "source-reference",
+    "bytes": 217,
+    "sha256": "9514f7331f4e44cef823a13c1bf302b5866dc0c50af14dc8305196973579a6a7"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\elevated\\WavCarrier.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/elevated/WavCarrier.py",
+    "kind": "source-reference",
+    "bytes": 213,
+    "sha256": "ce4b35eeca0d04f45e26a54a00fe42e391eeb39ea5fe08a4109e11c066fecd38"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\AmbientHostTelemetry.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/AmbientHostTelemetry.py",
+    "kind": "source-reference",
+    "bytes": 210,
+    "sha256": "2263f4123236f1222bb9ec48cd196d03f089d0132f5195736c540a8afc919a96"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\BalancedTernaryMatrix.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/BalancedTernaryMatrix.py",
+    "kind": "source-reference",
+    "bytes": 241,
+    "sha256": "978f6ea68c99abc1ee6024d46e4dd4694c038be1adbcca6e2ce4b1d606b2d8c1"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\EarthSignal.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/EarthSignal.py",
+    "kind": "source-reference",
+    "bytes": 206,
+    "sha256": "85449af1455741c22fa7fdec2fb7bd676bf402ec5b478487ccabc39e1bc64336"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\HydrogenSignal.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/HydrogenSignal.py",
+    "kind": "source-reference",
+    "bytes": 212,
+    "sha256": "07e6350bddbca7e702627535d01f33effa2b038b306390f46c88de80fd3aae63"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\MeshReviewReceipts.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/MeshReviewReceipts.py",
+    "kind": "source-reference",
+    "bytes": 204,
+    "sha256": "8caafee724ac0814e2da164c6fe6f42afc2d5926e157e572250ea72e04bc90f9"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\NeuralClassifier.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/NeuralClassifier.py",
+    "kind": "source-reference",
+    "bytes": 216,
+    "sha256": "498dd145d904cabdb6b35d7e3daf776887837fe89bdf8dae663443ec39e123b2"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\OpportunityWatch.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/OpportunityWatch.py",
+    "kind": "source-reference",
+    "bytes": 206,
+    "sha256": "9ca2f8a3a917c2410e57bf36dcb34ea77651936ac0280300470291def4d93118"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\PlanetaryObservation.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/PlanetaryObservation.py",
+    "kind": "source-reference",
+    "bytes": 214,
+    "sha256": "9b83221a115ba1365746b0e917d83cedd447fe3708c8f541a77d3b13acfbaf63"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\PulseEntropy.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/PulseEntropy.py",
+    "kind": "source-reference",
+    "bytes": 210,
+    "sha256": "ff91d6dfa9b2b5161e42d77df168976190bc7a49d66c879f193507e89e9138f8"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\ResourceWorkOrders.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/ResourceWorkOrders.py",
+    "kind": "source-reference",
+    "bytes": 214,
+    "sha256": "4ec7faa1a850748b0ec6d4aff271ed20287203cd1162ac99d16ef322e38e7153"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\RunInPlaceFlux.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/RunInPlaceFlux.py",
+    "kind": "source-reference",
+    "bytes": 673,
+    "sha256": "0b380f081b4a5cb9cb947497af8d5727839b708a359806afca6b0e5fa9410d4c"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\SourceWeightOptimizer.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/SourceWeightOptimizer.py",
+    "kind": "source-reference",
+    "bytes": 243,
+    "sha256": "08d7f81192358aa73f4c94f949115871c4e8870679ad251c04a4bc0dcde12788"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\SunSignal.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/SunSignal.py",
+    "kind": "source-reference",
+    "bytes": 202,
+    "sha256": "e28316fddcd1ae9db05e60c8a4d5f27b6e778e2d1f56034b66855212c88d5003"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\expanded\\WholeTextAlignment.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/expanded/WholeTextAlignment.py",
+    "kind": "source-reference",
+    "bytes": 519,
+    "sha256": "5db67d41f7417d02cdde5f8a9712b1c4c404e262837566916e8a0682c6b32dd7"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\active_llama.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/active_llama.py",
+    "kind": "source-reference",
+    "bytes": 9210,
+    "sha256": "87ad1248b78610c4f18071aa2909101e589eb84821709b569f588945436e6f84"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\alignment_core.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/alignment_core.py",
+    "kind": "source-reference",
+    "bytes": 5622,
+    "sha256": "f882e16923d10ee1941d774f2a45bf9ac7b426e3f18fe12dea26d6fc5ff9e8e5"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\ambient_runtime.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/ambient_runtime.py",
+    "kind": "source-reference",
+    "bytes": 10649,
+    "sha256": "c86c794bb5cb23dcd4ef9a814f980ca661551ac113ed138c494adb2f404571fc"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\app.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/app.py",
+    "kind": "source-reference",
+    "bytes": 62145,
+    "sha256": "8b4bd2bad8b64d15054d7ff3a1379e6686e8a17007680425f8941a343fe3dbc2"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\bit_rules.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/bit_rules.py",
+    "kind": "source-reference",
+    "bytes": 3812,
+    "sha256": "216e87a4e2c1166f18990eff90ea3a58d930584f7fbb0dc715684a8e44426247"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\blueprint_inspector.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/blueprint_inspector.py",
+    "kind": "source-reference",
+    "bytes": 1893,
+    "sha256": "46661b8d492845f538480dbd08a1afc2751a9bcf7eda0b2fb318a083a568288f"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\bounded_python.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/bounded_python.py",
+    "kind": "source-reference",
+    "bytes": 8336,
+    "sha256": "c0135ee7dc87ff4a1ccce1bc02c8908957f6571ea6f2595e45c879b3a81c0591"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\call_definitions.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/call_definitions.py",
+    "kind": "source-reference",
+    "bytes": 29122,
+    "sha256": "295d51ecc0125069f79d108ced7432293dae1cf5dd0e20177efd631f4e733781"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\catalog.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/catalog.py",
+    "kind": "source-reference",
+    "bytes": 5821,
+    "sha256": "091d2716de3b0f636a74dad0ff2ec2c7ebbc0f88a7b6a204d0775c2231eae0aa"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\chiral.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/chiral.py",
+    "kind": "source-reference",
+    "bytes": 9744,
+    "sha256": "bb5347c6bdddf7609d3d941043d9c75751f7022df04b2948632da9d5ed81ca34"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\classifier_core.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/classifier_core.py",
+    "kind": "source-reference",
+    "bytes": 5994,
+    "sha256": "5c7c11a721ceb9717bc7c96c388be7cd921b90cce070b893b4aca314355c4282"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\classifier_data.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/classifier_data.py",
+    "kind": "source-reference",
+    "bytes": 4992,
+    "sha256": "6948877e59ca692043a2b423dd17a15849d09e5a58eefc783daea464b58065dd"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\code_archetypes.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/code_archetypes.py",
+    "kind": "source-reference",
+    "bytes": 14543,
+    "sha256": "0b4b0ce247d16500a3db928d5618d676fe4f5ee0c4eafe426e1fb5010b3d69f1"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\consequence_policy.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/consequence_policy.py",
+    "kind": "source-reference",
+    "bytes": 5952,
+    "sha256": "e88d855e81bbce70630b0bf2bb9813ab40e132cb9b87821b4940b2d0c15301b9"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\drill_engine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/drill_engine.py",
+    "kind": "source-reference",
+    "bytes": 18326,
+    "sha256": "bf93c9c3c0a701453eeb43871d203c9b81dc3c14c78f03f4b53c8590c0f6f599"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\dual_rail_launcher.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/dual_rail_launcher.py",
+    "kind": "source-reference",
+    "bytes": 31301,
+    "sha256": "717b7307ab80702591b3b30fc180b35b96ba42ff08698c06035af74c42ac6081"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\dual_rail_rules.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/dual_rail_rules.py",
+    "kind": "source-reference",
+    "bytes": 2305,
+    "sha256": "937ce36907f7c6e811d6bad70005fc51507ef0b25c54441298b88d1957e32db1"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\economy_engines.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/economy_engines.py",
+    "kind": "source-reference",
+    "bytes": 5165,
+    "sha256": "49b0e3c1c4b3a77f1ba15b90482a60d166d294cfbe879e623c87e0ba8e0da5ea"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\economy_hub.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/economy_hub.py",
+    "kind": "source-reference",
+    "bytes": 6222,
+    "sha256": "c6d76803858bec1d219bd4944b25aca973bfe29aa7b79652853734e4d329377d"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\elevation.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/elevation.py",
+    "kind": "source-reference",
+    "bytes": 17863,
+    "sha256": "62682407fa8212ffcc9ac121b19dd7a3c7f44b2dbe082ce7e9eb1fe3c6802cce"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\field_voice.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/field_voice.py",
+    "kind": "source-reference",
+    "bytes": 4621,
+    "sha256": "926b2c638096fd95eaa97c89ab4bb8519525e2c22d43f6ddf5ae29721139be92"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\flux_hub.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/flux_hub.py",
+    "kind": "source-reference",
+    "bytes": 14993,
+    "sha256": "68f1958a4a010ea577da1fc32aff4ec17a0e93befad5d5a2004a4ef5207bee48"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\foundation_runtime.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/foundation_runtime.py",
+    "kind": "source-reference",
+    "bytes": 3543,
+    "sha256": "3f330a6d60a98bbe56ed82fce3d0b18df7a7331853d41d29c1e450b73509e84e"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\hierarchy_core.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/hierarchy_core.py",
+    "kind": "source-reference",
+    "bytes": 8254,
+    "sha256": "25aa0bc0be3bd4ce45b2e0959eafbcfcad4358e6666bd1fa4b0706798ba12850"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\inference_engine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/inference_engine.py",
+    "kind": "source-reference",
+    "bytes": 5116,
+    "sha256": "cc3a52f9971c0646013d50c0201d5df32c711a0c70eaf94cd10fa7b0f06d4023"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\interpreter.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/interpreter.py",
+    "kind": "source-reference",
+    "bytes": 11572,
+    "sha256": "28cd969713ba0b0190f5a3debba84df585dec123c2551fbc64fdce2dc8488497"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\kraken_audio.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/kraken_audio.py",
+    "kind": "source-reference",
+    "bytes": 2151,
+    "sha256": "1282bd34cf8f1513cf60fb59ab6539885c782e678b3349f49f5a7236fa1facb6"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\legacy_predictive.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/legacy_predictive.py",
+    "kind": "source-reference",
+    "bytes": 1919,
+    "sha256": "15704573dd3f7af92c56ce6b5b68dfd53cb44effa71c6a79df457cf4402ef6be"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\live_backbone.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/live_backbone.py",
+    "kind": "source-reference",
+    "bytes": 21485,
+    "sha256": "2eed29f74e5e059d6b15b12199b4ccbb3000f876374ff82605634c3aa51606ce"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\local_knowledge.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/local_knowledge.py",
+    "kind": "source-reference",
+    "bytes": 6409,
+    "sha256": "5b1dc7f097c5050f1c77d42a322602e0d4fcdc73d5868af3675e9e53d6d78e6f"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\manuscript_sources.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/manuscript_sources.py",
+    "kind": "source-reference",
+    "bytes": 29172,
+    "sha256": "14cc8fa4b28b23ea10dc731246ab9ab112e8e4174f718355729122a0f76655aa"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\measured_carrier.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/measured_carrier.py",
+    "kind": "source-reference",
+    "bytes": 6688,
+    "sha256": "a438018b64716444c2a1255e8766e2af1f038113f0802616785ad8285a3ec69c"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\media_ingestion.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/media_ingestion.py",
+    "kind": "source-reference",
+    "bytes": 6384,
+    "sha256": "bb57ea3060e3b51474a61b2e0dd4f5261733404cb7fa14a57a5882502e04df58"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\models.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/models.py",
+    "kind": "source-reference",
+    "bytes": 22565,
+    "sha256": "d5c14475043908006c18d4be3bf0d0ab6696a0bf71f2b3c3dd395338d24e2338"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\module_reasoning.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/module_reasoning.py",
+    "kind": "source-reference",
+    "bytes": 5893,
+    "sha256": "b638e5f7912e7a4c15f07bb3cd37c7694e2ce815f872572a24ab7b25ac62568c"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\module_telemetry.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/module_telemetry.py",
+    "kind": "source-reference",
+    "bytes": 6092,
+    "sha256": "fafa9769cf4aca62e3e4538e371afd1cbececd4cc669435590964fbee4f37631"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\neural_rules.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/neural_rules.py",
+    "kind": "source-reference",
+    "bytes": 11133,
+    "sha256": "b8759a2061e5202df0d0cd79229ca8da3bc43222eed71db107211194e63d5c9b"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\opportunity_watch.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/opportunity_watch.py",
+    "kind": "source-reference",
+    "bytes": 16057,
+    "sha256": "f242376f0261ae6a6de7c552403f1ff1d64c01a81278654d8f8ee2fa35f66f84"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\parallel_dual_rail.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/parallel_dual_rail.py",
+    "kind": "source-reference",
+    "bytes": 3194,
+    "sha256": "cf2e4bf5cf75c9223ff8fd7ae39fd0a78687a7aa7bac1f882462b8d40ee065ec"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\persistent_drill.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/persistent_drill.py",
+    "kind": "source-reference",
+    "bytes": 1906,
+    "sha256": "93d4cbe42f606d43b148eba06ca0399d1e1a24449028960b569df6d3436ce828"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\ported_core.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/ported_core.py",
+    "kind": "source-reference",
+    "bytes": 19305,
+    "sha256": "4153b1ee908bf15a0943b4dd58b6cb6866f1d1696465927e5e8bde112d79edd4"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\precise_definitions.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/precise_definitions.py",
+    "kind": "source-reference",
+    "bytes": 15040,
+    "sha256": "1be203f9ac23c59ae21d0a5df468d41f85f2fa12de35b40309823856fbd2b7cf"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\predictive_rules.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/predictive_rules.py",
+    "kind": "source-reference",
+    "bytes": 8494,
+    "sha256": "6e4ae2a9b955d3f826893967b08fdd57eb0a2abaa864897d2de166ff804e2311"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\primary_cascade.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/primary_cascade.py",
+    "kind": "source-reference",
+    "bytes": 18250,
+    "sha256": "8c7ffd19cf337a640452a61a024bc4d1035d861d1c32d87dac7cb74a447f03e0"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\privacy_network.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/privacy_network.py",
+    "kind": "source-reference",
+    "bytes": 13559,
+    "sha256": "53a26234e2211c08669b2947297ec3ae60f6fdeb27d9f71956eb81c2d767a588"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\provider_errors.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/provider_errors.py",
+    "kind": "source-reference",
+    "bytes": 2501,
+    "sha256": "ec51ee0c87273969eea099b3036ffbad549b07ad3ff927151cd86f0dec971094"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\python_hub.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/python_hub.py",
+    "kind": "source-reference",
+    "bytes": 16729,
+    "sha256": "a906745891aa374250b1a00109ba4436cf2a7019f6c954a38c71b6fc6a22ada8"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\reality_status.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/reality_status.py",
+    "kind": "source-reference",
+    "bytes": 11150,
+    "sha256": "e2475e9205e24c8a1e415ff554748dd923ce654b88d40d9c8dece1f869974bb2"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\recent_module_bridge.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/recent_module_bridge.py",
+    "kind": "source-reference",
+    "bytes": 3996,
+    "sha256": "1a59072f4af62c018dc4bd858adcedc2132779a58fcd88c0728aeb5daa4a8dea"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\resource_ledger.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/resource_ledger.py",
+    "kind": "source-reference",
+    "bytes": 10002,
+    "sha256": "d148b6c9a392c63d7b592caa8c8e5435730096a5d6315f560c0c2c170b90197a"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\screen.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/screen.py",
+    "kind": "source-reference",
+    "bytes": 8631,
+    "sha256": "693433fc016b059c5cbd78af734b91f47e15853a490c0f132356cb3a4e7d4981"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\sources.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/sources.py",
+    "kind": "source-reference",
+    "bytes": 12501,
+    "sha256": "697736dc5c9b8665ed1649f80b01830adc18aa5acedc756a8154e98fcb314360"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\spectrum_inspector.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/spectrum_inspector.py",
+    "kind": "source-reference",
+    "bytes": 7618,
+    "sha256": "367ffe862567c1b71eea09bc535bd7dc1e8592498ee1ad8cc9fc9facf39b691f"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\speech.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/speech.py",
+    "kind": "source-reference",
+    "bytes": 2525,
+    "sha256": "0aeb27a8eb66d89e0eddeb3de24ba9911dea6fff4cb6465bafea51652446d701"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\spiritual_research.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/spiritual_research.py",
+    "kind": "source-reference",
+    "bytes": 26519,
+    "sha256": "79d353f39c6ec94eb2ddc370552dae44834497dcb4c475f378dec126cfacaa33"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\system_network.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/system_network.py",
+    "kind": "source-reference",
+    "bytes": 5921,
+    "sha256": "e98693b05068ce639e15e7ceaf76d813a2ff16e8799ad6be8f558ad1d290c2b7"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\target_understanding.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/target_understanding.py",
+    "kind": "source-reference",
+    "bytes": 4800,
+    "sha256": "64943bed1fec496f3d8f1a4fd1996b650fccc5e30747106f251b515738597845"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\ternary_core.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/ternary_core.py",
+    "kind": "source-reference",
+    "bytes": 2978,
+    "sha256": "b3ba02393b04e254dea7c7f6792e8b9d2cc186b511668a010581f30e0fcaa17f"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\v3_hub.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/v3_hub.py",
+    "kind": "source-reference",
+    "bytes": 17864,
+    "sha256": "b86cdecc28965077499a98e3a3b5336c6bcc887c7f64c314441fdd5e9259d5fe"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\virtue_pipeline.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/virtue_pipeline.py",
+    "kind": "source-reference",
+    "bytes": 31490,
+    "sha256": "3d07db96563b7120d85b8052c57286471bbb816d709c2fce81973786154b4ff3"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\vpn_manager.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/vpn_manager.py",
+    "kind": "source-reference",
+    "bytes": 3532,
+    "sha256": "efe7aa8a02e40db66aa6e2079a7acfa5655d2f4269dfbb1c7ebc6e61855c4092"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\wav_modulator.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/wav_modulator.py",
+    "kind": "source-reference",
+    "bytes": 4037,
+    "sha256": "ec5a54c8d15a07be830c2937a7c3b7d8cd26a212145878b05058bd20b9c5d0b7"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\web_pathway.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/web_pathway.py",
+    "kind": "source-reference",
+    "bytes": 7257,
+    "sha256": "b53b5544dcba44c8c80af7adf2e574b712fefb9a49aecc7ca5427ef03b32c1d1"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\workbench.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/workbench.py",
+    "kind": "source-reference",
+    "bytes": 9774,
+    "sha256": "0b60d2060a398d84923232a1db7473a180f98ebca7106ec66fdaf644a487cba2"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\worker.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/worker.py",
+    "kind": "source-reference",
+    "bytes": 4584,
+    "sha256": "2ddbe24d9bb1cc9e9bb51e8a2a16d731606922df7fceb5ed6f1bc66a5ce5b638"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\world_mesh.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/world_mesh.py",
+    "kind": "source-reference",
+    "bytes": 15840,
+    "sha256": "7a42341596be17ae1edefb01c084034040c4e40940199ba1836d08b376afc4a7"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\adapters\\PostscarcityBus.java",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/adapters/PostscarcityBus.java",
+    "kind": "source-reference",
+    "bytes": 3888,
+    "sha256": "30e738a41bc22299babac68ba4002f0b3641a971e95e25b2027cb61e53379b81"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\adapters\\python_bus.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/adapters/python_bus.py",
+    "kind": "source-reference",
+    "bytes": 3028,
+    "sha256": "01bc2fc864ef419724ac96bc5f827c681a9c4a2b57e0b485b42da243635a2948"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\reference\\world_grid_node_original.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/reference/world_grid_node_original.py",
+    "kind": "source-reference",
+    "bytes": 11877,
+    "sha256": "67458bff495e8ae31150813e801c8630340906612f2265e104e29d97e9d66765"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\reference\\before_predictive_refactor\\BinaryVirtueEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/reference/before_predictive_refactor/BinaryVirtueEngine.py",
+    "kind": "source-reference",
+    "bytes": 3473,
+    "sha256": "df690757983c43b910ae966ebc2f92f45c11fff5c3bab41b1c43b6e07be49213"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\reference\\before_predictive_refactor\\DrillingVirtueEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/reference/before_predictive_refactor/DrillingVirtueEngine.py",
+    "kind": "source-reference",
+    "bytes": 5865,
+    "sha256": "5343e5d5932e5b2e8d08c1207b21f47ac27f42b3f7f5208a1335d7eb0bc9a8c2"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\reference\\before_predictive_refactor\\MiddleGroundTernaryEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/reference/before_predictive_refactor/MiddleGroundTernaryEngine.py",
+    "kind": "source-reference",
+    "bytes": 5400,
+    "sha256": "e84fac500497b4f202e5797e52bf874ad2ae9af9773be092c1da092057a8e6dc"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\reference\\before_predictive_refactor\\SystemCognitionAlignment.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/reference/before_predictive_refactor/SystemCognitionAlignment.py",
+    "kind": "source-reference",
+    "bytes": 2850,
+    "sha256": "812fc160ad22077b2c0068f443954c5051806c0a8a873c7f9dd468d5fe4f62d4"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\reference\\before_predictive_refactor\\UltimateEnforcementEngine.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/reference/before_predictive_refactor/UltimateEnforcementEngine.py",
+    "kind": "source-reference",
+    "bytes": 3576,
+    "sha256": "4611fa77f566ad61e6d91922a7e7df945bb4d1c9439861f03a4c44d30374a1cf"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\reference\\before_predictive_refactor\\resolve_bit_array_cast.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/reference/before_predictive_refactor/resolve_bit_array_cast.py",
+    "kind": "source-reference",
+    "bytes": 2401,
+    "sha256": "7f1a3df8c4ace889a4d2ee5c249a76be403527d4db6c3437ef7b93d472b24ab5"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\reference\\before_predictive_refactor\\2\\ingest_live_web_definitions.py",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/reference/before_predictive_refactor/2/ingest_live_web_definitions.py",
+    "kind": "source-reference",
+    "bytes": 8159,
+    "sha256": "e9064f96b37293348d9075e5717b1fb00af29b1262f01e555fabf08bc524a9ca"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\app.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/app.js",
+    "kind": "source-reference",
+    "bytes": 32630,
+    "sha256": "dfdfb7d77f88f6b7403f27bc108c0da3f3cf1b973d5241b1a05424fc441069b3"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\backbone.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/backbone.js",
+    "kind": "source-reference",
+    "bytes": 30478,
+    "sha256": "a63be5c8fb99a27cd26e59621ecbc63fd5d657ddc8a2ee2779a51864c1a96c31"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\economy.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/economy.js",
+    "kind": "source-reference",
+    "bytes": 9281,
+    "sha256": "f321a7308e93cdd0eac01a81a69e0583b77da416be9c0f0e7e0f8c5312c42ef2"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\extensions.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/extensions.js",
+    "kind": "source-reference",
+    "bytes": 36588,
+    "sha256": "95891855d98d3fc358f6ea28fa8b44787dcabc076b0d261f4e6081e1b3c95145"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\flux.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/flux.js",
+    "kind": "source-reference",
+    "bytes": 21561,
+    "sha256": "c8853a8eefacf561265a10704c33d6960b4fef09cb4cf0e0ad66c89e2a9b9261"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\index.html",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/index.html",
+    "kind": "source-reference",
+    "bytes": 34981,
+    "sha256": "455ff5f391abc9b7b3a36a7c9367333fb6cbc9c5335c1b7899eaa1f5e28ea92c"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\inference.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/inference.js",
+    "kind": "source-reference",
+    "bytes": 5435,
+    "sha256": "67ba96b6d24f7bb983a5dc60022d12e0ecf00fb5569e16f35219218c802bd85f"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\network.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/network.js",
+    "kind": "source-reference",
+    "bytes": 9782,
+    "sha256": "2d34ce6f1ace49b846855d0642d596cb13714c924c87748793906891c50bb785"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\observability.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/observability.js",
+    "kind": "source-reference",
+    "bytes": 13425,
+    "sha256": "7cf951aaf524ec92617b96eacefe2e36f45a02e9a358f31f76a6af28be7acf7f"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\predictive.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/predictive.js",
+    "kind": "source-reference",
+    "bytes": 16167,
+    "sha256": "18c0a3a499de204b0f3f2ce5f666394e3cf668a50d9dfc44de41e7ee1dc6f21e"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\primary.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/primary.js",
+    "kind": "source-reference",
+    "bytes": 8825,
+    "sha256": "426f98400495eff94c6d5486417754ce021e9b92453e0b595955048f7f807b52"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\real-world.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/real-world.js",
+    "kind": "source-reference",
+    "bytes": 16227,
+    "sha256": "ac3650218016bc999192c5f6d7872e800f522f2926f470070c31cce47a817687"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\v3.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/v3.js",
+    "kind": "source-reference",
+    "bytes": 32348,
+    "sha256": "32a39f48350bd15b8b62fd98835adac7de136207d15334bd9f2acbcb7fd717cc"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\static\\v4.js",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/static/v4.js",
+    "kind": "source-reference",
+    "bytes": 16017,
+    "sha256": "44987523fb6da2f76a07e4e3a9c47989670f5c5d375b32ed0e952e7182ec6c09"
+  },
+  {
+    "original": "sources\\QuantumBrowserBus-upgraded\\QuantumBrowserBus.java",
+    "path": "preserved/sources/QuantumBrowserBus-upgraded/QuantumBrowserBus.java",
+    "kind": "source-reference",
+    "bytes": 32009,
+    "sha256": "3a5d4e143a28e50bd0e4c53b0bacceab1e23246a5bcbbd0d2605f456e59364c7"
+  },
+  {
+    "original": "sources\\QuantumBrowserBus-upgraded\\code.html",
+    "path": "preserved/sources/QuantumBrowserBus-upgraded/code.html",
+    "kind": "source-reference",
+    "bytes": 29942,
+    "sha256": "43296dd2e9b962d6de704c56c99c246427664fd21262f61ea69f2f9a776a4c99"
+  },
+  {
+    "original": "sources\\QuantumMindConsole\\QuantumMindConsole.java",
+    "path": "preserved/sources/QuantumMindConsole/QuantumMindConsole.java",
+    "kind": "source-reference",
+    "bytes": 55082,
+    "sha256": "87731b730341a5cd59fc2f36625c31de023ae873517cef586299f02cab73de34"
+  },
+  {
+    "original": "sources\\software_creator_observatory\\software_creator_observatory.py",
+    "path": "preserved/sources/software_creator_observatory/software_creator_observatory.py",
+    "kind": "source-reference",
+    "bytes": 16235,
+    "sha256": "4af4fcd0aaf2e87e166cfaf6fff9477323aa1cd20f012778b7688f811301e4a1"
+  },
+  {
+    "original": "sources\\unified\\unified_graphical_engine.py",
+    "path": "preserved/sources/unified/unified_graphical_engine.py",
+    "kind": "source-reference",
+    "bytes": 54339,
+    "sha256": "57c325940d6a8b187b2ba375fa11e1d0510ad4000a4fc79c3030b87fe0143fb9"
+  },
+  {
+    "original": "sources\\VirtueBackbone\\backbone.py",
+    "path": "preserved/sources/VirtueBackbone/backbone.py",
+    "kind": "source-reference",
+    "bytes": 20896,
+    "sha256": "fbac0d8bb3491295232b9b907afa140353854c5b84203a46bb3924fe3e643ba8"
+  },
+  {
+    "original": "sources\\VirtueBackbone\\desktop.py",
+    "path": "preserved/sources/VirtueBackbone/desktop.py",
+    "kind": "source-reference",
+    "bytes": 15387,
+    "sha256": "3ca961f76bc0dbf3678633f383e013e47601c56c475499d596b9c8da766fb37d"
+  },
+  {
+    "original": "sources\\VirtueBackbone\\knowledge_worker.py",
+    "path": "preserved/sources/VirtueBackbone/knowledge_worker.py",
+    "kind": "source-reference",
+    "bytes": 2564,
+    "sha256": "4fa010004ce9a8e9ba0177b477fb12597c5d4925efdd25a644278a04e1b24abc"
+  },
+  {
+    "original": "sources\\VirtueBackbone\\scan_sources.py",
+    "path": "preserved/sources/VirtueBackbone/scan_sources.py",
+    "kind": "source-reference",
+    "bytes": 5708,
+    "sha256": "c602caa50ac4c459d4c49fd503dc3ada6f9a67d83f3e7e828ed65889d23e060b"
+  },
+  {
+    "original": "sources\\VirtueBackbone\\java\\BackboneClient.java",
+    "path": "preserved/sources/VirtueBackbone/java/BackboneClient.java",
+    "kind": "source-reference",
+    "bytes": 4221,
+    "sha256": "a08e612040696c29f99250fa53c9ea74d81f9d9773c55453c3d7f7112ba3f885"
+  },
+  {
+    "original": "sources\\VirtueBackbone\\tests\\test_backbone.py",
+    "path": "preserved/sources/VirtueBackbone/tests/test_backbone.py",
+    "kind": "source-reference",
+    "bytes": 10260,
+    "sha256": "5f88482c7e345f7383931c0a37c57bb33896a3c624be7f0487428b33b76b28ac"
+  },
+  {
+    "original": "sources\\postscarcity\\post_scarcity_simulation.py",
+    "path": "preserved/sources/postscarcity/post_scarcity_simulation.py",
+    "kind": "source-reference",
+    "bytes": 16409,
+    "sha256": "fbf467196325cec8c46ff9c176ffcb5e2c9b890b17559eb099050c786642fe86"
+  },
+  {
+    "original": "sources\\postscarcity\\PostscarcityHub\\attach_bus.py",
+    "path": "preserved/sources/postscarcity/PostscarcityHub/attach_bus.py",
+    "kind": "source-reference",
+    "bytes": 2424,
+    "sha256": "201e006bcee6a2a3185472c283a8f60deaed9362fb6c8b24746b314a3eedd7dc"
+  },
+  {
+    "original": "sources\\postscarcity\\PostscarcityHub\\bus_protocol.py",
+    "path": "preserved/sources/postscarcity/PostscarcityHub/bus_protocol.py",
+    "kind": "source-reference",
+    "bytes": 21549,
+    "sha256": "7910d58f07f04e37858a1facee33d585b8aee311994a3af267350d8121fe09e2"
+  },
+  {
+    "original": "sources\\postscarcity\\PostscarcityHub\\hub_runtime.py",
+    "path": "preserved/sources/postscarcity/PostscarcityHub/hub_runtime.py",
+    "kind": "source-reference",
+    "bytes": 7270,
+    "sha256": "27e0dc9f03601afd6b9e5a995366d241b0ae8e4c3b3ee92399c19c9285533772"
+  },
+  {
+    "original": "sources\\postscarcity\\PostscarcityHub\\neural_engine.py",
+    "path": "preserved/sources/postscarcity/PostscarcityHub/neural_engine.py",
+    "kind": "source-reference",
+    "bytes": 6705,
+    "sha256": "8f6607fbe189f7e6bd6ef86b6701b9cc213b17dfbd5cf79a94ab586baa5703ef"
+  },
+  {
+    "original": "sources\\postscarcity\\PostscarcityHub\\post_scarcity_hub.py",
+    "path": "preserved/sources/postscarcity/PostscarcityHub/post_scarcity_hub.py",
+    "kind": "source-reference",
+    "bytes": 30292,
+    "sha256": "816717a3e874a54342f9fa4b2267bc83e0005343ea5915ab25643db038b6d572"
+  },
+  {
+    "original": "sources\\postscarcity\\PostscarcityHub\\process_monitor.py",
+    "path": "preserved/sources/postscarcity/PostscarcityHub/process_monitor.py",
+    "kind": "source-reference",
+    "bytes": 8041,
+    "sha256": "a95dc2526659a0d0ae90cc331b7df769aebd3eed159a702ec07f91926aa4d4e4"
+  },
+  {
+    "original": "sources\\postscarcity\\PostscarcityHub\\tests\\test_hub.py",
+    "path": "preserved/sources/postscarcity/PostscarcityHub/tests/test_hub.py",
+    "kind": "source-reference",
+    "bytes": 7610,
+    "sha256": "693cb0dfe26cc72ee2164eabcc2ed26dc94ac993f03f9d27dfbea83751a05bf0"
+  },
+  {
+    "original": "sources\\postscarcity\\PostscarcityHub\\tests\\test_protocol.py",
+    "path": "preserved/sources/postscarcity/PostscarcityHub/tests/test_protocol.py",
+    "kind": "source-reference",
+    "bytes": 8888,
+    "sha256": "40320985ea8ce52ef04eb982d0fb4caa368c049a46cc1fbd8509a6842a7b606b"
+  },
+  {
+    "original": "sources\\Reference texts\\andyleech.txt",
+    "path": "preserved/sources/Reference texts/andyleech.txt",
+    "kind": "source-reference",
+    "bytes": 167367,
+    "sha256": "03b2a2c4f47808c3aaf9f9188af47dc1eedd9fe221e6faa7cfae9cc73b3b7592"
+  },
+  {
+    "original": "sources\\Reference texts\\FluxBus-v2-Portable.sha256.txt",
+    "path": "preserved/sources/Reference texts/FluxBus-v2-Portable.sha256.txt",
+    "kind": "source-reference",
+    "bytes": 91,
+    "sha256": "cd6ca6f0e90984a48bd198c3d71b9188d69dc8ec353c208b15bb0fcda89b8ac8"
+  },
+  {
+    "original": "sources\\Reference texts\\inference node enplaced  true call.txt",
+    "path": "preserved/sources/Reference texts/inference node enplaced  true call.txt",
+    "kind": "source-reference",
+    "bytes": 369236,
+    "sha256": "b4c92a0bd6d2e4d65a08bf9da778a16e682e0adf65009ee06a4e1586f0ccaa5d"
+  },
+  {
+    "original": "sources\\Reference texts\\nodemesh.txt",
+    "path": "preserved/sources/Reference texts/nodemesh.txt",
+    "kind": "source-reference",
+    "bytes": 7332,
+    "sha256": "a0edf243fe6028ba678ca58702def8601ebf7fdf8be9034150c325575a364c54"
+  },
+  {
+    "original": "sources\\ai-genesis-node\\public\\favicon.svg",
+    "path": "assets/00-favicon.svg",
+    "kind": "graphic",
+    "bytes": 244,
+    "sha256": "f6983969da323d7c4ffca310ac0dcbe2ad9eb040b3ebdf72e4f4acfbc0a99091"
+  },
+  {
+    "original": "sources\\AllPrevUnifiedEngine-FluxExpanded\\Preview-Llama.png",
+    "path": "assets/01-Preview-Llama.png",
+    "kind": "graphic",
+    "bytes": 162262,
+    "sha256": "b070ae7f45c71be7ea457216c7ae9b7d7b6a08f76703e32cf8b3fc17f261e3c9"
+  },
+  {
+    "original": "sources\\AllPrevUnifiedEngine-FluxExpanded\\Preview.png",
+    "path": "assets/02-Preview.png",
+    "kind": "graphic",
+    "bytes": 158282,
+    "sha256": "89a201e255ab41b38430567555350ee6e94e92af8648640c090b7dd3d27ba9a6"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-ChatGPT.png",
+    "path": "assets/03-Preview-ChatGPT.png",
+    "kind": "graphic",
+    "bytes": 119960,
+    "sha256": "a50cd7d6efcc6331b6d5d8b7f1c07cda070b9427dba2ce8e60bc046cbaac2ebe"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-Gemini.png",
+    "path": "assets/04-Preview-Gemini.png",
+    "kind": "graphic",
+    "bytes": 125233,
+    "sha256": "be52d94cd491c8cacbfec1293785ba3a17018d48e8f6622e78ea9ed937c7f7a7"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-Google-AI.png",
+    "path": "assets/05-Preview-Google-AI.png",
+    "kind": "graphic",
+    "bytes": 151129,
+    "sha256": "c958ddc5d8d7c6e286456b9e6967b0f98efe6fcda058fb4b87e73c22dc7742fd"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-Llama.png",
+    "path": "assets/06-Preview-Llama.png",
+    "kind": "graphic",
+    "bytes": 94219,
+    "sha256": "a600092f36915a3e4a8c730f0b3078b2f53cdc6d4e38515355ab35e39b5c26d5"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-Pipeline.png",
+    "path": "assets/07-Preview-Pipeline.png",
+    "kind": "graphic",
+    "bytes": 155761,
+    "sha256": "34b7595f0f9ecc04ba93ec24a07bf9741ea72cf2dc5c9d09688830c386035b8e"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-audit.png",
+    "path": "assets/08-Preview-audit.png",
+    "kind": "graphic",
+    "bytes": 110751,
+    "sha256": "8f198443e9c7915de479cea6b61c15d849b42dd2f8c0c4035b659914d9695d5f"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-binary-layout.png",
+    "path": "assets/09-Preview-binary-layout.png",
+    "kind": "graphic",
+    "bytes": 112388,
+    "sha256": "cce2da2dd4646ead97a00fb4229939cc503dbe01e36b505966b2576352d1a6d0"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-engine-chooser.png",
+    "path": "assets/10-Preview-engine-chooser.png",
+    "kind": "graphic",
+    "bytes": 40624,
+    "sha256": "2f313095001ff7286b4e2f60af13bc646ad81c939891c27766c34f34c1924e8c"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-karmic-welfare.png",
+    "path": "assets/11-Preview-karmic-welfare.png",
+    "kind": "graphic",
+    "bytes": 157638,
+    "sha256": "6e479761e5b6cd59ee486227672e935b0a7d3db42d16578a030d47ff74471d6b"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-live-flux.png",
+    "path": "assets/12-Preview-live-flux.png",
+    "kind": "graphic",
+    "bytes": 164213,
+    "sha256": "cc3df3844f71d353f548da03332342e807e6e0c20a0dfa797952d428ae045ae5"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-mesh.png",
+    "path": "assets/13-Preview-mesh.png",
+    "kind": "graphic",
+    "bytes": 165601,
+    "sha256": "070b3491cad5207660ea89083098532847d659e5bcca2c1927b8487f4e298aea"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-neural-learning.png",
+    "path": "assets/14-Preview-neural-learning.png",
+    "kind": "graphic",
+    "bytes": 152183,
+    "sha256": "6d631f925930c8096beb812eccb956727e8fdbd98e53e97f263ccbe6e7076a88"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-overview.png",
+    "path": "assets/15-Preview-overview.png",
+    "kind": "graphic",
+    "bytes": 211804,
+    "sha256": "f843da4a489b9d4dc5788cc743df783ae83e15a36d956d601642eb01b34e1778"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-platform-alignment.png",
+    "path": "assets/16-Preview-platform-alignment.png",
+    "kind": "graphic",
+    "bytes": 194393,
+    "sha256": "8d00f39feda42acecfd9dc587380b33098659ad9f8b454650176df29bc0482de"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-reference-harmonics.png",
+    "path": "assets/17-Preview-reference-harmonics.png",
+    "kind": "graphic",
+    "bytes": 176333,
+    "sha256": "6e37e8007e0e03d6f8371e9e39efa239fbe45ccd66e727136a551fa8f91a0d9e"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-reference-navigation.png",
+    "path": "assets/18-Preview-reference-navigation.png",
+    "kind": "graphic",
+    "bytes": 164879,
+    "sha256": "b08bec270d7e19687e57573780086b63e8b1a07d2244abbf74a9737bf346ee4c"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-reference-performance.png",
+    "path": "assets/19-Preview-reference-performance.png",
+    "kind": "graphic",
+    "bytes": 117682,
+    "sha256": "204a5c6d0bae16758ffa3181e3084aaef989239bf6482b60ca735c168e842b6c"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-reference-processes.png",
+    "path": "assets/20-Preview-reference-processes.png",
+    "kind": "graphic",
+    "bytes": 111476,
+    "sha256": "a6c22eba7f764f07ae93a88470142ced869464c3045792fd0c623f2fe61f12a3"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-reference-resources.png",
+    "path": "assets/21-Preview-reference-resources.png",
+    "kind": "graphic",
+    "bytes": 167390,
+    "sha256": "22edf32151f4ccb38e8b47f5da8edf87d39e3cde56af25bf6d85bc97c7b0dfa1"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-reference-signing.png",
+    "path": "assets/22-Preview-reference-signing.png",
+    "kind": "graphic",
+    "bytes": 157555,
+    "sha256": "b4a87cec88da03ada53ed74b66a0e969ed3386792f05186548224e70246b829d"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-reference-source.png",
+    "path": "assets/23-Preview-reference-source.png",
+    "kind": "graphic",
+    "bytes": 237523,
+    "sha256": "e783aac6b20403c6368df3fa37ccf0ca36c9fc9e680b68f67a9874f58ac54631"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-reference-weights.png",
+    "path": "assets/24-Preview-reference-weights.png",
+    "kind": "graphic",
+    "bytes": 153407,
+    "sha256": "e69bd5188e916debd1768134bd52244171eb2d7efd7788a39a4503dddfe25c7b"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-summary.png",
+    "path": "assets/25-Preview-summary.png",
+    "kind": "graphic",
+    "bytes": 136217,
+    "sha256": "eb87688563a2cb74b7f7124a0faa93c7bb2b212e835a97433d712bf3bcf42eb7"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-ternary-converter.png",
+    "path": "assets/26-Preview-ternary-converter.png",
+    "kind": "graphic",
+    "bytes": 143621,
+    "sha256": "c6f260c5131cb2090e1cedd81073267fba48c4a50076e9f9d408f0139abe9056"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-text-pipeline.png",
+    "path": "assets/27-Preview-text-pipeline.png",
+    "kind": "graphic",
+    "bytes": 169447,
+    "sha256": "1a0452360f8f71ee2b71923e1da8ca78ed93187c2ac57e0d6312f1bd05c485ce"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-unified.png",
+    "path": "assets/28-Preview-unified.png",
+    "kind": "graphic",
+    "bytes": 135598,
+    "sha256": "50558b8ec4b0548f2a790f5c664b80ffc11c0c54d3506ff1bbbdd02812147d98"
+  },
+  {
+    "original": "sources\\FluxBus-v2\\Preview-web-research.png",
+    "path": "assets/29-Preview-web-research.png",
+    "kind": "graphic",
+    "bytes": 97940,
+    "sha256": "dea9ecf2e9458f7b4e6ef6c35b5febac9c45e0344167328b41cf505a694b2f0d"
+  },
+  {
+    "original": "sources\\Force Academy Desktop\\Force Academy\\symbol.svg",
+    "path": "assets/30-symbol.svg",
+    "kind": "graphic",
+    "bytes": 1362,
+    "sha256": "a6b99f31e8acc402fc42177034066d55555e2e6a0a9ea58bbb0b03a546ecbc82"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\Matrix preview.png",
+    "path": "assets/31-Matrix preview.png",
+    "kind": "graphic",
+    "bytes": 48610,
+    "sha256": "5e591833b4c3cc204402fde06ad29309adbc4d352e5ac137ff380aded23edde3"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\Previews\\Cosmos.png",
+    "path": "assets/32-Cosmos.png",
+    "kind": "graphic",
+    "bytes": 223303,
+    "sha256": "9cf7962f6c6c2ac76593cf3ffacd53cb8bd7b5575dca1e855ba8df92167c3318"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\Previews\\Dyson.png",
+    "path": "assets/33-Dyson.png",
+    "kind": "graphic",
+    "bytes": 303869,
+    "sha256": "57a1a4af1ee6f53f00a1c03c96397596c46d4e0632fa8ef9216a6998932b9a70"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\Previews\\Earth.png",
+    "path": "assets/34-Earth.png",
+    "kind": "graphic",
+    "bytes": 99543,
+    "sha256": "916f0ea860c251a87f9cbfbe793f3ac8ec6726b7977eadf5e7063e0406bec4a5"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\Previews\\Hydrogen.png",
+    "path": "assets/35-Hydrogen.png",
+    "kind": "graphic",
+    "bytes": 46185,
+    "sha256": "149fb5684570ed1c66dc07c30b1d26305b540071baa9b34f6a99f1e66da32a20"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\Previews\\Matrix.png",
+    "path": "assets/36-Matrix.png",
+    "kind": "graphic",
+    "bytes": 64140,
+    "sha256": "71167a3a0c80f0f38f5a210e50d61007e05c37118fe2c6b3482bf2151e22b70b"
+  },
+  {
+    "original": "sources\\HydrogenMesh\\Previews\\Stellar.png",
+    "path": "assets/37-Stellar.png",
+    "kind": "graphic",
+    "bytes": 302691,
+    "sha256": "f623dc09a044586d70cf43725212a1b5bb5999b220d745c5d4aedffd0b2ca11f"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\Preview-automatic-inputs.png",
+    "path": "assets/38-Preview-automatic-inputs.png",
+    "kind": "graphic",
+    "bytes": 23894,
+    "sha256": "85c1d1875f9bde6ad698bf575482b128d6002821ed8aa61bf55ba65cf43a49ba"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\Preview-background-engine.png",
+    "path": "assets/39-Preview-background-engine.png",
+    "kind": "graphic",
+    "bytes": 73469,
+    "sha256": "faacc3eae3eabb9a20f052b0385d5726db11b15581238725964c3ddb8331e21a"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\Preview-native-research.png",
+    "path": "assets/40-Preview-native-research.png",
+    "kind": "graphic",
+    "bytes": 66005,
+    "sha256": "053ce8231e39640ab4ba3c901ca2cddcc15a6e28922b406ca2a1685211e2dddc"
+  },
+  {
+    "original": "sources\\MatrixBus\\public\\icon.svg",
+    "path": "assets/41-icon.svg",
+    "kind": "graphic",
+    "bytes": 247,
+    "sha256": "41f4adb12bb4e3edd533517aa771b384453a3ae8ac44f66a11730f683fabc70b"
+  },
+  {
+    "original": "sources\\NeuralAtelier\\portal-reference.jpg",
+    "path": "assets/42-portal-reference.jpg",
+    "kind": "graphic",
+    "bytes": 245831,
+    "sha256": "f881b43a188b825caf7243169cee23ff178be7c8c01238037cb7c73966eaac9a"
+  },
+  {
+    "original": "sources\\unified\\neural_engine_preview.png",
+    "path": "assets/43-neural_engine_preview.png",
+    "kind": "graphic",
+    "bytes": 74065,
+    "sha256": "178281543cbf97ad0093bd022cba85b52a82a1a9f9bd79979958157db3cd10fb"
+  },
+  {
+    "original": "sources\\Godmind Mesh Desktop\\data\\last_session.json",
+    "path": "preserved/sources/Godmind Mesh Desktop/data/last_session.json",
+    "kind": "weight-or-model-state",
+    "bytes": 146339,
+    "sha256": "e0a02d51c68d828bd6dc4de6d76b6f622afb2dca05d1d11182fe815cdc14548c"
+  },
+  {
+    "original": "sources\\InferenceObservatory\\data\\neural-router.npz",
+    "path": "preserved/sources/InferenceObservatory/data/neural-router.npz",
+    "kind": "weight-or-model-state",
+    "bytes": 91101,
+    "sha256": "c5247092d51be45f0d8d4105372083d5ef83da4d926f449ec615a924d2d45519"
+  },
+  {
+    "original": "sources\\postscarcity\\PostscarcityHub\\models\\model.json",
+    "path": "preserved/sources/postscarcity/PostscarcityHub/models/model.json",
+    "kind": "weight-or-model-state",
+    "bytes": 2274,
+    "sha256": "83e7481b1f22ffc52be8e5b4aa7a8a47fa08686536892e50cb9f52bf094bf849"
+  },
+  {
+    "original": "sources\\postscarcity\\PostscarcityHub\\models\\weights.npz",
+    "path": "preserved/sources/postscarcity/PostscarcityHub/models/weights.npz",
+    "kind": "weight-or-model-state",
+    "bytes": 9836,
+    "sha256": "ed19fdca2e0d49f2015bc3ff2e38d821a910460d28954969098f8fc37fb02ae8"
+  },
+  {
+    "original": "sources\\Postscarcity Observatory v4\\graphical_app\\data\\neural.json",
+    "path": "preserved/sources/Postscarcity Observatory v4/graphical_app/data/neural.json",
+    "kind": "weight-or-model-state",
+    "bytes": 912413,
+    "sha256": "7fe81c08cec1524e37135622be5f75e869a0c2e809fb34021c7a0d5e42ea87b0"
+  },
+  {
+    "original": "data\\checkpoint.json",
+    "path": "preserved/data/checkpoint.json",
+    "kind": "original-state",
+    "bytes": 2931,
+    "sha256": "f90157156d7220e9c7be8a3ec78f86e24a0f661d7566ec6737feda871f1b6396"
+  },
+  {
+    "original": "data\\engine-weights.json",
+    "path": "preserved/data/engine-weights.json",
+    "kind": "original-state",
+    "bytes": 19104,
+    "sha256": "4d8ce1ca4695cf6e2258cfd6111270ccf10e2ee2cc1569e9e1a2546d08e79790"
+  },
+  {
+    "original": "data\\providers.json",
+    "path": "preserved/data/providers.json",
+    "kind": "original-state",
+    "bytes": 481,
+    "sha256": "c2595979bea1d6bae9b2ac13b24f9ac9e089882aa1ef9aaefe1bd39db328f30f"
+  }
+]

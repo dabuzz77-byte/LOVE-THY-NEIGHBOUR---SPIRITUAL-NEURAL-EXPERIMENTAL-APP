@@ -1,0 +1,16 @@
+{
+  "tests": 6,
+  "errors": 0,
+  "failures": 0,
+  "chapters": 15,
+  "video_transcript": "Unavailable from YouTube; screenplay and dialogue transcript consulted online",
+  "ui": {
+    "status": "passed",
+    "viewport_width": 1265,
+    "document_width": 1265,
+    "prayer_full_text": "verified in visible page",
+    "shared_receipt": 2,
+    "learning_updates_after_run": 3,
+    "illustrated_chapters": 15
+  }
+}

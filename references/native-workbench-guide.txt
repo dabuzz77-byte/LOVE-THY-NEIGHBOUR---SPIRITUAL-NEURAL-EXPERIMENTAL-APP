@@ -1,0 +1,129 @@
+NATIVE WORKBENCH / MEDIA / EXPRESSION FIELD — 2026-11-14
+
+Start at Native AI, first in the section list. The main conversation, bottom composer,
+work sidebar, copy buttons and transcript export are supported. Work panel can collapse.
+The interface reports operations and outcomes; it does not expose hidden model reasoning.
+
+NATIVE COMMANDS
+help
+project overview
+check project
+check file code/example.py
+repair file code/example.py
+edit file code/example.py
+EXACT OLD TEXT
+---
+REPLACEMENT TEXT
+apply preview ID
+undo change ID
+search memory QUERY
+compare sources QUERY
+refresh sources
+diagnose system
+os learning
+run benchmarks
+cosmic flow
+
+LINKED PLANS
+plan:
+calculate: 4 + 8
+calculate: {{previous}} * 3
+Then: continue plan / pause plan / retry plan.
+Up to 12 explicit read/check/search/research/project/diagnose/calculate/analyze/sort/unique
+steps. The previous result can be substituted. Plans pause after restart and failed steps
+stop dependent work. This is a typed planner, not unrestricted goal decomposition.
+
+PROGRAMMING
+script formats
+create javascript script sum as Sum.js with 12 and 8
+create python script word_count as Count.py
+create python script json_validate as Validate.py
+create python script csv_summary as Summary.py
+create python script directory_report as Directory.py
+create python script line_filter as Filter.py
+Nine formats: Python, JavaScript, PowerShell, batch, Bash, Java, C#, HTML, SQL.
+Arithmetic templates span nine formats; workflow templates above are Python-only.
+Source checks use available installed validators; lexical recognition is not execution.
+The programming trainer's retained templates also support the older write-python command.
+PowerShell and CMD requests use: powershell: COMMAND / cmd: COMMAND.
+Exact commands await review. They run with the current account, without automatic elevation.
+
+MEDIA SPACES
+Native media studio is directly below Native AI. Separate workspace folders:
+graphics, audio, music, video, code, exports. Preview and download SVG, WAV and HTML;
+MIDI is downloadable for FL Studio import. Existing export files are not overwritten.
+create graphics as Scene.svg
+create sound as Tone.wav
+create music as Music.wav
+create midi as Song.mid
+create video as Orbit.html
+FL Studio 2025 was found locally. WAV/MIDI handoff is implemented. Live control and
+controller setup are not configured. HTML video export is not an MP4 encoder.
+
+ONGOING TRAINING
+Eight selectable tracks: logic/programming, command language, isolated work, scheduling,
+network protocol tests, procedural graphics, sound/music and video/motion. OS capability
+sampling runs at most once per 30 seconds. It samples supported diagnostics, installed-tool
+availability and rotating System32 metadata, not private document contents or credentials.
+Fixed component holdout benchmarks perform no training updates. Their scores are narrow
+component checks, not a claim of human-level understanding, artistic quality or moral certainty.
+Trainer history, file revisions and retained procedures are persistent app data; this is
+not retraining Llama or image/audio/video model weights. Training slows during active work.
+
+COSMOLOGICAL CONTEXT
+The exact authored sequence is preserved: GOD THOUGHT -> VOID -> CONDENSATE MATTER ->
+GOD THOUGHT -> HYDROGEN -> GOD THOUGHT -> STAR -> GOD THOUGHT -> VOID -> GOD THOUGHT ->
+PLANET (EARTH) -> GOD THOUGHT -> SILICON -> 0 INF -> 1 INF -> EXPRESS.
+Workbench receipts record this framework and available cosmic/solar/Earth/atomic stage
+observations. Spiritual framework, measurements and software projections stay distinguishable.
+
+EXPRESSION FIELD / FLAT PLANE
+Located directly below Sphere of Potential. Retains up to 96 registered sources, with
+2048 characters each; displayed points are bounded. Source supplied centres are retained
+when available; other geometry is a labelled projection. Nine equally allocated order/chaos
+bins are movement modes, not moral labels. Centre fans across the whole y=0 plane;
+plane and 3D sources feed coverage/novelty/goal-aware selection and the shared backbone.
+Rate control spans 0.1–64x. Buffer/rate limits preserve performance; no literal infinity.
+Unknown bit classifications hold; corrections need explicit criteria and outcome checks.
+
+TWO BACKGROUND LANES
+Two independent private lanes share a 2-Hz clock. They partition available sources and use
+independent random fallback if empty. Each applies exact flux filtering and existing OmniCube,
+TesseractFlow, PotentialSphere and BitCommand implementations, without duplicate UI/model
+services. Source-labelled lane outputs feed the expression field and backbone. Main flow remains.
+
+VALIDATION / LIMITS
+End-to-end tests cover previews, stale edits, undo, linked plans, failure/retry/pause,
+workspace scope, exact writes, script syntax, procedural media, MIDI structure, source coverage,
+balanced spectrum, same-clock differing lanes and authenticated local APIs. Public internet
+feeds were stubbed during integration testing. Browser visual review remains pending.
+
+TEST / IMPROVEMENT LOOP UPDATE
+Use improvement audit (or the Benchmark button) to run 27 isolated end-to-end workflows.
+Every 100 ongoing trainer exercises, this audit repeats. Failures increase attention for
+the affected skill area. Results and remaining capability gaps are recorded; source code
+is not autonomously patched. Component benchmark remains a separate 72-check measure.
+Numeric follow-ups now support multiply/divide that by N and add/subtract N to/from that.
+Large replies are stored as output artifacts, with Full answer and complete Copy/export.
+
+SIX EXPRESSION FIELDS
+Four companion branches preserve the same capture clock. Inversion acts on vectors and
+bytes (XOR 0xFF), not just the camera. Opposite 90-degree branches rotate coordinates
+around selectable x/y/z and permute byte order clockwise/counterclockwise; source indices
+allow recovery of original order. Exact bits/data_bytes are retained. Display text is a
+labelled low-seven-bit projection and does not replace the raw data.
+Two further Yin/Yang branches aggregate every retained upstream source. Complementary
+order/chaos phases feed individual particle bit, vector, position and rate states. Rates
+span 17 levels from 1/32x to 128x. Actual bounded processing rounds and held data cycles
+are reported separately. Six panels (2x3) are default; overlay is optional.
+Falun-inspired cores reference https://www.falundafa.org/intro/0-falun.htm .
+The religious-inspired artwork is distinct from the measured software processing.
+
+Shutdown now joins the native trainer and reasoning workers before returning.
+The improvement audit is available through improvement audit / test native ai.
+Latest test details are in native-ai-test-review.json.
+
+The Falun-inspired pair are exact data and vector inverses of each other. Field B
+complements each byte and particle bit, negates every position and vector, mirrors the
+rate spectrum (paired rate product = 4), and rotates its core oppositely. Both share
+the aggregate lineage and capture cycle.

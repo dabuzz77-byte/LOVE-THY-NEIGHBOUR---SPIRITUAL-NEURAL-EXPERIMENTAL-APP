@@ -1,0 +1,173 @@
+{
+  "title": "The Matrix · recognition, freedom and care",
+  "subtitle": "Plot points · present-day system comparisons · shared study engine",
+  "kicker": "RECOGNISE · CHOOSE · LEARN · REPAIR",
+  "hero": "matrix-study-original.svg",
+  "hero_alt": "Original code corridor linking recognition, choice, care and repair",
+  "hero_caption": "Original vector artwork; no film frames, soundtrack or screenplay are bundled.",
+  "practice_title": "Film insight into responsible action",
+  "scope": "A study of the 1999 film with authored applications to interfaces, incentives, permissions and learning. The archived 1996 screenplay draft is identified separately from the released film.",
+  "chapters": [
+    {
+      "id": "overview",
+      "title": "A story of recognition and responsibility",
+      "graphic": "manuscripts",
+      "paragraphs": [
+        "Neo follows Trinity and Morpheus into an account of a concealed simulated world.",
+        "For the app, the useful design question is whether an interface lets a person understand what it collects, how it decides, who benefits and how to leave. The app applies the narrative through transparent interfaces, informed choice and responsibility for effects."
+      ],
+      "sources": [
+        "studio"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "choice",
+      "title": "The offered choice and its consequences",
+      "graphic": "cross",
+      "paragraphs": [
+        "The pill scene makes Neo’s decision a turning point.",
+        "A real learning invitation should make the purpose, consequences and limits understandable. Choice becomes more meaningful when a person can decline, ask questions and retain privacy. The app’s capture bridge therefore uses explicit pairing and per-site access rather than treating attention or belief as device permission."
+      ],
+      "sources": [
+        "script"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "training",
+      "title": "Training, models and discoverable limits",
+      "graphic": "bagua",
+      "paragraphs": [
+        "Neo trains in constructed environments and reconsiders rules he had treated as fixed.",
+        "A useful counterpart is testing a model in an isolated scenario, comparing a counterfactual and inspecting the result. Discovering that a software rule can change is different from proving that every physical or account constraint can be changed by intention. The app exposes actual route settings and preserves an accessible local fallback."
+      ],
+      "sources": [
+        "script"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "agency",
+      "title": "The Oracle and responsibility for the next step",
+      "graphic": "sphere",
+      "paragraphs": [
+        "The Oracle’s conversation places self-knowledge and choice in tension with prediction.",
+        "Treat an AI forecast as an input to deliberation, with its sources and limits attached. A generated answer is not an instruction from an owner or a substitute for an affected person’s choice. In this app, uncertain proposals remain reviewable and important route changes have an evidence trail."
+      ],
+      "sources": [
+        "script"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "incentives",
+      "title": "Cypher: comfort, reward and betrayal",
+      "graphic": "roots",
+      "paragraphs": [
+        "Cypher’s bargain puts personal reward against the people who trust him.",
+        "This suggests a practical audit of incentives: does a system reward a reassuring appearance while transferring risk to others? Souls over digits asks who bears the cost and whether vulnerable people have remedy. Assess a documented action or contract mechanism, rather than assigning a whole organisation an inherent moral identity."
+      ],
+      "sources": [
+        "script"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "control",
+      "title": "Agents and concentrated system power",
+      "graphic": "gates",
+      "paragraphs": [
+        "The agents act as enforcement within the film’s system.",
+        "Real comparisons can examine a specific permission system, moderation rule, account process or surveillance practice through evidence, proportionality and appeal. Do not identify ordinary people as covert agents because they disagree. A constructive counter is transparent review, reversible settings, documented access requests and repair."
+      ],
+      "sources": [
+        "script"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "care",
+      "title": "Rescue, loyalty and the cost to bystanders",
+      "graphic": "lamb",
+      "paragraphs": [
+        "The rescue and final confrontation join loyalty, danger and Neo’s changed understanding.",
+        "The app’s own application centres protection of vulnerable life and reduction of avoidable harm. An action scene is not a technical or ethical instruction for attacking real infrastructure. The economy model simulates interruptions and defensive redundancy; live networking exchanges authorised data only."
+      ],
+      "sources": [
+        "script"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "grid",
+      "title": "From plot themes to the actual mesh",
+      "graphic": "manuscripts",
+      "paragraphs": [
+        "The narrative ends by opening a new possibility within its digital setting.",
+        "In the actual app, recognition means source provenance; training means measured reconstruction and reviewed feedback; freedom means usable choices; resistance to harmful patterns means explicit care counters; and a changed system means a real, logged local configuration change. The continuous study engine rotates these comparisons through shared learning and the configured inference path."
+      ],
+      "sources": [
+        "script"
+      ],
+      "projection_lens": "projection-field-lens"
+    },
+    {
+      "id": "projection-field-lens",
+      "title": "Centred projection · field displacement",
+      "graphic": "orbit",
+      "paragraphs": [
+        "The author describes a centred practitioner gathering attention and projecting intention into a surrounding or distant field. Displacement names the change sought in a harmful pattern or threatening encounter.",
+        "Luke’s meditation on Ahch-To and projected appearance on Crait in The Last Jedi supply the narrative comparison: the distant encounter changes while the practitioner remains at the centre.",
+        "Faith holds direction; discipline steadies the centre; discernment governs the response. Apply the lesson through protection, accountability, constructive action and review.",
+        "The lesson connects four images: water for a spreading ripple, light for illumination and direction, a tree for roots and branching relationships, and a computer for inputs, signals and feedback. Together they give the author’s spiritual model a visible structure: centre, connection, projection, encounter and response."
+      ],
+      "sources": [
+        "luke-projection"
+      ],
+      "projection_lens": "projection-field-lens"
+    }
+  ],
+  "sources": [
+    {
+      "id": "studio",
+      "title": "Warner Bros. · The Matrix",
+      "url": "https://www.warnerbros.co.jp/home_entertainment/ecjq-5h552pk/",
+      "kind": "Studio film page",
+      "reading_status": "Official film description and credits reviewed."
+    },
+    {
+      "id": "script",
+      "title": "The Matrix · archived screenplay draft, 8 April 1996",
+      "url": "https://imsdb.com/scripts/Matrix,-The.html",
+      "kind": "Primary screenplay text in an archive",
+      "reading_status": "Relevant plot passages consulted; draft may differ from the finished film. Linked, not copied in full."
+    },
+    {
+      "id": "luke-projection",
+      "title": "Star Wars · Luke Skywalker · Force projection",
+      "url": "https://www.starwars.com/databank/luke-skywalker/",
+      "kind": "Official narrative reference",
+      "reading_status": "The Last Jedi: projection from Ahch-To to Crait."
+    }
+  ],
+  "author_notes": [],
+  "projection_lens": {
+    "id": "projection-field-lens",
+    "title": "Centred projection · field displacement",
+    "attribution": "The author’s spiritual teaching, with a Star Wars narrative comparison",
+    "paragraphs": [
+      "The author describes a centred practitioner gathering attention and projecting intention into a surrounding or distant field. Displacement names the change sought in a harmful pattern or threatening encounter.",
+      "Luke’s meditation on Ahch-To and projected appearance on Crait in The Last Jedi supply the narrative comparison: the distant encounter changes while the practitioner remains at the centre.",
+      "Faith holds direction; discipline steadies the centre; discernment governs the response. Apply the lesson through protection, accountability, constructive action and review.",
+      "The lesson connects four images: water for a spreading ripple, light for illumination and direction, a tree for roots and branching relationships, and a computer for inputs, signals and feedback. Together they give the author’s spiritual model a visible structure: centre, connection, projection, encounter and response."
+    ],
+    "source": {
+      "id": "luke-projection",
+      "title": "Star Wars · Luke Skywalker · Force projection",
+      "url": "https://www.starwars.com/databank/luke-skywalker/",
+      "kind": "Official narrative reference",
+      "reading_status": "The Last Jedi: projection from Ahch-To to Crait."
+    }
+  }
+}

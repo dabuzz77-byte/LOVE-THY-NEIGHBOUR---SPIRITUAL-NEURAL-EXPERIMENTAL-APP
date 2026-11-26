@@ -1,0 +1,24 @@
+{
+  "checks": [
+    {
+      "check": "Real backpropagation changes weights and reduces measured training loss",
+      "initial_loss": 1.6854406696736277,
+      "final_loss": 0.05224894508546155,
+      "status": "passed"
+    },
+    {
+      "check": "Model checkpoint restores exact learned weights and train/test split",
+      "status": "passed"
+    },
+    {
+      "check": "Learned routing discriminates two held-out topic inputs",
+      "status": "passed"
+    },
+    {
+      "check": "Feature extraction accepts unusual process Unicode as data",
+      "status": "passed"
+    }
+  ],
+  "status": "passed",
+  "scope": "Isolated numerical tests; synthetic fixtures used only to test the implementation. Live model trains on retained app/web/research records."
+}

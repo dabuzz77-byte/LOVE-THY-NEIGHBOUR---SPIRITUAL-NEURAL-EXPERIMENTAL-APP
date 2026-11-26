@@ -1,0 +1,34 @@
+NATIVE LANGUAGE TRANSFER
+
+The engine can retain a reviewed mapping from a new phrase to an existing native
+request. It makes no LLM calls. This is symbolic language adaptation, not general
+language-model training or independent knowledge of what every phrase means.
+
+Some common phrases validate automatically when first needed:
+Gather the total from [19,-2,5,7]
+What is the median value of [9,1,5]
+Count unique entries in [1,1,2,3]
+
+Inspect: show learned native phrasings
+Remove: forget native phrasing starter_total
+Removing a starter prevents it from automatically reappearing.
+
+Custom mappings require a distinctive source template, a native target template,
+two or more training examples, and two or more separate validation examples.
+Slots are typed number, entity or JSON. Each slot appears once in the target.
+The validation cases must contain new slot values, not just different formatting.
+
+Example command:
+teach native phrasing: {"name":"my_total","source":"Aggregate this {items:json}","target":"sum: {items}","training":[{"input":"Aggregate this [2,3]","expected":5},{"input":"Aggregate this [10,-4]","expected":6}],"validation":[{"input":"Aggregate this [11,2,4]","expected":17},{"input":"Aggregate this [0]","expected":0}]}
+
+Choose a source prefix without polite words that the chat already removes. For
+example, use Aggregate this {items:json} consistently in the template and cases.
+
+For relation questions, scope can be concept-discussion. The mapping can refer
+to retained premises, with target What does {person} repair? for an entity slot.
+The lesson must include checked questions about several distinct entities.
+
+Built-in interpretations keep priority. Conflicting learned mappings ask for
+clarification. Invalid data asks for correction. A failed lesson does not replace
+the previous library. JSON slot values remain data and cannot inject another
+command. The target still uses the installed native skills and their checks.

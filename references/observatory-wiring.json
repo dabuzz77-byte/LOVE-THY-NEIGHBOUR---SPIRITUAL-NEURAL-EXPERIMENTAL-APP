@@ -1,0 +1,702 @@
+{
+  "reviewed_date": "2026-11-12",
+  "count": 94,
+  "policy": "One reviewed catalogue item per shared slot; finite original loops; public GET reads bounded and cached; hook logs captured in shared receipts; original Tk interfaces use their headless ports. Specific financial and personal inputs remain explicit.",
+  "modules": [
+    {
+      "id": "2/ingest_live_web_definitions",
+      "sha256": "be6c967e4706941ec888e62c10187dacd650cb7e9db0de45302dc7a30f3a9419",
+      "public_reads": [
+        "https://nytimes.com"
+      ],
+      "source_lines": 148,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "AbsoluteSafeguardEngine",
+      "sha256": "40bb5808da42f8763c4795d61d5b230833c01e0321329eedd298877d0fdde93a",
+      "public_reads": [],
+      "source_lines": 68,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "AdvancedVirtueRegistry",
+      "sha256": "baa9dfd512b3649820eb842c87e9905924c5a7346130129d29c13b03a0faa668",
+      "public_reads": [
+        "https://wikipedia.org",
+        "https://gnu.org"
+      ],
+      "source_lines": 172,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "benefits_observatory_core",
+      "sha256": "9b266e9eac6a754a96e329f20be2dcbf41eca7826f46282b3f6f68478582bcf5",
+      "public_reads": [],
+      "source_lines": 483,
+      "adapter": "headless economic port"
+    },
+    {
+      "id": "benefitsoverride",
+      "sha256": "12aaeb31185576d6d618dcf085f1f92a632be8747c86f6bc067a5d4e59634e59",
+      "public_reads": [],
+      "source_lines": 40,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "BinaryVirtueEngine",
+      "sha256": "bc37d5743e4b3de1a022c56da087492aa449503968b3068abc1653d8fa18f492",
+      "public_reads": [],
+      "source_lines": 64,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "BodhiTreeTridentEngine",
+      "sha256": "ff8ad5e676da74480bd4a995fe2fe7a0450afb5b0f001dad5e9f7dad9b0bbebc",
+      "public_reads": [],
+      "source_lines": 110,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "BoundaryBlueprintInspector",
+      "sha256": "c8f83115343dd46ee25f5ceef9baa23b8edcb90cadb008a5b7f6d118fa20617f",
+      "public_reads": [],
+      "source_lines": 23,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "CascadingVirtueEngine",
+      "sha256": "66c2c5af09dad185cba80b27f87350bead77ad82e6d78f0873cc844872b4c833",
+      "public_reads": [
+        "https://wikipedia.org",
+        "https://gnu.org"
+      ],
+      "source_lines": 87,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "central_banking_observatory",
+      "sha256": "bb4d90dce02abd08e3d5595ef3049bf9f5453ff483a7b7327c20d65c1b558795",
+      "public_reads": [],
+      "source_lines": 583,
+      "adapter": "headless economic port"
+    },
+    {
+      "id": "ChinaDollImperviousEngine",
+      "sha256": "50b9490195458acb68b9c674918ec434908efcd13a467a8fc314863075b47831",
+      "public_reads": [],
+      "source_lines": 112,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "CompassionateUnderstandingEngine",
+      "sha256": "fd398977fd022af93592485e2c98a7e748f1300958f015456cd50e41017e6118",
+      "public_reads": [],
+      "source_lines": 39,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "DeepestRepentanceEngine",
+      "sha256": "5988bba9e8ef4a7c396ce4771c3e571e69e9d36a3af7b116c3c591e9c5f73a96",
+      "public_reads": [],
+      "source_lines": 113,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "DrillingVirtueEngine",
+      "sha256": "1c910aea21de8b9d75f2da07da97c1c6a57d8975674cfec6328b92394370221a",
+      "public_reads": [],
+      "source_lines": 55,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/ActiveLlamaWork",
+      "sha256": "e9583c2ff43e8402fcffdb9d7bc16f7baa35ec82edb24f522403dca3990f997d",
+      "public_reads": [],
+      "source_lines": 4,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/ConvergenceEngine",
+      "sha256": "947b654e086f04c323bfb9157f698cb8d19dd569255defcb33494a19f2a3c7e7",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/CoreInteraction",
+      "sha256": "7f0bb9d4f5f6e133d41fe54aa0fb3aaceab5b86fcd6af819e7d7ad6b1991ef83",
+      "public_reads": [],
+      "source_lines": 4,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/InferenceBeacon",
+      "sha256": "d58ee2ec05dd1c2b00b0ec066ca727a8934a5cb4c2384086036aacfe78029268",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/JournalIntegrity",
+      "sha256": "37bfc7f7909cb3ae3997b3aef8bf77e9934b68a1123015e1c6fc2400a455e81f",
+      "public_reads": [],
+      "source_lines": 4,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/LiveTelemetry",
+      "sha256": "4ee59eb2ba08041fca53ee8fd193eef25a24a56d35b68f5bd2f9e2b97eb417ed",
+      "public_reads": [],
+      "source_lines": 4,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/LocalSystemKnowledge",
+      "sha256": "eeb089529d70b04d50ca5c04cff85b1f6f717137955b75ae4ff23867fa99a412",
+      "public_reads": [],
+      "source_lines": 4,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/NetworkReceipts",
+      "sha256": "bbc881b3608e7bff426c8c09a499e3ff25d757ea1f8187da9bbf3ba4775848a7",
+      "public_reads": [],
+      "source_lines": 4,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/PersonalLossAuditor",
+      "sha256": "38784822ed4072a0ca2f3c88f4223d9d3a26e327994ad0686b9a1a9d47e8ce70",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/QBiTerIdentity",
+      "sha256": "a386dbe18e37007255d14805f3a29029542603b21f31a58aa0c6ff7b42dd6702",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/ResourceFloorAllocator",
+      "sha256": "0a0764e8a1d85640689cd18f6ffb27d4a0dca6a40a03f3fdd391570de77bc50a",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/RestitutionPipeline",
+      "sha256": "69886fa637d631f76a1e91e4c44e45946002b83f242df3c754082d1ab8694b26",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/RobinHoodCircuitBreaker",
+      "sha256": "ea6a2a42736213c4016852d7db3287268e12ac00cdfdbd4af28c0b5876669d3f",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/SifterRegistry",
+      "sha256": "1e23af9eee802e4f1ad642be3a6cf068640c146d14ad20b2690bf2d9bf74136b",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/SpectralMemory",
+      "sha256": "7f70c0c43cc027c0c9fada1f7da33d52c7cb2099f5c021ab7c0faf31507a78d5",
+      "public_reads": [],
+      "source_lines": 4,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/TelemetryProbability",
+      "sha256": "82bb530269125f1e8c0fdb086ecd531d407946d9657feb9d46ee4fd2a451c2d9",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/TransformerMatrix",
+      "sha256": "edd1c8870c5a83c342c1551729b17c440412dfa35107aa14c89ca2536a6e6289",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/TranslationStudio",
+      "sha256": "f1df5e1c5f220cb14d1224c328c30ae86f8495419479e09f29dc9ca1d09c69f5",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/UniversalIdentityFloor",
+      "sha256": "fb82600f4f7e3ce905416821735f584d6a0a847be18760a82ec13113eb13e3cb",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/VirtuousLaw",
+      "sha256": "9514f7331f4e44cef823a13c1bf302b5866dc0c50af14dc8305196973579a6a7",
+      "public_reads": [],
+      "source_lines": 4,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "elevated/WavCarrier",
+      "sha256": "ce4b35eeca0d04f45e26a54a00fe42e391eeb39ea5fe08a4109e11c066fecd38",
+      "public_reads": [],
+      "source_lines": 4,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "EternalChinaDollLoveEngine",
+      "sha256": "4e631eebc259e56d35ab0cc00429e40082f8b57714ee43d9f1cb72908eee3942",
+      "public_reads": [],
+      "source_lines": 64,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "EthicalRefactoringEngine",
+      "sha256": "11822810aa37f3fed35087734896bf27791e8997ab4a0b5e8480d2af5d98ce51",
+      "public_reads": [],
+      "source_lines": 45,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "evaluate_inverted_container_boundary",
+      "sha256": "4713ad2aa87077430f8da9870da036b0288e575cce064736cc7209893ee241ae",
+      "public_reads": [],
+      "source_lines": 34,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/AmbientHostTelemetry",
+      "sha256": "2263f4123236f1222bb9ec48cd196d03f089d0132f5195736c540a8afc919a96",
+      "public_reads": [],
+      "source_lines": 3,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/BalancedTernaryMatrix",
+      "sha256": "978f6ea68c99abc1ee6024d46e4dd4694c038be1adbcca6e2ce4b1d606b2d8c1",
+      "public_reads": [],
+      "source_lines": 5,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/EarthSignal",
+      "sha256": "85449af1455741c22fa7fdec2fb7bd676bf402ec5b478487ccabc39e1bc64336",
+      "public_reads": [],
+      "source_lines": 3,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/HydrogenSignal",
+      "sha256": "07e6350bddbca7e702627535d01f33effa2b038b306390f46c88de80fd3aae63",
+      "public_reads": [],
+      "source_lines": 3,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/MeshReviewReceipts",
+      "sha256": "8caafee724ac0814e2da164c6fe6f42afc2d5926e157e572250ea72e04bc90f9",
+      "public_reads": [],
+      "source_lines": 3,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/NeuralClassifier",
+      "sha256": "498dd145d904cabdb6b35d7e3daf776887837fe89bdf8dae663443ec39e123b2",
+      "public_reads": [],
+      "source_lines": 3,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/OpportunityWatch",
+      "sha256": "9ca2f8a3a917c2410e57bf36dcb34ea77651936ac0280300470291def4d93118",
+      "public_reads": [],
+      "source_lines": 3,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/PlanetaryObservation",
+      "sha256": "9b83221a115ba1365746b0e917d83cedd447fe3708c8f541a77d3b13acfbaf63",
+      "public_reads": [],
+      "source_lines": 3,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/PulseEntropy",
+      "sha256": "ff91d6dfa9b2b5161e42d77df168976190bc7a49d66c879f193507e89e9138f8",
+      "public_reads": [],
+      "source_lines": 3,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/ResourceWorkOrders",
+      "sha256": "4ec7faa1a850748b0ec6d4aff271ed20287203cd1162ac99d16ef322e38e7153",
+      "public_reads": [],
+      "source_lines": 3,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/RunInPlaceFlux",
+      "sha256": "0b380f081b4a5cb9cb947497af8d5727839b708a359806afca6b0e5fa9410d4c",
+      "public_reads": [],
+      "source_lines": 9,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/SourceWeightOptimizer",
+      "sha256": "08d7f81192358aa73f4c94f949115871c4e8870679ad251c04a4bc0dcde12788",
+      "public_reads": [],
+      "source_lines": 5,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/SunSignal",
+      "sha256": "e28316fddcd1ae9db05e60c8a4d5f27b6e778e2d1f56034b66855212c88d5003",
+      "public_reads": [],
+      "source_lines": 3,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "expanded/WholeTextAlignment",
+      "sha256": "5db67d41f7417d02cdde5f8a9712b1c4c404e262837566916e8a0682c6b32dd7",
+      "public_reads": [],
+      "source_lines": 6,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "FluxGroupVirtueFoundation",
+      "sha256": "eeef3eac1f197ad1a70c5751d7824ce49b4fa9f8f8e482b42d77b5a8a002c481",
+      "public_reads": [],
+      "source_lines": 268,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "gambling_restitution_core",
+      "sha256": "add69bac91ef9f2f6c70001c50b7231895434cc99b4e0cc95646f83edb15723f",
+      "public_reads": [],
+      "source_lines": 483,
+      "adapter": "headless economic port"
+    },
+    {
+      "id": "GlobalCreedUnificationEngine",
+      "sha256": "064779b82f8713808a2e5aa803263f720d1dab2a346d5c7355418afcb7c46a4a",
+      "public_reads": [],
+      "source_lines": 111,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "HierarchicalVirtueEngine",
+      "sha256": "c0e4f95b89f8a966be6d5d72d91dad6e8be6a527362c2e0a914578ef15b65b01",
+      "public_reads": [],
+      "source_lines": 77,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "InfiniteChinaDollCovenantEngine",
+      "sha256": "58a99c279df40b1aeaaf8cdb0436b5a03722019263efd941edba98aa14bf0643",
+      "public_reads": [],
+      "source_lines": 102,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "InvariantDualRailDisplay",
+      "sha256": "c2f10dff9f65b3c3042d9ad0e797d1b629e59de04cd7e455fd3f1b4d9d11dced",
+      "public_reads": [],
+      "source_lines": 23,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "InvariantEcosystemEngin",
+      "sha256": "4b2aee95dcf461936b7211544426f49215d23c5012be2e66116bf6cb0a322690",
+      "public_reads": [],
+      "source_lines": 89,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "JacobsLadderEngine",
+      "sha256": "1c5dd95869ed8cd247ef376a432e34cafe422202dca5674c8d5504d90d3a0116",
+      "public_reads": [],
+      "source_lines": 86,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "JokerMoneyBurningRegistry",
+      "sha256": "22f1f8724c3579894badb99da499fe2e7f152adb0b2039ad028159dc79f0869d",
+      "public_reads": [
+        "https://wikipedia.org",
+        "https://gnu.org"
+      ],
+      "source_lines": 162,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "KrakenQuoteTrigger",
+      "sha256": "87d16fd43f98bdaa1cac2430d365907c6cc03bf06e7d183d990663d1897e58a0",
+      "public_reads": [],
+      "source_lines": 23,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "MiddleGroundTernaryEngine",
+      "sha256": "0c1fe8e1a173c32f6cad4ddffff2b58b2e4c85a1e66c1816da3886239e1241ed",
+      "public_reads": [],
+      "source_lines": 67,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "observatory_background_worker",
+      "sha256": "dd473dce5ad688a4d75060a3392d38d646780d3182cd3c5648c2a001e236a4e1",
+      "public_reads": [],
+      "source_lines": 165,
+      "adapter": "single-cycle hook with captured log"
+    },
+    {
+      "id": "observatory_background_worker2",
+      "sha256": "7916e17e27e256d619dffee5c742fe58d56f178740ccd3721233314ce8b21db6",
+      "public_reads": [],
+      "source_lines": 164,
+      "adapter": "single-cycle hook with captured log"
+    },
+    {
+      "id": "OnlineVirtueMonitoringEngine",
+      "sha256": "f5a494ec9cc110490b0abaeef22f19adcdbe4741e4e2816791f1e9415b1bc576",
+      "public_reads": [
+        "https://wikipedia.org",
+        "https://gnu.org",
+        "https://archive.org"
+      ],
+      "source_lines": 148,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "OperationalIntegrityEngine",
+      "sha256": "c92d6d79bfda27bd2d84f78d3b8b60d4827fbd5b0d83c4c99114c10bbad7c4f8",
+      "public_reads": [
+        "https://wikipedia.org",
+        "https://gnu.org"
+      ],
+      "source_lines": 73,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "OriginalDualRailDisplay",
+      "sha256": "524bcecaad752c2ba4a7befeae8a7b65896609cc930046b3ddc6deab93806b51",
+      "public_reads": [],
+      "source_lines": 23,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "ParadigmComparisonEngine",
+      "sha256": "e72ae5c28e1bd16ff61b4512705c8d61070cc6e024dfc97347c3ab303e6dddce",
+      "public_reads": [
+        "https://wikipedia.org",
+        "https://gnu.org"
+      ],
+      "source_lines": 90,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "ParallelDualRailModule",
+      "sha256": "e37801a7072dcb253e590e8c40fb1c527120ddd8c2455ce8006886064c83a4e8",
+      "public_reads": [],
+      "source_lines": 23,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "ParentalFierceProtectionEngine",
+      "sha256": "cfc29fafd93de3719bf523816f663fc49a94447591a2f74128239344ef5be212",
+      "public_reads": [],
+      "source_lines": 119,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "PeaceableCovenantEngine",
+      "sha256": "b9cbc477012be18582ea408c02f677c127541c6f469446b92f9e42671f1a6ac1",
+      "public_reads": [],
+      "source_lines": 110,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "PersistentParitySweep",
+      "sha256": "2bae316fa84c247b7313efb1f0b04be255ff35d6b4bb15f730e75190ff59475a",
+      "public_reads": [],
+      "source_lines": 23,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "PinnacleVirtueObservationEngine",
+      "sha256": "3ed48a0bed2cf4623ce1fecc3484a7277ded9ee5332468ac267bcbf0d363d9b0",
+      "public_reads": [
+        "https://wikipedia.org",
+        "https://gnu.org",
+        "https://archive.org"
+      ],
+      "source_lines": 89,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "PredictiveTrajectoryEngine",
+      "sha256": "a49b5f8478ca338a087833f63dfbd6dad3b9dfbf303bb126a3f183bfbff37e06",
+      "public_reads": [
+        "https://wikipedia.org",
+        "https://gnu.org"
+      ],
+      "source_lines": 83,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "RealTimeSystemEngine",
+      "sha256": "5c50e6a246f9f3cb35c0c251fb74c702048c456f3023150cfc88559034f96414",
+      "public_reads": [],
+      "source_lines": 68,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "RedemptiveEmergenceEngine",
+      "sha256": "3a7cd34b8fae2b7a8e5e06cc1760c25aaee0fbafed34145552388fbdd41264a6",
+      "public_reads": [],
+      "source_lines": 116,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "RedemptiveRehabilitationEngine",
+      "sha256": "1e85ee53d067d7fcd28e00c5dc4a54cbe5631bde7f88cef15d33cf9cd9cefca8",
+      "public_reads": [],
+      "source_lines": 44,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "resolve_bit_array_cast",
+      "sha256": "5c1035a7aff5f14a2dd84a9733a50b86a67e7eb16bf09a0e02fa77d6246aa35f",
+      "public_reads": [],
+      "source_lines": 18,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "resolve_historical_virtue_pass",
+      "sha256": "ad5d997bc967ad17d91ad56fbcc740c4efb34fe811d4886cd4adad9c483e25f3",
+      "public_reads": [],
+      "source_lines": 14,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "SovereignSourceBroadcastEngine",
+      "sha256": "76d4398df62f185504216ec212367917149af6fdccd2dbc2a8061d0061d985e3",
+      "public_reads": [],
+      "source_lines": 113,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "SystemCognitionAlignment",
+      "sha256": "1b7691139851c627a94cd30b075c4714282f571b3002a2a30d2e7d38741aef0e",
+      "public_reads": [],
+      "source_lines": 66,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "TernaryCascadingSafeguardEngine",
+      "sha256": "b3a33c3b005d257b3157d2d3f8df0d72b012df2ac2db362819e3d832f42dd7f6",
+      "public_reads": [
+        "https://wikipedia.org",
+        "https://gnu.org"
+      ],
+      "source_lines": 96,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "TernaryRealTimeEngine",
+      "sha256": "9aa748930fa8ec1aac9528ddb7d828affe45e61362933c604e16543941dc59b4",
+      "public_reads": [],
+      "source_lines": 104,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "UltimateCovenantAuditEngine",
+      "sha256": "cff60890f49c4f9b0107845162d3b1e395161adf07bb9dbdce933bf1674c8c81",
+      "public_reads": [],
+      "source_lines": 106,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "UltimateEnforcementEngine",
+      "sha256": "dd6c279c25d09263819031e62e11273553716ab42e566b0d677227c3a747b9c5",
+      "public_reads": [],
+      "source_lines": 57,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "UnifiedProbeAndStressEngine",
+      "sha256": "2c1ab86773c02cefbc49628a58adf639192be7f5c7d1cf5418fb2718fe142a4f",
+      "public_reads": [
+        "https://wikipedia.org",
+        "https://gnu.org"
+      ],
+      "source_lines": 135,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "UniversalCovenantEngine",
+      "sha256": "b0e7d305c6b6fd7f33eacad916640830f2915ce8875aef5b250bcb1c49570a12",
+      "public_reads": [],
+      "source_lines": 109,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "UniversalPredatorPreyCovenantEngine",
+      "sha256": "29556ec738623126ed1d3ab9f22c3cbd902baf79b28e3bf6ad5bc160db50e182",
+      "public_reads": [],
+      "source_lines": 112,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "UniversalVirtueEngine",
+      "sha256": "72ed1c69b7d09d56204db5063e940e8ddf59a1638d12ea317c26cd3c9ab1e510",
+      "public_reads": [],
+      "source_lines": 81,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "UniversalVirtueEngine2",
+      "sha256": "72ed1c69b7d09d56204db5063e940e8ddf59a1638d12ea317c26cd3c9ab1e510",
+      "public_reads": [],
+      "source_lines": 81,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "verify_protection_rings",
+      "sha256": "e6288853299d13e3a335e798eb637414339bb96ad4c7410d67c1e40514062d9d",
+      "public_reads": [],
+      "source_lines": 56,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "VirtueInitializationLedger",
+      "sha256": "47e281c4c364bc04594de24c5187d5f91cdd6e78f9e642babe6273cf17117e17",
+      "public_reads": [],
+      "source_lines": 76,
+      "adapter": "original calculation"
+    },
+    {
+      "id": "VirtueRegistry",
+      "sha256": "549a40e95c2d4cc297e1610e71ca8f29f6ee69c7c9232d3de6a11421b55faddf",
+      "public_reads": [
+        "https://wikipedia.org",
+        "https://gnu.org"
+      ],
+      "source_lines": 156,
+      "adapter": "original calculation"
+    }
+  ]
+}

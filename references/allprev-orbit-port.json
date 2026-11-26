@@ -1,0 +1,27 @@
+{
+  "source_project": "AllPrevUnifiedEngine-FluxExpanded",
+  "ported": [
+    "ActivityCanvas orbit and particle updates",
+    "CPU/random weighted smoothing",
+    "damped event perturbation",
+    "delayed simulated SEND/RECEIVE",
+    "12x8 event projection"
+  ],
+  "adaptations": [
+    "native canvas, no child JVM",
+    "app CPU time delta rather than OS-wide sampler",
+    "seeded JS PRNG rather than Java Random",
+    "bounded filtered return impulses",
+    "orbit byte contribution before existing particle hold/flip"
+  ],
+  "not_started": [
+    "legacy process scanner",
+    "legacy TCP/UDP bus listeners",
+    "automatic connections to external apps"
+  ],
+  "files": {
+    "AllPrevUnifiedEngine.java": "8aa6e5533297a7ee7850ed23929d16908dd076ce566d7c91b4c51f517e05654f",
+    "FluxExpansion.java": "c0c7322becce8c2c843a9d415c3530b15ac26acb1871f75331e2087ea84bddf5",
+    "README.md": "77c3c03d620534d4aec242f7b7fffdfc299d75d17aefb9d18578a7f8cadcaa4d"
+  }
+}

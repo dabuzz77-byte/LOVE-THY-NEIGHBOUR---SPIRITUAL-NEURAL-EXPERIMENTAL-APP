@@ -1,0 +1,191 @@
+NATIVE REASONING, POTENTIAL SPHERE AND ASCII PIPELINE
+Current implementation — 14 November 2026
+
+WHERE TO FIND IT
+Talk & Work now opens with “Reason · work · remember”. The existing advanced
+Llama conversation and reviewed PC tools remain below. The new Potential Sphere
+is below the cube/tesseract entries; Native Matrix Rain is immediately below it.
+Existing flow diagrams and the parallel backbone show their actual counters.
+
+ONE CONTROLLER, NOT A COMPETING MIND
+Persistent working state extends CentralMind. GroundedReasoner supplies typed
+observations, user memories, current task, candidate pattern statements, plans,
+verified outcomes and procedure statistics. The app’s original numerical engines
+still own their calculations. The shared bus and existing backbone remain intact.
+
+Native cycle:
+  observe -> remember -> measure/reason -> choose supported operation -> act
+  -> check actual result -> retain outcome -> use outcome in later choices
+
+A current source record contains an origin, receipt, timestamp, provenance,
+payload hash, changed flag and event count. This records what reached the bus;
+it is not a claim that the source's content is automatically true. Generated
+character records, user reports, model explanations and checked task outcomes
+retain different provenance.
+
+NO-MODEL CONVERSATION AND WORK
+The following requests run without Llama:
+  status
+  help
+  remember project = Check actual results before marking work complete
+  recall project
+  show memories
+  show tasks
+  what did you learn?
+  observe potential-sphere
+  analyze ABCABCABC123123
+  run pipeline: A small exact input
+  list files
+  read file note.txt
+  write file note.txt
+  Put the desired file contents on the next line.
+
+Write-file requests use the existing dedicated work folder. Existing content is
+read before replacement, the revision hash is supplied, and the result is read
+back. A task is verified only when the comparison succeeds. A failed attempt is
+retained as failed; it contributes to the operation’s outcome statistics.
+
+A pipeline task enters the original Runtime queue. Completion requires the
+returned input to round-trip exactly through BTQ, the requested stages to be
+present and not reported failed/partial/awaiting, and a durable runtime receipt.
+Those checks establish transport/execution success, not the truth of every
+interpretation an engine might produce. Pipeline inputs use the existing 512
+UTF-8 byte limit per task. Analysis and work tasks accept up to 8 KiB.
+
+Descriptive analysis covers the full task text in blocks of at most 1,024
+characters. Cross-block relationships are not claimed. The result records the
+whole-input hash, block metrics and whether all characters were covered.
+
+LLAMA 3.2 ONLY WHERE NEEDED
+Routine background routing now uses deterministic outcome-weighted route
+selection. It no longer calls the model each cycle. The existing route model
+can still be enabled explicitly through its model_assistance setting.
+
+Unfamiliar user language can use the supplied local Llama 3.2 model to produce a
+small typed interpretation. Its request uses 2,048 context tokens, at most 192
+output tokens, a constrained JSON response and temperature zero. Exact-request
+interpretations are cached. The existing process-wide inference queue gives
+user requests priority between calls. A model-derived action proposal is shown
+for confirmation rather than silently treated as an executed action.
+
+“Explain capture” is an explicit optional language request about recorded
+pattern metrics. Character selection, native stream tests, memory lookups,
+workspace operations and outcome comparisons do not need a model call.
+
+ASCII INTO CANDIDATE THOUGHTS
+Generated bus text is captured from registered stochastic streams and cube byte
+projections. A changed capture produces a source-labelled candidate statement:
+character count, distinct count, entropy, longest repeat, repeated trigrams and
+bigram-collision statistics. Eight reproducible shuffled controls preserve the
+same character inventory and provide a simple comparison.
+
+The reported tail fraction is exploratory: it is not a calibrated claim of a
+physical signal or a decoded message, and repeated testing creates selection
+bias. A raw sequence is kept separate from its candidate interpretation and
+from any action. Text that happens to resemble a command is not executed.
+This supports investigation without manufacturing certainty or hidden meaning.
+
+Busy sources are coalesced to their latest pending capture. Their event counts
+are retained and the coalesced count is visible. This prevents one fast source
+from starving slower stages. It also means not every fast capture receives a
+separate pattern test. Source count, pending work and queue overflow are shown.
+
+Outcome learning retains successes/failures and the smoothed rate
+(successes + 1) / (successes + failures + 2). It is a procedure estimate, not an
+LLM weight update or proof that the app is conscious.
+
+POTENTIAL SPHERE
+One point and one bit are selected per step. The point is uniform in sphere
+volume: radius U^(1/3), uniform cosine of polar angle, uniform azimuth. This
+avoids the centre bias caused by sampling radius uniformly.
+
+The bit comes from AmbientLogic’s stochastic phase. Default timing is 50 ms
+with mild bit-driven +/-10% jitter, giving 45 or 55 ms. Controls allow a base
+interval from 10 to 1,000 ms and jitter from 0 to 40%. Actual scheduling also
+depends on OS timing and workload; it is not a precision instrument clock.
+
+The renderer displays one selected point at a time, supports rotation and shows
+coordinates, bit, next interval and input/output receipts. Inputs remain
+identifiable observations; unbiased random selection is not relabelled as a
+measurement of an external field. Outputs are batched approximately every
+200 ms to reduce bus traffic, with coordinates and bits included in each batch.
+Local history and bus retention are bounded; this is not a permanent archive
+of every point.
+
+NATIVE MATRIX RAIN AND RAPID STRINGS
+Default alphabet: all ASCII codes 0 through 127, including controls and DEL.
+Optional alphabets: printable ASCII, alphanumeric, or a custom ASCII subset.
+An empty custom subset falls back to all ASCII. Unicode is not called ASCII.
+
+Native character and transition counts come from generated captures received by
+the reasoning intake. Frequency mode uses smoothed empirical character counts;
+transition mode mixes those with the current previous-character transition row.
+Uniform mode bypasses that guidance. Native mix is adjustable from 0 to 1.
+
+The guided distribution retains a uniform floor, keeping every selected code
+eligible. A mild, explicitly software-defined context tint derives from the
+shared event digest. This is not a physical field measurement. Matrix output
+can itself be examined, but is excluded from its own empirical training counts
+so generated predictions are not counted as independent training evidence.
+
+Defaults: 512 selected characters/second, 64-character strings, 70% native mix.
+Controls include 64–4,096 characters/second; 8–256 characters/string; selection
+mode; alphabet; mix; visual columns, speed, trails, font, fade, glow, direction,
+palette; control pictures; frozen output; following latest; exact JSON export.
+The rain uses the actual selected code stream. The string generator groups
+those codes directly. Control pictures and escaped string displays do not
+change exported or bus values. Bus frames contain up to 128 exact ASCII codes
+and their 1,024 encoded bits, keeping packets bounded.
+
+DENSE TESSERACT FACES
+Each tesseract now has binary nodes over all 24 square faces as well as its
+32 edges. Node colour and pulse displacement use the current source bit window.
+The detail slider controls both. At the highest setting a view draws up to
+21,408 edge/face nodes. Independent rotation and 4D projection remain intact.
+These are visual samples of source bytes, not newly discovered physical bits.
+
+FILTER AND BACKBONE
+The backbone preserves the original flow and routes alongside it. Known good
+working bits hold, declared harmful working bits invert, and unresolved bits
+hold for review. Raw generated data is not automatically given a moral label.
+A mailbox/routing receipt is kept distinct from engine execution, transport
+verification and learning. The new services are registered on the existing
+local authenticated input bus; no new external-device authority is created.
+
+PERSISTENCE AND PERFORMANCE
+Native memory is stored in the existing local central-controller data file.
+Current retained bounds: 128 source records, 128 user memories, 48 pattern
+thoughts, 48 tasks, 40 conversation exchanges, 64 cached language interpretations
+and 4,096 empirical transition pairs. UI responses use smaller recent windows.
+Model contexts receive compact information rather than the entire saved state.
+
+New services are wired to observers before their workers start. Background
+animation pauses when pages are hidden; service sampling and native processing
+continue. Model calls are visible separately from rule requests and measured
+computations. Work data, memories and local account details remain excluded
+from the free source package.
+
+VERIFICATION
+Checks cover no-model commands, persistence, exact workspace read/write results,
+path escape rejection, generated-command non-execution, failed outcome memory,
+pipeline mismatch detection, a real Runtime pipeline/BTQ round trip, minimal
+model request size/cache/proposals, uniform sphere statistics and timing,
+ASCII reachability and control-code preservation, and shared bus routing.
+An authenticated temporary server test ran the new services together and
+verified a native task. Public network feeds were stubbed in that test.
+Browser-based visual review was blocked by automatic approval review; the
+new panels’ final desktop appearance still needs checking after restart.
+
+PARALLEL AMBIENT REQUEST-SIZE FIX
+The reported “Request exceeds this operation’s size limit” came from HTTP body
+validation before Llama ran. Probe histories and control-rich ASCII could make
+the selector’s snapshot exceed the default 64 KiB allowance. The selector now
+posts a compact current snapshot: latest probe cost, counts, short source text
+and stage status. Full histories remain in their source panel. Compacted context
+is bounded below 192 KiB, and this endpoint alone accepts up to 512 KiB. Model
+token budgets were not raised to mask a transport problem. The UI shows context
+kilobytes and whether the native or optional model selector is active.
+
+The older particle triple-review and rain/cloud pattern observers now default
+to manual/on-demand mode. Their automatic review toggles remain available.
+Native background pattern testing continues without those model calls.

@@ -1,0 +1,17 @@
+(function(global){
+'use strict';
+function parse(value){const m=String(value).match(/^rgba?\(([^)]+)\)$/);if(!m)return null;const v=m[1].replace(/\//g,' ').split(/[ ,]+/).filter(Boolean).map(Number);return v.length>=3&&v.every(Number.isFinite)?[...v.slice(0,3),v.length>3?v[3]:1]:null;}
+function blend(f,b){const a=f[3];return [f[0]*a+b[0]*(1-a),f[1]*a+b[1]*(1-a),f[2]*a+b[2]*(1-a),1];}
+function luminance(c){return c.slice(0,3).map(x=>{x/=255;return x<=.04045?x/12.92:Math.pow((x+.055)/1.055,2.4);}).reduce((n,x,i)=>n+x*[.2126,.7152,.0722][i],0);}
+function contrast(a,b){const x=luminance(a),y=luminance(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);}
+function needsCorrection(f,b,opacity=1){if(!f||!b||luminance(b)<.65)return false;const visible=blend([f[0],f[1],f[2],f[3]*opacity],b);return Math.max(...f.slice(0,3))-Math.min(...f.slice(0,3))<=65&&contrast(visible,b)<4.5;}
+const maths={parse,blend,luminance,contrast,needsCorrection};if(typeof module!=='undefined'&&module.exports)module.exports=maths;
+if(typeof document==='undefined')return;
+function background(el){const chain=[];for(let n=el;n;n=n.parentElement)chain.push(n);let b=[255,255,255,1];for(const n of chain.reverse()){const s=getComputedStyle(n),c=parse(s.backgroundColor);if(c)b=blend(c,b);if(s.backgroundImage.includes('gradient(')){const stops=[...s.backgroundImage.matchAll(/rgba?\([^)]+\)/g)].map(x=>parse(x[0])).filter(Boolean);if(stops.length){const painted=stops.map(x=>blend(x,b));b=[0,1,2].map(i=>painted.reduce((sum,x)=>sum+x[i],0)/painted.length).concat(1);}}}return b;}
+const roots=new Set();let pending=false;function inspect(el){if(!(el instanceof HTMLElement)||el.matches('script,style,canvas,img,video,iframe')||el.closest('[aria-hidden="true"]'))return;const control=el.matches('input,textarea,select,button,option');const hasText=control||[...el.childNodes].some(n=>n.nodeType===Node.TEXT_NODE&&n.textContent.trim());if(!hasText)return;const s=getComputedStyle(el);if(s.display==='none'||s.visibility==='hidden')return;const b=background(el);if(control&&luminance(b)>=.65)el.setAttribute('data-readability-light','');const f=parse(s.color);if(needsCorrection(f,b,Number(s.opacity))){el.style.setProperty('color',el.matches('a')?'#234e70':'#334155','important');if(Number(s.opacity)<.85)el.style.setProperty('opacity','1','important');el.setAttribute('data-readability-corrected','');}}
+function flush(){pending=false;const batch=[...roots];roots.clear();let queue=[];for(const root of batch){if(root.isConnected){queue.push(root);queue.push(...root.querySelectorAll('*'));}}let index=0;function chunk(){const until=Math.min(queue.length,index+180);for(;index<until;index++)inspect(queue[index]);if(index<queue.length)setTimeout(chunk,16);}chunk();}
+function enqueue(root){if(!(root instanceof HTMLElement))return;for(const existing of roots)if(existing.contains(root))return;for(const existing of roots)if(root.contains(existing))roots.delete(existing);roots.add(root);if(!pending){pending=true;setTimeout(flush,80);}}
+function start(){enqueue(document.body);new MutationObserver(records=>{for(const r of records)for(const node of r.addedNodes)if(node instanceof HTMLElement)enqueue(node);}).observe(document.body,{childList:true,subtree:true});}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
+global.NeuralReadability=maths;
+})(typeof window==='undefined'?globalThis:window);

@@ -1,0 +1,6 @@
+{
+  "mode": "built-in image generation, then built-in edit",
+  "asset": "water-faith-baptism.png",
+  "initial_prompt": "Beautiful naturalistic Christian Water + Faith lesson image: a clear shallow woodland stream with pale stones, ferns and reflections; an adult in a modest white robe rising from baptism by immersion with support from another fully clothed adult. Peaceful small faces, realistic clear water, cool green, blue, white and grey palette, fine-art detail, no text, nudity, children or violence.",
+  "edit_prompt": "Preserve the composition, people, faces and woodland. Make the atmosphere dimmer, cooler and shaded, with readable soft light on the water. Add a restrained soft white radiance around the baptised person’s shoulders and chest and a delicate reflection. No golden halo; symbols are rendered separately in the UI."
+}

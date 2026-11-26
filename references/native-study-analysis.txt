@@ -1,0 +1,38 @@
+NATIVE STUDY ANALYSIS AND CONVERSATIONAL COMPOSITION
+
+study: Group A: 30 of 100 events. Group B: 20 of 40 events.
+why?
+does that prove causation?
+how certain is that?
+what should we check next?
+show study data
+resume study analysis
+write Python for this study
+
+The Python export reproduces the analysis as a standalone standard-library
+script. User-provided values remain serialized data. The export is syntax
+checked; development tests run a fresh exported script and compare its complete
+result with the native analysis.
+
+For missing outcomes, design or disjoint subgroups:
+analyse study: {"groups":[{"name":"A","events":30,"total":100,"missing":5},{"name":"B","events":20,"total":40,"missing":10}],"design":"observational","independent":true}
+
+The denominator is the number with recorded outcomes; missing is additional
+participants with unknown outcomes. Missing-data bounds explore all assignments
+of those unknown outcomes, not sampling uncertainty. Events need not be good.
+Strata must sum to the overall counts for both groups, including missing counts.
+
+Per-group binomial Wilson intervals use the NIST formula:
+https://itl.nist.gov/div898/handbook/prc/section2/prc241.htm
+They assume independent binomial observations and are withheld for declared
+clustered/repeated observations. They are not an uncertainty interval or
+significance test for the difference. No causal effect or individual forecast
+is certified by the computed rates or a randomized design label.
+
+Multiple requests can now use ordinary explicit question boundaries:
+What is 7 times 8? Also, what is 9 times 4?
+What does Mira repair? Also, what is 4 times 5?
+
+Each supported stage is shown. A failed stage prevents partial commits.
+Boundaries inside quotations, brackets, code or supplied documents stay data.
+Nested polite framing is accepted without changing quoted content.

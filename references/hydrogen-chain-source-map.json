@@ -1,0 +1,308 @@
+{
+  "kind": "Native condensed interpretation; no source processes launched",
+  "source_files": [
+    {
+      "file": "app_dyson_forge_viewport.py",
+      "sha256": "b0f5822257a6011c579caad6bf255897a751688512df06b116e07618c60fcf4e",
+      "lines": 175,
+      "classes": [
+        "DysonForgePresentationEngine"
+      ],
+      "functions": [
+        "__init__",
+        "_initialize_canvas_viewport",
+        "_compile_frame_buffer",
+        "_execution_loop",
+        "_shutdown_pipeline"
+      ]
+    },
+    {
+      "file": "app_stellar_viewport.py",
+      "sha256": "b7b520ff0207a8bc42781da345777792bcc88055556f443dbcc08abef55496a3",
+      "lines": 145,
+      "classes": [
+        "StellarPresentationEngine"
+      ],
+      "functions": [
+        "__init__",
+        "_initialize_canvas_viewport",
+        "_compile_frame_buffer",
+        "_execution_loop",
+        "_shutdown_pipeline"
+      ]
+    },
+    {
+      "file": "app_window_launcher.py",
+      "sha256": "1ea95c3101441e5087b1b152286528e0412e743d266795fbe4f075ac028f9ac4",
+      "lines": 10,
+      "classes": [],
+      "functions": [
+        "execute_native_canvas"
+      ]
+    },
+    {
+      "file": "biosphere_engine.py",
+      "sha256": "0b0691e216f16ca397d0ccd7bedde667fca7b77502b64492534db72de9aea6d9",
+      "lines": 219,
+      "classes": [
+        "BiosphereDataSubstrate",
+        "BiospherePresentationEngine"
+      ],
+      "functions": [
+        "__init__",
+        "fetch_live_pulse",
+        "calculate_wave_offset",
+        "compile_hud_matrix",
+        "__init__",
+        "_initialize_canvas_viewport",
+        "_compile_frame_buffer",
+        "_execution_loop",
+        "_shutdown_pipeline"
+      ]
+    },
+    {
+      "file": "gui_visual_engine.py",
+      "sha256": "db61a2444914841f57845b5d465abfdf211125ba52f8aa6572389f912421f10a",
+      "lines": 118,
+      "classes": [
+        "SuperStandardGUIEngine"
+      ],
+      "functions": [
+        "__init__",
+        "_build_interface",
+        "_start_execution_loop",
+        "_update_telemetry"
+      ]
+    },
+    {
+      "file": "module_biosphere_core.py",
+      "sha256": "859a1d9db57e9911437c269bc1879bbc6f5b992b6f3051021b394cbe37f67102",
+      "lines": 63,
+      "classes": [
+        "BiosphereDataSubstrate"
+      ],
+      "functions": [
+        "__init__",
+        "fetch_live_pulse",
+        "calculate_wave_offset",
+        "compile_hud_matrix"
+      ]
+    },
+    {
+      "file": "module_dyson_forge_core.py",
+      "sha256": "5dd2a9e9f69989ff685e14ac483b25eb029d3d03125d2a4e79f0dec5c58a5e10",
+      "lines": 91,
+      "classes": [
+        "DysonForgeDataSubstrate"
+      ],
+      "functions": [
+        "__init__",
+        "calculate_telemetry_flux",
+        "process_field_distortion",
+        "compile_engineering_hud"
+      ]
+    },
+    {
+      "file": "module_hud_display.py",
+      "sha256": "68590645b1d0c8408f6f499103302c7e470c01eaee766b93e72761ece17367a7",
+      "lines": 73,
+      "classes": [
+        "HighFidelityVisualEngine"
+      ],
+      "functions": [
+        "__init__",
+        "compile_screen_buffer",
+        "draw_frame"
+      ]
+    },
+    {
+      "file": "module_matrix_substrate.py",
+      "sha256": "aadcb04537980261533197f23ab6a878d47c57569ab5c0e56fc86176fbb76931",
+      "lines": 59,
+      "classes": [
+        "SystemDataSubstrate"
+      ],
+      "functions": [
+        "__init__",
+        "capture_runtime_state"
+      ]
+    },
+    {
+      "file": "module_resonance.py",
+      "sha256": "ffd20d85cf84a93afde276cc55684e887809732c24abfe4e57fe14aae5e12ac6",
+      "lines": 61,
+      "classes": [
+        "ResonanceBaselineConditioner"
+      ],
+      "functions": [
+        "__init__",
+        "inject_signal_packet",
+        "process_spectral_flush"
+      ]
+    },
+    {
+      "file": "module_runtime.py",
+      "sha256": "c86c794bb5cb23dcd4ef9a814f980ca661551ac113ed138c494adb2f404571fc",
+      "lines": 266,
+      "classes": [
+        "SchumannCarrier",
+        "ActivitySnapshot",
+        "SystemActivitySampler",
+        "FILETIME",
+        "MEMORYSTATUSEX"
+      ],
+      "functions": [
+        "get_system_sampler",
+        "get_carrier",
+        "format_rate",
+        "format_bytes",
+        "__init__",
+        "sample",
+        "__init__",
+        "_initialize_windows_counters",
+        "_rate",
+        "snapshot",
+        "ft_value",
+        "sample_cpu",
+        "sample_memory"
+      ]
+    },
+    {
+      "file": "module_stellar_core.py",
+      "sha256": "77543ec6ee96ec4bd797f663c409b1d3b398e59d85bab75025dc0e085f153ced",
+      "lines": 95,
+      "classes": [
+        "StellarCoreSubstrate"
+      ],
+      "functions": [
+        "__init__",
+        "fetch_live_flux",
+        "calculate_fusion_wave",
+        "compile_stellar_telemetry"
+      ]
+    },
+    {
+      "file": "module_substrate.py",
+      "sha256": "418afd26aa55fa96bbfac45ed1b9723b641cfec2e768e9ec0df7df50c59d8ea0",
+      "lines": 56,
+      "classes": [
+        "LogicSubstrateKernel"
+      ],
+      "functions": [
+        "__init__",
+        "validate_invariants",
+        "_trigger_corruption_fault",
+        "reconcile_chain"
+      ]
+    },
+    {
+      "file": "module_ternary_matrix.py",
+      "sha256": "b3ba02393b04e254dea7c7f6792e8b9d2cc186b511668a010581f30e0fcaa17f",
+      "lines": 77,
+      "classes": [
+        "BalancedTernaryProcessor"
+      ],
+      "functions": [
+        "__init__",
+        "encode_integer_balanced",
+        "encode_bytes_balanced",
+        "ternary_dot_product",
+        "compute_optimization_grid"
+      ]
+    },
+    {
+      "file": "native_quantum_engine.py",
+      "sha256": "09827b1011b891192da0081a687595e2f542e82c833555042b86017d4a3fa412",
+      "lines": 150,
+      "classes": [
+        "NativeHighFidelityEngine"
+      ],
+      "functions": [
+        "__init__",
+        "_initialize_window",
+        "_render_layer_buffer",
+        "_execution_loop",
+        "_shutdown"
+      ]
+    },
+    {
+      "file": "pipeline_integrated_system.py",
+      "sha256": "53f3e68b609e83fdceb5b144640aff020f078cf946e74f035ee8ce7c4a01f15c",
+      "lines": 69,
+      "classes": [
+        "IntegratedSystemPipeline"
+      ],
+      "functions": [
+        "__init__",
+        "execute_system_pass"
+      ]
+    },
+    {
+      "file": "quantum_visual_engine.py",
+      "sha256": "16558b2840b4a7d8be215b1233852e6dd71ea3ae441c15ec3d918b6647dec230",
+      "lines": 171,
+      "classes": [
+        "HyperFidelityQuantumEngine"
+      ],
+      "functions": [
+        "__init__",
+        "draw_higgs_field_grid",
+        "render_hud_telemetry",
+        "execute_render_loop"
+      ]
+    },
+    {
+      "file": "sovereign_engine.py",
+      "sha256": "03c5aa06f7f19605e5d49bc83550f2c6d47e66387a415b0b834fbc0332b39ffd",
+      "lines": 481,
+      "classes": [
+        "SovereignEngine",
+        "SovereignWindow",
+        "RejectRedirects"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "process",
+        "__init__",
+        "_build",
+        "_button",
+        "_output_box",
+        "_set_text",
+        "_input_focus_in",
+        "_input_focus_out",
+        "_process",
+        "_format_result",
+        "_analyze",
+        "_ollama_worker",
+        "_analysis_done",
+        "_tick",
+        "_draw_matrix",
+        "redirect_request"
+      ]
+    },
+    {
+      "file": "template_matrix_render.py",
+      "sha256": "5602b38f46b614caf57a17dbd659c7809a9983b31404cd69176617aa6bc89190",
+      "lines": 39,
+      "classes": [],
+      "functions": []
+    }
+  ],
+  "preserved_elements": [
+    "identity substrate and continuum chain",
+    "7.83 Hz conditioner, window mean and variance",
+    "UTF-8 binary, balanced ternary and row product score",
+    "complex phase projection and occupancy",
+    "hydrogen core and orbitals",
+    "radial wave substrate and orbital particle graphics",
+    "stellar rungs, side branches and CNO anchor",
+    "Dyson collector ring, beam and receiver",
+    "Earth core, globe grid and biosphere nodes",
+    "four geography nodes and four biological groups",
+    "local activity HUD and matrix substrate",
+    "manual input and Llama-related upstream outputs"
+  ],
+  "source_constants": "Retained illustrative model settings; not newly measured telemetry",
+  "network": "Authenticated loopback bus on editable default port 8798"
+}

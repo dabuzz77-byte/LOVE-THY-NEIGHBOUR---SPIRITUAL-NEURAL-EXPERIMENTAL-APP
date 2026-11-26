@@ -1,0 +1,274 @@
+{
+  "previous_modules": [
+    {
+      "path": "2/ingest_live_web_definitions.py",
+      "sha256": "c09d18d1fe6354072c87981cf560c8adeed5fa7aaf9e206724c5ef54ed71f58b"
+    },
+    {
+      "path": "AbsoluteSafeguardEngine.py",
+      "sha256": "40bb5808da42f8763c4795d61d5b230833c01e0321329eedd298877d0fdde93a"
+    },
+    {
+      "path": "AdvancedVirtueRegistry.py",
+      "sha256": "baa9dfd512b3649820eb842c87e9905924c5a7346130129d29c13b03a0faa668"
+    },
+    {
+      "path": "BinaryVirtueEngine.py",
+      "sha256": "df690757983c43b910ae966ebc2f92f45c11fff5c3bab41b1c43b6e07be49213"
+    },
+    {
+      "path": "BodhiTreeTridentEngine.py",
+      "sha256": "ff8ad5e676da74480bd4a995fe2fe7a0450afb5b0f001dad5e9f7dad9b0bbebc"
+    },
+    {
+      "path": "CascadingVirtueEngine.py",
+      "sha256": "66c2c5af09dad185cba80b27f87350bead77ad82e6d78f0873cc844872b4c833"
+    },
+    {
+      "path": "ChinaDollImperviousEngine.py",
+      "sha256": "50b9490195458acb68b9c674918ec434908efcd13a467a8fc314863075b47831"
+    },
+    {
+      "path": "CompassionateUnderstandingEngine.py",
+      "sha256": "fd398977fd022af93592485e2c98a7e748f1300958f015456cd50e41017e6118"
+    },
+    {
+      "path": "DeepestRepentanceEngine.py",
+      "sha256": "5988bba9e8ef4a7c396ce4771c3e571e69e9d36a3af7b116c3c591e9c5f73a96"
+    },
+    {
+      "path": "DrillingVirtueEngine.py",
+      "sha256": "5343e5d5932e5b2e8d08c1207b21f47ac27f42b3f7f5208a1335d7eb0bc9a8c2"
+    },
+    {
+      "path": "elevated/ActiveLlamaWork.py",
+      "sha256": "e9583c2ff43e8402fcffdb9d7bc16f7baa35ec82edb24f522403dca3990f997d"
+    },
+    {
+      "path": "elevated/ConvergenceEngine.py",
+      "sha256": "947b654e086f04c323bfb9157f698cb8d19dd569255defcb33494a19f2a3c7e7"
+    },
+    {
+      "path": "elevated/CoreInteraction.py",
+      "sha256": "7f0bb9d4f5f6e133d41fe54aa0fb3aaceab5b86fcd6af819e7d7ad6b1991ef83"
+    },
+    {
+      "path": "elevated/InferenceBeacon.py",
+      "sha256": "d58ee2ec05dd1c2b00b0ec066ca727a8934a5cb4c2384086036aacfe78029268"
+    },
+    {
+      "path": "elevated/JournalIntegrity.py",
+      "sha256": "37bfc7f7909cb3ae3997b3aef8bf77e9934b68a1123015e1c6fc2400a455e81f"
+    },
+    {
+      "path": "elevated/LiveTelemetry.py",
+      "sha256": "4ee59eb2ba08041fca53ee8fd193eef25a24a56d35b68f5bd2f9e2b97eb417ed"
+    },
+    {
+      "path": "elevated/LocalSystemKnowledge.py",
+      "sha256": "eeb089529d70b04d50ca5c04cff85b1f6f717137955b75ae4ff23867fa99a412"
+    },
+    {
+      "path": "elevated/NetworkReceipts.py",
+      "sha256": "bbc881b3608e7bff426c8c09a499e3ff25d757ea1f8187da9bbf3ba4775848a7"
+    },
+    {
+      "path": "elevated/PersonalLossAuditor.py",
+      "sha256": "38784822ed4072a0ca2f3c88f4223d9d3a26e327994ad0686b9a1a9d47e8ce70"
+    },
+    {
+      "path": "elevated/QBiTerIdentity.py",
+      "sha256": "a386dbe18e37007255d14805f3a29029542603b21f31a58aa0c6ff7b42dd6702"
+    },
+    {
+      "path": "elevated/ResourceFloorAllocator.py",
+      "sha256": "0a0764e8a1d85640689cd18f6ffb27d4a0dca6a40a03f3fdd391570de77bc50a"
+    },
+    {
+      "path": "elevated/RestitutionPipeline.py",
+      "sha256": "69886fa637d631f76a1e91e4c44e45946002b83f242df3c754082d1ab8694b26"
+    },
+    {
+      "path": "elevated/RobinHoodCircuitBreaker.py",
+      "sha256": "ea6a2a42736213c4016852d7db3287268e12ac00cdfdbd4af28c0b5876669d3f"
+    },
+    {
+      "path": "elevated/SifterRegistry.py",
+      "sha256": "1e23af9eee802e4f1ad642be3a6cf068640c146d14ad20b2690bf2d9bf74136b"
+    },
+    {
+      "path": "elevated/SpectralMemory.py",
+      "sha256": "7f70c0c43cc027c0c9fada1f7da33d52c7cb2099f5c021ab7c0faf31507a78d5"
+    },
+    {
+      "path": "elevated/TelemetryProbability.py",
+      "sha256": "82bb530269125f1e8c0fdb086ecd531d407946d9657feb9d46ee4fd2a451c2d9"
+    },
+    {
+      "path": "elevated/TransformerMatrix.py",
+      "sha256": "edd1c8870c5a83c342c1551729b17c440412dfa35107aa14c89ca2536a6e6289"
+    },
+    {
+      "path": "elevated/TranslationStudio.py",
+      "sha256": "f1df5e1c5f220cb14d1224c328c30ae86f8495419479e09f29dc9ca1d09c69f5"
+    },
+    {
+      "path": "elevated/UniversalIdentityFloor.py",
+      "sha256": "fb82600f4f7e3ce905416821735f584d6a0a847be18760a82ec13113eb13e3cb"
+    },
+    {
+      "path": "elevated/VirtuousLaw.py",
+      "sha256": "9514f7331f4e44cef823a13c1bf302b5866dc0c50af14dc8305196973579a6a7"
+    },
+    {
+      "path": "elevated/WavCarrier.py",
+      "sha256": "ce4b35eeca0d04f45e26a54a00fe42e391eeb39ea5fe08a4109e11c066fecd38"
+    },
+    {
+      "path": "EternalChinaDollLoveEngine.py",
+      "sha256": "4e631eebc259e56d35ab0cc00429e40082f8b57714ee43d9f1cb72908eee3942"
+    },
+    {
+      "path": "EthicalRefactoringEngine.py",
+      "sha256": "11822810aa37f3fed35087734896bf27791e8997ab4a0b5e8480d2af5d98ce51"
+    },
+    {
+      "path": "evaluate_inverted_container_boundary.py",
+      "sha256": "4713ad2aa87077430f8da9870da036b0288e575cce064736cc7209893ee241ae"
+    },
+    {
+      "path": "GlobalCreedUnificationEngine.py",
+      "sha256": "064779b82f8713808a2e5aa803263f720d1dab2a346d5c7355418afcb7c46a4a"
+    },
+    {
+      "path": "HierarchicalVirtueEngine.py",
+      "sha256": "c847b02fee834c8244279a1a690b351bf361f671106fd7c58ada8a988ea4112b"
+    },
+    {
+      "path": "InfiniteChinaDollCovenantEngine.py",
+      "sha256": "58a99c279df40b1aeaaf8cdb0436b5a03722019263efd941edba98aa14bf0643"
+    },
+    {
+      "path": "InvariantEcosystemEngin.py",
+      "sha256": "4b2aee95dcf461936b7211544426f49215d23c5012be2e66116bf6cb0a322690"
+    },
+    {
+      "path": "JacobsLadderEngine.py",
+      "sha256": "1c5dd95869ed8cd247ef376a432e34cafe422202dca5674c8d5504d90d3a0116"
+    },
+    {
+      "path": "JokerMoneyBurningRegistry.py",
+      "sha256": "22f1f8724c3579894badb99da499fe2e7f152adb0b2039ad028159dc79f0869d"
+    },
+    {
+      "path": "MiddleGroundTernaryEngine.py",
+      "sha256": "e84fac500497b4f202e5797e52bf874ad2ae9af9773be092c1da092057a8e6dc"
+    },
+    {
+      "path": "OnlineVirtueMonitoringEngine.py",
+      "sha256": "f5a494ec9cc110490b0abaeef22f19adcdbe4741e4e2816791f1e9415b1bc576"
+    },
+    {
+      "path": "OperationalIntegrityEngine.py",
+      "sha256": "c92d6d79bfda27bd2d84f78d3b8b60d4827fbd5b0d83c4c99114c10bbad7c4f8"
+    },
+    {
+      "path": "ParadigmComparisonEngine.py",
+      "sha256": "e72ae5c28e1bd16ff61b4512705c8d61070cc6e024dfc97347c3ab303e6dddce"
+    },
+    {
+      "path": "ParentalFierceProtectionEngine.py",
+      "sha256": "cfc29fafd93de3719bf523816f663fc49a94447591a2f74128239344ef5be212"
+    },
+    {
+      "path": "PeaceableCovenantEngine.py",
+      "sha256": "b9cbc477012be18582ea408c02f677c127541c6f469446b92f9e42671f1a6ac1"
+    },
+    {
+      "path": "PinnacleVirtueObservationEngine.py",
+      "sha256": "3ed48a0bed2cf4623ce1fecc3484a7277ded9ee5332468ac267bcbf0d363d9b0"
+    },
+    {
+      "path": "PredictiveTrajectoryEngine.py",
+      "sha256": "a49b5f8478ca338a087833f63dfbd6dad3b9dfbf303bb126a3f183bfbff37e06"
+    },
+    {
+      "path": "RealTimeSystemEngine.py",
+      "sha256": "5c50e6a246f9f3cb35c0c251fb74c702048c456f3023150cfc88559034f96414"
+    },
+    {
+      "path": "RedemptiveEmergenceEngine.py",
+      "sha256": "3a7cd34b8fae2b7a8e5e06cc1760c25aaee0fbafed34145552388fbdd41264a6"
+    },
+    {
+      "path": "RedemptiveRehabilitationEngine.py",
+      "sha256": "1e85ee53d067d7fcd28e00c5dc4a54cbe5631bde7f88cef15d33cf9cd9cefca8"
+    },
+    {
+      "path": "resolve_bit_array_cast.py",
+      "sha256": "7f1a3df8c4ace889a4d2ee5c249a76be403527d4db6c3437ef7b93d472b24ab5"
+    },
+    {
+      "path": "resolve_historical_virtue_pass.py",
+      "sha256": "cc2024f3a6ef04f6c6a6cb38fd435165165747556f3f88f38279ca4efde4fb75"
+    },
+    {
+      "path": "SovereignSourceBroadcastEngine.py",
+      "sha256": "76d4398df62f185504216ec212367917149af6fdccd2dbc2a8061d0061d985e3"
+    },
+    {
+      "path": "SystemCognitionAlignment.py",
+      "sha256": "812fc160ad22077b2c0068f443954c5051806c0a8a873c7f9dd468d5fe4f62d4"
+    },
+    {
+      "path": "TernaryCascadingSafeguardEngine.py",
+      "sha256": "b3a33c3b005d257b3157d2d3f8df0d72b012df2ac2db362819e3d832f42dd7f6"
+    },
+    {
+      "path": "TernaryRealTimeEngine.py",
+      "sha256": "9aa748930fa8ec1aac9528ddb7d828affe45e61362933c604e16543941dc59b4"
+    },
+    {
+      "path": "UltimateCovenantAuditEngine.py",
+      "sha256": "cff60890f49c4f9b0107845162d3b1e395161adf07bb9dbdce933bf1674c8c81"
+    },
+    {
+      "path": "UltimateEnforcementEngine.py",
+      "sha256": "4611fa77f566ad61e6d91922a7e7df945bb4d1c9439861f03a4c44d30374a1cf"
+    },
+    {
+      "path": "UnifiedProbeAndStressEngine.py",
+      "sha256": "2c1ab86773c02cefbc49628a58adf639192be7f5c7d1cf5418fb2718fe142a4f"
+    },
+    {
+      "path": "UniversalCovenantEngine.py",
+      "sha256": "b0e7d305c6b6fd7f33eacad916640830f2915ce8875aef5b250bcb1c49570a12"
+    },
+    {
+      "path": "UniversalPredatorPreyCovenantEngine.py",
+      "sha256": "29556ec738623126ed1d3ab9f22c3cbd902baf79b28e3bf6ad5bc160db50e182"
+    },
+    {
+      "path": "UniversalVirtueEngine.py",
+      "sha256": "72ed1c69b7d09d56204db5063e940e8ddf59a1638d12ea317c26cd3c9ab1e510"
+    },
+    {
+      "path": "UniversalVirtueEngine2.py",
+      "sha256": "72ed1c69b7d09d56204db5063e940e8ddf59a1638d12ea317c26cd3c9ab1e510"
+    },
+    {
+      "path": "verify_protection_rings.py",
+      "sha256": "e6288853299d13e3a335e798eb637414339bb96ad4c7410d67c1e40514062d9d"
+    },
+    {
+      "path": "VirtueRegistry.py",
+      "sha256": "549a40e95c2d4cc297e1610e71ca8f29f6ee69c7c9232d3de6a11421b55faddf"
+    }
+  ],
+  "selected_original_python_files": [
+    "classifier_core.py",
+    "classifier_data.py",
+    "ambient_runtime.py",
+    "ternary_core.py"
+  ]
+}

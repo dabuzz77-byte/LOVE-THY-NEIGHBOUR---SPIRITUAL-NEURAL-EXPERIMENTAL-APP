@@ -1,0 +1,20 @@
+MATRIX / FLUX SEARCH PIPELINE
+
+At the bottom of Ambient field / particles & ASCII flux:
+1. The multilingual observatory retains its word, character and translation panels.
+2. Deep word / number search captures the available generated and influenced-random ASCII stages. The default cycle is two seconds, with one worker active at a time. Heavy scans may take longer; requests are queued, not overlapped.
+3. Sentence search derives its input from that completed wordsearch snapshot. It preserves source hashes and contiguous text. It does not construct sentences out of unrelated matches.
+
+Sources include pre/post particle ASCII, Matrix rain source and rendered strings, probability cloud, ASCII sand, Unified Flux byte representations, random selector grid, binary/ternary/qutrit grids, all 12 continuum stages and the nine intent-panel bit displays. Available relevant bus frames also participate. Inventory lists exact sources and empty stages.
+
+Words: 19 compact language glossaries, 12,201 terms from 16 bundled reference texts, and custom vocabulary. Numerical formats, repeated substrings, cross-stage concordance and strict printable UTF-8 byte decoding have separate fields. Larger multi-width and n-gram passes are optional.
+
+Limits: default snapshot budget 262,144 Unicode characters. Select up to 16,777,216. Large sources rotate through overlapping ranges. Coverage lists all selected stages, range boundaries and completion. Retained result rows are selectable up to 20,000; visible fields show the first 500 matching rows. Filtering and JSON export provide access to the retained results. Capture limits and retention limits remain explicit.
+
+Both areas offer local Llama sentence / word / character translation. A character can have a name or pronunciation without being an independent word. Original strings are preserved.
+
+BUS: ambient authenticated HTTP listener defaults to port 8800. Targets: wordsearch and sentence-search. Addressed input enters the wordsearch first, then the derived sentence stage. Stage-output broadcasts contain coverage and bounded result samples. Full retained results stay in the section and JSON export. Own-origin messages are excluded to prevent feedback. App restart is required to register new targets in an already running backend.
+
+MODULATOR DEFAULTS: all destination switches selected; all nine Solfeggio frequencies selected; all data routing enabled. Generated noise, CMB envelopes and generated tones start without audible playback. Real recordings are loaded serially and analysed from decoded PCM without requiring audio autoplay. Unavailable recordings are reported. Audible output requires the audio controls; default audible gains are lower, with Om above the other sources. Om data mix 0.65; other sound sources 0.10; noise/CMB 0.08. These are mixing gains, not claims about source loudness at every instant.
+
+INTENT PANELS: nine panels in one 3-by-3 grid, with independent inputs and authenticated bus acceptance receipts.

@@ -1,0 +1,24 @@
+{
+  "release_date": "2026-11-23",
+  "edition": "public source",
+  "checks": {
+    "python_files_parsed": 1210,
+    "json_files_parsed": 120,
+    "javascript_files_parsed": 252,
+    "lossless_transport_checks": "passed",
+    "secret_pattern_matches": 0,
+    "desktop_clean_install": "not tested",
+    "java_rebuild": "not completed: local javac command did not respond",
+    "published": false,
+    "extended_credential_assignment_screen": "passed"
+  },
+  "privacy": {
+    "runtime_data_included": false,
+    "browser_profiles_included": false,
+    "credentials_included": false,
+    "personal_model_weights_included": false,
+    "legacy_key_literals_removed": true
+  },
+  "license_scope": "CC0 for releasing author-owned contributions; existing third-party terms retained",
+  "credential_cleanup_date": "2026-11-26"
+}

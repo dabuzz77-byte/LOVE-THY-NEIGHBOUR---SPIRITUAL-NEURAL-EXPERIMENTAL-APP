@@ -1,0 +1,535 @@
+{
+  "images": [
+    {
+      "title": "01 Preview Llama",
+      "url": "/assets/01-Preview-Llama.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "02 Preview",
+      "url": "/assets/02-Preview.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "03 Preview ChatGPT",
+      "url": "/assets/03-Preview-ChatGPT.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "04 Preview Gemini",
+      "url": "/assets/04-Preview-Gemini.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "05 Preview Google AI",
+      "url": "/assets/05-Preview-Google-AI.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "06 Preview Llama",
+      "url": "/assets/06-Preview-Llama.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "07 Preview Pipeline",
+      "url": "/assets/07-Preview-Pipeline.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "08 Preview audit",
+      "url": "/assets/08-Preview-audit.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "09 Preview binary layout",
+      "url": "/assets/09-Preview-binary-layout.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "10 Preview engine chooser",
+      "url": "/assets/10-Preview-engine-chooser.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "11 Preview karmic welfare",
+      "url": "/assets/11-Preview-karmic-welfare.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "12 Preview live flux",
+      "url": "/assets/12-Preview-live-flux.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "13 Preview mesh",
+      "url": "/assets/13-Preview-mesh.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "14 Preview neural learning",
+      "url": "/assets/14-Preview-neural-learning.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "15 Preview overview",
+      "url": "/assets/15-Preview-overview.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "16 Preview platform alignment",
+      "url": "/assets/16-Preview-platform-alignment.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "17 Preview reference harmonics",
+      "url": "/assets/17-Preview-reference-harmonics.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "18 Preview reference navigation",
+      "url": "/assets/18-Preview-reference-navigation.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "19 Preview reference performance",
+      "url": "/assets/19-Preview-reference-performance.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "20 Preview reference processes",
+      "url": "/assets/20-Preview-reference-processes.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "21 Preview reference resources",
+      "url": "/assets/21-Preview-reference-resources.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "22 Preview reference signing",
+      "url": "/assets/22-Preview-reference-signing.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "23 Preview reference source",
+      "url": "/assets/23-Preview-reference-source.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "24 Preview reference weights",
+      "url": "/assets/24-Preview-reference-weights.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "25 Preview summary",
+      "url": "/assets/25-Preview-summary.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "26 Preview ternary converter",
+      "url": "/assets/26-Preview-ternary-converter.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "27 Preview text pipeline",
+      "url": "/assets/27-Preview-text-pipeline.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "28 Preview unified",
+      "url": "/assets/28-Preview-unified.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "29 Preview web research",
+      "url": "/assets/29-Preview-web-research.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "31 Matrix preview",
+      "url": "/assets/31-Matrix%20preview.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "32 Cosmos",
+      "url": "/assets/32-Cosmos.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "33 Dyson",
+      "url": "/assets/33-Dyson.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "34 Earth",
+      "url": "/assets/34-Earth.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "35 Hydrogen",
+      "url": "/assets/35-Hydrogen.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "36 Matrix",
+      "url": "/assets/36-Matrix.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "37 Stellar",
+      "url": "/assets/37-Stellar.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "38 Preview automatic inputs",
+      "url": "/assets/38-Preview-automatic-inputs.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "39 Preview background engine",
+      "url": "/assets/39-Preview-background-engine.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "40 Preview native research",
+      "url": "/assets/40-Preview-native-research.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "42 portal reference",
+      "url": "/assets/42-portal-reference.jpg",
+      "kind": "local app image"
+    },
+    {
+      "title": "43 neural engine preview",
+      "url": "/assets/43-neural_engine_preview.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 1 0 c16",
+      "url": "/assets/atlas-desktop-java-1-0-c16.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 1 1 c0",
+      "url": "/assets/atlas-desktop-java-1-1-c0.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 12 0 c1",
+      "url": "/assets/atlas-desktop-java-12-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 15 0 c7",
+      "url": "/assets/atlas-desktop-java-15-0-c7.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 16 0 c6",
+      "url": "/assets/atlas-desktop-java-16-0-c6.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 18 0 c1",
+      "url": "/assets/atlas-desktop-java-18-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 20 0 c1",
+      "url": "/assets/atlas-desktop-java-20-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 21 0 c1",
+      "url": "/assets/atlas-desktop-java-21-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 28 0 c6",
+      "url": "/assets/atlas-desktop-java-28-0-c6.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 29 0 c5",
+      "url": "/assets/atlas-desktop-java-29-0-c5.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 30 0 c2",
+      "url": "/assets/atlas-desktop-java-30-0-c2.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 32 0 c6",
+      "url": "/assets/atlas-desktop-java-32-0-c6.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 34 0 c1",
+      "url": "/assets/atlas-desktop-java-34-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 35 0 c1",
+      "url": "/assets/atlas-desktop-java-35-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 37 0 c5",
+      "url": "/assets/atlas-desktop-java-37-0-c5.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 41 0 c21",
+      "url": "/assets/atlas-desktop-java-41-0-c21.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 44 0 c1",
+      "url": "/assets/atlas-desktop-java-44-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 48 0 c1",
+      "url": "/assets/atlas-desktop-java-48-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 49 0 c6",
+      "url": "/assets/atlas-desktop-java-49-0-c6.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 50 0 c1",
+      "url": "/assets/atlas-desktop-java-50-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 55 0 c4",
+      "url": "/assets/atlas-desktop-java-55-0-c4.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 56 0 c1",
+      "url": "/assets/atlas-desktop-java-56-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 57 0 c1",
+      "url": "/assets/atlas-desktop-java-57-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 58 0 c1",
+      "url": "/assets/atlas-desktop-java-58-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 6 0 c1",
+      "url": "/assets/atlas-desktop-java-6-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 62 0 c1",
+      "url": "/assets/atlas-desktop-java-62-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 69 0 c11",
+      "url": "/assets/atlas-desktop-java-69-0-c11.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 78 0 c5",
+      "url": "/assets/atlas-desktop-java-78-0-c5.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 8 0 c6",
+      "url": "/assets/atlas-desktop-java-8-0-c6.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 83 0 c1",
+      "url": "/assets/atlas-desktop-java-83-0-c1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas desktop java 90 0 c0",
+      "url": "/assets/atlas-desktop-java-90-0-c0.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "atlas shared field wave",
+      "url": "/assets/atlas-shared-field-wave.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "care all life v1",
+      "url": "/assets/care-all-life-v1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "care butterfly sanctuary v1",
+      "url": "/assets/care-butterfly-sanctuary-v1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "care leviathan lamb v1",
+      "url": "/assets/care-leviathan-lamb-v1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "care lion and lamb v1",
+      "url": "/assets/care-lion-and-lamb-v1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "earth blue marble",
+      "url": "/assets/earth-blue-marble.jpg",
+      "kind": "local app image"
+    },
+    {
+      "title": "emanation notebook original",
+      "url": "/assets/emanation-notebook-original.jpeg",
+      "kind": "local app image"
+    },
+    {
+      "title": "faith alchemy natural v2",
+      "url": "/assets/faith-alchemy-natural-v2.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "faith alchemy natural",
+      "url": "/assets/faith-alchemy-natural.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "faith alchemy tech v2",
+      "url": "/assets/faith-alchemy-tech-v2.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "faith channel source",
+      "url": "/assets/faith-channel-source.jpg",
+      "kind": "local app image"
+    },
+    {
+      "title": "golden bridge v1",
+      "url": "/assets/golden-bridge-v1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "golden bridge v2",
+      "url": "/assets/golden-bridge-v2.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "golden bridge v3",
+      "url": "/assets/golden-bridge-v3.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "intent rod diagram",
+      "url": "/assets/intent-rod-diagram.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "intent rod room",
+      "url": "/assets/intent-rod-room.jpg",
+      "kind": "local app image"
+    },
+    {
+      "title": "freewill",
+      "url": "/assets/lessons/freewill.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "frith",
+      "url": "/assets/lessons/frith.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "ladder",
+      "url": "/assets/lessons/ladder.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "sermon",
+      "url": "/assets/lessons/sermon.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "living circuit symmetry v1",
+      "url": "/assets/living-circuit-symmetry-v1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "manifestation source",
+      "url": "/assets/manifestation-source.jpg",
+      "kind": "local app image"
+    },
+    {
+      "title": "matter spiritual framework original",
+      "url": "/assets/matter-spiritual-framework-original.jpeg",
+      "kind": "local app image"
+    },
+    {
+      "title": "monkey spiritual transformation v1",
+      "url": "/assets/monkey-spiritual-transformation-v1.jpeg",
+      "kind": "local app image"
+    },
+    {
+      "title": "process bridge v1",
+      "url": "/assets/process-bridge-v1.jpg",
+      "kind": "local app image"
+    },
+    {
+      "title": "process core v1",
+      "url": "/assets/process-core-v1.jpg",
+      "kind": "local app image"
+    },
+    {
+      "title": "process feedback v1",
+      "url": "/assets/process-feedback-v1.jpg",
+      "kind": "local app image"
+    },
+    {
+      "title": "process growth v1",
+      "url": "/assets/process-growth-v1.jpg",
+      "kind": "local app image"
+    },
+    {
+      "title": "shepherd tesla rod preview",
+      "url": "/assets/shepherd-tesla-rod-preview.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "sin reduced to dung",
+      "url": "/assets/sin-reduced-to-dung.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "souls over digits city v1",
+      "url": "/assets/souls-over-digits-city-v1.png",
+      "kind": "local app image"
+    },
+    {
+      "title": "sun sdo 304",
+      "url": "/assets/sun-sdo-304.jpg",
+      "kind": "local app image"
+    },
+    {
+      "title": "sword spirit source",
+      "url": "/assets/sword-spirit-source.jpg",
+      "kind": "local app image"
+    },
+    {
+      "title": "water faith baptism",
+      "url": "/assets/water-faith-baptism.png",
+      "kind": "local app image"
+    }
+  ],
+  "scope": "Local app raster assets; no private directories or remote tracking requests."
+}

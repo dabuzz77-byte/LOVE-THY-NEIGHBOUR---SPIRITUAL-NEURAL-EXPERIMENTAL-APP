@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevated Real-World Network transponder Cockpit</title>
+    <style>
+        :root {
+            --bg-deep: #05080f;
+            --bg-surface: #0a0f1d;
+            --bg-widget: #0f172e;
+            --cyan-glow: #00ffc3;
+            --orange-warn: #ff9100;
+            --text-light: #e1e9f5;
+            --text-muted: #6b7c96;
+            --border-glow: rgba(0, 255, 195, 0.2);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background-color: var(--bg-deep); color: var(--text-light); font-family: 'Monospaced', monospace; padding: 20px; }
+        header { background-color: var(--bg-surface); border: 1px solid var(--border-glow); padding: 15px 20px; border-radius: 6px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
+        h1 { font-size: 1.2rem; color: var(--cyan-glow); text-shadow: 0 0 10px rgba(0, 255, 195, 0.3); }
+        .status-badge { font-size: 0.8rem; background: rgba(0, 255, 195, 0.1); padding: 5px 10px; border-radius: 4px; border: 1px solid var(--cyan-glow); color: var(--cyan-glow); }
+        .dashboard-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .panel { background-color: var(--bg-surface); border: 1px solid rgba(25, 38, 58, 0.7); border-radius: 6px; padding: 20px; }
+        .panel-header { font-size: 0.95rem; font-weight: bold; border-bottom: 1px solid rgba(25, 38, 58, 0.7); padding-bottom: 10px; margin-bottom: 15px; display: flex; justify-content: space-between; }
+        .metrics-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 15px; }
+        .metric-card { background-color: var(--bg-widget); padding: 12px; border-radius: 4px; text-align: center; }
+        .metric-val { font-size: 1.1rem; color: var(--cyan-glow); font-weight: bold; }
+        .metric-lbl { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; }
+        textarea { width: 100%; height: 100px; background-color: var(--bg-deep); border: 1px solid rgba(25, 38, 58, 0.9); border-radius: 4px; color: var(--text-light); padding: 10px; resize: none; margin-bottom: 10px; }
+        button { background-color: #008cff; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+        .log-display { background-color: #03050a; border: 1px solid #121929; padding: 12px; border-radius: 4px; font-size: 0.8rem; height: 180px; overflow-y: auto; white-space: pre-wrap; color: #a4b7cf; }
+        .ladder-table { width: 100%; border-collapse: collapse; font-size: 0.75rem; }
+        .ladder-table th, .ladder-table td { padding: 8px; text-align: left; border-bottom: 1px solid rgba(25, 38, 58, 0.5); }
+        .badge-send { color: var(--cyan-glow); }
+        .badge-recv { color: var(--orange-warn); }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>LIVE WIRE TRANSCEIVER NETWORK BEACON</h1>
+            <p style="font-size: 0.7rem; color: var(--text-muted);">Real-World Socket Transport Execution Active</p>
+        </div>
+        <div class="status-badge" id="system-status-indicator">OS CONNECTIVITY MATRIX: EVALUATING WIRE</div>
+    </header>
+
+    <div class="dashboard-grid">
+        <div class="panel">
+            <div class="panel-header"><span>ACTIVE UDP NETWORK PACKET ENGINE</span></div>
+            <div class="metrics-row">
+                <div class="metric-card"><div class="metric-lbl">Target Endpoint</div><div class="metric-val" id="endpoint-metric" style="font-size:0.9rem;">--</div></div>
+                <div class="metric-card"><div class="metric-lbl">Wire Packets</div><div class="metric-val" id="packets-metric">--</div></div>
+                <div class="metric-card"><div class="metric-lbl">Active Processes</div><div class="metric-val" id="nodes-metric">--</div></div>
+            </div>
+            <textarea id="emulation-input-field" placeholder="Enter alphanumeric payloads to convert and inject directly over live UDP adapter sockets..."></textarea>
+            <div style="text-align: right; margin-bottom: 15px;"><button onclick="executeLiveNetworkTransmission()">DISPATCH TO PHYSICAL WIRE</button></div>
+            <div class="log-display" id="translation-output-console">> Socket pipeline armed. Awaiting data allocation pass.</div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-header"><span>PERIODIC ATOMIC LADDERCLIMB REGISTRY MAPPING</span></div>
+            <div style="overflow-y: auto; max-height: 350px;">
+                <table class="ladder-table">
+                    <thead><tr><th>Atomic Step</th><th>Host Process Name</th><th>Flux Density</th><th>Transception Vector</th></tr></thead>
+                    <tbody id="atomic-ladderclimb-rows"><tr><td colspan="4" style="text-align: center; color: var(--text-muted);">Awaiting background task scans...</td></tr></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function runTelemetryPipelineRefresh() {
+            fetch('/api/telemetry').then(r => r.json()).then(data => {
+                document.getElementById('endpoint-metric').innerText = data.target_endpoint;
+                document.getElementById('packets-metric').innerText = data.total_packets_processed;
+                document.getElementById('nodes-metric').innerText = data.detected_processes_count;
+                document.getElementById('system-status-indicator').innerText = 'SOCKET LIVE LINK: ' + data.platform_architecture.toUpperCase();
+                let html = '';
+                data.atomic_ladderclimb.forEach(item => {
+                    let cls = item.transception_vector.includes('SEND') ? 'badge-send' : 'badge-recv';
+                    html += `<tr><td style="color: var(--cyan-glow);">Z=${item.atomic_number_z}</td><td>${item.process_name}</td><td>${item.flux_density} W/m²</td><td class="${cls}">${item.transception_vector}</td></tr>`;
+                });
+                if(html) document.getElementById('atomic-ladderclimb-rows').innerHTML = html;
+            });
+        }
+        function executeLiveNetworkTransmission() {
+            let el = document.getElementById('emulation-input-field');
+            let txt = el.value.trim();
+            if(!txt) return;
+            fetch('/api/transmit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ emulation_buffer: txt }) })
+            .then(r => r.json()).then(data => {
+                document.getElementById('translation-output-console').textContent += `\n\n[WIRE SUCCESS]: Sent ${data.bytes_sent_on_wire} bytes over raw UDP.\n[COMPILED FRAME]: ${data.compiled_wire_binary}`;
+                el.value = '';
+                runTelemetryPipelineRefresh();
+            });
+        }
+        setInterval(runTelemetryPipelineRefresh, 3000);
+        window.onload = runTelemetryPipelineRefresh;
+    </script>
+</body>
+</html>

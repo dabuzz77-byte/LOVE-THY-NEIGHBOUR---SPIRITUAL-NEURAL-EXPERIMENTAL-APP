@@ -1,0 +1,205 @@
+:root {
+    --bg-base: #0c0c10;
+    --bg-surface: #14141c;
+    --bg-panel: #181822;
+    --bg-input: #0a0a0e;
+    --accent-quantum: #ba55d3;
+    --accent-ternary: #ff8c00;
+    --accent-binary: #32cd32;
+    --accent-cyan: #00dcff;
+    --accent-green: #00ffa3;
+    --border-color: #2c2c37;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-base);
+    color: #ffffff;
+    font-family: 'Monospaced', 'Courier New', Courier, monospace;
+    padding: 15px;
+    overflow-x: hidden;
+}
+
+header {
+    background: linear-gradient(90deg, #14141c, #0e0e14);
+    border: 1px solid rgba(0, 255, 163, 0.25);
+    border-radius: 4px;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 14px;
+    color: var(--accent-green);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header span {
+    font-size: 12px;
+    color: var(--accent-cyan);
+    font-weight: bold;
+}
+
+.workspace-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.panel-container {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.panel-header::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.quantum-panel .panel-header::before { background-color: var(--accent-quantum); }
+.ternary-panel .panel-header::before { background-color: var(--accent-ternary); }
+.binary-panel .panel-header::before { background-color: var(--accent-binary); }
+.perf-panel .panel-header::before { background-color: var(--accent-cyan); }
+
+canvas {
+    background-color: #000000;
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+}
+
+.gauge-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    height: 100%;
+}
+
+.gauge-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.gauge-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #b0b0b5;
+}
+
+.gauge-track {
+    background-color: #282832;
+    height: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.gauge-fill {
+    background-color: var(--accent-cyan);
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+    border-radius: 4px;
+}
+
+.control-panel {
+    background-color: var(--bg-panel);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.control-panel h2 {
+    font-size: 12px;
+    color: #b0b0b5;
+}
+
+.editor-wrapper {
+    display: flex;
+    gap: 15px;
+    align-items: stretch;
+}
+
+textarea {
+    flex: 1;
+    height: 110px;
+    background-color: var(--bg-input);
+    color: var(--accent-cyan);
+    border: 1px solid #2c2c37;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 12px;
+    resize: none;
+    outline: none;
+}
+
+.actions-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+}
+
+button {
+    height: 45px;
+    background: linear-gradient(90deg, #2980b9, #229954);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+button:hover {
+    filter: brightness(1.1);
+}
+
+.status-metric {
+    font-size: 11px;
+    color: #f1c40f;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #a0a0a5;
+    text-align: left;
+}

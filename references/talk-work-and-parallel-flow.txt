@@ -1,0 +1,43 @@
+Talk & Work — local orchestrator and parallel Ambient flow
+
+Installed model:
+hf.co/larped/llama3.2_1b_2025_uncensored_v2-Q3_K_M-GGUF:Q3_K_M
+Install elsewhere with:
+ollama pull hf.co/larped/llama3.2_1b_2025_uncensored_v2-Q3_K_M-GGUF:Q3_K_M
+Model card and separate Llama 3.2 license:
+https://huggingface.co/larped/llama3.2_1b_2025_uncensored_v2-Q3_K_M-GGUF
+Weights remain separately installed by Ollama; not bundled or relicensed with the app.
+
+Talk & Work has its own saved conversation key, requested model, 8,192-token default context and 2,048-token response budget. Native model metadata reports 131,072 context tokens; larger settings are selectable, with memory/performance costs. The section has app read/retrieval and work-file writes enabled. Periodic section review and local bus context can be toggled. Existing tools provide app source, engines, workflows, local-index retrieval, public research and selected-window controls.
+
+Own workspace: data/talk-work/workspace. Text-file reading/writing stays within this resolved folder, with hash-checked replacement and revisions in data/talk-work/revisions. No permission prompt is needed for these work-file writes when the submitted turn enables writing. External text-file reads, app changes and PC commands use the explicit action-review queue. PowerShell runs with the current Windows account permissions, hidden, with a bounded time/output budget and Stop cancellation. No automatic elevation. Model output is a proposal until a tool returns its actual result. Tool actions receive runtime receipts. Credentials and other accounts are not inferred from intention.
+
+Verified real model conversation and a real tool-driven file creation: model-check.txt with exact contents ORCHESTRATOR_READY, using a separate local test profile. Also verified read/write boundaries, revisions, expected-hash conflicts, actual harmless PowerShell output, and syntax checks.
+
+Ambient parallel flow:
+- Prior generated-stream learning intake continues independently.
+- New flow index registers twelve processing groups with actual data/modulation/context receivers.
+- A Web Worker computes finite route plans. Stochastic mode chooses changed-source-weighted points, direction, reach and timing.
+- One, multiple or all groups can be selected; directions can be upstream, downstream, both or stochastic.
+- Up to 48 deliveries per pass; longer all-point plans rotate coverage over passes. Reach is capped at 16 stages. Inputs are bounded and outputs carry receipts rather than claiming unobserved effects.
+- Numeric modulators and exact byte inputs affect their registered receivers. IO/hardware/BTQ/continuum share input context; they do not fabricate hardware readings.
+- Small paired indicators show the learning lane and incurrence lane, with pass/delivery counts and inspectable route logs.
+
+Restart Neural App once to load the updated backend work tools. The installed model is available immediately to Ollama. Private conversation data, workspace files and learned memory stay outside the free source archive.
+
+For responsiveness, Talk & Work sends a compact initial task context and retrieves detailed app memory on demand. Command cancellation terminates the requested process tree on Windows. Stochastic routes are planned in a separate browser worker; long plans rotate their finite delivery budget to avoid starving later points.
+
+Combined 3D field: stochastic 3/6/9 cursors, bounded XYZ movement, manual/automatic rotation, strict generated-source collection, input-bus ingress layer.
+Waiting cursor below field: refreshes whole-app stage context and Ambient captures; new bus kind input-signal or payload cursor_signal:true, target all or ambient-combined, releases bounded captured generated characters. Existing events are not replayed at mount.
+Parallel rate inference: automatically round-robin samples selected registered receiver groups, one shared timer, maximum two sparse probes/sec, no overlapping probes. Projects linear workload for 0.1..20Hz. Does not claim sustained rate tests or semantic outcome predictions; existing renderer/model timings remain independent.
+
+Shared local model service: process-wide single-inference queue for all local Chat requests and central selector. User requests outrank queued background requests between model calls. Ambient roles use the supplied Llama 3.2; distinct outputs retained. Unchanged rain snapshots skipped. Central selector avoids unchanged-input repeats with periodic reflection. Bounded persistent central-mind-memory.json contains role results and receipt IDs, excluded from release as app data. Direct work conversation stays separate from background reviews.
+Parallel logic spectrum: 0..1 in .01 steps. Eight adjacent crossfading stages: stochastic bit, distribution majority, repetition/continuity, EMA smoothing, transition predictor, explicit predicate, confidence-gated rule, deterministic predicate execution. 0 is fully stochastic choice; 1 deterministic rule on observed input. Intermediate labels indicate algorithmic processing, not verified semantic understanding. Comparisons use subsequent captured bits, retained counters report actual prediction accuracy. Only whitelisted entropy/ones/repetition threshold predicates execute; no generated text is executed. Strict generated-source provenance. Typed bit outputs are sent to the existing authenticated local bus. Independent of original Ambient chain. Controls persist in selector settings.
+
+Central controller completion: four editable ranking weights only (relevance, novelty, observed reliability, processing cost). Compact changed-source attention top four. Model selects at most two from twelve registered routes, output budget 96 tokens. Controller builds structured route plans with source digest, expected hold/flip bytes and explicit completion check. Actual byte transformations and applied status checked independently of backend pipeline receipts. Open goals are retained, not automatically declared solved by a successful route. Last 48 plans, 32 lessons, 24 events and 12 goals persisted privately in central-controller.json. Adaptive interval backs off to 120 seconds on unchanged observations and accounts for measured rate-layer processing cost. Shared local inference queue retains conversation priority between calls. Central activity view shows observe/remember/reason/choose/act/check/learn, exact plans and receipts.
+
+Chat & Work interface: full conversation bubbles, streaming current reply, Enter-to-send / Shift-Enter newline, Send/Stop/New chat, separate work-progress cards and expandable result audit. Model/permission/background controls and controller settings are collapsible. UI tested with explicitly simulated reply fixtures; this validates presentation, not model quality.
+Live Ambient Flow Atlas: captured main stages plus eleven named parallel lanes; bounded canvas animation at 20FPS, paused when hidden; movement marks actual captured status/counter changes. Input bus keeps a sanitized origin activity index (sequence/time/kind/target only, no payload). Cloud/waiting cursor counters are tied to their own origins. New data is polled through existing summary endpoint. Quiet sound defaults: Om .009, tones/recordings .006, noise .004; modulation routing remains enabled by default. Start all audio quietly button activates audible playback together; mute-all leaves routing active.
+Gemini latest RATE APP response reviewed: useful compact state translation and actual-result verification; defer in-process runtime migration / LoRA until benchmarks justify them; progress telemetry is not internal transformer attention. Preserve existing graphics.
+
+2026-11-14 responsiveness: local inference keep-alive 15 minutes instead of 30 seconds. Overall default context 4096, response 768; manual larger budgets remain selectable. Ambient background analyses use 4096 context / at most 384 output tokens; controller stays 4096 / 96. Model-limit metadata cached ten minutes. Supplied model receives eight recent messages with repeated UI scaffolding removed, and relevant recalled notes capped to 1000 characters. Recent tool results retained. Cold-load time and an already-running generation may still delay the first reply; no speed-up factor is claimed without timing measurements.

@@ -1,0 +1,36 @@
+COMPOSED NATIVE REASONING
+
+The multi-step controller now connects the supplied-fact conversation, practical
+comparisons, document reading, evidence review, forecasts and broad problem solvers
+alongside its original calculation, data and code skills. No LLM call is required.
+
+Example:
+Work request:
+1. conversation facts: Mira is a technician; Every technician repairs radios
+2. What does Mira repair?
+3. count
+4. double
+Expect final: 2
+
+The derived answer [radios] becomes the exact input to count. The count then feeds
+double. Each stage is recorded, and the optional final expectation is checked.
+
+Other entry forms:
+Answer these:
+- summarise this: Trees need water. Birds build nests.
+- count
+
+First, calculate 1 / 3
+Then, multiply by 3
+Finally, add 2
+
+Failure recovery:
+revise controller step 2: NEW INSTRUCTION
+retry controller
+explain controller run
+
+An unknown, conflicted or unsupported result stops the plan. Failed runs retain
+the previous valid workspace. Merely recording statements does not provide an
+output list for a later calculation. Source attributions and exact numeric values
+are preserved. These remain supported native tasks, not unrestricted world action
+or a general-intelligence guarantee. Desktop changes load on its next restart.

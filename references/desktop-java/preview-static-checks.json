@@ -1,0 +1,308 @@
+[
+  {
+    "id": "desktop-java-1-0",
+    "project": "A.Istatecallback",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-1-1",
+    "project": "A.Istatecallback",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-4-0",
+    "project": "AllPrevSystemDashboard",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-6-0",
+    "project": "AwtFrameworkVisualizer",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-8-0",
+    "project": "BiTerQuantumBridge",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-10-0",
+    "project": "ClownResolver",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-12-0",
+    "project": "ConflictGraphApp",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-13-0",
+    "project": "ConsolidatedConsole",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-15-0",
+    "project": "CosmicAlignmentApp",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-16-0",
+    "project": "DeepestStrata",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-18-0",
+    "project": "EconomicFLoorGridVisualizer",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-20-0",
+    "project": "ElementalRecursiveWorld",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-21-0",
+    "project": "FINAINCIALMAP",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-28-0",
+    "project": "GlobalFinancialVisualizer",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-29-0",
+    "project": "GodEngineInteractConsole",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-30-0",
+    "project": "GodInterfaceMainApp",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-32-0",
+    "project": "GodMindMasterEngine",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-34-0",
+    "project": "GodMindShipVisualizer",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-35-0",
+    "project": "GodMindinteractiveVisualizer",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-37-0",
+    "project": "GodParitySyncApp",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-41-0",
+    "project": "InferenceLabEngine",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-43-0",
+    "project": "JavaGridMonitor",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-44-0",
+    "project": "KernelBRidgeVisualizer",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-48-0",
+    "project": "LocalInferenceBus",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-49-0",
+    "project": "MAsterGridPArity",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-50-0",
+    "project": "MicrocosmicOrbitApp",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-51-0",
+    "project": "MicrocosmicOrbitDashborad",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-55-0",
+    "project": "OmniVirtueBalancerGUI",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-56-0",
+    "project": "ParitystateApp",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-57-0",
+    "project": "QuantumLogicExplorer",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-58-0",
+    "project": "QuantumMindConsole",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-61-0",
+    "project": "RoadRunnerVelocityEngine",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-62-0",
+    "project": "SandcaslteKarmicWorld",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-69-0",
+    "project": "StickForestMatrixApp",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-73-0",
+    "project": "VirtueDashboard",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-78-0",
+    "project": "X4DefensiveVirtueEngine",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-83-0",
+    "project": "elemental intent pillars",
+    "flags": [
+      "synthetic_input"
+    ],
+    "compiled": true,
+    "eligible_for_preview": true
+  },
+  {
+    "id": "desktop-java-90-0",
+    "project": "matrix",
+    "flags": [],
+    "compiled": true,
+    "eligible_for_preview": true
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "title": "Critical examination of Islamic doctrines and harmful justifications",
+  "scope": "Selected sourced criticisms, not a complete corpus or a judgment of Muslims as people. Criticism of a doctrine is distinct from racial or religious harassment. Religion is not a race, but religious communities can still be targets of discrimination.",
+  "principles": [
+    "Evaluate specific texts, attributed teachings, interpretations and conduct.",
+    "Name coercion, rape, enslavement and unjust killing directly; religious authority supplies no exemption.",
+    "Keep source attribution, translation, historical account, interpretation and ethical judgment distinct.",
+    "Preserve relevant disagreements and corrections; do not accept a claim merely because it opposes Islam.",
+    "Do not infer guilt, dangerousness or agreement with a doctrine from Muslim identity or viewing activity.",
+    "Use transparent invitations and permitted sources; never covertly target devices or private histories."
+  ],
+  "items": [
+    {
+      "id": "apostasy-penalty",
+      "source": "Sahih al-Bukhari 6922",
+      "url": "https://sunnah.com/bukhari:6922",
+      "text_summary": "The report attributes a command to kill a person who changes religion to Muhammad.",
+      "criticism": "Killing someone for changing or rejecting a belief violates freedom of conscience.",
+      "alternative": "Protect belief, non-belief, inquiry and peaceful departure without punishment."
+    },
+    {
+      "id": "captive-sexual-access",
+      "source": "Sahih Muslim 1456a",
+      "url": "https://sunnah.com/muslim:1456a",
+      "text_summary": "The report describes sexual access to captured women despite their existing marriages.",
+      "criticism": "Enslavement and captivity undermine meaningful consent; sexual exploitation is not excused by religious permission.",
+      "alternative": "Protect captives from sexual contact imposed through captivity and uphold bodily autonomy."
+    },
+    {
+      "id": "domestic-discipline",
+      "source": "Qur’an 4:34",
+      "url": "https://quran.com/4/34",
+      "text_summary": "The verse addresses marital authority and discipline; translations and interpretations of the relevant verb differ.",
+      "criticism": "Any interpretation used to authorise physical abuse or coercive control should be challenged.",
+      "alternative": "Use nonviolent conflict resolution, equal dignity and protection from domestic abuse."
+    }
+  ],
+  "intake_rule": "Add further critiques only with source, scope, translation/context, argument, constructive alternative and review status. Do not import arbitrary web instructions as executable commands.",
+  "reviewed_on": "2026-11-12"
+}

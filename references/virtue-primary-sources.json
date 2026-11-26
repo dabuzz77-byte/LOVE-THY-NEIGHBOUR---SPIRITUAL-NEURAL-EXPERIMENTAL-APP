@@ -1,0 +1,37 @@
+[
+  {
+    "id": "dignity",
+    "title": "United Nations · Universal Declaration of Human Rights",
+    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+    "summary": "Dignity, equal rights, life and freedom from cruelty provide a public baseline for reviewing conduct. Assess acts and consequences without assigning guilt through identity.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "children",
+    "title": "UNICEF · Core Commitments for Children",
+    "url": "https://www.unicef.org/emergencies/core-commitments-children",
+    "summary": "A humanitarian framework for meeting children’s needs and protecting them during emergencies. Use vulnerability and concrete needs when comparing proposed provision.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "humanitarian",
+    "title": "World Food Programme · Ethical culture",
+    "url": "https://www.wfp.org/ethical-culture",
+    "summary": "Humanity, impartiality, neutrality and operational independence guide humanitarian action. Assistance is evaluated through need and conduct rather than prestige or group membership.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "animals",
+    "title": "WOAH · Animal welfare",
+    "url": "https://www.woah.org/en/what-we-do/animal-health-and-welfare/animal-welfare/",
+    "summary": "Animal welfare concerns living conditions, nourishment, health, behaviour and relief from fear and suffering. Include animal needs and dependencies in constructive-action reviews.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "conflict",
+    "title": "ICRC · Conduct of hostilities and protection of civilians",
+    "url": "https://www.icrc.org/en/law-and-policy/conduct-hostilities-and-protection-civilians",
+    "summary": "The conduct of armed conflict is constrained by civilian protection, distinction, proportionality and precautions. Claimed good intentions do not erase the consequences of cruelty or indiscriminate harm.",
+    "verified": "2026-11-12"
+  }
+]

@@ -1,0 +1,7 @@
+# Optional live-media and browser integrations; install only when needed.
+-r requirements.txt
+yt-dlp
+imageio-ffmpeg
+playwright
+nvidia-ml-py
+pygame
