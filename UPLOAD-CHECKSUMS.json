@@ -2,7 +2,7 @@
   "archives": [
     {
       "name": "GitHub-Batch-01-of-36.zip",
-      "sha256": "a2ee89050ebc3c9d68c30d9434dd3ef9c686fe6969451560ce0203c4f27f6922"
+      "sha256": "dc388dbec92ca6302b29801ae46e874a5c1f57d3dcfec1e3c54e41e4c91342bb"
     },
     {
       "name": "GitHub-Batch-02-of-36.zip",
@@ -34,7 +34,7 @@
     },
     {
       "name": "GitHub-Batch-07-of-36.zip",
-      "sha256": "76a492e8fd6caca3b8a691c402e8f524cbe6f8e2453da78a2caca39d93a375ff"
+      "sha256": "c4099e2b15259576e2e59d09a8cebbce993eb8ff75532aaa0e865a4c5a2085aa"
     },
     {
       "name": "GitHub-Batch-08-of-36.zip",
@@ -74,7 +74,7 @@
     },
     {
       "name": "GitHub-Batch-17-of-36.zip",
-      "sha256": "05a1fc4e0f94af6d5ebd15c97f40c087271de99020141c8e35ea4d8691b14b8b"
+      "sha256": "63ef98743ee03f4f0d71944454308a8608aabca6d1c932267c1088710f5f853a"
     },
     {
       "name": "GitHub-Batch-18-of-36.zip",
@@ -98,7 +98,7 @@
     },
     {
       "name": "GitHub-Batch-23-of-36.zip",
-      "sha256": "b6d9dbe359a631644099a5d63c4791063f51b891effab56a79498935217a5328"
+      "sha256": "67829043c9e2d56c1549f5f2b483745980127d395f0f95741019be65ebe04ae4"
     },
     {
       "name": "GitHub-Batch-24-of-36.zip",
@@ -106,7 +106,7 @@
     },
     {
       "name": "GitHub-Batch-25-of-36.zip",
-      "sha256": "2647d3e84ff88816976e0aaf9c7143b031662bd80a2b77f7622282387ed15561"
+      "sha256": "379de1744cd8d2c791fb55dcbfab90a7c09995d8ffd4d16bcaa7974a2ba2724e"
     },
     {
       "name": "GitHub-Batch-26-of-36.zip",
@@ -150,9 +150,9 @@
     },
     {
       "name": "GitHub-Batch-36-of-36.zip",
-      "sha256": "4052a16936e2e13c7acb91f5ebcc6db31847eb928959f49a102bf3975cac0d7f"
+      "sha256": "ac821b66946d5866dfbb408af9ecf3b220d4801d892ca9baf12f8da48ac5c3b1"
     }
   ],
   "expected_file_count": 3275,
-  "source_manifest_sha256": "a3d7b8388d181ec69052251d93a17f657f8263835d5826fe2729cafe0e7255a3"
+  "source_manifest_sha256": "8d7ea929cc06e3e8b9f8e3e3daaca2208e8245fcdb3149c21a943016d4fe395b"
 }
